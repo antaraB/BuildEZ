@@ -2,7 +2,7 @@
 # download the image file and create a container
 IMAGETAG=$1
 C_NAME=$2
-LOCALPATH=/home/nehal
+LOCALPATH=../images
 sudo docker run -itd --entrypoint=/bin/bash --name="$C_NAME" bugswarm/images:$IMAGETAG
 # copy script to container
 sudo docker cp $LOCALPATH/diffandgrep.sh $C_NAME:/home/travis/build/diffandgrep.sh
