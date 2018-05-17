@@ -12,9 +12,9 @@ pass_sha = jsondata['passed_job']['trigger_sha']
 fail_sha = jsondata['failed_job']['trigger_sha']
 repo = jsondata['repo']
 gitrepolink = "https://www.github.com/"+str(repo)
-gitcomparelink = gitrepolink + "/compare/"+pass_sha+"..."+fail_sha
+gitcomparelink = gitrepolink + "/compare/"+fail_sha+"..."+pass_sha
 
 print("Github link: ",gitrepolink)
-print("Github failed trigger commit: ",fail_sha)
-print("Github passed trigger commit: ",pass_sha)
+print("Github failed trigger commit: ",gitrepolink+"/commit/"+fail_sha)
+print("Github passed trigger commit: ",gitrepolink+"/commit/"+pass_sha)
 print("Github compare link: ",gitcomparelink)
