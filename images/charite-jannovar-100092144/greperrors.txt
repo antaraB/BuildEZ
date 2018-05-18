@@ -1,0 +1,39 @@
+2270:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project jannovar-cli: There are test failures.
+2271:[ERROR] 
+2272:[ERROR] Please refer to /home/travis/build/charite/jannovar/jannovar-cli/target/surefire-reports for the individual test results.
+2273:[ERROR] -> [Help 1]
+2274:[ERROR] 
+2275:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2276:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2277:[ERROR] 
+2278:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2279:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2280:[ERROR] 
+2281:[ERROR] After correcting the problems, you can resume the build with the command
+2282:[ERROR]   mvn <goals> -rf :jannovar-cli
+3323:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project jannovar-cli: There are test failures.
+3324:[ERROR] 
+3325:[ERROR] Please refer to /home/travis/build/charite/jannovar/jannovar-cli/target/surefire-reports for the individual test results.
+3326:[ERROR] -> [Help 1]
+3327:[ERROR] 
+3328:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+3329:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+3330:[ERROR] 
+3331:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+3332:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+3333:[ERROR] 
+3334:[ERROR] After correcting the problems, you can resume the build with the command
+3335:[ERROR]   mvn <goals> -rf :jannovar-cli
+4334:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.17:test (default-test) on project jannovar-cli: There are test failures.
+4335:[ERROR] 
+4336:[ERROR] Please refer to /home/travis/build/charite/jannovar/jannovar-cli/target/surefire-reports for the individual test results.
+4337:[ERROR] -> [Help 1]
+4338:[ERROR] 
+4339:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+4340:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+4341:[ERROR] 
+4342:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+4343:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+4344:[ERROR] 
+4345:[ERROR] After correcting the problems, you can resume the build with the command
+4346:[ERROR]   mvn <goals> -rf :jannovar-cli

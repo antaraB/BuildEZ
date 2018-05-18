@@ -1,0 +1,13 @@
+3101:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test) on project byte-buddy-dep: There are test failures.
+3102:[ERROR] 
+3103:[ERROR] Please refer to /home/travis/build/raphw/byte-buddy/byte-buddy-dep/target/surefire-reports for the individual test results.
+3104:[ERROR] -> [Help 1]
+3105:[ERROR] 
+3106:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+3107:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+3108:[ERROR] 
+3109:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+3110:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+3111:[ERROR] 
+3112:[ERROR] After correcting the problems, you can resume the build with the command
+3113:[ERROR]   mvn <goals> -rf :byte-buddy-dep

@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/junkdog/artemis-odb
+Github failed trigger commit:  https://www.github.com/junkdog/artemis-odb/commit/9f2a5aa8154b33c2391b8edf35b725f226767592
+Github passed trigger commit:  https://www.github.com/junkdog/artemis-odb/commit/86aaa898b353123328be8e37d4eb7217914eb017
+Github compare link:  https://www.github.com/junkdog/artemis-odb/compare/9f2a5aa8154b33c2391b8edf35b725f226767592...86aaa898b353123328be8e37d4eb7217914eb017

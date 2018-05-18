@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 11:44:39 GMT",
+    "_etag": "7cbc4ed7188c79cc8890904d0cf18e5d4306e925",
+    "_id": "5a9544a7f1f70e8a28c90933",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/owlcs-owlapi-112316292",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:31:14 GMT",
+    "base_branch": "",
+    "branch": "version4",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 112316291,
+        "build_job": "1364.1",
+        "committed_at": "2016-02-27T21:13:10Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 112316292,
+        "message": "4.1.5-SNAPSHOT",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "39cd678c95a77a788480b09d507f6e0e4342b9ac"
+    },
+    "filtered_reason": null,
+    "image_tag": "owlcs-owlapi-112316292",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 1,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 112375333,
+        "build_job": "1365.1",
+        "committed_at": "2016-02-28T09:48:57Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 112375334,
+        "message": "fix build",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 4869,
+        "trigger_sha": "ccfa197adc6bc08e084145cc94a679212d2e97cf"
+    },
+    "pr_num": -1,
+    "repo": "owlcs/owlapi",
+    "repo_builds": 1711,
+    "repo_commits": 2324,
+    "repo_members": 0,
+    "repo_mined_version": "c9477af43db53905a878b2824a7a94daf3b518e1",
+    "repo_prs": 114,
+    "repo_watchers": 197,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "owlcs-owlapi-112316292",
+    "test_framework": ""
+}

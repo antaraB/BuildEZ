@@ -1,0 +1,14 @@
+584:[ERROR] com/github/rinde/rinsim/geom/AbstractGraph.java: Could not find method addConnections in newer version.
+585:[ERROR] com/github/rinde/rinsim/geom/Graph.java: Could not find method addConnections in newer version.
+586:[ERROR] com/github/rinde/rinsim/geom/Graphs.java: Could not find method addConnections in newer version.
+587:[ERROR] You have 3 backward compatibility issues.
+614:[ERROR] Failed to execute goal com.googlecode.japi-checker:japi-checker-maven-plugin:0.1.4:check (check-bc) on project rinsim-geom: You have 3 backward compatibility issues. -> [Help 1]
+615:[ERROR] 
+616:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+617:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+618:[ERROR] 
+619:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+620:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+621:[ERROR] 
+622:[ERROR] After correcting the problems, you can resume the build with the command
+623:[ERROR]   mvn <goals> -rf :rinsim-geom

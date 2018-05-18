@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/joyent/java-manta
+Github failed trigger commit:  https://www.github.com/joyent/java-manta/commit/acb512a9f017abaf178b0c7f8df8f939d6b001e5
+Github passed trigger commit:  https://www.github.com/joyent/java-manta/commit/2f4e53408f4a124c77d3fec6d8162bd03f070f6d
+Github compare link:  https://www.github.com/joyent/java-manta/compare/acb512a9f017abaf178b0c7f8df8f939d6b001e5...2f4e53408f4a124c77d3fec6d8162bd03f070f6d

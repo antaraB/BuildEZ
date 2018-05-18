@@ -1,0 +1,30 @@
+105:[ERROR] Failed to execute goal on project java-manta-client: Could not resolve dependencies for project com.joyent.manta:java-manta-client:jar:2.2.1-SNAPSHOT: Failed to collect dependencies at com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT: Failed to read artifact descriptor for com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT: Could not transfer artifact com.joyent.http-signature:google-http-client-signature:pom:2.0.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+106:[ERROR] 
+107:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+108:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+109:[ERROR] 
+110:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+111:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+112:[ERROR] 
+113:[ERROR] After correcting the problems, you can resume the build with the command
+114:[ERROR]   mvn <goals> -rf :java-manta-client
+126:[ERROR] Failed to execute goal on project java-manta-client: Could not resolve dependencies for project com.joyent.manta:java-manta-client:jar:2.2.1-SNAPSHOT: Failed to collect dependencies at com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT: Failed to read artifact descriptor for com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT: Could not transfer artifact com.joyent.http-signature:google-http-client-signature:pom:2.0.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+127:[ERROR] 
+128:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+129:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+130:[ERROR] 
+131:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+132:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+133:[ERROR] 
+134:[ERROR] After correcting the problems, you can resume the build with the command
+135:[ERROR]   mvn <goals> -rf :java-manta-client
+147:[ERROR] Failed to execute goal on project java-manta-client: Could not resolve dependencies for project com.joyent.manta:java-manta-client:jar:2.2.1-SNAPSHOT: Failed to collect dependencies at com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT: Failed to read artifact descriptor for com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT: Could not transfer artifact com.joyent.http-signature:google-http-client-signature:pom:2.0.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+148:[ERROR] 
+149:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+150:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+151:[ERROR] 
+152:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+153:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+154:[ERROR] 
+155:[ERROR] After correcting the problems, you can resume the build with the command
+156:[ERROR]   mvn <goals> -rf :java-manta-client

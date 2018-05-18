@@ -1,0 +1,1069 @@
+1c1
+< Using worker: worker-linux-docker-8f02d277.prod.travis-ci.org:travis-linux-6
+---
+> Using worker: worker-linux-docker-f5d7070d.prod.travis-ci.org:travis-linux-3
+88c88
+< Fetched 8,840 kB in 0s (36.7 MB/s)
+---
+> Fetched 8,840 kB in 0s (30.8 MB/s)
+107c107
+< travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:git.checkout[0Ktravis_time:start:0c3d0c23[0K$ git clone --depth=50 https://github.com/checkstyle/checkstyle.git checkstyle/checkstyle
+---
+> travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:git.checkout[0Ktravis_time:start:0aac6016[0K$ git clone --depth=50 https://github.com/checkstyle/checkstyle.git checkstyle/checkstyle
+110,111c110,111
+< remote: Compressing objects:   0% (1/1861)   [Kremote: Compressing objects:   1% (19/1861)   [Kremote: Compressing objects:   2% (38/1861)   [Kremote: Compressing objects:   3% (56/1861)   [Kremote: Compressing objects:   4% (75/1861)   [Kremote: Compressing objects:   5% (94/1861)   [Kremote: Compressing objects:   6% (112/1861)   [Kremote: Compressing objects:   7% (131/1861)   [Kremote: Compressing objects:   8% (149/1861)   [Kremote: Compressing objects:   9% (168/1861)   [Kremote: Compressing objects:  10% (187/1861)   [Kremote: Compressing objects:  11% (205/1861)   [Kremote: Compressing objects:  12% (224/1861)   [Kremote: Compressing objects:  13% (242/1861)   [Kremote: Compressing objects:  14% (261/1861)   [Kremote: Compressing objects:  15% (280/1861)   [Kremote: Compressing objects:  16% (298/1861)   [Kremote: Compressing objects:  17% (317/1861)   [Kremote: Compressing objects:  18% (335/1861)   [Kremote: Compressing objects:  19% (354/1861)   [Kremote: Compressing objects:  20% (373/1861)   [Kremote: Compressing objects:  21% (391/1861)   [Kremote: Compressing objects:  22% (410/1861)   [Kremote: Compressing objects:  23% (429/1861)   [Kremote: Compressing objects:  24% (447/1861)   [Kremote: Compressing objects:  25% (466/1861)   [Kremote: Compressing objects:  26% (484/1861)   [Kremote: Compressing objects:  27% (503/1861)   [Kremote: Compressing objects:  28% (522/1861)   [Kremote: Compressing objects:  29% (540/1861)   [Kremote: Compressing objects:  30% (559/1861)   [Kremote: Compressing objects:  31% (577/1861)   [Kremote: Compressing objects:  32% (596/1861)   [Kremote: Compressing objects:  33% (615/1861)   [Kremote: Compressing objects:  34% (633/1861)   [Kremote: Compressing objects:  35% (652/1861)   [Kremote: Compressing objects:  36% (670/1861)   [Kremote: Compressing objects:  37% (689/1861)   [Kremote: Compressing objects:  38% (708/1861)   [Kremote: Compressing objects:  39% (726/1861)   [Kremote: Compressing objects:  40% (745/1861)   [Kremote: Compressing objects:  41% (764/1861)   [Kremote: Compressing objects:  42% (782/1861)   [Kremote: Compressing objects:  43% (801/1861)   [Kremote: Compressing objects:  44% (819/1861)   [Kremote: Compressing objects:  45% (838/1861)   [Kremote: Compressing objects:  46% (857/1861)   [Kremote: Compressing objects:  47% (875/1861)   [Kremote: Compressing objects:  48% (894/1861)   [Kremote: Compressing objects:  49% (912/1861)   [Kremote: Compressing objects:  50% (931/1861)   [Kremote: Compressing objects:  51% (950/1861)   [Kremote: Compressing objects:  52% (968/1861)   [Kremote: Compressing objects:  53% (987/1861)   [Kremote: Compressing objects:  54% (1005/1861)   [Kremote: Compressing objects:  55% (1024/1861)   [Kremote: Compressing objects:  56% (1043/1861)   [Kremote: Compressing objects:  57% (1061/1861)   [Kremote: Compressing objects:  58% (1080/1861)   [Kremote: Compressing objects:  59% (1098/1861)   [Kremote: Compressing objects:  60% (1117/1861)   [Kremote: Compressing objects:  61% (1136/1861)   [Kremote: Compressing objects:  62% (1154/1861)   [Kremote: Compressing objects:  63% (1173/1861)   [Kremote: Compressing objects:  64% (1192/1861)   [Kremote: Compressing objects:  65% (1210/1861)   [Kremote: Compressing objects:  66% (1229/1861)   [Kremote: Compressing objects:  67% (1247/1861)   [Kremote: Compressing objects:  68% (1266/1861)   [Kremote: Compressing objects:  69% (1285/1861)   [Kremote: Compressing objects:  70% (1303/1861)   [Kremote: Compressing objects:  71% (1322/1861)   [Kremote: Compressing objects:  72% (1340/1861)   [Kremote: Compressing objects:  73% (1359/1861)   [Kremote: Compressing objects:  74% (1378/1861)   [Kremote: Compressing objects:  75% (1396/1861)   [Kremote: Compressing objects:  76% (1415/1861)   [Kremote: Compressing objects:  77% (1433/1861)   [Kremote: Compressing objects:  78% (1452/1861)   [Kremote: Compressing objects:  79% (1471/1861)   [Kremote: Compressing objects:  80% (1489/1861)   [Kremote: Compressing objects:  81% (1508/1861)   [Kremote: Compressing objects:  82% (1527/1861)   [Kremote: Compressing objects:  83% (1545/1861)   [Kremote: Compressing objects:  84% (1564/1861)   [Kremote: Compressing objects:  85% (1582/1861)   [Kremote: Compressing objects:  86% (1601/1861)   [Kremote: Compressing objects:  87% (1620/1861)   [Kremote: Compressing objects:  88% (1638/1861)   [Kremote: Compressing objects:  89% (1657/1861)   [Kremote: Compressing objects:  90% (1675/1861)   [Kremote: Compressing objects:  91% (1694/1861)   [Kremote: Compressing objects:  92% (1713/1861)   [Kremote: Compressing objects:  93% (1731/1861)   [Kremote: Compressing objects:  94% (1750/1861)   [Kremote: Compressing objects:  95% (1768/1861)   [Kremote: Compressing objects:  96% (1787/1861)   [Kremote: Compressing objects:  97% (1806/1861)   [Kremote: Compressing objects:  98% (1824/1861)   [Kremote: Compressing objects:  99% (1843/1861)   [Kremote: Compressing objects: 100% (1861/1861)   [Kremote: Compressing objects: 100% (1861/1861), done.[K
+< Receiving objects:   0% (1/2696)   Receiving objects:   1% (27/2696)   Receiving objects:   2% (54/2696)   Receiving objects:   3% (81/2696)   Receiving objects:   4% (108/2696)   Receiving objects:   5% (135/2696)   Receiving objects:   6% (162/2696)   Receiving objects:   7% (189/2696)   Receiving objects:   8% (216/2696)   Receiving objects:   9% (243/2696)   Receiving objects:  10% (270/2696)   Receiving objects:  11% (297/2696)   Receiving objects:  12% (324/2696)   Receiving objects:  13% (351/2696)   Receiving objects:  14% (378/2696)   Receiving objects:  15% (405/2696)   Receiving objects:  16% (432/2696)   Receiving objects:  17% (459/2696)   Receiving objects:  18% (486/2696)   Receiving objects:  19% (513/2696)   Receiving objects:  20% (540/2696)   Receiving objects:  21% (567/2696)   Receiving objects:  22% (594/2696)   Receiving objects:  23% (621/2696)   Receiving objects:  24% (648/2696)   Receiving objects:  25% (674/2696)   Receiving objects:  26% (701/2696)   Receiving objects:  27% (728/2696)   Receiving objects:  28% (755/2696)   Receiving objects:  29% (782/2696)   Receiving objects:  30% (809/2696)   Receiving objects:  31% (836/2696)   Receiving objects:  32% (863/2696)   Receiving objects:  33% (890/2696)   Receiving objects:  34% (917/2696)   Receiving objects:  35% (944/2696)   Receiving objects:  36% (971/2696)   Receiving objects:  37% (998/2696)   Receiving objects:  38% (1025/2696)   Receiving objects:  39% (1052/2696)   Receiving objects:  40% (1079/2696)   Receiving objects:  41% (1106/2696)   Receiving objects:  42% (1133/2696)   Receiving objects:  43% (1160/2696)   Receiving objects:  44% (1187/2696)   Receiving objects:  45% (1214/2696)   Receiving objects:  46% (1241/2696)   Receiving objects:  47% (1268/2696)   Receiving objects:  48% (1295/2696)   Receiving objects:  49% (1322/2696)   Receiving objects:  50% (1348/2696)   Receiving objects:  51% (1375/2696)   Receiving objects:  52% (1402/2696)   Receiving objects:  53% (1429/2696)   Receiving objects:  54% (1456/2696)   Receiving objects:  55% (1483/2696)   Receiving objects:  56% (1510/2696)   Receiving objects:  57% (1537/2696)   Receiving objects:  58% (1564/2696)   Receiving objects:  59% (1591/2696)   Receiving objects:  60% (1618/2696)   Receiving objects:  61% (1645/2696)   Receiving objects:  62% (1672/2696)   Receiving objects:  63% (1699/2696)   Receiving objects:  64% (1726/2696)   Receiving objects:  65% (1753/2696)   Receiving objects:  66% (1780/2696)   Receiving objects:  67% (1807/2696)   Receiving objects:  68% (1834/2696)   Receiving objects:  69% (1861/2696)   Receiving objects:  70% (1888/2696)   Receiving objects:  71% (1915/2696)   Receiving objects:  72% (1942/2696)   Receiving objects:  73% (1969/2696)   Receiving objects:  74% (1996/2696)   Receiving objects:  75% (2022/2696)   Receiving objects:  76% (2049/2696)   Receiving objects:  77% (2076/2696)   Receiving objects:  78% (2103/2696)   Receiving objects:  79% (2130/2696)   Receiving objects:  80% (2157/2696)   remote: Total 2696 (delta 1069), reused 1528 (delta 558), pack-reused 0[K
+---
+> remote: Compressing objects:   0% (1/1862)   [Kremote: Compressing objects:   1% (19/1862)   [Kremote: Compressing objects:   2% (38/1862)   [Kremote: Compressing objects:   3% (56/1862)   [Kremote: Compressing objects:   4% (75/1862)   [Kremote: Compressing objects:   5% (94/1862)   [Kremote: Compressing objects:   6% (112/1862)   [Kremote: Compressing objects:   7% (131/1862)   [Kremote: Compressing objects:   8% (149/1862)   [Kremote: Compressing objects:   9% (168/1862)   [Kremote: Compressing objects:  10% (187/1862)   [Kremote: Compressing objects:  11% (205/1862)   [Kremote: Compressing objects:  12% (224/1862)   [Kremote: Compressing objects:  13% (243/1862)   [Kremote: Compressing objects:  14% (261/1862)   [Kremote: Compressing objects:  15% (280/1862)   [Kremote: Compressing objects:  16% (298/1862)   [Kremote: Compressing objects:  17% (317/1862)   [Kremote: Compressing objects:  18% (336/1862)   [Kremote: Compressing objects:  19% (354/1862)   [Kremote: Compressing objects:  20% (373/1862)   [Kremote: Compressing objects:  21% (392/1862)   [Kremote: Compressing objects:  22% (410/1862)   [Kremote: Compressing objects:  23% (429/1862)   [Kremote: Compressing objects:  24% (447/1862)   [Kremote: Compressing objects:  25% (466/1862)   [Kremote: Compressing objects:  26% (485/1862)   [Kremote: Compressing objects:  27% (503/1862)   [Kremote: Compressing objects:  28% (522/1862)   [Kremote: Compressing objects:  29% (540/1862)   [Kremote: Compressing objects:  30% (559/1862)   [Kremote: Compressing objects:  31% (578/1862)   [Kremote: Compressing objects:  32% (596/1862)   [Kremote: Compressing objects:  33% (615/1862)   [Kremote: Compressing objects:  34% (634/1862)   [Kremote: Compressing objects:  35% (652/1862)   [Kremote: Compressing objects:  36% (671/1862)   [Kremote: Compressing objects:  37% (689/1862)   [Kremote: Compressing objects:  38% (708/1862)   [Kremote: Compressing objects:  39% (727/1862)   [Kremote: Compressing objects:  40% (745/1862)   [Kremote: Compressing objects:  41% (764/1862)   [Kremote: Compressing objects:  42% (783/1862)   [Kremote: Compressing objects:  43% (801/1862)   [Kremote: Compressing objects:  44% (820/1862)   [Kremote: Compressing objects:  45% (838/1862)   [Kremote: Compressing objects:  46% (857/1862)   [Kremote: Compressing objects:  47% (876/1862)   [Kremote: Compressing objects:  48% (894/1862)   [Kremote: Compressing objects:  49% (913/1862)   [Kremote: Compressing objects:  50% (931/1862)   [Kremote: Compressing objects:  51% (950/1862)   [Kremote: Compressing objects:  52% (969/1862)   [Kremote: Compressing objects:  53% (987/1862)   [Kremote: Compressing objects:  54% (1006/1862)   [Kremote: Compressing objects:  55% (1025/1862)   [Kremote: Compressing objects:  56% (1043/1862)   [Kremote: Compressing objects:  57% (1062/1862)   [Kremote: Compressing objects:  58% (1080/1862)   [Kremote: Compressing objects:  59% (1099/1862)   [Kremote: Compressing objects:  60% (1118/1862)   [Kremote: Compressing objects:  61% (1136/1862)   [Kremote: Compressing objects:  62% (1155/1862)   [Kremote: Compressing objects:  63% (1174/1862)   [Kremote: Compressing objects:  64% (1192/1862)   [Kremote: Compressing objects:  65% (1211/1862)   [Kremote: Compressing objects:  66% (1229/1862)   [Kremote: Compressing objects:  67% (1248/1862)   [Kremote: Compressing objects:  68% (1267/1862)   [Kremote: Compressing objects:  69% (1285/1862)   [Kremote: Compressing objects:  70% (1304/1862)   [Kremote: Compressing objects:  71% (1323/1862)   [Kremote: Compressing objects:  72% (1341/1862)   [Kremote: Compressing objects:  73% (1360/1862)   [Kremote: Compressing objects:  74% (1378/1862)   [Kremote: Compressing objects:  75% (1397/1862)   [Kremote: Compressing objects:  76% (1416/1862)   [Kremote: Compressing objects:  77% (1434/1862)   [Kremote: Compressing objects:  78% (1453/1862)   [Kremote: Compressing objects:  79% (1471/1862)   [Kremote: Compressing objects:  80% (1490/1862)   [Kremote: Compressing objects:  81% (1509/1862)   [Kremote: Compressing objects:  82% (1527/1862)   [Kremote: Compressing objects:  83% (1546/1862)   [Kremote: Compressing objects:  84% (1565/1862)   [Kremote: Compressing objects:  85% (1583/1862)   [Kremote: Compressing objects:  86% (1602/1862)   [Kremote: Compressing objects:  87% (1620/1862)   [Kremote: Compressing objects:  88% (1639/1862)   [Kremote: Compressing objects:  89% (1658/1862)   [Kremote: Compressing objects:  90% (1676/1862)   [Kremote: Compressing objects:  91% (1695/1862)   [Kremote: Compressing objects:  92% (1714/1862)   [Kremote: Compressing objects:  93% (1732/1862)   [Kremote: Compressing objects:  94% (1751/1862)   [Kremote: Compressing objects:  95% (1769/1862)   [Kremote: Compressing objects:  96% (1788/1862)   [Kremote: Compressing objects:  97% (1807/1862)   [Kremote: Compressing objects:  98% (1825/1862)   [Kremote: Compressing objects:  99% (1844/1862)   [Kremote: Compressing objects: 100% (1862/1862)   [Kremote: Compressing objects: 100% (1862/1862), done.[K
+> Receiving objects:   0% (1/2696)   Receiving objects:   1% (27/2696)   Receiving objects:   2% (54/2696)   Receiving objects:   3% (81/2696)   Receiving objects:   4% (108/2696)   Receiving objects:   5% (135/2696)   Receiving objects:   6% (162/2696)   Receiving objects:   7% (189/2696)   Receiving objects:   8% (216/2696)   Receiving objects:   9% (243/2696)   Receiving objects:  10% (270/2696)   Receiving objects:  11% (297/2696)   Receiving objects:  12% (324/2696)   Receiving objects:  13% (351/2696)   Receiving objects:  14% (378/2696)   Receiving objects:  15% (405/2696)   Receiving objects:  16% (432/2696)   Receiving objects:  17% (459/2696)   Receiving objects:  18% (486/2696)   Receiving objects:  19% (513/2696)   Receiving objects:  20% (540/2696)   Receiving objects:  21% (567/2696)   Receiving objects:  22% (594/2696)   Receiving objects:  23% (621/2696)   Receiving objects:  24% (648/2696)   Receiving objects:  25% (674/2696)   Receiving objects:  26% (701/2696)   Receiving objects:  27% (728/2696)   Receiving objects:  28% (755/2696)   Receiving objects:  29% (782/2696)   Receiving objects:  30% (809/2696)   Receiving objects:  31% (836/2696)   Receiving objects:  32% (863/2696)   Receiving objects:  33% (890/2696)   Receiving objects:  34% (917/2696)   Receiving objects:  35% (944/2696)   Receiving objects:  36% (971/2696)   Receiving objects:  37% (998/2696)   Receiving objects:  38% (1025/2696)   Receiving objects:  39% (1052/2696)   Receiving objects:  40% (1079/2696)   Receiving objects:  41% (1106/2696)   Receiving objects:  42% (1133/2696)   Receiving objects:  43% (1160/2696)   Receiving objects:  44% (1187/2696)   Receiving objects:  45% (1214/2696)   Receiving objects:  46% (1241/2696)   Receiving objects:  47% (1268/2696)   Receiving objects:  48% (1295/2696)   Receiving objects:  49% (1322/2696)   Receiving objects:  50% (1348/2696)   Receiving objects:  51% (1375/2696)   Receiving objects:  52% (1402/2696)   Receiving objects:  53% (1429/2696)   Receiving objects:  54% (1456/2696)   Receiving objects:  55% (1483/2696)   Receiving objects:  56% (1510/2696)   Receiving objects:  57% (1537/2696)   Receiving objects:  58% (1564/2696)   Receiving objects:  59% (1591/2696)   Receiving objects:  60% (1618/2696)   Receiving objects:  61% (1645/2696)   Receiving objects:  62% (1672/2696)   Receiving objects:  63% (1699/2696)   Receiving objects:  64% (1726/2696)   Receiving objects:  65% (1753/2696)   Receiving objects:  66% (1780/2696)   Receiving objects:  67% (1807/2696)   Receiving objects:  68% (1834/2696)   Receiving objects:  69% (1861/2696)   Receiving objects:  70% (1888/2696)   Receiving objects:  71% (1915/2696)   Receiving objects:  72% (1942/2696)   Receiving objects:  73% (1969/2696)   Receiving objects:  74% (1996/2696)   Receiving objects:  75% (2022/2696)   Receiving objects:  76% (2049/2696)   Receiving objects:  77% (2076/2696)   Receiving objects:  78% (2103/2696)   Receiving objects:  79% (2130/2696)   Receiving objects:  80% (2157/2696)   remote: Total 2696 (delta 1069), reused 1527 (delta 557), pack-reused 0[K
+113c113
+< Resolving deltas:   0% (0/1069)   Resolving deltas:   4% (47/1069)   Resolving deltas:   5% (58/1069)   Resolving deltas:   6% (66/1069)   Resolving deltas:   7% (75/1069)   Resolving deltas:   8% (86/1069)   Resolving deltas:  10% (112/1069)   Resolving deltas:  11% (121/1069)   Resolving deltas:  14% (159/1069)   Resolving deltas:  15% (161/1069)   Resolving deltas:  16% (172/1069)   Resolving deltas:  17% (183/1069)   Resolving deltas:  18% (194/1069)   Resolving deltas:  19% (205/1069)   Resolving deltas:  20% (215/1069)   Resolving deltas:  21% (226/1069)   Resolving deltas:  22% (237/1069)   Resolving deltas:  23% (249/1069)   Resolving deltas:  24% (257/1069)   Resolving deltas:  26% (280/1069)   Resolving deltas:  27% (289/1069)   Resolving deltas:  28% (300/1069)   Resolving deltas:  29% (311/1069)   Resolving deltas:  31% (337/1069)   Resolving deltas:  32% (350/1069)   Resolving deltas:  33% (354/1069)   Resolving deltas:  34% (365/1069)   Resolving deltas:  35% (376/1069)   Resolving deltas:  36% (390/1069)   Resolving deltas:  37% (398/1069)   Resolving deltas:  38% (410/1069)   Resolving deltas:  39% (417/1069)   Resolving deltas:  40% (428/1069)   Resolving deltas:  41% (440/1069)   Resolving deltas:  42% (449/1069)   Resolving deltas:  43% (460/1069)   Resolving deltas:  45% (489/1069)   Resolving deltas:  46% (493/1069)   Resolving deltas:  47% (506/1069)   Resolving deltas:  48% (514/1069)   Resolving deltas:  49% (524/1069)   Resolving deltas:  50% (535/1069)   Resolving deltas:  51% (546/1069)   Resolving deltas:  52% (556/1069)   Resolving deltas:  53% (570/1069)   Resolving deltas:  54% (581/1069)   Resolving deltas:  55% (588/1069)   Resolving deltas:  56% (600/1069)   Resolving deltas:  57% (617/1069)   Resolving deltas:  58% (621/1069)   Resolving deltas:  59% (638/1069)   Resolving deltas:  60% (646/1069)   Resolving deltas:  61% (653/1069)   Resolving deltas:  62% (664/1069)   Resolving deltas:  63% (676/1069)   Resolving deltas:  64% (688/1069)   Resolving deltas:  65% (700/1069)   Resolving deltas:  66% (713/1069)   Resolving deltas:  67% (718/1069)   Resolving deltas:  68% (727/1069)   Resolving deltas:  69% (738/1069)   Resolving deltas:  70% (751/1069)   Resolving deltas:  71% (763/1069)   Resolving deltas:  72% (770/1069)   Resolving deltas:  73% (788/1069)   Resolving deltas:  74% (792/1069)   Resolving deltas:  75% (802/1069)   Resolving deltas:  76% (813/1069)   Resolving deltas:  77% (824/1069)   Resolving deltas:  78% (837/1069)   Resolving deltas:  79% (846/1069)   Resolving deltas:  80% (856/1069)   Resolving deltas:  81% (866/1069)   Resolving deltas:  82% (877/1069)   Resolving deltas:  83% (894/1069)   Resolving deltas:  84% (898/1069)   Resolving deltas:  85% (909/1069)   Resolving deltas:  86% (925/1069)   Resolving deltas:  87% (935/1069)   Resolving deltas:  88% (942/1069)   Resolving deltas:  89% (954/1069)   Resolving deltas:  90% (963/1069)   Resolving deltas:  91% (974/1069)   Resolving deltas:  92% (985/1069)   Resolving deltas:  93% (998/1069)   Resolving deltas:  94% (1006/1069)   Resolving deltas:  95% (1017/1069)   Resolving deltas:  96% (1034/1069)   Resolving deltas:  97% (1047/1069)   Resolving deltas:  98% (1048/1069)   Resolving deltas:  99% (1059/1069)   Resolving deltas: 100% (1069/1069)   Resolving deltas: 100% (1069/1069), done.
+---
+> Resolving deltas:   0% (0/1069)   Resolving deltas:   4% (47/1069)   Resolving deltas:   5% (58/1069)   Resolving deltas:   6% (66/1069)   Resolving deltas:   7% (75/1069)   Resolving deltas:   8% (86/1069)   Resolving deltas:  10% (109/1069)   Resolving deltas:  11% (121/1069)   Resolving deltas:  12% (135/1069)   Resolving deltas:  13% (139/1069)   Resolving deltas:  20% (222/1069)   Resolving deltas:  22% (237/1069)   Resolving deltas:  23% (247/1069)   Resolving deltas:  24% (257/1069)   Resolving deltas:  26% (279/1069)   Resolving deltas:  27% (290/1069)   Resolving deltas:  28% (301/1069)   Resolving deltas:  29% (311/1069)   Resolving deltas:  31% (333/1069)   Resolving deltas:  32% (346/1069)   Resolving deltas:  33% (353/1069)   Resolving deltas:  36% (385/1069)   Resolving deltas:  37% (399/1069)   Resolving deltas:  38% (407/1069)   Resolving deltas:  39% (421/1069)   Resolving deltas:  40% (428/1069)   Resolving deltas:  41% (439/1069)   Resolving deltas:  42% (449/1069)   Resolving deltas:  43% (461/1069)   Resolving deltas:  44% (472/1069)   Resolving deltas:  45% (482/1069)   Resolving deltas:  46% (493/1069)   Resolving deltas:  47% (504/1069)   Resolving deltas:  49% (533/1069)   Resolving deltas:  50% (537/1069)   Resolving deltas:  51% (546/1069)   Resolving deltas:  52% (557/1069)   Resolving deltas:  53% (571/1069)   Resolving deltas:  54% (578/1069)   Resolving deltas:  55% (588/1069)   Resolving deltas:  56% (599/1069)   Resolving deltas:  57% (610/1069)   Resolving deltas:  58% (622/1069)   Resolving deltas:  60% (642/1069)   Resolving deltas:  61% (658/1069)   Resolving deltas:  62% (663/1069)   Resolving deltas:  65% (695/1069)   Resolving deltas:  66% (707/1069)   Resolving deltas:  69% (747/1069)   Resolving deltas:  71% (761/1069)   Resolving deltas:  72% (772/1069)   Resolving deltas:  73% (783/1069)   Resolving deltas:  74% (792/1069)   Resolving deltas:  75% (805/1069)   Resolving deltas:  76% (815/1069)   Resolving deltas:  77% (825/1069)   Resolving deltas:  78% (834/1069)   Resolving deltas:  79% (845/1069)   Resolving deltas:  80% (856/1069)   Resolving deltas:  81% (866/1069)   Resolving deltas:  82% (878/1069)   Resolving deltas:  83% (890/1069)   Resolving deltas:  84% (903/1069)   Resolving deltas:  85% (909/1069)   Resolving deltas:  88% (942/1069)   Resolving deltas:  89% (953/1069)   Resolving deltas:  90% (963/1069)   Resolving deltas:  91% (975/1069)   Resolving deltas:  92% (985/1069)   Resolving deltas:  93% (998/1069)   Resolving deltas:  94% (1006/1069)   Resolving deltas:  95% (1016/1069)   Resolving deltas:  97% (1039/1069)   Resolving deltas:  98% (1051/1069)   Resolving deltas:  99% (1059/1069)   Resolving deltas: 100% (1069/1069)   Resolving deltas: 100% (1069/1069), done.
+116,117c116,117
+< travis_time:end:0c3d0c23:start=1465306605609499944,finish=1465306607093772308,duration=1484272364[0K$ cd checkstyle/checkstyle
+< travis_time:start:07fa7588[0K$ git fetch origin +refs/pull/3252/merge:
+---
+> travis_time:end:0aac6016:start=1465316127766416567,finish=1465316128910922353,duration=1144505786[0K$ cd checkstyle/checkstyle
+> travis_time:start:0fdc3c1c[0K$ git fetch origin +refs/pull/3252/merge:
+120c120
+< remote: Total 31 (delta 8), reused 30 (delta 7), pack-reused 0[K
+---
+> remote: Total 31 (delta 8), reused 29 (delta 7), pack-reused 0[K
+125c125
+< travis_time:end:07fa7588:start=1465306607097228543,finish=1465306607439617683,duration=342389140[0K$ git checkout -qf FETCH_HEAD
+---
+> travis_time:end:0fdc3c1c:start=1465316128914688780,finish=1465316129306741714,duration=392052934[0K$ git checkout -qf FETCH_HEAD
+140c140
+< travis_time:start:05d2cd00[0K$ Installing caching utilities
+---
+> travis_time:start:02eb5c8e[0K$ Installing caching utilities
+142,143c142,143
+< travis_time:end:05d2cd00:start=1465306614377798246,finish=1465306614482028222,duration=104229976[0Ktravis_time:start:0c33a48e[0K
+< travis_time:end:0c33a48e:start=1465306614486363422,finish=1465306614489316821,duration=2953399[0Ktravis_time:start:1194b8e6[0K[32;1mattempting to download cache archive[0m
+---
+> travis_time:end:02eb5c8e:start=1465316131080359179,finish=1465316131126728051,duration=46368872[0Ktravis_time:start:18544adf[0K
+> travis_time:end:18544adf:start=1465316131131314634,finish=1465316131134388545,duration=3073911[0Ktravis_time:start:20f62476[0K[32;1mattempting to download cache archive[0m
+145,146d144
+< [32;1mfetching PR.3252/cache--jdk-oraclejdk8.tgz[0m
+< [32;1mfetching master/cache-linux-precise-84932d7ee236ba5418f2fb7a1efb90642bf23de358002f9aae959f1be7636bc5--jdk-oraclejdk8.tgz[0m
+149,150c147,148
+< travis_time:end:1194b8e6:start=1465306614492778017,finish=1465306617677430188,duration=3184652171[0Ktravis_time:start:2f8370a0[0K
+< travis_time:end:2f8370a0:start=1465306617680892728,finish=1465306617683876688,duration=2983960[0Ktravis_time:start:0652ac14[0K[32;1madding /home/travis/.m2 to cache[0m
+---
+> travis_time:end:20f62476:start=1465316131137997391,finish=1465316136468731620,duration=5330734229[0Ktravis_time:start:0e0be21c[0K
+> travis_time:end:0e0be21c:start=1465316136472485650,finish=1465316136475693720,duration=3208070[0Ktravis_time:start:00190f50[0K[32;1madding /home/travis/.m2 to cache[0m
+152c150
+< travis_time:end:0652ac14:start=1465306617687286215,finish=1465306621661105762,duration=3973819547[0Ktravis_fold:end:cache.1[0K$ java -Xmx32m -version
+---
+> travis_time:end:00190f50:start=1465316136479386534,finish=1465316140508635455,duration=4029248921[0Ktravis_fold:end:cache.1[0K$ java -Xmx32m -version
+158c156
+< travis_fold:start:install[0Ktravis_time:start:0755816f[0K$ 
+---
+> travis_fold:start:install[0Ktravis_time:start:0dc0e65a[0K$ 
+160c158
+< travis_time:end:0755816f:start=1465306622842540322,finish=1465306622845353624,duration=2813302[0Ktravis_fold:end:install[0Ktravis_time:start:008e9950[0K$ eval $CMD
+---
+> travis_time:end:0dc0e65a:start=1465316140962801946,finish=1465316140965837752,duration=3035806[0Ktravis_fold:end:install[0Ktravis_time:start:026a8f3d[0K$ eval $CMD
+171d168
+< Downloading: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml
+174,175c171,173
+< 563/563 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml (563 B at 0.3 KB/sec)
+<                         [WARNING] Could not transfer metadata junit:junit-dep/maven-metadata.xml from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: unknown error
+---
+> Downloading: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml
+> 563/563 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml (563 B at 0.2 KB/sec)
+> [WARNING] Could not transfer metadata junit:junit-dep/maven-metadata.xml from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: unknown error
+1113c1111
+<      [echo] Checkstyle started: 07/06/2016 01:38:58 PM
+---
+>      [echo] Checkstyle started: 07/06/2016 04:17:05 PM
+1115,1134c1113,1361
+< [checkstyle] [ERROR] /home/travis/build/checkstyle/checkstyle/src/test/java/com/puppycrawl/tools/checkstyle/grammars/java8/ReceiverParameterTest.java:1: Line does not match expected header line of '////////////////////////////////////////////////////////////////////////////////'. [Header]
+< [checkstyle] [ERROR] /home/travis/build/checkstyle/checkstyle/src/test/java/com/puppycrawl/tools/checkstyle/grammars/java8/ReceiverParameterTest.java:1: Line does not match expected header line of '^/{80}$'. [RegexpHeader]
+<      [echo] Checkstyle finished: 07/06/2016 01:39:57 PM
+< [INFO] ------------------------------------------------------------------------
+< [INFO] BUILD FAILURE
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Total time: 02:36 min
+< [INFO] Finished at: 2016-06-07T13:39:57+00:00
+< [INFO] Final Memory: 52M/504M
+< [INFO] ------------------------------------------------------------------------
+< [ERROR] Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.8:run (ant-phase-verify) on project checkstyle: An Ant BuildException has occured: The following error occurred while executing this line:
+< [ERROR] /home/travis/build/checkstyle/checkstyle/config/ant-phase-verify.xml:50: Checkstyle failed: Got 2 errors and 0 warnings.
+< [ERROR] around Ant part ...<ant antfile="config/ant-phase-verify.xml"/>... @ 7:47 in /home/travis/build/checkstyle/checkstyle/target/antrun/build-main.xml
+< [ERROR] -> [Help 1]
+< [ERROR] 
+< [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+< [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+< [ERROR] 
+< [ERROR] For more information about the errors and possible solutions, please read the following articles:
+< [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+---
+>      [echo] Checkstyle finished: 07/06/2016 04:17:57 PM
+> [INFO] Executed tasks
+> [INFO] 
+> [INFO] >>> maven-pmd-plugin:3.6:check (default) > :pmd @ checkstyle >>>
+> [WARNING] Failure to transfer junit:junit-dep/maven-metadata.xml from https://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata junit:junit-dep/maven-metadata.xml from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: unknown error
+> [INFO] 
+> [INFO] --- maven-pmd-plugin:3.6:pmd (pmd) @ checkstyle ---
+> [INFO] 
+> [INFO] <<< maven-pmd-plugin:3.6:check (default) < :pmd @ checkstyle <<<
+> [INFO] 
+> [INFO] --- maven-pmd-plugin:3.6:check (default) @ checkstyle ---
+> [INFO] 
+> [INFO] >>> findbugs-maven-plugin:3.0.3:check (default) > :findbugs @ checkstyle >>>
+> [WARNING] Failure to transfer junit:junit-dep/maven-metadata.xml from https://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata junit:junit-dep/maven-metadata.xml from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: unknown error
+> [INFO] 
+> [INFO] --- findbugs-maven-plugin:3.0.3:findbugs (findbugs) @ checkstyle ---
+> [INFO] 
+> [INFO] <<< findbugs-maven-plugin:3.0.3:check (default) < :findbugs @ checkstyle <<<
+> [INFO] 
+> [INFO] --- findbugs-maven-plugin:3.0.3:check (default) @ checkstyle ---
+> [INFO] 
+> [INFO] --- forbiddenapis:2.1:check (default) @ checkstyle ---
+> [INFO] Scanning for classes to check...
+> [INFO] Reading bundled API signatures: jdk-unsafe-1.7
+> [INFO] Reading bundled API signatures: jdk-deprecated-1.7
+> [INFO] Reading bundled API signatures: jdk-system-out
+> [INFO] Reading bundled API signatures: jdk-non-portable
+> [INFO] Loading classes to check...
+> [INFO] Scanning classes for violations...
+> [INFO] Scanned 495 (and 541 related) class file(s) for forbidden API invocations (in 3.04s), 0 error(s).
+> [INFO] 
+> [INFO] --- forbiddenapis:2.1:testCheck (default) @ checkstyle ---
+> [INFO] Scanning for classes to check...
+> [INFO] Reading bundled API signatures: jdk-unsafe-1.7
+> [INFO] Reading bundled API signatures: jdk-deprecated-1.7
+> [INFO] Reading bundled API signatures: jdk-system-out
+> [INFO] Reading bundled API signatures: jdk-non-portable
+> [INFO] Loading classes to check...
+> [INFO] Scanning classes for violations...
+> [INFO] Scanned 1266 (and 791 related) class file(s) for forbidden API invocations (in 3.47s), 0 error(s).
+> [INFO] 
+> [INFO] >>> cobertura-maven-plugin:2.7:check (default) > [cobertura]test @ checkstyle >>>
+> [WARNING] Failure to transfer junit:junit-dep/maven-metadata.xml from https://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata junit:junit-dep/maven-metadata.xml from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: unknown error
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ checkstyle ---
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-versions) @ checkstyle ---
+> [INFO] 
+> [INFO] --- antlr-maven-plugin:2.2:generate (default) @ checkstyle ---
+> [INFO] grammar [java.g] was up-to-date; skipping
+> [INFO] 
+> [INFO] --- antlr4-maven-plugin:4.5.3:antlr4 (default) @ checkstyle ---
+> [INFO] No grammars to process
+> [INFO] ANTLR 4: Processing source directory /home/travis/build/checkstyle/checkstyle/src/main/resources
+> [INFO] 
+> [INFO] --- build-helper-maven-plugin:1.10:add-source (add-source) @ checkstyle ---
+> [INFO] Source directory: /home/travis/build/checkstyle/checkstyle/target/generated-sources/antlr added.
+> [INFO] 
+> [INFO] --- maven-resources-plugin:3.0.0:resources (default-resources) @ checkstyle ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] ignoreDelta true
+> [INFO] Copying 161 resources
+> [INFO] Copying file checkstyle_packages.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/antlib.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/checkstyle-ant-task.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import_control_1_0.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import_control_1_1.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configuration_1_0.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configuration_1_1.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configuration_1_2.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configuration_1_3.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/JavadocLexer.g4
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/JavadocParser.g4
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/java.g
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_fi.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_pt.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_tr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/messages_zh.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/packages_1_0.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/suppressions_1_0.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/suppressions_1_1.dtd
+> [INFO] Copying file google_checks.xml
+> [INFO] Copying file sun_checks.xml
+> [INFO] ignoreDelta true
+> [INFO] Copying 1 resource
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/GeneratedJavaTokenTypes.txt
+> [INFO] ignoreDelta true
+> [INFO] Copying 1 resource
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/GeneratedJavaTokenTypes.txt
+> [INFO] 
+> [INFO] --- build-helper-maven-plugin:1.10:add-test-source (add-test-source) @ checkstyle ---
+> [INFO] Test Source directory: /home/travis/build/checkstyle/checkstyle/src/test/resources added.
+> [INFO] 
+> [INFO] --- build-helper-maven-plugin:1.10:add-test-source (add-it-test-source) @ checkstyle ---
+> [INFO] Test Source directory: /home/travis/build/checkstyle/checkstyle/src/it/java added.
+> [INFO] 
+> [INFO] --- build-helper-maven-plugin:1.10:add-test-source (add-it-test-resource) @ checkstyle ---
+> [INFO] Test Source directory: /home/travis/build/checkstyle/checkstyle/src/it/resources added.
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ checkstyle ---
+> [INFO] Changes detected - recompiling the module!
+> [INFO] Compiling 345 source files to /home/travis/build/checkstyle/checkstyle/target/classes
+> [INFO] /home/travis/build/checkstyle/checkstyle/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java: /home/travis/build/checkstyle/checkstyle/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java uses or overrides a deprecated API.
+> [INFO] /home/travis/build/checkstyle/checkstyle/src/main/java/com/puppycrawl/tools/checkstyle/checks/javadoc/JavadocMethodCheck.java: Recompile with -Xlint:deprecation for details.
+> [INFO] /home/travis/build/checkstyle/checkstyle/src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java: Some input files use unchecked or unsafe operations.
+> [INFO] /home/travis/build/checkstyle/checkstyle/src/main/java/com/puppycrawl/tools/checkstyle/api/AutomaticBean.java: Recompile with -Xlint:unchecked for details.
+> [INFO] 
+> [INFO] --- maven-antrun-plugin:1.8:run (ant-phase-compile) @ checkstyle ---
+> [INFO] Executing tasks
+1136,1141c1363
+< travis_time:end:008e9950:start=1465306622848944992,finish=1465306798358829994,duration=175509885002[0K
+< [31;1mThe command "eval $CMD" exited with 1.[0m
+< travis_fold:start:cache.2[0Kstore build cache
+< travis_time:start:00e138a6[0K
+< travis_time:end:00e138a6:start=1465306798362788411,finish=1465306798365963638,duration=3175227[0Ktravis_time:start:03129b1f[0K[32;1mchange detected (content changed, file is created, or file is deleted):
+< /home/travis/.m2/repository/junit/junit-dep/resolver-status.properties
+---
+> main:
+1143,1146c1365,2061
+< [0m
+< [32;1mchanges detected, packing new archive[0m
+< .
+< [32;1muploading archive[0m
+---
+> execute:
+> [propertyfile] Updating property file: /home/travis/build/checkstyle/checkstyle/target/classes/checkstylecompilation.properties
+>   [javadoc] Generating Javadoc
+>   [javadoc] Javadoc execution
+>   [javadoc] Loading source file /home/travis/build/checkstyle/checkstyle/src/main/java/com/puppycrawl/tools/checkstyle/api/TokenTypes.java...
+>   [javadoc] Constructing Javadoc information...
+> [INFO] Executed tasks
+> [INFO] 
+> [INFO] --- cobertura-maven-plugin:2.7:instrument (default) @ checkstyle ---
+> [INFO] Skipping cobertura execution
+> [INFO] 
+> [INFO] --- maven-resources-plugin:3.0.0:testResources (default-testResources) @ checkstyle ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] ignoreDelta true
+> [INFO] Copying 634 resources
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/InputDefaultConfig.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/InputMain.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/InputCheckstyleAntTaskError.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/InputCheckstyleAntTaskFlawless.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/InputCheckstyleAntTaskWarning.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/ant_task_test_checks.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/ant_task_xml_output.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/checkstyleAntTest.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/ant/empty_config.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/api/import-control_complete.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/InputAstTreeStringPrinterComments.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/InputAstTreeStringPrinterJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/InputJavadocComment.javadoc
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/InputJavadocWithError.javadoc
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/expectedInputAstTreeStringPrinter.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/expectedInputAstTreeStringPrinterComments.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/expectedInputAstTreeStringPrinterJavadoc.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/astprinter/expectedInputJavadocComment.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels.translations
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels_de.translations
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels_es.translations
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels_fr_CA_UNIX.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels_fr_CA_UNIX.translations
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/ButtonLabels_ja.translations
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/Input15Extensions.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputArrayTypeStyle.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputAvoidEscapedUnicodeCharacters.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputEmptyFile.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputEmptyStatement.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputFinalParameters.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputFinalParametersPrimitiveTypes.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputIllegalTokens.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputMissingSwitchDefault.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputNewlineCrAtEndOfFile.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputNewlineCrAtEndOfFileAst.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputNewlineCrlfAtEndOfFile.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputNewlineLfAtEndOfFile.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputNoNewlineAtEndOfFile.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputOuterTypeFilename1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputOuterTypeFilename2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputOuterTypeFilename3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputOuterTypeFilename5.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputReturnFromCatch.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputReturnFromFinally.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputSemantic.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputSimple.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputStringLiteralEquality.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputSuppressWarningsHolder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputSuppressWarningsHolder2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputSuppressWarningsHolder3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputSuppressWarningsHolder4.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputTrailingComment.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputUncommentedMain.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputUncommentedMain2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputUncommentedMain3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputUncommentedMain4.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/InputUniqueProperties.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/MyLabelsI18.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/MyLabelsI18_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/MyLabelsI18_es.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/PageTitles.translation
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/PageTitles_de.translation
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/PageTitles_es.translation
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/PageTitles_fr.translation
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/PageTitles_ja.translation
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputAnnotationLocation1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputAnnotationLocation2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputAnnotationLocation3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputAnnotationUseNoTrailingComma.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputAnnotationUseStyle.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputAnnotationUseWithTrailingComma.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputAnnotationsUseStyleParams.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputBadAnnotationOverride.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputBadDeprecatedAnnotation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputBadDeprecatedJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputBadOverrideFromObject.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputBadOverrideFromOther.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputCorrectAnnotationLocation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputDifferentUseStyles.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputGoodAnnotationOverride.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputGoodDeprecated.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputGoodOverrideFromObject.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputGoodOverrideFromOther.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputIncorrectAnnotationLocation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputMissingDeprecated1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputMissingDeprecated2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputMissingDeprecatedSkipNoJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputNotOverride.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputPackageAnnotation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputSpecialCaseDeprecated.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputSuppressWarningsCompact.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputSuppressWarningsConstants.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputSuppressWarningsExpanded.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputSuppressWarningsHolder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputSuppressWarningsSingle.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/annotation/InputSuppressWarningsValuePair.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/app-dev.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/app-stage.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputBraces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputBracesSingleLineStatements.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputEmptyCatchBlock.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputLeftCurlyAllInOneLine.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputLeftCurlyAnnotations.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputLeftCurlyEnums.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputLeftCurlyLineBreakAfter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputLeftCurlyMethod.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputLeftCurlyOther.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputNeedBraces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputNeedBracesNoBodyLoops.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputNestedBlocks.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputRightCurly.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputRightCurlyAloneOrSingleline.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputRightCurlyAnnotations.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputRightCurlyEmptyAbstractMethod.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputRightCurlyLineBreakBefore.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputRightCurlyNameForOneLiners.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputScopeInnerInterfaces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputScopeInnerInterfaces2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputSemantic.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/blocks/InputSemantic2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/Input15Extensions.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputArrayTrailingComma.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputClone.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputCovariant.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputDeclarationOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputDeclarationOrderAvoidDuplicatesInStaticFinalFields.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputDeclarationOrderForwardReference.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputDefaultComesLast.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputEmptyStatement.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputEqualsAvoidNull.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputEqualsHashCode.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputExplicitInit.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFallThrough.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFallThrough2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFinalLocalVariable.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFinalLocalVariableAssignedMultipleTimes.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFinalLocalVariableEnhancedForLoopVariable.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFinalLocalVariableFalsePositive.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFinalLocalVariableNameShadowing.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFinalLocalVariableNativeMethods.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputFinalize.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputGregorianCalendar.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputHasFinalizer.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputHiddenField.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputHiddenFieldReorder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputHiddenFieldStaticVisibility.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalCatch.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalCatch2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalThrows.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalThrowsIgnoreOverriddenMethods.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalTokens.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalType.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalTypeAbstractClassNames.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalTypeMemberModifiers.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalTypeSameFileName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalTypeStarImports.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIllegalTypeStaticImports.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputInnerAssignment.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputIntMethodAnnotation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputMagicNumber.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputMissingCtor.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputMissingSwitchDefault.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputModifiedControl.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputModifiedControlVariableEnhancedForLoopVariable.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputMultipleStringLiterals.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputMultipleVariableDeclarations.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputNestedForDepth.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputNestedIfDepth.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputNestedTryDepth.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputOneStatementPerLine.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputOneStatementPerLine2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputOverloadMethodsDeclarationOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputPackageDeclaration.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputParameterAssignment.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputRequireThis.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputRequireThis2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputRequireThis3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputReturnCount.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputReturnCountVoid.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputSemantic.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputSimplifyBoolean.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputStringLiteralEquality.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputUnnecessaryParentheses.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputValidateOnlyOverlappingFalse.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputValidateOnlyOverlappingTrue.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputVariableDeclarationUsageDistance.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputWhitespace.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/coding/InputWithCommentOnly.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InetSocketAddress.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputAnnotatedVisibility.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputAnnotatedVisibilitySameTypeName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputClone.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputDeclarationOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputDesignForExtension.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputEnumIsSealed.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputFinalClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputHideUtilityClassConstructor.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputHideUtilityClassConstructor3041574_1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputHideUtilityClassConstructor3041574_2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputHideUtilityClassConstructor3041574_3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputImmutable.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputImmutableSameTypeName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputImmutableStarImport.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputImmutableStarImport2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputInner.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputInnerClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputInterfaceIsType.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputLocalAnnotations.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputMutableException.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputMutableExceptionClassExtendsGenericClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputNonUtilityClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputNullModifiers.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputOneTopLevelClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputOneTopLevelClassNoPublic.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputOneTopLevelEnum.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputOneTopLevelEnum2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputOneTopLevelInterface.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputOneTopLevelInterface2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputPublicImmutable.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputPublicOnly.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputRegression1762702.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputSimple.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputThrowsCount.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputUtilityClassConstructor.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputUtilityClassConstructorPrivate.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/design/InputUtilityClassConstructorPublic.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputHeader.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpHeader1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpHeader2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpHeader3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpHeader4.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpHeader5.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpHeader6.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpHeader7.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/InputRegexpSmallHeader.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/regexp.header
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/regexp.header1
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/regexp.header2
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/regexp.header3
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/header/regexp2.header4
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputAvoidStarImport.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputAvoidStaticImport.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputAvoidStaticImportNestedClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrder2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrderImportsContainingJava.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrderNoValid.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrderThirdPartyAndSpecial.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrderThirdPartyPackage.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrder_MultiplePatternMatches.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrder_NoImports.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrder_NoSeparator.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputCustomImportOrder_OverlappingPatterns.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputDOMSource.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputIllegalImport.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportBug.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportControl.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrderCaseInsensitive.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrderStaticGroupOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrderStaticGroupOrderBottom.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrderStaticOnDemandGroupOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrderStaticOnDemandGroupOrderBottom.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_Above.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_Bottom.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_EclipseDefaultNegative.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_EclipseDefaultPositive.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_HonorsTokensProperty.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_InFlow.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_NoFailureForRedundantImports.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_Top.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_Under.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_Wildcard.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputImportOrder_WildcardUnspecified.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputRedundantImport.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputUnusedImportWithValueTag.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/InputUnusedImports.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_MODIFIED_FOR_UT.dtd
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_WithNewElement.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_broken.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_complete.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_one-re.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_one.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_two-re.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_two.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/imports/import-control_wrong.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/Input15Extensions.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputAndroidStyle.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputAnnotationClosingParenthesisEndsInSameIndentationAsOpening.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputAnnotationDefinition.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputAnonymousClassInMethod.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputAnonymousClasses.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputArrays.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputBraceAdjustment.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputCaseLevel.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputClassesMethods.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputCommentsIndentationCommentIsAtTheEndOfBlock.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputCommentsIndentationInEmptyBlock.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputCommentsIndentationInSwitchBlock.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputCommentsIndentationJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputCommentsIndentationNoNpe.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputCommentsIndentationSurroundingCode.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputDifficultAnnotations.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputFromGuava.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputFromGuava2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputIndentationCorrectIfAndParameter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidAnonymousClassIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidArrayInitIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidAssignIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidBlockIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidClassDefIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidDoWhileIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidForIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidIfIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidImportIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidLabelIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidLabelWithWhileLoopIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidMethodIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidSwitchIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidThrowsIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidThrowsIndent2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidTryIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputInvalidWhileIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputLabels.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputMembers.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputMethodCStyle.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputMethodCallLineWrap.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputPackageDeclaration.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputPackageDeclaration3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputSeparatedStatementWithSpaces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputSeparatedStatements.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputStrictCondition.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputSwitchCustom.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputSynchronizedMethod.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputSynchronizedStatement.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputTwoStatementsPerLine.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputUseTabs.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputUseTwoSpaces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidArrayInitDefaultIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidArrayInitIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidAssignIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidBlockIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidClassDefIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidCommaIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidDoWhileIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidDotIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidForIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidIfIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidInterfaceDefIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidLabelIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidMethodIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidSwitchIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidTryIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidTryResourcesIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputValidWhileIndent.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/indentation/InputZeroCaseLevel.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputAllowedAnnotations.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputBadCls.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputBadTag.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputCorrectAtClauseOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputCorrectJavaDocParagraph.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputCorrectSummaryJavaDoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputCustomTag.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputExtendAnnotation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputGuavaFalsePositive.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputIncorrectAtClauseOrder.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputIncorrectJavaDocParagraph.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputIncorrectSummaryJavaDoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputInheritDoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputInner.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavaDocTagContinuationIndentation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavaDocTagContinuationIndentationOffset3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocMethodIgnoreNameRegex.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocMethodSmallMethods.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocMethodsNotSkipWritten.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocPosition.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocPositionOnlyComments.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocPositionWithSinglelineComments.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocStyle.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputJavadocStyleHtmlComment.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputLoadErrors.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputMissingJavadocTags.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputNoJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputNoJavadocOnInterface.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputNonEmptyAtclauseDescription.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputParsingErrors.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputPublicOnly.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputScopeAnonInner.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputScopeInnerClasses.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputScopeInnerInterfaces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputSetterGetter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputSingleLineJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputSummaryJavadocNoPeriod.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputSummaryJavadocPeriod.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputTags.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputTestGenerics.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputTestInvalidAtSeeReference.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputTestNumberFormatException.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputTestUnclosedTagAndInvalidAtSeeReference.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputTypeParamsTags.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputUnusedParamInJavadocForClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputWhitespace.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputWriteTag.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/InputWriteTag2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/Input_01.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/Input_02.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/Input_03.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/Input_1379666.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/bothfiles/InputIgnored.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/bothfiles/package-info.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/bothfiles/package.html
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/pkghtml/InputIgnored.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/pkghtml/package.html
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/pkginfo/annotation/package-info.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/pkginfo/invalidformat/package-info.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/pkginfo/invalidinherit/package-info.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/javadoc/pkginfo/valid/package-info.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages-translation.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages-translation_fr.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_home.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_home_es_US.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_home_fr_CA_UNIX.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_test.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_test_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_translation.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_translation_de.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/messages_translation_ja.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/Input15Extensions.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/InputBooleanExpressionComplexity.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/InputBooleanExpressionComplexityNPE.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/InputClassCoupling.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/InputComplexity.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/InputComplexityOverflow.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/InputComplexitySwitchBlocks.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/metrics/InputJavaNCSS.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputFinalInAnonymousClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputModifier.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputModifierClassesInsideOfInterfaces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputModifierOrderAnnotationDeclaration.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputNestedClassInPublicInterfaceRedundantModifiers.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputRedundantConstructorModifier.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputRedundantPublicModifierInNotPublicClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputRedundantStaticModifierInInnerTypeOfInterface.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/modifier/InputRedundantStaticModifierInNestedEnum.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputAbbreviationAsWordInTypeName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputAbbreviationAsWordInTypeNameOverridableMethod.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputAbstractClassName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputAbstractClassNameFormerFalsePositive.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputAbstractMultisetSetCount.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputCatchOnly.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputCatchParameterName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputConstantNames.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputEmptyStatement.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputInner.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputMemberName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputMemberNameExtended.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputMethNameEqualClsName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputMethodNameExtra.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputMethodNameOverridenMethods.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputOneCharInitVarName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputOverrideAnnotation.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputOverrideAnnotationNoNPE.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputSimple.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputStaticVariableName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputTypeName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/naming/InputTypeParameterName.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/Input Space.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/InputNoExtension
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/InputSemantic.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/InputStartingWithEmptyLine.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/regexp/InputTrailingComment.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputAnonInnerLength.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputExecutableStatementCount.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputLongImportStatements.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputMethodCount.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputMethodCount2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputMethodCount3.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputModifier.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputOuterTypeNumber.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputParameterNumber.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/sizes/InputSimple.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputAllowEmptyTypesAndNonEmptyClasses.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputBraces.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputDoWhileWhitespaceAround.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputDoubleBraceInitialization.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyLineSeparator.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyLineSeparatorFormerException.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyLineSeparatorHeader.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyLineSeparatorMultipleEmptyLines.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyLineSeparatorMultipleEmptyLinesInside.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyLineSeparatorMultipleFieldsInClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyLineSeparatorMultipleImportEmptyClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputEmptyTypesAndCycles.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputForWhitespace.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputGenericWhitespace.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputGenericWhitespaceEndsTheLine.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputGenericWhitespaceInnerClass.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputGenerics.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputGh47.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputMethodParamPad.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputNoLineWrapBad.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputNoLineWrapGood.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputNoWhiteSpaceAfterFormerNpe.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputNoWhitespaceAfterArrayDeclarations.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputNoWhitespaceAfterArrayDeclarations2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputOpWrap.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputParenPad.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputParenPadWithSpace.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputPrePreviousLineEmptiness.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputSeparatorWrap.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputSimple.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputSingleSpaceComments.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputSingleSpaceErrors.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputSingleSpaceNoErrors.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputSwitchWhitespaceAround.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputWhitespace.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/checks/whitespace/InputWhitespaceAround.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-Incorrect.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-classname-prop.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-classname.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-classname2-error.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-classname2.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-filelength.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-incorrectChildren.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-incorrectChildren2.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/config-non-existing-classname.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/checkstyle_checks.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/config_nonexisting_property.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/config_with_checker_ignore.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/config_with_ignore.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/custom_messages.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/empty_configuration.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/included.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/including.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/java.header
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/java2.header
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/missing_config_name.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/missing_config_parent.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/missing_property_name.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/missing_property_value.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/configs/subdir/including.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/doclets/InputTokenTypesDocletCorrect.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/doclets/InputTokenTypesDocletEmptyJavadoc.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/doclets/InputTokenTypesDocletNotConstants.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/InputSuppressByIdWithCommentFilter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/InputSuppressByIdWithNearbyCommentFilter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/InputSuppressByIdWithWarningsFilter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/InputSuppressWarningsFilter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/InputSuppressWithNearbyCommentFilter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/InputSuppressionCommentFilter.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_bad_int.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_id.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_invalid_file.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_multiple.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_no_check.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_no_check_and_id.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_no_file.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/filters/suppressions_none.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputEmbeddedNullChar.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputGrammar.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputHexFloat.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputJava7Diamond.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputJava7MultiCatch.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputJava7NumericalLiterals.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputJava7StringSwitch.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputJava7TryWithResources.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputLineCommentAtTheEndOfFile.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputMultiDimensionalArraysInGenerics.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionEmptyAst.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaAnnotation1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaAnnotation1Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaClass1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaClass1Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaClass2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaClass2Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaEnum1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaEnum1Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaEnum2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaEnum2Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaInterface1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaInterface1Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaInterface2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputRegressionJavaInterface2Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputUnicodeEscape.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/InputVararg.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputComments1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputComments1Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputComments2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputComments2Ast.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputFullOfBlockComments.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputFullOfBlockCommentsAst.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputFullOfSinglelineComments.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/comments/InputFullOfSinglelineCommentsAst.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/java8/InputAnnotations1.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/java8/InputDefaultMethods2.java
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/InputLeadingAsterisks.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputAttributeValueWithoutQuotes.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputClosedOtherTag.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputComments.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputHtmlTagsInParagraph.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputListWithUnclosedItemInUnclosedParagraph.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputMixedCaseOfHtmlTags.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputNegativeNumberInAttribute.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputOneSimpleHtmlTag.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputUnclosedAndClosedParagraphs.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/htmlTags/InputUnclosedParagraphFollowedByJavadocTag.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputAllJavadocInlineTags.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputAllStandardJavadocTags.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputAsteriskInJavadocInlineTag.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputAsteriskInLiteral.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputAuthorWithMailto.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputCustomJavadocTags.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputCustomTagWithDot.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputDocRootInheritDoc.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputDollarInLink.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputFewWhiteSpacesAsSeparator.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputInnerBracesInCodeTag.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputJavadocTagDescriptionWithInlineTags.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputLinkInlineTags.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputNewlineAndAsteriskInParameters.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputParamWithGeneric.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputSeeReferenceWithFewNestedClasses.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputSerial.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputSince.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputTextBeforeJavadocTags.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/grammars/javadoc/javadocTags/InputTwoLinkTagsInRow.txt
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/import-control_complete.xml
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/java.header
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/mycheckstyle.properties
+> [INFO] Copying file com/puppycrawl/tools/checkstyle/package-info.java
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ checkstyle ---
+> [INFO] Changes detected - recompiling the module!
+> [INFO] Compiling 923 source files to /home/travis/build/checkstyle/checkstyle/target/test-classes
+> [INFO] /home/travis/build/checkstyle/checkstyle/src/test/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractTypeAwareCheckTest.java: Some input files use or override a deprecated API.
+> [INFO] /home/travis/build/checkstyle/checkstyle/src/test/java/com/puppycrawl/tools/checkstyle/checks/javadoc/AbstractTypeAwareCheckTest.java: Recompile with -Xlint:deprecation for details.
+> [INFO] 
+> [INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ checkstyle ---
+> [INFO] Tests are skipped.
+> [INFO] 
+> [INFO] --- xml-maven-plugin:1.0.1:validate (default) @ checkstyle ---
+> [INFO] 
+> [INFO] <<< cobertura-maven-plugin:2.7:check (default) < [cobertura]test @ checkstyle <<<
+> [INFO] 
+> [INFO] --- cobertura-maven-plugin:2.7:check (default) @ checkstyle ---
+> [INFO] Skipping cobertura execution
+> [INFO] ------------------------------------------------------------------------
+> [INFO] BUILD SUCCESS
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Total time: 02:36 min
+> [INFO] Finished at: 2016-06-07T16:18:20+00:00
+> [INFO] Final Memory: 67M/455M
+> [INFO] ------------------------------------------------------------------------
+> 
+> travis_time:end:026a8f3d:start=1465316140969610707,finish=1465316309953168124,duration=168983557417[0K
+> [32;1mThe command "eval $CMD" exited with 0.[0m
+> travis_fold:start:cache.2[0Kstore build cache
+> travis_time:start:030fcc5a[0K
+> travis_time:end:030fcc5a:start=1465316309957368468,finish=1465316309960746538,duration=3378070[0Ktravis_time:start:06be68ff[0K[32;1mchange detected (content changed, file is created, or file is deleted):
+> /home/travis/.m2/repository/junit/junit-dep/resolver-status.properties
+> 
+> [0m
+> [32;1mchanges detected, packing new archive[0m
+> .
+> [32;1muploading archive[0m
+> 
+> travis_time:end:06be68ff:start=1465316309964616278,finish=1465316327635469127,duration=17670852849[0Ktravis_fold:end:cache.2[0Ktravis_fold:start:after_success.1[0Ktravis_time:start:12952e39[0K$ eval $COVERAGE_CMD
+> 
+> travis_time:end:12952e39:start=1465316327639536788,finish=1465316327642610786,duration=3073998[0Ktravis_fold:end:after_success.1[0Ktravis_fold:start:after_success.2[0Ktravis_time:start:14260e5d[0K$ if [[ $TRAVIS_REPO_SLUG == 'checkstyle/checkstyle'
+>             && $TRAVIS_BRANCH == 'master'
+>             && $TRAVIS_PULL_REQUEST == 'false'
+>             && $DEPLOY == 'true'
+>        ]];
+>     then
+>         mvn -s config/deploy-settings.xml deploy \
+>           -DskipTests -DskipITs -Dpmd.skip=true -Dfindbugs.skip=true \
+>           -Dcobertura.skip=true -Dcheckstyle.ant.skip=true -Dcheckstyle.skip=true -Dxml.skip=true ;
+>     fi
+1148,1149c2063,2064
+< travis_time:end:03129b1f:start=1465306798369655522,finish=1465306828315184318,duration=29945528796[0Ktravis_fold:end:cache.2[0K
+< Done. Your build exited with 1.
+---
+> travis_time:end:14260e5d:start=1465316327646533750,finish=1465316327649758073,duration=3224323[0Ktravis_fold:end:after_success.2[0K
+> Done. Your build exited with 0.

@@ -1,0 +1,30 @@
+1862:[ERROR] Failed to execute goal org.bsc.maven:maven-processor-plugin:2.2.4:process (process) on project artemis-odb-test: Execution process of goal org.bsc.maven:maven-processor-plugin:2.2.4:process failed: Plugin org.bsc.maven:maven-processor-plugin:2.2.4 or one of its dependencies could not be resolved: Could not find artifact net.onedaybeard.artemis:artemis-odb-processor:jar:2.0.0-RC3-SNAPSHOT -> [Help 1]
+1863:[ERROR] 
+1864:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1865:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1866:[ERROR] 
+1867:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1868:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+1869:[ERROR] 
+1870:[ERROR] After correcting the problems, you can resume the build with the command
+1871:[ERROR]   mvn <goals> -rf :artemis-odb-test
+2241:[ERROR] Failed to execute goal org.bsc.maven:maven-processor-plugin:2.2.4:process (process) on project artemis-odb-test: Execution process of goal org.bsc.maven:maven-processor-plugin:2.2.4:process failed: Plugin org.bsc.maven:maven-processor-plugin:2.2.4 or one of its dependencies could not be resolved: Could not find artifact net.onedaybeard.artemis:artemis-odb-processor:jar:2.0.0-RC3-SNAPSHOT -> [Help 1]
+2242:[ERROR] 
+2243:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2244:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2245:[ERROR] 
+2246:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2247:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+2248:[ERROR] 
+2249:[ERROR] After correcting the problems, you can resume the build with the command
+2250:[ERROR]   mvn <goals> -rf :artemis-odb-test
+2620:[ERROR] Failed to execute goal org.bsc.maven:maven-processor-plugin:2.2.4:process (process) on project artemis-odb-test: Execution process of goal org.bsc.maven:maven-processor-plugin:2.2.4:process failed: Plugin org.bsc.maven:maven-processor-plugin:2.2.4 or one of its dependencies could not be resolved: Could not find artifact net.onedaybeard.artemis:artemis-odb-processor:jar:2.0.0-RC3-SNAPSHOT -> [Help 1]
+2621:[ERROR] 
+2622:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2623:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2624:[ERROR] 
+2625:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2626:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+2627:[ERROR] 
+2628:[ERROR] After correcting the problems, you can resume the build with the command
+2629:[ERROR]   mvn <goals> -rf :artemis-odb-test

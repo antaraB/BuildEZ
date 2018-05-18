@@ -1,0 +1,76 @@
+{
+    "_created": "Wed, 18 Apr 2018 04:52:45 GMT",
+    "_etag": "81357ba73de0a8b2e1a658d27dcad39772525bd7",
+    "_id": "5ad6cf1df1f70eeb88da2211",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/pmlopes-yoke-116845673",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Wed, 16 May 2018 18:53:08 GMT",
+    "base_branch": "",
+    "branch": "feature/vertx3",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 116845672,
+        "build_job": "679.1",
+        "committed_at": "2016-03-18T08:46:00Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 116845673,
+        "message": "Merge branch 'develop' into feature/vertx3",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "2933fc8340b6976b9b0718a26db33a3121ade05b"
+    },
+    "filtered_reason": null,
+    "image_tag": "pmlopes-yoke-116845673",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 5,
+        "changes": 17,
+        "deletions": 12
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 116848064,
+        "build_job": "681.1",
+        "committed_at": "2016-03-18T08:59:35Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 116848065,
+        "message": "fix api",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "d8276a410a0fb3fc510e98bb6d3e81a72762a4ee"
+    },
+    "pr_num": -1,
+    "repo": "pmlopes/yoke",
+    "repo_builds": 691,
+    "repo_commits": 923,
+    "repo_members": 2,
+    "repo_mined_version": "fe8a64036f09fb745f0644faddd46162d64faf3c",
+    "repo_prs": 34,
+    "repo_watchers": 142,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "pmlopes-yoke-116845673",
+    "test_framework": ""
+}

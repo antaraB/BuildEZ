@@ -1,0 +1,54 @@
+1140:[ERROR] COMPILATION ERROR : 
+1142:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,110] lambda expressions are not supported in -source 1.7
+1144:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,51] method references are not supported in -source 1.7
+1164:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fluentlenium-core: Compilation failure: Compilation failure:
+1165:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,110] lambda expressions are not supported in -source 1.7
+1166:[ERROR] (use -source 8 or higher to enable lambda expressions)
+1167:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,51] method references are not supported in -source 1.7
+1168:[ERROR] (use -source 8 or higher to enable method references)
+1169:[ERROR] -> [Help 1]
+1170:[ERROR] 
+1171:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1172:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1173:[ERROR] 
+1174:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1175:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1176:[ERROR] 
+1177:[ERROR] After correcting the problems, you can resume the build with the command
+1178:[ERROR]   mvn <goals> -rf :fluentlenium-core
+1229:[ERROR] COMPILATION ERROR : 
+1231:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,110] lambda expressions are not supported in -source 1.7
+1233:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,51] method references are not supported in -source 1.7
+1253:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fluentlenium-core: Compilation failure: Compilation failure:
+1254:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,110] lambda expressions are not supported in -source 1.7
+1255:[ERROR] (use -source 8 or higher to enable lambda expressions)
+1256:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,51] method references are not supported in -source 1.7
+1257:[ERROR] (use -source 8 or higher to enable method references)
+1258:[ERROR] -> [Help 1]
+1259:[ERROR] 
+1260:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1261:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1262:[ERROR] 
+1263:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1264:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1265:[ERROR] 
+1266:[ERROR] After correcting the problems, you can resume the build with the command
+1267:[ERROR]   mvn <goals> -rf :fluentlenium-core
+1318:[ERROR] COMPILATION ERROR : 
+1320:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,110] lambda expressions are not supported in -source 1.7
+1322:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,51] method references are not supported in -source 1.7
+1342:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fluentlenium-core: Compilation failure: Compilation failure:
+1343:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,110] lambda expressions are not supported in -source 1.7
+1344:[ERROR] (use -source 8 or higher to enable lambda expressions)
+1345:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,51] method references are not supported in -source 1.7
+1346:[ERROR] (use -source 8 or higher to enable method references)
+1347:[ERROR] -> [Help 1]
+1348:[ERROR] 
+1349:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1350:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1351:[ERROR] 
+1352:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1353:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1354:[ERROR] 
+1355:[ERROR] After correcting the problems, you can resume the build with the command
+1356:[ERROR]   mvn <goals> -rf :fluentlenium-core

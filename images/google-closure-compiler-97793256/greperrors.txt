@@ -1,0 +1,30 @@
+1076:[ERROR] Failed to execute goal on project closure-compiler-gwt: Could not resolve dependencies for project com.google.javascript:closure-compiler-gwt:gwt-app:1.0-SNAPSHOT: Failed to collect dependencies at com.google.guava:guava:jar:19.0-SNAPSHOT: Failed to read artifact descriptor for com.google.guava:guava:jar:19.0-SNAPSHOT: Could not transfer artifact com.google.guava:guava:pom:19.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+1077:[ERROR] 
+1078:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1079:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1080:[ERROR] 
+1081:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1082:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+1083:[ERROR] 
+1084:[ERROR] After correcting the problems, you can resume the build with the command
+1085:[ERROR]   mvn <goals> -rf :closure-compiler-gwt
+1208:[ERROR] Failed to execute goal on project closure-compiler-gwt: Could not resolve dependencies for project com.google.javascript:closure-compiler-gwt:gwt-app:1.0-SNAPSHOT: Failed to collect dependencies at com.google.guava:guava:jar:19.0-SNAPSHOT: Failed to read artifact descriptor for com.google.guava:guava:jar:19.0-SNAPSHOT: Could not transfer artifact com.google.guava:guava:pom:19.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+1209:[ERROR] 
+1210:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1211:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1212:[ERROR] 
+1213:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1214:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+1215:[ERROR] 
+1216:[ERROR] After correcting the problems, you can resume the build with the command
+1217:[ERROR]   mvn <goals> -rf :closure-compiler-gwt
+1340:[ERROR] Failed to execute goal on project closure-compiler-gwt: Could not resolve dependencies for project com.google.javascript:closure-compiler-gwt:gwt-app:1.0-SNAPSHOT: Failed to collect dependencies at com.google.guava:guava:jar:19.0-SNAPSHOT: Failed to read artifact descriptor for com.google.guava:guava:jar:19.0-SNAPSHOT: Could not transfer artifact com.google.guava:guava:pom:19.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+1341:[ERROR] 
+1342:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1343:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1344:[ERROR] 
+1345:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1346:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+1347:[ERROR] 
+1348:[ERROR] After correcting the problems, you can resume the build with the command
+1349:[ERROR]   mvn <goals> -rf :closure-compiler-gwt

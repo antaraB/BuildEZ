@@ -1,0 +1,42 @@
+764:[ERROR] COMPILATION ERROR : 
+766:[ERROR] /home/travis/build/petergeneric/stdlib/service-manager/service-manager/src/main/java/com/peterphi/servicemanager/service/rest/ui/impl/RulesUIServiceImpl.java:[58,65] incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to ognl.OgnlContext
+799:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project service-manager: Compilation failure
+800:[ERROR] /home/travis/build/petergeneric/stdlib/service-manager/service-manager/src/main/java/com/peterphi/servicemanager/service/rest/ui/impl/RulesUIServiceImpl.java:[58,65] incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to ognl.OgnlContext
+801:[ERROR] -> [Help 1]
+802:[ERROR] 
+803:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+804:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+805:[ERROR] 
+806:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+807:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+808:[ERROR] 
+809:[ERROR] After correcting the problems, you can resume the build with the command
+810:[ERROR]   mvn <goals> -rf :service-manager
+1362:[ERROR] COMPILATION ERROR : 
+1364:[ERROR] /home/travis/build/petergeneric/stdlib/service-manager/service-manager/src/main/java/com/peterphi/servicemanager/service/rest/ui/impl/RulesUIServiceImpl.java:[58,65] incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to ognl.OgnlContext
+1397:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project service-manager: Compilation failure
+1398:[ERROR] /home/travis/build/petergeneric/stdlib/service-manager/service-manager/src/main/java/com/peterphi/servicemanager/service/rest/ui/impl/RulesUIServiceImpl.java:[58,65] incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to ognl.OgnlContext
+1399:[ERROR] -> [Help 1]
+1400:[ERROR] 
+1401:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1402:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1403:[ERROR] 
+1404:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1405:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1406:[ERROR] 
+1407:[ERROR] After correcting the problems, you can resume the build with the command
+1408:[ERROR]   mvn <goals> -rf :service-manager
+1960:[ERROR] COMPILATION ERROR : 
+1962:[ERROR] /home/travis/build/petergeneric/stdlib/service-manager/service-manager/src/main/java/com/peterphi/servicemanager/service/rest/ui/impl/RulesUIServiceImpl.java:[58,65] incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to ognl.OgnlContext
+1995:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project service-manager: Compilation failure
+1996:[ERROR] /home/travis/build/petergeneric/stdlib/service-manager/service-manager/src/main/java/com/peterphi/servicemanager/service/rest/ui/impl/RulesUIServiceImpl.java:[58,65] incompatible types: java.util.Map<java.lang.String,java.lang.Object> cannot be converted to ognl.OgnlContext
+1997:[ERROR] -> [Help 1]
+1998:[ERROR] 
+1999:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2000:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2001:[ERROR] 
+2002:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2003:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2004:[ERROR] 
+2005:[ERROR] After correcting the problems, you can resume the build with the command
+2006:[ERROR]   mvn <goals> -rf :service-manager

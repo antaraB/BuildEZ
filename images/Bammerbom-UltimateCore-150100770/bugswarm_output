@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 02:05:57 GMT",
+    "_etag": "97124f4f5eeb4a3d366ffc5b6f35084d7532a2e6",
+    "_id": "5a9b5485f1f70ee79a1ca71a",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Bammerbom-UltimateCore-150100770",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:41:11 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 150100769,
+        "build_job": "357.1",
+        "committed_at": "2016-08-05T16:36:51Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 150100770,
+        "message": "Remvoe the unused getApi() method",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "c6460f7b43c7227d428c58682ecbb7f274356c06"
+    },
+    "filtered_reason": null,
+    "image_tag": "Bammerbom-UltimateCore-150100770",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 11,
+        "changes": 22,
+        "deletions": 11
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 150104786,
+        "build_job": "358.1",
+        "committed_at": "2016-08-05T16:55:33Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 150104787,
+        "message": "Change module loading system (1/2)",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "a225590a38dac6392adac6e19f63ea1752fbdf65"
+    },
+    "pr_num": -1,
+    "repo": "Bammerbom/UltimateCore",
+    "repo_builds": 740,
+    "repo_commits": 1122,
+    "repo_members": 3,
+    "repo_mined_version": "df946d44249957334d205e84126ecdb1c8594498",
+    "repo_prs": 7,
+    "repo_watchers": 9,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Bammerbom-UltimateCore-150100770",
+    "test_framework": ""
+}

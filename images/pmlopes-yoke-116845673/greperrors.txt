@@ -1,0 +1,42 @@
+693:[ERROR] COMPILATION ERROR : 
+695:[ERROR] /home/travis/build/[secure]/yoke/framework/src/main/java/com/jetdrone/vertx/yoke/middleware/Static.java:[142,71] incompatible types: long cannot be converted to java.util.Date
+725:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project yoke: Compilation failure
+726:[ERROR] /home/travis/build/[secure]/yoke/framework/src/main/java/com/jetdrone/vertx/yoke/middleware/Static.java:[142,71] incompatible types: long cannot be converted to java.util.Date
+727:[ERROR] -> [Help 1]
+728:[ERROR] 
+729:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+730:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+731:[ERROR] 
+732:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+733:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+734:[ERROR] 
+735:[ERROR] After correcting the problems, you can resume the build with the command
+736:[ERROR]   mvn <goals> -rf :yoke
+807:[ERROR] COMPILATION ERROR : 
+809:[ERROR] /home/travis/build/[secure]/yoke/framework/src/main/java/com/jetdrone/vertx/yoke/middleware/Static.java:[142,71] incompatible types: long cannot be converted to java.util.Date
+839:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project yoke: Compilation failure
+840:[ERROR] /home/travis/build/[secure]/yoke/framework/src/main/java/com/jetdrone/vertx/yoke/middleware/Static.java:[142,71] incompatible types: long cannot be converted to java.util.Date
+841:[ERROR] -> [Help 1]
+842:[ERROR] 
+843:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+844:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+845:[ERROR] 
+846:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+847:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+848:[ERROR] 
+849:[ERROR] After correcting the problems, you can resume the build with the command
+850:[ERROR]   mvn <goals> -rf :yoke
+921:[ERROR] COMPILATION ERROR : 
+923:[ERROR] /home/travis/build/[secure]/yoke/framework/src/main/java/com/jetdrone/vertx/yoke/middleware/Static.java:[142,71] incompatible types: long cannot be converted to java.util.Date
+953:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project yoke: Compilation failure
+954:[ERROR] /home/travis/build/[secure]/yoke/framework/src/main/java/com/jetdrone/vertx/yoke/middleware/Static.java:[142,71] incompatible types: long cannot be converted to java.util.Date
+955:[ERROR] -> [Help 1]
+956:[ERROR] 
+957:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+958:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+959:[ERROR] 
+960:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+961:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+962:[ERROR] 
+963:[ERROR] After correcting the problems, you can resume the build with the command
+964:[ERROR]   mvn <goals> -rf :yoke

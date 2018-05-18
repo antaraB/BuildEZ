@@ -1,0 +1,351 @@
+815:[ERROR] COMPILATION ERROR : 
+817:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[287,60] cannot find symbol
+820:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[293,60] cannot find symbol
+823:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[299,60] cannot find symbol
+826:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AirAbility.java:[122,60] cannot find symbol
+829:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[155,60] cannot find symbol
+832:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[165,60] cannot find symbol
+835:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[500,60] cannot find symbol
+838:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[506,60] cannot find symbol
+841:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[302,94] cannot find symbol
+844:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[305,94] cannot find symbol
+847:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireBlastCharged.java:[183,78] cannot find symbol
+850:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[179,86] cannot find symbol
+853:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[247,88] cannot find symbol
+856:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[248,88] cannot find symbol
+859:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[262,96] cannot find symbol
+862:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[284,88] cannot find symbol
+865:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[331,96] cannot find symbol
+868:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[373,96] cannot find symbol
+871:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[424,70] cannot find symbol
+874:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AvatarAbility.java:[31,52] cannot find symbol
+877:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[125,68] cannot find symbol
+880:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[126,72] cannot find symbol
+883:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[535,108] cannot find symbol
+886:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[536,112] cannot find symbol
+889:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/waterbending/IceBlast.java:[309,62] cannot find symbol
+892:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[121,110] cannot find symbol
+895:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[124,110] cannot find symbol
+907:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project projectkorra: Compilation failure: Compilation failure:
+908:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[287,60] cannot find symbol
+909:[ERROR] symbol:   variable FIRE_IGNITE
+910:[ERROR] location: class org.bukkit.Sound
+911:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[293,60] cannot find symbol
+912:[ERROR] symbol:   variable STEP_GRASS
+913:[ERROR] location: class org.bukkit.Sound
+914:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[299,60] cannot find symbol
+915:[ERROR] symbol:   variable WATER
+916:[ERROR] location: class org.bukkit.Sound
+917:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AirAbility.java:[122,60] cannot find symbol
+918:[ERROR] symbol:   variable CREEPER_HISS
+919:[ERROR] location: class org.bukkit.Sound
+920:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[155,60] cannot find symbol
+921:[ERROR] symbol:   variable FIREWORK_BLAST
+922:[ERROR] location: class org.bukkit.Sound
+923:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[165,60] cannot find symbol
+924:[ERROR] symbol:   variable FIRE
+925:[ERROR] location: class org.bukkit.Sound
+926:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[500,60] cannot find symbol
+927:[ERROR] symbol:   variable IRONGOLEM_HIT
+928:[ERROR] location: class org.bukkit.Sound
+929:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[506,60] cannot find symbol
+930:[ERROR] symbol:   variable DIG_SAND
+931:[ERROR] location: class org.bukkit.Sound
+932:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[302,94] cannot find symbol
+933:[ERROR] symbol:   variable DOOR_CLOSE
+934:[ERROR] location: class org.bukkit.Sound
+935:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[305,94] cannot find symbol
+936:[ERROR] symbol:   variable DOOR_OPEN
+937:[ERROR] location: class org.bukkit.Sound
+938:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireBlastCharged.java:[183,78] cannot find symbol
+939:[ERROR] symbol:   variable EXPLODE
+940:[ERROR] location: class org.bukkit.Sound
+941:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[179,86] cannot find symbol
+942:[ERROR] symbol:   variable VILLAGER_HIT
+943:[ERROR] location: class org.bukkit.Sound
+944:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[247,88] cannot find symbol
+945:[ERROR] symbol:   variable HORSE_JUMP
+946:[ERROR] location: class org.bukkit.Sound
+947:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[248,88] cannot find symbol
+948:[ERROR] symbol:   variable FIZZ
+949:[ERROR] location: class org.bukkit.Sound
+950:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[262,96] cannot find symbol
+951:[ERROR] symbol:   variable FIRE_IGNITE
+952:[ERROR] location: class org.bukkit.Sound
+953:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[284,88] cannot find symbol
+954:[ERROR] symbol:   variable FIZZ
+955:[ERROR] location: class org.bukkit.Sound
+956:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[331,96] cannot find symbol
+957:[ERROR] symbol:   variable EXPLODE
+958:[ERROR] location: class org.bukkit.Sound
+959:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[373,96] cannot find symbol
+960:[ERROR] symbol:   variable FIZZ
+961:[ERROR] location: class org.bukkit.Sound
+962:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[424,70] cannot find symbol
+963:[ERROR] symbol:   variable FIRE
+964:[ERROR] location: class org.bukkit.Sound
+965:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AvatarAbility.java:[31,52] cannot find symbol
+966:[ERROR] symbol:   variable ANVIL_LAND
+967:[ERROR] location: class org.bukkit.Sound
+968:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[125,68] cannot find symbol
+969:[ERROR] symbol:   variable CREEPER_HISS
+970:[ERROR] location: class org.bukkit.Sound
+971:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[126,72] cannot find symbol
+972:[ERROR] symbol:   variable CREEPER_HISS
+973:[ERROR] location: class org.bukkit.Sound
+974:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[535,108] cannot find symbol
+975:[ERROR] symbol:   variable CREEPER_HISS
+976:[ERROR] location: class org.bukkit.Sound
+977:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[536,112] cannot find symbol
+978:[ERROR] symbol:   variable CREEPER_HISS
+979:[ERROR] location: class org.bukkit.Sound
+980:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/waterbending/IceBlast.java:[309,62] cannot find symbol
+981:[ERROR] symbol:   variable GLASS
+982:[ERROR] location: class org.bukkit.Sound
+983:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[121,110] cannot find symbol
+984:[ERROR] symbol:   variable DOOR_CLOSE
+985:[ERROR] location: class org.bukkit.Sound
+986:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[124,110] cannot find symbol
+987:[ERROR] symbol:   variable DOOR_OPEN
+988:[ERROR] location: class org.bukkit.Sound
+989:[ERROR] -> [Help 1]
+990:[ERROR] 
+991:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+992:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+993:[ERROR] 
+994:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+995:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1087:[ERROR] COMPILATION ERROR : 
+1089:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[287,60] cannot find symbol
+1092:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[293,60] cannot find symbol
+1095:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[299,60] cannot find symbol
+1098:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AirAbility.java:[122,60] cannot find symbol
+1101:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[155,60] cannot find symbol
+1104:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[165,60] cannot find symbol
+1107:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[500,60] cannot find symbol
+1110:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[506,60] cannot find symbol
+1113:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[302,94] cannot find symbol
+1116:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[305,94] cannot find symbol
+1119:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireBlastCharged.java:[183,78] cannot find symbol
+1122:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[179,86] cannot find symbol
+1125:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[247,88] cannot find symbol
+1128:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[248,88] cannot find symbol
+1131:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[262,96] cannot find symbol
+1134:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[284,88] cannot find symbol
+1137:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[331,96] cannot find symbol
+1140:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[373,96] cannot find symbol
+1143:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[424,70] cannot find symbol
+1146:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AvatarAbility.java:[31,52] cannot find symbol
+1149:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[125,68] cannot find symbol
+1152:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[126,72] cannot find symbol
+1155:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[535,108] cannot find symbol
+1158:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[536,112] cannot find symbol
+1161:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/waterbending/IceBlast.java:[309,62] cannot find symbol
+1164:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[121,110] cannot find symbol
+1167:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[124,110] cannot find symbol
+1179:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project projectkorra: Compilation failure: Compilation failure:
+1180:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[287,60] cannot find symbol
+1181:[ERROR] symbol:   variable FIRE_IGNITE
+1182:[ERROR] location: class org.bukkit.Sound
+1183:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[293,60] cannot find symbol
+1184:[ERROR] symbol:   variable STEP_GRASS
+1185:[ERROR] location: class org.bukkit.Sound
+1186:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[299,60] cannot find symbol
+1187:[ERROR] symbol:   variable WATER
+1188:[ERROR] location: class org.bukkit.Sound
+1189:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AirAbility.java:[122,60] cannot find symbol
+1190:[ERROR] symbol:   variable CREEPER_HISS
+1191:[ERROR] location: class org.bukkit.Sound
+1192:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[155,60] cannot find symbol
+1193:[ERROR] symbol:   variable FIREWORK_BLAST
+1194:[ERROR] location: class org.bukkit.Sound
+1195:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[165,60] cannot find symbol
+1196:[ERROR] symbol:   variable FIRE
+1197:[ERROR] location: class org.bukkit.Sound
+1198:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[500,60] cannot find symbol
+1199:[ERROR] symbol:   variable IRONGOLEM_HIT
+1200:[ERROR] location: class org.bukkit.Sound
+1201:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[506,60] cannot find symbol
+1202:[ERROR] symbol:   variable DIG_SAND
+1203:[ERROR] location: class org.bukkit.Sound
+1204:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[302,94] cannot find symbol
+1205:[ERROR] symbol:   variable DOOR_CLOSE
+1206:[ERROR] location: class org.bukkit.Sound
+1207:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[305,94] cannot find symbol
+1208:[ERROR] symbol:   variable DOOR_OPEN
+1209:[ERROR] location: class org.bukkit.Sound
+1210:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireBlastCharged.java:[183,78] cannot find symbol
+1211:[ERROR] symbol:   variable EXPLODE
+1212:[ERROR] location: class org.bukkit.Sound
+1213:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[179,86] cannot find symbol
+1214:[ERROR] symbol:   variable VILLAGER_HIT
+1215:[ERROR] location: class org.bukkit.Sound
+1216:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[247,88] cannot find symbol
+1217:[ERROR] symbol:   variable HORSE_JUMP
+1218:[ERROR] location: class org.bukkit.Sound
+1219:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[248,88] cannot find symbol
+1220:[ERROR] symbol:   variable FIZZ
+1221:[ERROR] location: class org.bukkit.Sound
+1222:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[262,96] cannot find symbol
+1223:[ERROR] symbol:   variable FIRE_IGNITE
+1224:[ERROR] location: class org.bukkit.Sound
+1225:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[284,88] cannot find symbol
+1226:[ERROR] symbol:   variable FIZZ
+1227:[ERROR] location: class org.bukkit.Sound
+1228:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[331,96] cannot find symbol
+1229:[ERROR] symbol:   variable EXPLODE
+1230:[ERROR] location: class org.bukkit.Sound
+1231:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[373,96] cannot find symbol
+1232:[ERROR] symbol:   variable FIZZ
+1233:[ERROR] location: class org.bukkit.Sound
+1234:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[424,70] cannot find symbol
+1235:[ERROR] symbol:   variable FIRE
+1236:[ERROR] location: class org.bukkit.Sound
+1237:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AvatarAbility.java:[31,52] cannot find symbol
+1238:[ERROR] symbol:   variable ANVIL_LAND
+1239:[ERROR] location: class org.bukkit.Sound
+1240:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[125,68] cannot find symbol
+1241:[ERROR] symbol:   variable CREEPER_HISS
+1242:[ERROR] location: class org.bukkit.Sound
+1243:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[126,72] cannot find symbol
+1244:[ERROR] symbol:   variable CREEPER_HISS
+1245:[ERROR] location: class org.bukkit.Sound
+1246:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[535,108] cannot find symbol
+1247:[ERROR] symbol:   variable CREEPER_HISS
+1248:[ERROR] location: class org.bukkit.Sound
+1249:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[536,112] cannot find symbol
+1250:[ERROR] symbol:   variable CREEPER_HISS
+1251:[ERROR] location: class org.bukkit.Sound
+1252:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/waterbending/IceBlast.java:[309,62] cannot find symbol
+1253:[ERROR] symbol:   variable GLASS
+1254:[ERROR] location: class org.bukkit.Sound
+1255:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[121,110] cannot find symbol
+1256:[ERROR] symbol:   variable DOOR_CLOSE
+1257:[ERROR] location: class org.bukkit.Sound
+1258:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[124,110] cannot find symbol
+1259:[ERROR] symbol:   variable DOOR_OPEN
+1260:[ERROR] location: class org.bukkit.Sound
+1261:[ERROR] -> [Help 1]
+1262:[ERROR] 
+1263:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1264:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1265:[ERROR] 
+1266:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1267:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1359:[ERROR] COMPILATION ERROR : 
+1361:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[287,60] cannot find symbol
+1364:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[293,60] cannot find symbol
+1367:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[299,60] cannot find symbol
+1370:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AirAbility.java:[122,60] cannot find symbol
+1373:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[155,60] cannot find symbol
+1376:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[165,60] cannot find symbol
+1379:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[500,60] cannot find symbol
+1382:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[506,60] cannot find symbol
+1385:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[302,94] cannot find symbol
+1388:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[305,94] cannot find symbol
+1391:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireBlastCharged.java:[183,78] cannot find symbol
+1394:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[179,86] cannot find symbol
+1397:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[247,88] cannot find symbol
+1400:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[248,88] cannot find symbol
+1403:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[262,96] cannot find symbol
+1406:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[284,88] cannot find symbol
+1409:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[331,96] cannot find symbol
+1412:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[373,96] cannot find symbol
+1415:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[424,70] cannot find symbol
+1418:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AvatarAbility.java:[31,52] cannot find symbol
+1421:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[125,68] cannot find symbol
+1424:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[126,72] cannot find symbol
+1427:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[535,108] cannot find symbol
+1430:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[536,112] cannot find symbol
+1433:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/waterbending/IceBlast.java:[309,62] cannot find symbol
+1436:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[121,110] cannot find symbol
+1439:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[124,110] cannot find symbol
+1451:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project projectkorra: Compilation failure: Compilation failure:
+1452:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[287,60] cannot find symbol
+1453:[ERROR] symbol:   variable FIRE_IGNITE
+1454:[ERROR] location: class org.bukkit.Sound
+1455:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[293,60] cannot find symbol
+1456:[ERROR] symbol:   variable STEP_GRASS
+1457:[ERROR] location: class org.bukkit.Sound
+1458:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/WaterAbility.java:[299,60] cannot find symbol
+1459:[ERROR] symbol:   variable WATER
+1460:[ERROR] location: class org.bukkit.Sound
+1461:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AirAbility.java:[122,60] cannot find symbol
+1462:[ERROR] symbol:   variable CREEPER_HISS
+1463:[ERROR] location: class org.bukkit.Sound
+1464:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[155,60] cannot find symbol
+1465:[ERROR] symbol:   variable FIREWORK_BLAST
+1466:[ERROR] location: class org.bukkit.Sound
+1467:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/FireAbility.java:[165,60] cannot find symbol
+1468:[ERROR] symbol:   variable FIRE
+1469:[ERROR] location: class org.bukkit.Sound
+1470:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[500,60] cannot find symbol
+1471:[ERROR] symbol:   variable IRONGOLEM_HIT
+1472:[ERROR] location: class org.bukkit.Sound
+1473:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/EarthAbility.java:[506,60] cannot find symbol
+1474:[ERROR] symbol:   variable DIG_SAND
+1475:[ERROR] location: class org.bukkit.Sound
+1476:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[302,94] cannot find symbol
+1477:[ERROR] symbol:   variable DOOR_CLOSE
+1478:[ERROR] location: class org.bukkit.Sound
+1479:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/airbending/AirBlast.java:[305,94] cannot find symbol
+1480:[ERROR] symbol:   variable DOOR_OPEN
+1481:[ERROR] location: class org.bukkit.Sound
+1482:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireBlastCharged.java:[183,78] cannot find symbol
+1483:[ERROR] symbol:   variable EXPLODE
+1484:[ERROR] location: class org.bukkit.Sound
+1485:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[179,86] cannot find symbol
+1486:[ERROR] symbol:   variable VILLAGER_HIT
+1487:[ERROR] location: class org.bukkit.Sound
+1488:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[247,88] cannot find symbol
+1489:[ERROR] symbol:   variable HORSE_JUMP
+1490:[ERROR] location: class org.bukkit.Sound
+1491:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[248,88] cannot find symbol
+1492:[ERROR] symbol:   variable FIZZ
+1493:[ERROR] location: class org.bukkit.Sound
+1494:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[262,96] cannot find symbol
+1495:[ERROR] symbol:   variable FIRE_IGNITE
+1496:[ERROR] location: class org.bukkit.Sound
+1497:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[284,88] cannot find symbol
+1498:[ERROR] symbol:   variable FIZZ
+1499:[ERROR] location: class org.bukkit.Sound
+1500:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[331,96] cannot find symbol
+1501:[ERROR] symbol:   variable EXPLODE
+1502:[ERROR] location: class org.bukkit.Sound
+1503:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[373,96] cannot find symbol
+1504:[ERROR] symbol:   variable FIZZ
+1505:[ERROR] location: class org.bukkit.Sound
+1506:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/FireCombo.java:[424,70] cannot find symbol
+1507:[ERROR] symbol:   variable FIRE
+1508:[ERROR] location: class org.bukkit.Sound
+1509:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/ability/AvatarAbility.java:[31,52] cannot find symbol
+1510:[ERROR] symbol:   variable ANVIL_LAND
+1511:[ERROR] location: class org.bukkit.Sound
+1512:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[125,68] cannot find symbol
+1513:[ERROR] symbol:   variable CREEPER_HISS
+1514:[ERROR] location: class org.bukkit.Sound
+1515:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[126,72] cannot find symbol
+1516:[ERROR] symbol:   variable CREEPER_HISS
+1517:[ERROR] location: class org.bukkit.Sound
+1518:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[535,108] cannot find symbol
+1519:[ERROR] symbol:   variable CREEPER_HISS
+1520:[ERROR] location: class org.bukkit.Sound
+1521:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/firebending/Lightning.java:[536,112] cannot find symbol
+1522:[ERROR] symbol:   variable CREEPER_HISS
+1523:[ERROR] location: class org.bukkit.Sound
+1524:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/waterbending/IceBlast.java:[309,62] cannot find symbol
+1525:[ERROR] symbol:   variable GLASS
+1526:[ERROR] location: class org.bukkit.Sound
+1527:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[121,110] cannot find symbol
+1528:[ERROR] symbol:   variable DOOR_CLOSE
+1529:[ERROR] location: class org.bukkit.Sound
+1530:[ERROR] /home/travis/build/ProjectKorra/ProjectKorra/src/com/projectkorra/projectkorra/earthbending/EarthPassive.java:[124,110] cannot find symbol
+1531:[ERROR] symbol:   variable DOOR_OPEN
+1532:[ERROR] location: class org.bukkit.Sound
+1533:[ERROR] -> [Help 1]
+1534:[ERROR] 
+1535:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1536:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1537:[ERROR] 
+1538:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1539:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

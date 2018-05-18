@@ -1,0 +1,42 @@
+206:[ERROR] COMPILATION ERROR : 
+208:[ERROR] /home/travis/build/owlcs/owlapi/api/src/main/java/org/semanticweb/owlapi/model/ByName.java:[10,1] error: cannot find symbol
+234:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project owlapi-api: Compilation failure
+235:[ERROR] /home/travis/build/owlcs/owlapi/api/src/main/java/org/semanticweb/owlapi/model/ByName.java:[10,1] error: cannot find symbol
+236:[ERROR] -> [Help 1]
+237:[ERROR] 
+238:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+239:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+240:[ERROR] 
+241:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+242:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+243:[ERROR] 
+244:[ERROR] After correcting the problems, you can resume the build with the command
+245:[ERROR]   mvn <goals> -rf :owlapi-api
+312:[ERROR] COMPILATION ERROR : 
+314:[ERROR] /home/travis/build/owlcs/owlapi/api/src/main/java/org/semanticweb/owlapi/model/ByName.java:[10,1] error: cannot find symbol
+340:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project owlapi-api: Compilation failure
+341:[ERROR] /home/travis/build/owlcs/owlapi/api/src/main/java/org/semanticweb/owlapi/model/ByName.java:[10,1] error: cannot find symbol
+342:[ERROR] -> [Help 1]
+343:[ERROR] 
+344:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+345:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+346:[ERROR] 
+347:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+348:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+349:[ERROR] 
+350:[ERROR] After correcting the problems, you can resume the build with the command
+351:[ERROR]   mvn <goals> -rf :owlapi-api
+418:[ERROR] COMPILATION ERROR : 
+420:[ERROR] /home/travis/build/owlcs/owlapi/api/src/main/java/org/semanticweb/owlapi/model/ByName.java:[10,1] error: cannot find symbol
+446:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project owlapi-api: Compilation failure
+447:[ERROR] /home/travis/build/owlcs/owlapi/api/src/main/java/org/semanticweb/owlapi/model/ByName.java:[10,1] error: cannot find symbol
+448:[ERROR] -> [Help 1]
+449:[ERROR] 
+450:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+451:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+452:[ERROR] 
+453:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+454:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+455:[ERROR] 
+456:[ERROR] After correcting the problems, you can resume the build with the command
+457:[ERROR]   mvn <goals> -rf :owlapi-api

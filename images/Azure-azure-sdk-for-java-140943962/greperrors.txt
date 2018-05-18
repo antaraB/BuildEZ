@@ -1,0 +1,126 @@
+1298:[ERROR] COMPILATION ERROR : 
+1300:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[11,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1301:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[7,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1302:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[12,22] cannot find symbol
+1305:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[5,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1306:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[31,40] cannot find symbol
+1309:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,9] cannot find symbol
+1312:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,40] cannot find symbol
+1315:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,9] cannot find symbol
+1318:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,40] cannot find symbol
+1350:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project azure-mgmt-datalake-store: Compilation failure: Compilation failure:
+1351:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[11,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1352:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[7,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1353:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[12,22] cannot find symbol
+1354:[ERROR] symbol:   class ResourceManagementClientImpl
+1355:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
+1356:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[5,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1357:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[31,40] cannot find symbol
+1358:[ERROR] symbol:   class ResourceManagementClientImpl
+1359:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
+1360:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,9] cannot find symbol
+1361:[ERROR] symbol:   class ResourceGroupInner
+1362:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
+1363:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,40] cannot find symbol
+1364:[ERROR] symbol:   class ResourceGroupInner
+1365:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
+1366:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,9] cannot find symbol
+1367:[ERROR] symbol:   class ResourceGroupInner
+1368:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
+1369:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,40] cannot find symbol
+1370:[ERROR] symbol:   class ResourceGroupInner
+1371:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
+1372:[ERROR] -> [Help 1]
+1373:[ERROR] 
+1374:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1375:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1376:[ERROR] 
+1377:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1378:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1379:[ERROR] 
+1380:[ERROR] After correcting the problems, you can resume the build with the command
+1381:[ERROR]   mvn <goals> -rf :azure-mgmt-datalake-store
+1856:[ERROR] COMPILATION ERROR : 
+1858:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[11,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1859:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[7,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1860:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[12,22] cannot find symbol
+1863:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[5,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1864:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[31,40] cannot find symbol
+1867:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,9] cannot find symbol
+1870:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,40] cannot find symbol
+1873:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,9] cannot find symbol
+1876:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,40] cannot find symbol
+1908:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project azure-mgmt-datalake-store: Compilation failure: Compilation failure:
+1909:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[11,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1910:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[7,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1911:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[12,22] cannot find symbol
+1912:[ERROR] symbol:   class ResourceManagementClientImpl
+1913:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
+1914:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[5,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+1915:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[31,40] cannot find symbol
+1916:[ERROR] symbol:   class ResourceManagementClientImpl
+1917:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
+1918:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,9] cannot find symbol
+1919:[ERROR] symbol:   class ResourceGroupInner
+1920:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
+1921:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,40] cannot find symbol
+1922:[ERROR] symbol:   class ResourceGroupInner
+1923:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
+1924:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,9] cannot find symbol
+1925:[ERROR] symbol:   class ResourceGroupInner
+1926:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
+1927:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,40] cannot find symbol
+1928:[ERROR] symbol:   class ResourceGroupInner
+1929:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
+1930:[ERROR] -> [Help 1]
+1931:[ERROR] 
+1932:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1933:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1934:[ERROR] 
+1935:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1936:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1937:[ERROR] 
+1938:[ERROR] After correcting the problems, you can resume the build with the command
+1939:[ERROR]   mvn <goals> -rf :azure-mgmt-datalake-store
+2414:[ERROR] COMPILATION ERROR : 
+2416:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[11,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+2417:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[7,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+2418:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[12,22] cannot find symbol
+2421:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[5,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+2422:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[31,40] cannot find symbol
+2425:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,9] cannot find symbol
+2428:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,40] cannot find symbol
+2431:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,9] cannot find symbol
+2434:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,40] cannot find symbol
+2466:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project azure-mgmt-datalake-store: Compilation failure: Compilation failure:
+2467:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[11,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+2468:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[7,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+2469:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[12,22] cannot find symbol
+2470:[ERROR] symbol:   class ResourceManagementClientImpl
+2471:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
+2472:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[5,67] package com.microsoft.azure.management.resources.implementation.api does not exist
+2473:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreManagementTestBase.java:[31,40] cannot find symbol
+2474:[ERROR] symbol:   class ResourceManagementClientImpl
+2475:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreManagementTestBase
+2476:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,9] cannot find symbol
+2477:[ERROR] symbol:   class ResourceGroupInner
+2478:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
+2479:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreFilesystemOperationsTests.java:[45,40] cannot find symbol
+2480:[ERROR] symbol:   class ResourceGroupInner
+2481:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreFilesystemOperationsTests
+2482:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,9] cannot find symbol
+2483:[ERROR] symbol:   class ResourceGroupInner
+2484:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
+2485:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-datalake-store/src/test/java/com/microsoft/azure/management/datalake/store/DataLakeStoreAccountOperationsTests.java:[22,40] cannot find symbol
+2486:[ERROR] symbol:   class ResourceGroupInner
+2487:[ERROR] location: class com.microsoft.azure.management.datalake.store.DataLakeStoreAccountOperationsTests
+2488:[ERROR] -> [Help 1]
+2489:[ERROR] 
+2490:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2491:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2492:[ERROR] 
+2493:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2494:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2495:[ERROR] 
+2496:[ERROR] After correcting the problems, you can resume the build with the command
+2497:[ERROR]   mvn <goals> -rf :azure-mgmt-datalake-store

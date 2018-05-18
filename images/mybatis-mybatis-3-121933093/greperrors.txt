@@ -1,0 +1,57 @@
+1485:[ERROR] COMPILATION ERROR : 
+1487:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[33,108] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1488:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[40,105] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1489:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[47,101] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1490:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[50,169] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1491:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[51,175] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1501:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile (default-testCompile) on project mybatis: Compilation failure: Compilation failure:
+1502:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[33,108] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1503:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[40,105] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1504:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[47,101] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1505:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[50,169] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1506:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[51,175] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1507:[ERROR] -> [Help 1]
+1508:[ERROR] 
+1509:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1510:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1511:[ERROR] 
+1512:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1513:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1585:[ERROR] COMPILATION ERROR : 
+1587:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[33,108] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1588:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[40,105] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1589:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[47,101] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1590:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[50,169] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1591:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[51,175] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1601:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile (default-testCompile) on project mybatis: Compilation failure: Compilation failure:
+1602:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[33,108] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1603:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[40,105] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1604:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[47,101] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1605:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[50,169] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1606:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[51,175] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1607:[ERROR] -> [Help 1]
+1608:[ERROR] 
+1609:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1610:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1611:[ERROR] 
+1612:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1613:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1685:[ERROR] COMPILATION ERROR : 
+1687:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[33,108] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1688:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[40,105] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1689:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[47,101] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1690:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[50,169] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1691:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[51,175] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1701:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:testCompile (default-testCompile) on project mybatis: Compilation failure: Compilation failure:
+1702:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[33,108] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1703:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[40,105] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1704:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[47,101] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1705:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[50,169] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1706:[ERROR] /home/travis/build/mybatis/mybatis-3/src/test/java/org/apache/ibatis/submitted/enumtypehandler_on_annotation/PersonMapper.java:[51,175] incompatible types: java.lang.Class<org.apache.ibatis.type.EnumOrdinalTypeHandler> cannot be converted to java.lang.Class<? extends org.apache.ibatis.type.TypeHandler<?>>
+1707:[ERROR] -> [Help 1]
+1708:[ERROR] 
+1709:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1710:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1711:[ERROR] 
+1712:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1713:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

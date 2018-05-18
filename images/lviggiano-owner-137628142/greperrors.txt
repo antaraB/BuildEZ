@@ -1,0 +1,20 @@
+1403:[ERROR] COMPILATION ERROR : 
+1405:[ERROR] /home/travis/build/lviggiano/owner/owner-extras/src/main/java/org/aeonbits/owner/util/bytesize/ByteSize.java:[104,26] cannot find symbol
+1408:[ERROR] /home/travis/build/lviggiano/owner/owner-extras/src/main/java/org/aeonbits/owner/util/bytesize/ByteSize.java:[116,26] cannot find symbol
+1431:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project owner-extras: Compilation failure: Compilation failure:
+1432:[ERROR] /home/travis/build/lviggiano/owner/owner-extras/src/main/java/org/aeonbits/owner/util/bytesize/ByteSize.java:[104,26] cannot find symbol
+1433:[ERROR] symbol:   method longValueExact()
+1434:[ERROR] location: class java.math.BigInteger
+1435:[ERROR] /home/travis/build/lviggiano/owner/owner-extras/src/main/java/org/aeonbits/owner/util/bytesize/ByteSize.java:[116,26] cannot find symbol
+1436:[ERROR] symbol:   method intValueExact()
+1437:[ERROR] location: class java.math.BigInteger
+1438:[ERROR] -> [Help 1]
+1439:[ERROR] 
+1440:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1441:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1442:[ERROR] 
+1443:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1444:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1445:[ERROR] 
+1446:[ERROR] After correcting the problems, you can resume the build with the command
+1447:[ERROR]   mvn <goals> -rf :owner-extras
