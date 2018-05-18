@@ -1,0 +1,75 @@
+{
+    "_created": "Sun, 18 Feb 2018 22:21:11 GMT",
+    "_etag": "3cff0d50ed6cf6072783938fd78ffa710ad6ef1c",
+    "_id": "5a89fc57f1f70e090ee45054",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/davidmoten-rxjava-jdbc-65230625",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:23:44 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 65230623,
+        "build_job": "103.2",
+        "committed_at": "2015-06-03T11:33:21Z",
+        "failed_tests": "",
+        "job_id": 65230625,
+        "message": "Merge branch 'master' of https://github.com/davidmoten/rxjava-jdbc",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "12fa13a1276031b32c4f56ee211f35ed464add7d"
+    },
+    "filtered_reason": null,
+    "image_tag": "davidmoten-rxjava-jdbc-65230625",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 9,
+        "changes": 9,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 65231504,
+        "build_job": "104.2",
+        "committed_at": "2015-06-03T11:41:38Z",
+        "failed_tests": "",
+        "job_id": 65231506,
+        "message": "add ResultSetMapper",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 258,
+        "trigger_sha": "880d91d9e3931224d204090db3d267b28b02edbd"
+    },
+    "pr_num": -1,
+    "repo": "davidmoten/rxjava-jdbc",
+    "repo_builds": 419,
+    "repo_commits": 860,
+    "repo_members": 0,
+    "repo_mined_version": "bc4fdb90ae05446885fbcfdeb9b49f3a4f7ab186",
+    "repo_prs": 24,
+    "repo_watchers": 459,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "davidmoten-rxjava-jdbc-65230625",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

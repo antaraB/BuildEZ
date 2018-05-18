@@ -1,0 +1,77 @@
+{
+    "_created": "Tue, 06 Mar 2018 23:51:16 GMT",
+    "_etag": "b84291114fa13aea7a94aa235905f2e42ead647f",
+    "_id": "5a9f2974f1f70e0f34591d4f",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Azure-azure-sdk-for-java-137284525",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:56:06 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 137284524,
+        "build_job": "367.1",
+        "committed_at": "2016-06-13T15:57:09Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 137284525,
+        "message": "Merge pull request #794 from jianghaolu/storagespec\n\nStorage 2016-01-01",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "36bb402d79e259e8739ece5bc005c06ec8f363e9"
+    },
+    "filtered_reason": null,
+    "image_tag": "Azure-azure-sdk-for-java-137284525",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 62,
+        "changes": 76,
+        "deletions": 14
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 137303907,
+        "build_job": "376.1",
+        "committed_at": "2016-06-13T17:13:52Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 137303909,
+        "message": "Merge pull request #799 from martinsawicki/martin-networking\n\nSupport for NSG#networkInterfaceIds(), PIP bug fix",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "f8b4e8a6ef7ce87fccee3ad0c2e5d0d7927b6870"
+    },
+    "pr_num": -1,
+    "repo": "Azure/azure-sdk-for-java",
+    "repo_builds": 2355,
+    "repo_commits": 3073,
+    "repo_members": 0,
+    "repo_mined_version": "1f6655f1edf778b7e6eca6348485165cd1dc2dde",
+    "repo_prs": 478,
+    "repo_watchers": 137,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Azure-azure-sdk-for-java-137284525",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

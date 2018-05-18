@@ -1,0 +1,77 @@
+{
+    "_created": "Sun, 04 Mar 2018 01:35:48 GMT",
+    "_etag": "32a5f86e4d1f76cf3f920fa1649ea1b290684b53",
+    "_id": "5a9b4d74f1f70ee79a1ca70e",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Backendless-Android-SDK-141628334",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:40:50 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 141628308,
+        "build_job": "459.1",
+        "committed_at": "2016-07-01T14:16:13Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 141628334,
+        "message": "initial revision",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "461b1868a5d5bde1ed115e212f5845dedc90b529"
+    },
+    "filtered_reason": null,
+    "image_tag": "Backendless-Android-SDK-141628334",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 72,
+        "deletions": 72
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 141631890,
+        "build_job": "460.1",
+        "committed_at": "2016-07-01T14:29:42Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 141631891,
+        "message": "removed BackendlessSimpleQuery",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "6cd4e2306d27e5b7cdf7578c57c4d887ff970ade"
+    },
+    "pr_num": -1,
+    "repo": "Backendless/Android-SDK",
+    "repo_builds": 758,
+    "repo_commits": 1173,
+    "repo_members": 0,
+    "repo_mined_version": "4a76180785fc9dae3081daa7089380f47a119d8c",
+    "repo_prs": 247,
+    "repo_watchers": 38,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Backendless-Android-SDK-141628334",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

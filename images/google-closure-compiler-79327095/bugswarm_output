@@ -1,0 +1,77 @@
+{
+    "_created": "Wed, 07 Mar 2018 17:54:35 GMT",
+    "_etag": "669bbcbb3cde88f9567fc35e72def23dbe11d80d",
+    "_id": "5aa0275bf1f70e0f2d0cde90",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/google-closure-compiler-79327095",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:57:30 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 79327094,
+        "build_job": "1021.1",
+        "committed_at": "2015-09-08T17:17:51Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 79327095,
+        "message": "Automated g4 rollback of changelist 102358033.\n\n*** Reason for rollback ***\n\nBroke some tests (somehow... will need to investigate).\n\n*** Original change description ***\n\nUpdated ReferenceCollectingCallback and GlobalNamespace to use Es6SyntacticScopeCreator.\n\nThis also required updating the CollapseProperties, InlineVariables and InlineObjectLiterals pass to work with block scoping. Updated test files to reflect changes in behavior from adding block scopes.\n\n***\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=102389540",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "5460eff3e6aa0a130b37bf0d12c46c16ba7153b9"
+    },
+    "filtered_reason": null,
+    "image_tag": "google-closure-compiler-79327095",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 1,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 79343291,
+        "build_job": "1022.1",
+        "committed_at": "2015-09-08T19:00:01Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 79343292,
+        "message": "Exclude gwt files, so that maven tests can run\n-------------\nCreated by MOE: http://code.google.com/p/moe-java\nMOE_MIGRATED_REVID=102578075",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 9771,
+        "trigger_sha": "0ae40ca08c5567c06093adc5cdbf42916cfd14a8"
+    },
+    "pr_num": -1,
+    "repo": "google/closure-compiler",
+    "repo_builds": 3022,
+    "repo_commits": 6733,
+    "repo_members": 5,
+    "repo_mined_version": "79deb15554ae0903b21fa9dc94746a879ae8ef12",
+    "repo_prs": 645,
+    "repo_watchers": 3042,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "google-closure-compiler-79327095",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

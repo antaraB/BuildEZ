@@ -1,0 +1,77 @@
+{
+    "_created": "Sun, 04 Mar 2018 06:54:48 GMT",
+    "_etag": "cb473a3f0bde5e592e634856875e26220d48be26",
+    "_id": "5a9b9838f1f70ee79770835d",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/charite-jannovar-100092143",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:41:35 GMT",
+    "base_branch": "",
+    "branch": "develop",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 100092141,
+        "build_job": "497.2",
+        "committed_at": "2016-01-04T11:34:45Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 100092143,
+        "message": "Bumping versions for release to 0.17",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "bf8b87ac2e669e0c71a9aed0968a62da937c7357"
+    },
+    "filtered_reason": null,
+    "image_tag": "charite-jannovar-100092143",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 4,
+        "changes": 8,
+        "deletions": 4
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 112603870,
+        "build_job": "504.2",
+        "committed_at": "2016-02-29T14:49:11Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 112603873,
+        "message": "Fixing version in expected output",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1102,
+        "trigger_sha": "428b40724f5821175646b4cc7c74fe56929261c5"
+    },
+    "pr_num": -1,
+    "repo": "charite/jannovar",
+    "repo_builds": 779,
+    "repo_commits": 1264,
+    "repo_members": 0,
+    "repo_mined_version": "2b91917badc42b03506f49b58d86a688e61fd38e",
+    "repo_prs": 166,
+    "repo_watchers": 14,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "charite-jannovar-100092143",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

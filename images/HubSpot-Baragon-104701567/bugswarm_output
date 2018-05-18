@@ -1,0 +1,77 @@
+{
+    "_created": "Tue, 06 Mar 2018 06:51:56 GMT",
+    "_etag": "b8d19d124643a8bb44ac5708f13508299309d818",
+    "_id": "5a9e3a8cf1f70e33f9b403e6",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/HubSpot-Baragon-104701567",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:53:38 GMT",
+    "base_branch": "",
+    "branch": "new-horizon",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 104701563,
+        "build_job": "1764.3",
+        "committed_at": "2016-01-25T18:06:34Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 104701567,
+        "message": "Update pom.xml",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "ee201dec3b377c0f5c38b5d00aaffa69c9303f6b"
+    },
+    "filtered_reason": null,
+    "image_tag": "HubSpot-Baragon-104701567",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 2,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 104748455,
+        "build_job": "1766.3",
+        "committed_at": "2016-01-25T21:32:06Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 104748458,
+        "message": "bump basepom to 12.9",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1,
+        "trigger_sha": "f01881c3361344c955ddf15c7cc36dfc220af1b7"
+    },
+    "pr_num": -1,
+    "repo": "HubSpot/Baragon",
+    "repo_builds": 2434,
+    "repo_commits": 1792,
+    "repo_members": 0,
+    "repo_mined_version": "e59dcd2028f86293a7962fffc7a653b977ee84e7",
+    "repo_prs": 191,
+    "repo_watchers": 70,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "HubSpot-Baragon-104701567",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'
