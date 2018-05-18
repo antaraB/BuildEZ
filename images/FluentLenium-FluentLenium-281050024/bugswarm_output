@@ -1,0 +1,74 @@
+{
+    "_created": "Mon, 19 Feb 2018 05:48:22 GMT",
+    "_etag": "64a601c861db4e9f4ab75e3d797a9325c2793725",
+    "_id": "5a8a6526f1f70e09105c66ed",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/FluentLenium-FluentLenium-281050024",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:24:43 GMT",
+    "base_branch": "",
+    "branch": "feature/jsAwareAwaiFeature",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 281050023,
+        "build_job": "1486.1",
+        "committed_at": "2017-09-28T20:57:08Z",
+        "failed_tests": "",
+        "job_id": 281050024,
+        "message": "Fixing checkstyle issues",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "105537eb9b6ed127e1c432ba1d517c4b8bf4384c"
+    },
+    "filtered_reason": null,
+    "image_tag": "FluentLenium-FluentLenium-281050024",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 2,
+        "changes": 22,
+        "deletions": 20
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 281053385,
+        "build_job": "1487.1",
+        "committed_at": "2017-09-28T21:06:16Z",
+        "failed_tests": "",
+        "job_id": 281053386,
+        "message": "Fixing checkstyle issues",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1228,
+        "trigger_sha": "a09e9672db9e5cda06d562bb8f735c74cb5133e3"
+    },
+    "pr_num": -1,
+    "repo": "FluentLenium/FluentLenium",
+    "repo_builds": 1299,
+    "repo_commits": 1671,
+    "repo_members": 0,
+    "repo_mined_version": "0d743a9e6bc40d1d089fe3279d4785afe98d9ee3",
+    "repo_prs": 215,
+    "repo_watchers": 388,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "FluentLenium-FluentLenium-281050024",
+    "test_framework": ""
+}

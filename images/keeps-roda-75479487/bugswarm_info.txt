@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/keeps/roda
+Github failed trigger commit:  d4eced1bbddd240893676e2389c986e822be5dce
+Github passed trigger commit:  9d3d0bc0bedb46b7cd85151e8e8bdbbd730c2225
+Github compare link:  https://www.github.com/keeps/roda/compare/9d3d0bc0bedb46b7cd85151e8e8bdbbd730c2225...d4eced1bbddd240893676e2389c986e822be5dce

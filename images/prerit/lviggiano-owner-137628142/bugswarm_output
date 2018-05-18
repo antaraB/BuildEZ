@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 17 Apr 2018 23:03:03 GMT",
+    "_etag": "8fbdc114dfe2192556dad62dfb5a46a105d6ae20",
+    "_id": "5ad67d27f1f70e06ad6f57b5",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/lviggiano-owner-137628142",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Wed, 16 May 2018 18:52:52 GMT",
+    "base_branch": "",
+    "branch": "StFS-bytesize-converter",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 137628140,
+        "build_job": "680.2",
+        "committed_at": "2016-06-14T20:44:32Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 137628142,
+        "message": "refactoring after StFS-bytesize-converter merge",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "6d9058dcca1d35a9576e7e4263ddb9d15f403df9"
+    },
+    "filtered_reason": null,
+    "image_tag": "lviggiano-owner-137628142",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 156,
+        "changes": 164,
+        "deletions": 8
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 137672976,
+        "build_job": "681.2",
+        "committed_at": "2016-06-15T00:19:10Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 137672978,
+        "message": "moved bytesize-converter branch changes to a new owner-java8-extras module",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 276,
+        "trigger_sha": "4c72948d309f43d0fa6d694f973ba185b67c08f6"
+    },
+    "pr_num": -1,
+    "repo": "lviggiano/owner",
+    "repo_builds": 711,
+    "repo_commits": 891,
+    "repo_members": 0,
+    "repo_mined_version": "4d73daa09344a6cfe05801040ea8153c73687d11",
+    "repo_prs": 48,
+    "repo_watchers": 463,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "lviggiano-owner-137628142",
+    "test_framework": ""
+}

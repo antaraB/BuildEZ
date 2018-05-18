@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/davidmoten/rxjava-jdbc
+Github failed trigger commit:  12fa13a1276031b32c4f56ee211f35ed464add7d
+Github passed trigger commit:  880d91d9e3931224d204090db3d267b28b02edbd
+Github compare link:  https://www.github.com/davidmoten/rxjava-jdbc/compare/880d91d9e3931224d204090db3d267b28b02edbd...12fa13a1276031b32c4f56ee211f35ed464add7d

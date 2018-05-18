@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 15:07:45 GMT",
+    "_etag": "a51250a6f81eedcf6f2cbf9b67b1514cf2555fb0",
+    "_id": "5a9c0bc1f1f70ee7990190cd",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/rinde-RinSim-50180604",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:42:37 GMT",
+    "base_branch": "",
+    "branch": "develop",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 50180603,
+        "build_job": "76.1",
+        "committed_at": "2015-02-10T10:31:58Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 50180604,
+        "message": "completed ListenableGraph including tests",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "41c5fd5007aa86a994687ed03daaa49c34870b73"
+    },
+    "filtered_reason": null,
+    "image_tag": "rinde-RinSim-50180604",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 33,
+        "changes": 33,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 50183717,
+        "build_job": "77.1",
+        "committed_at": "2015-02-10T11:00:19Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 50183718,
+        "message": "fixed backwards compatibility issue",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1208,
+        "trigger_sha": "3ad45a18fe50759dc1cb1072822211cb2165496c"
+    },
+    "pr_num": -1,
+    "repo": "rinde/RinSim",
+    "repo_builds": 726,
+    "repo_commits": 2032,
+    "repo_members": 3,
+    "repo_mined_version": "b032ea5aed7a37c93c0ae60b8ff0e73ee4b0a5de",
+    "repo_prs": 8,
+    "repo_watchers": 45,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "rinde-RinSim-50180604",
+    "test_framework": ""
+}

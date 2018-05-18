@@ -1,0 +1,76 @@
+{
+    "_created": "Wed, 07 Mar 2018 17:57:42 GMT",
+    "_etag": "29d350b28500fc120b5af2e3c5d8f9e395c79d44",
+    "_id": "5aa02816f1f70e0f2e2c334a",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/google-closure-compiler-97793256",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:57:33 GMT",
+    "base_branch": "",
+    "branch": "maven-v20151216",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 97793255,
+        "build_job": "1378.1",
+        "committed_at": "2015-12-19T01:44:58Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 97793256,
+        "message": "Skip the gwt submodule to unblock the v20151216 release",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "39ea4b4397f59277d7dd6f1d0714e8fa9743c3a6"
+    },
+    "filtered_reason": null,
+    "image_tag": "google-closure-compiler-97793256",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 1,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 97793830,
+        "build_job": "1379.1",
+        "committed_at": "2015-12-19T01:56:54Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 97793831,
+        "message": "Remove broken gwt submodule to unblock release of maven-v20151216",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 10044,
+        "trigger_sha": "86bd9c53924c83ad34399f02401aefd9332559c2"
+    },
+    "pr_num": -1,
+    "repo": "google/closure-compiler",
+    "repo_builds": 3022,
+    "repo_commits": 6733,
+    "repo_members": 5,
+    "repo_mined_version": "79deb15554ae0903b21fa9dc94746a879ae8ef12",
+    "repo_prs": 645,
+    "repo_watchers": 3042,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "google-closure-compiler-97793256",
+    "test_framework": ""
+}

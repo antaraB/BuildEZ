@@ -1,0 +1,76 @@
+{
+    "_created": "Wed, 07 Mar 2018 19:18:41 GMT",
+    "_etag": "67dd5e18593697ca13f8db3dc3537abde67821fe",
+    "_id": "5aa03b11f1f70e0f34592495",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/google-closure-compiler-172459863",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:58:35 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 172459862,
+        "build_job": "2616.1",
+        "committed_at": "2016-11-01T23:22:13Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 172459863,
+        "message": "Don't bother warning about unused private members on Polymer elements, when those members come from a Behavior.\n\n(When they don't come from a behavior, we get the right behavior automatically because the member is the key of an object literal.)\n\n-------------\nCreated by MOE: https://github.com/google/moe\nMOE_MIGRATED_REVID=137867946",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "5943281a75f6171e337e757f7c72dd504bfb2b3f"
+    },
+    "filtered_reason": null,
+    "image_tag": "google-closure-compiler-172459863",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 8,
+        "changes": 9,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 172690617,
+        "build_job": "2618.1",
+        "committed_at": "2016-11-02T17:25:05Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 172690618,
+        "message": "Use a released version of Guava to compile Closure Compiler.\n\nThe 20-SNAPSHOT version apparently has been removed from maven mirrors,\nrunning the build with an empty local maven cache fails to download it.\n\nCloses https://github.com/google/closure-compiler/pull/2123\n\n-------------\nCreated by MOE: https://github.com/google/moe\nMOE_MIGRATED_REVID=137947467",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 11205,
+        "trigger_sha": "86b68b29e78d51df7522443f8f023f71a0c81d40"
+    },
+    "pr_num": -1,
+    "repo": "google/closure-compiler",
+    "repo_builds": 3022,
+    "repo_commits": 6733,
+    "repo_members": 5,
+    "repo_mined_version": "79deb15554ae0903b21fa9dc94746a879ae8ef12",
+    "repo_prs": 645,
+    "repo_watchers": 3042,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "google-closure-compiler-172459863",
+    "test_framework": ""
+}

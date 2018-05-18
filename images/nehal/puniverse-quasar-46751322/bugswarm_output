@@ -1,0 +1,76 @@
+{
+    "_created": "Wed, 07 Mar 2018 18:04:47 GMT",
+    "_etag": "b98e4b24608425774e81aeac3100adc0b05bfd39",
+    "_id": "5aa029bff1f70e0f33acdddf",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/puniverse-quasar-46751322",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:57:37 GMT",
+    "base_branch": "",
+    "branch": "core-async",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 46751321,
+        "build_job": "879.1",
+        "committed_at": "2015-01-12T17:04:37Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 46751322,
+        "message": "TapSend",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "7a5304fae5ee6de236ff85962701e1c3162aaf46"
+    },
+    "filtered_reason": null,
+    "image_tag": "puniverse-quasar-46751322",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 2,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 46752360,
+        "build_job": "880.1",
+        "committed_at": "2015-01-12T17:12:10Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 46752361,
+        "message": "Fix build",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "d39c587dbe349a48132caa0e72aa3993f2afc063"
+    },
+    "pr_num": -1,
+    "repo": "puniverse/quasar",
+    "repo_builds": 1558,
+    "repo_commits": 2899,
+    "repo_members": 0,
+    "repo_mined_version": "603967f8a8f72f0ccfd9b45a95ce9116b37791bf",
+    "repo_prs": 37,
+    "repo_watchers": 2018,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "puniverse-quasar-46751322",
+    "test_framework": ""
+}

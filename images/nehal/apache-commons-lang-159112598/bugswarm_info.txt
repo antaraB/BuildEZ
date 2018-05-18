@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/apache/commons-lang
+Github failed trigger commit:  https://www.github.com/apache/commons-lang/commit/de125de49a652391f0c38e97001c7863da878f1f
+Github passed trigger commit:  https://www.github.com/apache/commons-lang/commit/4388ded2d1a9a4907e9f7d23a74e416b54a28c85
+Github compare link:  https://www.github.com/apache/commons-lang/compare/de125de49a652391f0c38e97001c7863da878f1f...4388ded2d1a9a4907e9f7d23a74e416b54a28c85

@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/raphw/byte-buddy
+Github failed trigger commit:  05b68f038ffc1d38ca319e6146fb5815dac1a71d
+Github passed trigger commit:  49fce4f0d302026682c1e7f67a56922844d425cd
+Github compare link:  https://www.github.com/raphw/byte-buddy/compare/49fce4f0d302026682c1e7f67a56922844d425cd...05b68f038ffc1d38ca319e6146fb5815dac1a71d

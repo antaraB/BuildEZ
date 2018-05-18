@@ -1,0 +1,10 @@
+1124:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.8:run (ant-phase-verify) on project checkstyle: An Ant BuildException has occured: The following error occurred while executing this line:
+1125:[ERROR] /home/travis/build/checkstyle/checkstyle/config/ant-phase-verify.xml:50: Checkstyle failed: Got 2 errors and 0 warnings.
+1126:[ERROR] around Ant part ...<ant antfile="config/ant-phase-verify.xml"/>... @ 7:47 in /home/travis/build/checkstyle/checkstyle/target/antrun/build-main.xml
+1127:[ERROR] -> [Help 1]
+1128:[ERROR] 
+1129:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1130:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1131:[ERROR] 
+1132:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1133:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/NanoHttpd/nanohttpd
+Github failed trigger commit:  9628584ddde247fda914fd50f2d60362e53cea9f
+Github passed trigger commit:  a3481989f3cc7d7cd69685349fd6f3d2b370bbee
+Github compare link:  https://www.github.com/NanoHttpd/nanohttpd/compare/a3481989f3cc7d7cd69685349fd6f3d2b370bbee...9628584ddde247fda914fd50f2d60362e53cea9f

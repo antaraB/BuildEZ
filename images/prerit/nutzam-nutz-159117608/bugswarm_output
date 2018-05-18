@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 09:13:23 GMT",
+    "_etag": "93d0686a81b321840e7735869102d02507b9fe3a",
+    "_id": "5a952133f1f70e8a29c84017",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/nutzam-nutz-159117608",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:30:40 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 159117601,
+        "build_job": "1401.4",
+        "committed_at": "2016-09-11T14:13:16Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 159117608,
+        "message": "fix: travis-ci\u4e0d\u652f\u6301\u5f3a\u5236\u7528maven\u7f16\u8bd1?",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "2400bf1b11b37487ba0459a44163f0a3114a8a1a"
+    },
+    "filtered_reason": null,
+    "image_tag": "nutzam-nutz-159117608",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 0,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 159118330,
+        "build_job": "1402.4",
+        "committed_at": "2016-09-11T14:19:25Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 159118334,
+        "message": "...",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 4306,
+        "trigger_sha": "45a7022c01fed3d6a0aee7a20da255c7c1485ce0"
+    },
+    "pr_num": -1,
+    "repo": "nutzam/nutz",
+    "repo_builds": 1737,
+    "repo_commits": 2194,
+    "repo_members": 0,
+    "repo_mined_version": "7955ef6c39ed0fd23f516e9894cf7d988e2736b4",
+    "repo_prs": 147,
+    "repo_watchers": 958,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "nutzam-nutz-159117608",
+    "test_framework": ""
+}

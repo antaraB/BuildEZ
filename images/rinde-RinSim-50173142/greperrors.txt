@@ -1,0 +1,10 @@
+952:[ERROR] Failed to execute goal com.mycila:license-maven-plugin:2.3:check (check-license) on project rinsim-ui: Some files do not have the expected license header -> [Help 1]
+953:[ERROR] 
+954:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+955:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+956:[ERROR] 
+957:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+958:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+959:[ERROR] 
+960:[ERROR] After correcting the problems, you can resume the build with the command
+961:[ERROR]   mvn <goals> -rf :rinsim-ui

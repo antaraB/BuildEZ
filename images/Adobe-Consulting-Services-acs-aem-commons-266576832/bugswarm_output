@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 05:28:58 GMT",
+    "_etag": "76390eef563757ba063951b24be78808f96ffb1e",
+    "_id": "5a94ec9af1f70e8a2ab869ed",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Adobe-Consulting-Services-acs-aem-commons-266576832",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:26:21 GMT",
+    "base_branch": "",
+    "branch": "compat/6.0",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 266576831,
+        "build_job": "2050.1",
+        "committed_at": "2017-08-20T18:50:23Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 266576832,
+        "message": "Merge branch 'compat/6.0' of github.com:Adobe-Consulting-Services/acs-aem-commons into compat/6.0-2.13.0",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "1c36f465d33a33575f64455dd93b5d0084d432ea"
+    },
+    "filtered_reason": null,
+    "image_tag": "Adobe-Consulting-Services-acs-aem-commons-266576832",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 25,
+        "changes": 26,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 266579316,
+        "build_job": "2051.1",
+        "committed_at": "2017-08-20T19:02:46Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 266579317,
+        "message": "#package-info",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 7,
+        "trigger_sha": "56600a37617407b3f85e11205694e13963a67572"
+    },
+    "pr_num": -1,
+    "repo": "Adobe-Consulting-Services/acs-aem-commons",
+    "repo_builds": 1781,
+    "repo_commits": 2239,
+    "repo_members": 0,
+    "repo_mined_version": "0d9b5dcfc89ce2f57a3a8fb35907b18ea4d4aaf5",
+    "repo_prs": 371,
+    "repo_watchers": 197,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Adobe-Consulting-Services-acs-aem-commons-266576832",
+    "test_framework": ""
+}

@@ -1,0 +1,74 @@
+{
+    "_created": "Sat, 27 Jan 2018 22:39:49 GMT",
+    "_etag": "d69d8a39a972b95d0a20a776337c10a2dd2643b9",
+    "_id": "5a6cffb5f1f70e0793e60375",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/apache-commons-lang-159112598",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:20:15 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 159112596,
+        "build_job": "447.2",
+        "committed_at": "2016-09-11T13:33:01Z",
+        "failed_tests": "",
+        "job_id": 159112598,
+        "message": "Add missing @since tags for new StringUtils methods",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "de125de49a652391f0c38e97001c7863da878f1f"
+    },
+    "filtered_reason": "",
+    "image_tag": "apache-commons-lang-159112598",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 246,
+        "deletions": 246
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 159114196,
+        "build_job": "448.2",
+        "committed_at": "2016-09-11T13:47:33Z",
+        "failed_tests": "",
+        "job_id": 159114198,
+        "message": "Revert \"[LANG-1201] Add a TimeUnit-like classes for base 2 and base 10 digital\"\n\nThis reverts commit a1cde6ab707515ae014c2635f9d32ad0ba64e7a0.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 3875,
+        "trigger_sha": "4388ded2d1a9a4907e9f7d23a74e416b54a28c85"
+    },
+    "pr_num": -1,
+    "repo": "apache/commons-lang",
+    "repo_builds": 797,
+    "repo_commits": 2286,
+    "repo_members": 0,
+    "repo_mined_version": "f50ec5e608286b0c48d6b9b4c792352de8353804",
+    "repo_prs": 230,
+    "repo_watchers": 828,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "apache-commons-lang-159112598",
+    "test_framework": ""
+}

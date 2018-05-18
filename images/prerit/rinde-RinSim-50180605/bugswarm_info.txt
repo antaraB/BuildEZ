@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/rinde/RinSim
+Github failed trigger commit:  https://www.github.com/rinde/RinSim/commit/41c5fd5007aa86a994687ed03daaa49c34870b73
+Github passed trigger commit:  https://www.github.com/rinde/RinSim/commit/3ad45a18fe50759dc1cb1072822211cb2165496c
+Github compare link:  https://www.github.com/rinde/RinSim/compare/41c5fd5007aa86a994687ed03daaa49c34870b73...3ad45a18fe50759dc1cb1072822211cb2165496c

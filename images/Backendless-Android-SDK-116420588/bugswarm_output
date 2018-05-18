@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 01:42:38 GMT",
+    "_etag": "512899918874cf35c203a50ba0b88d1ac4ae94e7",
+    "_id": "5a9b4f0ef1f70ee799017e0d",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Backendless-Android-SDK-116420588",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:40:51 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 116420587,
+        "build_job": "347.1",
+        "committed_at": "2016-03-16T16:23:13Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 116420588,
+        "message": "Merge remote-tracking branch 'origin/master'",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "56d05557c465053b5f331f491c99549616f197a2"
+    },
+    "filtered_reason": null,
+    "image_tag": "Backendless-Android-SDK-116420588",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 2,
+        "changes": 2,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 116421679,
+        "build_job": "348.1",
+        "committed_at": "2016-03-16T16:27:08Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 116421680,
+        "message": "fixed travis-ci build",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "e1f50249a03c6ff505aed0848d137d17cf842542"
+    },
+    "pr_num": -1,
+    "repo": "Backendless/Android-SDK",
+    "repo_builds": 758,
+    "repo_commits": 1173,
+    "repo_members": 0,
+    "repo_mined_version": "4a76180785fc9dae3081daa7089380f47a119d8c",
+    "repo_prs": 247,
+    "repo_watchers": 38,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Backendless-Android-SDK-116420588",
+    "test_framework": ""
+}

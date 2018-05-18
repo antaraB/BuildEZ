@@ -1,0 +1,42 @@
+3365:[ERROR] COMPILATION ERROR : 
+3367:[ERROR] /home/travis/build/apache/airavata/airavata-api/airavata-client-sdks/java-client-samples/src/main/java/org/apache/airavata/client/secure/client/SecureClient.java:[225,47] incompatible types: java.lang.String cannot be converted to org.apache.airavata.model.workspace.Gateway
+3428:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project airavata-client-samples: Compilation failure
+3429:[ERROR] /home/travis/build/apache/airavata/airavata-api/airavata-client-sdks/java-client-samples/src/main/java/org/apache/airavata/client/secure/client/SecureClient.java:[225,47] incompatible types: java.lang.String cannot be converted to org.apache.airavata.model.workspace.Gateway
+3430:[ERROR] -> [Help 1]
+3431:[ERROR] 
+3432:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+3433:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+3434:[ERROR] 
+3435:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+3436:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+3437:[ERROR] 
+3438:[ERROR] After correcting the problems, you can resume the build with the command
+3439:[ERROR]   mvn <goals> -rf :airavata-client-samples
+4329:[ERROR] COMPILATION ERROR : 
+4331:[ERROR] /home/travis/build/apache/airavata/airavata-api/airavata-client-sdks/java-client-samples/src/main/java/org/apache/airavata/client/secure/client/SecureClient.java:[225,47] incompatible types: java.lang.String cannot be converted to org.apache.airavata.model.workspace.Gateway
+4392:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project airavata-client-samples: Compilation failure
+4393:[ERROR] /home/travis/build/apache/airavata/airavata-api/airavata-client-sdks/java-client-samples/src/main/java/org/apache/airavata/client/secure/client/SecureClient.java:[225,47] incompatible types: java.lang.String cannot be converted to org.apache.airavata.model.workspace.Gateway
+4394:[ERROR] -> [Help 1]
+4395:[ERROR] 
+4396:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+4397:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+4398:[ERROR] 
+4399:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+4400:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+4401:[ERROR] 
+4402:[ERROR] After correcting the problems, you can resume the build with the command
+4403:[ERROR]   mvn <goals> -rf :airavata-client-samples
+5293:[ERROR] COMPILATION ERROR : 
+5295:[ERROR] /home/travis/build/apache/airavata/airavata-api/airavata-client-sdks/java-client-samples/src/main/java/org/apache/airavata/client/secure/client/SecureClient.java:[225,47] incompatible types: java.lang.String cannot be converted to org.apache.airavata.model.workspace.Gateway
+5356:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project airavata-client-samples: Compilation failure
+5357:[ERROR] /home/travis/build/apache/airavata/airavata-api/airavata-client-sdks/java-client-samples/src/main/java/org/apache/airavata/client/secure/client/SecureClient.java:[225,47] incompatible types: java.lang.String cannot be converted to org.apache.airavata.model.workspace.Gateway
+5358:[ERROR] -> [Help 1]
+5359:[ERROR] 
+5360:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+5361:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+5362:[ERROR] 
+5363:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+5364:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+5365:[ERROR] 
+5366:[ERROR] After correcting the problems, you can resume the build with the command
+5367:[ERROR]   mvn <goals> -rf :airavata-client-samples

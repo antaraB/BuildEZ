@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 04:09:29 GMT",
+    "_etag": "743fe1368b5f4231436e00f3e24972ad513bafdb",
+    "_id": "5a9b7179f1f70ee799018144",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/apache-airavata-144259094",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:41:24 GMT",
+    "base_branch": "",
+    "branch": "develop",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 144259093,
+        "build_job": "126.1",
+        "committed_at": "2016-07-12T19:05:01Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 144259094,
+        "message": "Added missing thrift gen classes",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "3b09770a8dfef3a3f7f0c5d4f775d7678a3b233e"
+    },
+    "filtered_reason": null,
+    "image_tag": "apache-airavata-144259094",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 2,
+        "changes": 3,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 144282448,
+        "build_job": "127.1",
+        "committed_at": "2016-07-12T20:39:56Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 144282449,
+        "message": "Fixed issue with SecureClient",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 71,
+        "trigger_sha": "1148ffc078a4dafbb5f3e38d355f9faa07320594"
+    },
+    "pr_num": -1,
+    "repo": "apache/airavata",
+    "repo_builds": 803,
+    "repo_commits": 3527,
+    "repo_members": 0,
+    "repo_mined_version": "2ec390286fbcff103ff6ad16c58ca3011de1dc8b",
+    "repo_prs": 92,
+    "repo_watchers": 38,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "apache-airavata-144259094",
+    "test_framework": ""
+}

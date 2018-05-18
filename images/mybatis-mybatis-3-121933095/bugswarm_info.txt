@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/mybatis/mybatis-3
+Github failed trigger commit:  0524f022b6e60dfc983709900495f9809cf0bac2
+Github passed trigger commit:  2c61e6e1aeafd46af4c18039a995206ead8d6377
+Github compare link:  https://www.github.com/mybatis/mybatis-3/compare/2c61e6e1aeafd46af4c18039a995206ead8d6377...0524f022b6e60dfc983709900495f9809cf0bac2

@@ -1,0 +1,74 @@
+{
+    "_created": "Thu, 25 Jan 2018 22:25:09 GMT",
+    "_etag": "af31b4231a3de86a8eec2b2b7bc2834dc9ebdf80",
+    "_id": "5a6a5945f1f70e078d0d42ef",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/square-javapoet-48408221",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:17:34 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 48408220,
+        "build_job": "697.1",
+        "committed_at": "2015-01-26T22:28:47Z",
+        "failed_tests": "",
+        "job_id": 48408221,
+        "message": "Drop 'multiple'.",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "6db81d3fdd3b29df5464741a6e7dcadc9a0f9c06"
+    },
+    "filtered_reason": "",
+    "image_tag": "square-javapoet-48408221",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 5,
+        "changes": 6,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 48421209,
+        "build_job": "704.1",
+        "committed_at": "2015-01-27T00:05:16Z",
+        "failed_tests": "",
+        "job_id": 48421211,
+        "message": "Merge pull request #203 from square/jw/build-failure\n\nAdd missing indent.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 86,
+        "trigger_sha": "74907054c085e3b33cbec4a064afcc3814ae0dd0"
+    },
+    "pr_num": -1,
+    "repo": "square/javapoet",
+    "repo_builds": 1548,
+    "repo_commits": 608,
+    "repo_members": 3,
+    "repo_mined_version": "681060898269d30ae29ac78f958be0ac91ffb7e3",
+    "repo_prs": 209,
+    "repo_watchers": 2513,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "square-javapoet-48408221",
+    "test_framework": ""
+}

@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/pgjdbc/pgjdbc
+Github failed trigger commit:  https://www.github.com/pgjdbc/pgjdbc/commit/cac20a401c03c3aeba731f4f96f087ddd9bcc064
+Github passed trigger commit:  https://www.github.com/pgjdbc/pgjdbc/commit/6fb851c46e34f15f2107c804687511078ea34bee
+Github compare link:  https://www.github.com/pgjdbc/pgjdbc/compare/cac20a401c03c3aeba731f4f96f087ddd9bcc064...6fb851c46e34f15f2107c804687511078ea34bee

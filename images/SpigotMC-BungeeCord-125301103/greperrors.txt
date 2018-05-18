@@ -1,0 +1,60 @@
+1316:[ERROR] COMPILATION ERROR : 
+1318:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[112,73] cannot find symbol
+1321:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[116,73] cannot find symbol
+1353:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project bungeecord-proxy: Compilation failure: Compilation failure:
+1354:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[112,73] cannot find symbol
+1355:[ERROR] symbol:   variable BYTES
+1356:[ERROR] location: class java.lang.Short
+1357:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[116,73] cannot find symbol
+1358:[ERROR] symbol:   variable BYTES
+1359:[ERROR] location: class java.lang.Short
+1360:[ERROR] -> [Help 1]
+1361:[ERROR] 
+1362:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1363:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1364:[ERROR] 
+1365:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1366:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1367:[ERROR] 
+1368:[ERROR] After correcting the problems, you can resume the build with the command
+1369:[ERROR]   mvn <goals> -rf :bungeecord-proxy
+1719:[ERROR] COMPILATION ERROR : 
+1721:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[112,73] cannot find symbol
+1724:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[116,73] cannot find symbol
+1756:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project bungeecord-proxy: Compilation failure: Compilation failure:
+1757:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[112,73] cannot find symbol
+1758:[ERROR] symbol:   variable BYTES
+1759:[ERROR] location: class java.lang.Short
+1760:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[116,73] cannot find symbol
+1761:[ERROR] symbol:   variable BYTES
+1762:[ERROR] location: class java.lang.Short
+1763:[ERROR] -> [Help 1]
+1764:[ERROR] 
+1765:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1766:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1767:[ERROR] 
+1768:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1769:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1770:[ERROR] 
+1771:[ERROR] After correcting the problems, you can resume the build with the command
+1772:[ERROR]   mvn <goals> -rf :bungeecord-proxy
+2122:[ERROR] COMPILATION ERROR : 
+2124:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[112,73] cannot find symbol
+2127:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[116,73] cannot find symbol
+2159:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project bungeecord-proxy: Compilation failure: Compilation failure:
+2160:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[112,73] cannot find symbol
+2161:[ERROR] symbol:   variable BYTES
+2162:[ERROR] location: class java.lang.Short
+2163:[ERROR] /home/travis/build/SpigotMC/BungeeCord/proxy/src/main/java/net/md_5/bungee/entitymap/EntityMap_1_8.java:[116,73] cannot find symbol
+2164:[ERROR] symbol:   variable BYTES
+2165:[ERROR] location: class java.lang.Short
+2166:[ERROR] -> [Help 1]
+2167:[ERROR] 
+2168:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2169:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2170:[ERROR] 
+2171:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2172:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2173:[ERROR] 
+2174:[ERROR] After correcting the problems, you can resume the build with the command
+2175:[ERROR]   mvn <goals> -rf :bungeecord-proxy

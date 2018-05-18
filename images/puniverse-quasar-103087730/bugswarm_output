@@ -1,0 +1,76 @@
+{
+    "_created": "Wed, 07 Mar 2018 18:41:08 GMT",
+    "_etag": "0f0b6109c271bff157f47476b6e88b6ba5829944",
+    "_id": "5aa03244f1f70e0f33acde21",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/puniverse-quasar-103087730",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:58:07 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 103087728,
+        "build_job": "1349.2",
+        "committed_at": "2016-01-18T11:24:05Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 103087730,
+        "message": "Merge branch '0.7.0'\n\n# Conflicts:\n#\tbuild.gradle",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "43e372040e71d014c4e5634a3287a523a4859632"
+    },
+    "filtered_reason": null,
+    "image_tag": "puniverse-quasar-103087730",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 6,
+        "deletions": 5
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 103088076,
+        "build_job": "1350.2",
+        "committed_at": "2016-01-18T11:26:13Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 103088078,
+        "message": ":green_heart: fix build",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "952888198e4dbd2bb23c4858fe6304cc5b96a67a"
+    },
+    "pr_num": -1,
+    "repo": "puniverse/quasar",
+    "repo_builds": 1558,
+    "repo_commits": 2899,
+    "repo_members": 0,
+    "repo_mined_version": "603967f8a8f72f0ccfd9b45a95ce9116b37791bf",
+    "repo_prs": 37,
+    "repo_watchers": 2018,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "puniverse-quasar-103087730",
+    "test_framework": ""
+}

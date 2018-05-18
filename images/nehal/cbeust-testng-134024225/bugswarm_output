@@ -1,0 +1,74 @@
+{
+    "_created": "Thu, 01 Feb 2018 12:43:50 GMT",
+    "_etag": "3c94cbb6d774168300eb9f8adc93aae43890fd88",
+    "_id": "5a730b86f1f70e0793e612b5",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/cbeust-testng-134024225",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:22:51 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 134024223,
+        "build_job": "685.2",
+        "committed_at": "2016-05-30T21:41:59Z",
+        "failed_tests": "",
+        "job_id": 134024225,
+        "message": "Merge pull request #1054 from juherr/junit-classrule\n\nFix #1045: TestNG swallows exceptions silently if @ClassRule is used",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "2ff96a39753564c47097265159c373657ef0c690"
+    },
+    "filtered_reason": "",
+    "image_tag": "cbeust-testng-134024225",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 30,
+        "deletions": 30
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 134026156,
+        "build_job": "687.2",
+        "committed_at": "2016-05-30T21:55:55Z",
+        "failed_tests": "",
+        "job_id": 134026162,
+        "message": "Merge pull request #1055 from juherr/junit-classrule\n\nRename wrong file name",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "f5717c99c16115b3509de124606b4c3573cac5bb"
+    },
+    "pr_num": -1,
+    "repo": "cbeust/testng",
+    "repo_builds": 1189,
+    "repo_commits": 3796,
+    "repo_members": 4,
+    "repo_mined_version": "1d0916d9355c042d39ead53744802bb1b5e0fd33",
+    "repo_prs": 527,
+    "repo_watchers": 789,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "cbeust-testng-134024225",
+    "test_framework": ""
+}

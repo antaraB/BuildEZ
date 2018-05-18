@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 10:38:32 GMT",
+    "_etag": "5acf5cc9577991c03f7a1c0eb3f7ace0d5e2b9fb",
+    "_id": "5a953528f1f70e8a2ab86e5b",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/nutzam-nutz-258191593",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:30:52 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 258191592,
+        "build_job": "1938.1",
+        "committed_at": "2017-07-27T15:28:06Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 258191593,
+        "message": "Merge pull request #1290 from zhwq1216/master\n\n\u4fee\u6b63map\u8f6c\u5bf9\u8c61\u548cjson\u8f6c\u5bf9\u8c61\u65f6\u6cdb\u578b\u57fa\u7c7b\u4e2d\u6cdb\u578b\u53d8\u91cf\u7c7b\u578b\u4e0d\u6b63\u786e\u95ee\u9898\u3002",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "3197b0337f87ad0f42e0e05c8e018079ac819535"
+    },
+    "filtered_reason": null,
+    "image_tag": "nutzam-nutz-258191593",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 1,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 258192389,
+        "build_job": "1939.1",
+        "committed_at": "2017-07-27T15:30:02Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 258192390,
+        "message": "fix \u7f16\u8bd1\u9519\u8bef",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 4494,
+        "trigger_sha": "8720603a43a27fe5630cb1898fbc0ecfa40f76a3"
+    },
+    "pr_num": -1,
+    "repo": "nutzam/nutz",
+    "repo_builds": 1737,
+    "repo_commits": 2194,
+    "repo_members": 0,
+    "repo_mined_version": "7955ef6c39ed0fd23f516e9894cf7d988e2736b4",
+    "repo_prs": 147,
+    "repo_watchers": 958,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "nutzam-nutz-258191593",
+    "test_framework": ""
+}

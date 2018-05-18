@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 06 Mar 2018 02:11:17 GMT",
+    "_etag": "c318240f3b15549c1c8ae695feec7a3915ca08ff",
+    "_id": "5a9df8c5f1f70e072bf02692",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/checkstyle-checkstyle-135860178",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:48:07 GMT",
+    "base_branch": "master",
+    "branch": "issue_3239",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "c58874e1ede888709e54871b297287e56e68432b",
+        "build_id": 135860148,
+        "build_job": "7276.30",
+        "committed_at": "2016-06-07T12:43:56Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 135860178,
+        "message": "Issue #3239: added receiver parameter to java grammar",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "288fcfafcec3b0e10880d56d08b714689426dacc"
+    },
+    "filtered_reason": null,
+    "image_tag": "checkstyle-checkstyle-135860178",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 473,
+        "changes": 839,
+        "deletions": 366
+    },
+    "passed_job": {
+        "base_sha": "c58874e1ede888709e54871b297287e56e68432b",
+        "build_id": 135903732,
+        "build_job": "7281.30",
+        "committed_at": "2016-06-07T15:29:31Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 135903771,
+        "message": "Issue #3239: added receiver parameter to java grammar",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "f2ed5298c27f301357c5d82be70c1668f60f2551"
+    },
+    "pr_num": 3252,
+    "repo": "checkstyle/checkstyle",
+    "repo_builds": 10013,
+    "repo_commits": 4429,
+    "repo_members": 9,
+    "repo_mined_version": "810b5e9ef81fb40d4f88f9dae86b930b2735e431",
+    "repo_prs": 2174,
+    "repo_watchers": 1695,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "checkstyle-checkstyle-135860178",
+    "test_framework": ""
+}

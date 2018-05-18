@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 06 Mar 2018 01:32:16 GMT",
+    "_etag": "54b5fe81aaf8715671e19213f68700fde5a37299",
+    "_id": "5a9defa0f1f70e072f3a55a9",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/joyent-java-manta-100589610",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:46:31 GMT",
+    "base_branch": "",
+    "branch": "thread-safe",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 100589609,
+        "build_job": "172.1",
+        "committed_at": "2016-01-06T14:30:27Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 100589610,
+        "message": "Updated readme.",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "acb512a9f017abaf178b0c7f8df8f939d6b001e5"
+    },
+    "filtered_reason": null,
+    "image_tag": "joyent-java-manta-100589610",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 2,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 100873492,
+        "build_job": "174.1",
+        "committed_at": "2016-01-07T17:22:47Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 100873493,
+        "message": "Moved to non-snapshot version of google-http-client-signature",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "2f4e53408f4a124c77d3fec6d8162bd03f070f6d"
+    },
+    "pr_num": -1,
+    "repo": "joyent/java-manta",
+    "repo_builds": 820,
+    "repo_commits": 922,
+    "repo_members": 0,
+    "repo_mined_version": "9b297fdc1010b9ef8a243afbef3e68290cfb7077",
+    "repo_prs": 91,
+    "repo_watchers": 8,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "joyent-java-manta-100589610",
+    "test_framework": ""
+}

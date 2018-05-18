@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 15:14:16 GMT",
+    "_etag": "aae7d884399b69c9fcd0e7eeb746d1cce701cfa4",
+    "_id": "5a9c0d48f1f70ee797708bb8",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/rinde-RinSim-50173142",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:42:39 GMT",
+    "base_branch": "",
+    "branch": "develop",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 50173139,
+        "build_job": "74.3",
+        "committed_at": "2015-02-10T09:16:29Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 50173142,
+        "message": "added license",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "795ed8fb38e70acc27341300291b2b6b4b8d8217"
+    },
+    "filtered_reason": null,
+    "image_tag": "rinde-RinSim-50173142",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 30,
+        "changes": 30,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 50174656,
+        "build_job": "75.3",
+        "committed_at": "2015-02-10T09:31:15Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 50174659,
+        "message": "added licenses",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1205,
+        "trigger_sha": "d4bb7f3333ca3db02bb4b1df8ea9c6dec822eba2"
+    },
+    "pr_num": -1,
+    "repo": "rinde/RinSim",
+    "repo_builds": 726,
+    "repo_commits": 2032,
+    "repo_members": 3,
+    "repo_mined_version": "b032ea5aed7a37c93c0ae60b8ff0e73ee4b0a5de",
+    "repo_prs": 8,
+    "repo_watchers": 45,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "rinde-RinSim-50173142",
+    "test_framework": ""
+}

@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/konsoletyper/teavm
+Github failed trigger commit:  https://www.github.com/konsoletyper/teavm/commit/11e168bc25660997c451f1a9ff4c0c66822ccad9
+Github passed trigger commit:  https://www.github.com/konsoletyper/teavm/commit/acaec942a13fe9859f1fe60e3ceae00bf3e17963
+Github compare link:  https://www.github.com/konsoletyper/teavm/compare/11e168bc25660997c451f1a9ff4c0c66822ccad9...acaec942a13fe9859f1fe60e3ceae00bf3e17963

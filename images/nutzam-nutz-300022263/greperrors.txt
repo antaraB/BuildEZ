@@ -1,0 +1,39 @@
+1142:[ERROR] COMPILATION ERROR : 
+1144:[ERROR] /home/travis/build/nutzam/nutz/test/org/nutz/dao/test/entity/EntityParsingTest.java:[148,27] cannot find symbol
+1156:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile) on project nutz: Compilation failure
+1157:[ERROR] /home/travis/build/nutzam/nutz/test/org/nutz/dao/test/entity/EntityParsingTest.java:[148,27] cannot find symbol
+1158:[ERROR]   symbol:   class TO7
+1159:[ERROR]   location: class org.nutz.dao.test.entity.EntityParsingTest
+1160:[ERROR] -> [Help 1]
+1161:[ERROR] 
+1162:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1163:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1164:[ERROR] 
+1165:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1166:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1205:[ERROR] COMPILATION ERROR : 
+1207:[ERROR] /home/travis/build/nutzam/nutz/test/org/nutz/dao/test/entity/EntityParsingTest.java:[148,27] cannot find symbol
+1219:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile) on project nutz: Compilation failure
+1220:[ERROR] /home/travis/build/nutzam/nutz/test/org/nutz/dao/test/entity/EntityParsingTest.java:[148,27] cannot find symbol
+1221:[ERROR]   symbol:   class TO7
+1222:[ERROR]   location: class org.nutz.dao.test.entity.EntityParsingTest
+1223:[ERROR] -> [Help 1]
+1224:[ERROR] 
+1225:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1226:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1227:[ERROR] 
+1228:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1229:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1268:[ERROR] COMPILATION ERROR : 
+1270:[ERROR] /home/travis/build/nutzam/nutz/test/org/nutz/dao/test/entity/EntityParsingTest.java:[148,27] cannot find symbol
+1282:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile) on project nutz: Compilation failure
+1283:[ERROR] /home/travis/build/nutzam/nutz/test/org/nutz/dao/test/entity/EntityParsingTest.java:[148,27] cannot find symbol
+1284:[ERROR]   symbol:   class TO7
+1285:[ERROR]   location: class org.nutz.dao.test.entity.EntityParsingTest
+1286:[ERROR] -> [Help 1]
+1287:[ERROR] 
+1288:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1289:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1290:[ERROR] 
+1291:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1292:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

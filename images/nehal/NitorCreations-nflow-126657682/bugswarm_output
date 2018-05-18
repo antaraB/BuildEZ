@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 06:12:59 GMT",
+    "_etag": "7ee8a85b296b97b0c9cd7731039f0ab9b67cc7c1",
+    "_id": "5a94f6ebf1f70e8a2ab86c12",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/NitorCreations-nflow-126657682",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:27:08 GMT",
+    "base_branch": "",
+    "branch": "new-engine-model",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 126657681,
+        "build_job": "1741.1",
+        "committed_at": "2016-04-29T13:40:59Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 126657682,
+        "message": "Some experiments with new model for processing",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "4e1ffef1bf3f6a99fe68fd58cca5a46e2fc6f237"
+    },
+    "filtered_reason": null,
+    "image_tag": "NitorCreations-nflow-126657682",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 86,
+        "changes": 105,
+        "deletions": 19
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 126863760,
+        "build_job": "1742.1",
+        "committed_at": "2016-04-30T11:10:41Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 126863761,
+        "message": "Some code to convert from existing worfklows to new processing model.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 342,
+        "trigger_sha": "527f221a130fb302fc2ad5cc698721ec426cf6af"
+    },
+    "pr_num": -1,
+    "repo": "NitorCreations/nflow",
+    "repo_builds": 1997,
+    "repo_commits": 1909,
+    "repo_members": 0,
+    "repo_mined_version": "cb53c7cb32247e1421338a85ce653bfc288f5224",
+    "repo_prs": 204,
+    "repo_watchers": 26,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "NitorCreations-nflow-126657682",
+    "test_framework": ""
+}

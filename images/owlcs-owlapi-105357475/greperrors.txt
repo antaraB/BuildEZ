@@ -1,0 +1,42 @@
+588:[ERROR] COMPILATION ERROR : 
+590:[ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+616:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project owlapi-contract: Compilation failure
+617:[ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+618:[ERROR] -> [Help 1]
+619:[ERROR] 
+620:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+621:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+622:[ERROR] 
+623:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+624:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+625:[ERROR] 
+626:[ERROR] After correcting the problems, you can resume the build with the command
+627:[ERROR]   mvn <goals> -rf :owlapi-contract
+1097:[ERROR] COMPILATION ERROR : 
+1099:[ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+1125:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project owlapi-contract: Compilation failure
+1126:[ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+1127:[ERROR] -> [Help 1]
+1128:[ERROR] 
+1129:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1130:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1131:[ERROR] 
+1132:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1133:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1134:[ERROR] 
+1135:[ERROR] After correcting the problems, you can resume the build with the command
+1136:[ERROR]   mvn <goals> -rf :owlapi-contract
+1606:[ERROR] COMPILATION ERROR : 
+1608:[ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+1634:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project owlapi-contract: Compilation failure
+1635:[ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+1636:[ERROR] -> [Help 1]
+1637:[ERROR] 
+1638:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1639:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1640:[ERROR] 
+1641:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1642:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1643:[ERROR] 
+1644:[ERROR] After correcting the problems, you can resume the build with the command
+1645:[ERROR]   mvn <goals> -rf :owlapi-contract

@@ -1,0 +1,42 @@
+1546:[ERROR] COMPILATION ERROR : 
+1548:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/test/java/org/fluentlenium/adapter/FluentTestRunnerAdapterRetriesTest.java:[77,20] getSharedWebDriver(org.fluentlenium.adapter.SharedMutator.EffectiveParameters<?>,java.util.concurrent.ExecutorService) has private access in org.fluentlenium.adapter.FluentTestRunnerAdapter
+1568:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project fluentlenium-core: Compilation failure
+1569:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/test/java/org/fluentlenium/adapter/FluentTestRunnerAdapterRetriesTest.java:[77,20] getSharedWebDriver(org.fluentlenium.adapter.SharedMutator.EffectiveParameters<?>,java.util.concurrent.ExecutorService) has private access in org.fluentlenium.adapter.FluentTestRunnerAdapter
+1570:[ERROR] -> [Help 1]
+1571:[ERROR] 
+1572:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1573:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1574:[ERROR] 
+1575:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1576:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1577:[ERROR] 
+1578:[ERROR] After correcting the problems, you can resume the build with the command
+1579:[ERROR]   mvn <goals> -rf :fluentlenium-core
+1647:[ERROR] COMPILATION ERROR : 
+1649:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/test/java/org/fluentlenium/adapter/FluentTestRunnerAdapterRetriesTest.java:[77,20] getSharedWebDriver(org.fluentlenium.adapter.SharedMutator.EffectiveParameters<?>,java.util.concurrent.ExecutorService) has private access in org.fluentlenium.adapter.FluentTestRunnerAdapter
+1669:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project fluentlenium-core: Compilation failure
+1670:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/test/java/org/fluentlenium/adapter/FluentTestRunnerAdapterRetriesTest.java:[77,20] getSharedWebDriver(org.fluentlenium.adapter.SharedMutator.EffectiveParameters<?>,java.util.concurrent.ExecutorService) has private access in org.fluentlenium.adapter.FluentTestRunnerAdapter
+1671:[ERROR] -> [Help 1]
+1672:[ERROR] 
+1673:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1674:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1675:[ERROR] 
+1676:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1677:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1678:[ERROR] 
+1679:[ERROR] After correcting the problems, you can resume the build with the command
+1680:[ERROR]   mvn <goals> -rf :fluentlenium-core
+1748:[ERROR] COMPILATION ERROR : 
+1750:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/test/java/org/fluentlenium/adapter/FluentTestRunnerAdapterRetriesTest.java:[77,20] getSharedWebDriver(org.fluentlenium.adapter.SharedMutator.EffectiveParameters<?>,java.util.concurrent.ExecutorService) has private access in org.fluentlenium.adapter.FluentTestRunnerAdapter
+1770:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project fluentlenium-core: Compilation failure
+1771:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/test/java/org/fluentlenium/adapter/FluentTestRunnerAdapterRetriesTest.java:[77,20] getSharedWebDriver(org.fluentlenium.adapter.SharedMutator.EffectiveParameters<?>,java.util.concurrent.ExecutorService) has private access in org.fluentlenium.adapter.FluentTestRunnerAdapter
+1772:[ERROR] -> [Help 1]
+1773:[ERROR] 
+1774:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1775:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1776:[ERROR] 
+1777:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1778:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1779:[ERROR] 
+1780:[ERROR] After correcting the problems, you can resume the build with the command
+1781:[ERROR]   mvn <goals> -rf :fluentlenium-core

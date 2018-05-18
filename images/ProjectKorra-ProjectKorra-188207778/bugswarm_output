@@ -1,0 +1,76 @@
+{
+    "_created": "Sat, 03 Mar 2018 02:36:20 GMT",
+    "_etag": "4098fc9dcb27d00bec74f26e40e6dfdd4e72a9bc",
+    "_id": "5a9a0a24f1f70ee797705c54",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/ProjectKorra-ProjectKorra-188207778",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:38:03 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 188207777,
+        "build_job": "873.1",
+        "committed_at": "2017-01-02T10:33:08Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 188207778,
+        "message": "Various Fixes with LavaFlow and EarthTunnel plus some Extra (#669)\n\n* Various Changes\r\n\r\n* Remove Debug Message.\r\n\r\n* Fix Immobilize.",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "f4a367837d440bcc40c16ca1ef0b52a0a9225045"
+    },
+    "filtered_reason": null,
+    "image_tag": "ProjectKorra-ProjectKorra-188207778",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 2,
+        "changes": 3,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 188210765,
+        "build_job": "875.1",
+        "committed_at": "2017-01-02T10:49:38Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 188210766,
+        "message": "Build Fix (#670)\n\n* Fix missing import of org.bukkit.Bukkit in PKListener\r\n\r\n* Fix incorrect path for GLib in pom.xml",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "989b0ca3f493bc17d6c26bc366df19952dd024a4"
+    },
+    "pr_num": -1,
+    "repo": "ProjectKorra/ProjectKorra",
+    "repo_builds": 1031,
+    "repo_commits": 2167,
+    "repo_members": 0,
+    "repo_mined_version": "08165edeb1a75a9f0c0e89fd85b5d9a5d0a27830",
+    "repo_prs": 664,
+    "repo_watchers": 20,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "ProjectKorra-ProjectKorra-188207778",
+    "test_framework": ""
+}

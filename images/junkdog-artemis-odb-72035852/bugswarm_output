@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 06 Mar 2018 02:52:35 GMT",
+    "_etag": "65feba98079ee1d9d0a5eb5327723fbdc5418f8c",
+    "_id": "5a9e0273f1f70e33f9b3fa1d",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/junkdog-artemis-odb-72035852",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:48:53 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 72035851,
+        "build_job": "33.1",
+        "committed_at": "2015-07-21T23:16:32Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 72035852,
+        "message": "Merge branch 'master' of github.com:junkdog/artemis-odb",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "cf4e951360aea4ecf3102e70b0404ffe4cd62f16"
+    },
+    "filtered_reason": null,
+    "image_tag": "junkdog-artemis-odb-72035852",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 2,
+        "deletions": 2
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 72036044,
+        "build_job": "34.1",
+        "committed_at": "2015-07-21T23:18:13Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 72036048,
+        "message": "#271: faulty import.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 186,
+        "trigger_sha": "638aa384604924a8507d1f3fc5f36792683bbf44"
+    },
+    "pr_num": -1,
+    "repo": "junkdog/artemis-odb",
+    "repo_builds": 809,
+    "repo_commits": 1635,
+    "repo_members": 3,
+    "repo_mined_version": "eb824a2c904a0c0ccd97d0664f62508c8e173510",
+    "repo_prs": 99,
+    "repo_watchers": 301,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "junkdog-artemis-odb-72035852",
+    "test_framework": ""
+}
