@@ -1,0 +1,10 @@
+2224:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project commons-lang3: There are test failures.
+2225:[ERROR] 
+2226:[ERROR] Please refer to /home/travis/build/apache/commons-lang/target/surefire-reports for the individual test results.
+2227:[ERROR] -> [Help 1]
+2228:[ERROR] 
+2229:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2230:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2231:[ERROR] 
+2232:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2233:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

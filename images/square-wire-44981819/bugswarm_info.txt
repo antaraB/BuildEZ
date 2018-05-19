@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/square/wire
+Github failed trigger commit:  https://www.github.com/square/wire/commit/7bab4ddb0bb8ae5394ceea2eab3aff57338ac5fb
+Github passed trigger commit:  https://www.github.com/square/wire/commit/950b9984e2a8d511ee69035816efef595b977a43
+Github compare link:  https://www.github.com/square/wire/compare/7bab4ddb0bb8ae5394ceea2eab3aff57338ac5fb...950b9984e2a8d511ee69035816efef595b977a43

@@ -1,0 +1,74 @@
+{
+    "_created": "Sat, 27 Jan 2018 22:39:51 GMT",
+    "_etag": "d2832a576e537abbf75b50cb42f3e2dd81662a8a",
+    "_id": "5a6cffb7f1f70e0793e6037c",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/apache-commons-lang-224267189",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:20:29 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 224267188,
+        "build_job": "846.1",
+        "committed_at": "2017-04-21T08:45:03Z",
+        "failed_tests": "MethodUtilsTest.testGetMethodsWithAnnotationSearchSupersAndIgnoreAccess#expected#was#MethodUtilsTest.testGetMethodsWithAnnotationSearchSupersButNotIgnoreAccess#expected#was",
+        "job_id": 224267189,
+        "message": "LANG-1317: Add MethodUtils#findAnnotation and extend MethodUtils#getMethodsWithAnnotation for non-public, super-class and interface methods\n\nAdd changes.xml entry and minimal clean-up.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 2,
+        "num_tests_run": 4004,
+        "trigger_sha": "314b6b56bec4af56dba667d66a25c1613f4bc800"
+    },
+    "filtered_reason": "",
+    "image_tag": "apache-commons-lang-224267189",
+    "is_error_pass": false,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 2,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 224269231,
+        "build_job": "847.1",
+        "committed_at": "2017-04-21T08:53:17Z",
+        "failed_tests": "",
+        "job_id": 224269232,
+        "message": "LANG-1317: Add MethodUtils#findAnnotation and extend MethodUtils#getMethodsWithAnnotation for non-public, super-class and interface methods\n\nfix bug introduced by last commit",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 4004,
+        "trigger_sha": "8cafd87c83f4197f7e8d14de8cba453c844266c0"
+    },
+    "pr_num": -1,
+    "repo": "apache/commons-lang",
+    "repo_builds": 797,
+    "repo_commits": 2286,
+    "repo_members": 0,
+    "repo_mined_version": "f50ec5e608286b0c48d6b9b4c792352de8353804",
+    "repo_prs": 230,
+    "repo_watchers": 828,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "apache-commons-lang-224267189",
+    "test_framework": "JUnit"
+}

@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 06 Mar 2018 09:19:24 GMT",
+    "_etag": "aa4e6e38f16285ce74abb47ec806a40a69a0e18e",
+    "_id": "5a9e5d1cf1f70e073097a566",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/HubSpot-Baragon-89269844",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:55:33 GMT",
+    "base_branch": "",
+    "branch": "upstream_transaction",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 89269841,
+        "build_job": "1537.1",
+        "committed_at": "2015-11-04T17:39:34Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 89269844,
+        "message": "better error logginf ro keeper exceptions",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "4c1d3563004338e4e4f503b628e5aa3ad7b55468"
+    },
+    "filtered_reason": null,
+    "image_tag": "HubSpot-Baragon-89269844",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 4,
+        "changes": 4,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 89272925,
+        "build_job": "1541.1",
+        "committed_at": "2015-11-04T17:53:07Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 89272926,
+        "message": "fix dependencies",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1,
+        "trigger_sha": "a59b6eee5e7de80a06f536160ca6848d24ab8416"
+    },
+    "pr_num": -1,
+    "repo": "HubSpot/Baragon",
+    "repo_builds": 2434,
+    "repo_commits": 1792,
+    "repo_members": 0,
+    "repo_mined_version": "e59dcd2028f86293a7962fffc7a653b977ee84e7",
+    "repo_prs": 191,
+    "repo_watchers": 70,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "HubSpot-Baragon-89269844",
+    "test_framework": ""
+}

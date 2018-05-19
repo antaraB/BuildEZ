@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/HubSpot/Baragon
+Github failed trigger commit:  https://www.github.com/HubSpot/Baragon/commit/4c1d3563004338e4e4f503b628e5aa3ad7b55468
+Github passed trigger commit:  https://www.github.com/HubSpot/Baragon/commit/a59b6eee5e7de80a06f536160ca6848d24ab8416
+Github compare link:  https://www.github.com/HubSpot/Baragon/compare/4c1d3563004338e4e4f503b628e5aa3ad7b55468...a59b6eee5e7de80a06f536160ca6848d24ab8416

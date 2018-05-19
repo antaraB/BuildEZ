@@ -1,0 +1,30 @@
+297:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.10:checkstyle (default) on project wire-compiler: An error has occurred in Checkstyle report generation. Failed during checkstyle execution: There are 19 checkstyle errors. -> [Help 1]
+298:[ERROR] 
+299:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+300:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+301:[ERROR] 
+302:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+303:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+304:[ERROR] 
+305:[ERROR] After correcting the problems, you can resume the build with the command
+306:[ERROR]   mvn <goals> -rf :wire-compiler
+471:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.10:checkstyle (default) on project wire-compiler: An error has occurred in Checkstyle report generation. Failed during checkstyle execution: There are 19 checkstyle errors. -> [Help 1]
+472:[ERROR] 
+473:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+474:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+475:[ERROR] 
+476:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+477:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+478:[ERROR] 
+479:[ERROR] After correcting the problems, you can resume the build with the command
+480:[ERROR]   mvn <goals> -rf :wire-compiler
+645:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.10:checkstyle (default) on project wire-compiler: An error has occurred in Checkstyle report generation. Failed during checkstyle execution: There are 19 checkstyle errors. -> [Help 1]
+646:[ERROR] 
+647:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+648:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+649:[ERROR] 
+650:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+651:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+652:[ERROR] 
+653:[ERROR] After correcting the problems, you can resume the build with the command
+654:[ERROR]   mvn <goals> -rf :wire-compiler

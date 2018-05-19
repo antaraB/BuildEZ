@@ -1,0 +1,76 @@
+{
+    "_created": "Thu, 08 Mar 2018 23:40:39 GMT",
+    "_etag": "98cd8b719f388179941e52454e1ea0e232ab0ac6",
+    "_id": "5aa1c9f7f1f70e078c23da56",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/square-wire-44981819",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Sat, 10 Mar 2018 08:15:36 GMT",
+    "base_branch": "master",
+    "branch": "zundel/refactor-for-dry-run",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "3694f55ec28f9d8326ae4fe917912d08377cbde2",
+        "build_id": 44981817,
+        "build_job": "811.2",
+        "committed_at": "2014-12-23T21:40:33Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 44981819,
+        "message": "Moving some stuff around in IO to make it easier to do a dry run",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "7bab4ddb0bb8ae5394ceea2eab3aff57338ac5fb"
+    },
+    "filtered_reason": null,
+    "image_tag": "square-wire-44981819",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": "2015-01-13T21:46:08Z",
+    "metrics": {
+        "additions": 753,
+        "changes": 1053,
+        "deletions": 300
+    },
+    "passed_job": {
+        "base_sha": "7a568816f10bfe9b35b42b51d37f8336ab4c0720",
+        "build_id": 46153405,
+        "build_job": "820.2",
+        "committed_at": "2015-01-07T03:24:18Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 46153407,
+        "message": "Feedback from Jake\n- Rebased after CommandLineOptions refactor\n- Remove WireLoggerFactory\n- Removed log message from FileIO class to simplify logging\n- WireLogger classes are now immutable and injected into WireCompiler\n- Remove constructor length checkstyle check (fails on CommandLineOptions())\n- Removed 'get' prefixes from OutputArtifact accessors",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 104,
+        "trigger_sha": "950b9984e2a8d511ee69035816efef595b977a43"
+    },
+    "pr_num": 180,
+    "repo": "square/wire",
+    "repo_builds": 2753,
+    "repo_commits": 1742,
+    "repo_members": 12,
+    "repo_mined_version": "794cafb684899222b0391f9f5fa6250609a1afe0",
+    "repo_prs": 436,
+    "repo_watchers": 1686,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "square-wire-44981819",
+    "test_framework": ""
+}
