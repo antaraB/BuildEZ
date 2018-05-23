@@ -1,0 +1,30 @@
+2247:[ERROR] Failed to execute goal on project teavm-samples-hello: Could not resolve dependencies for project org.teavm:teavm-samples-hello:war:0.4.0-SNAPSHOT: Failed to collect dependencies at org.teavm:teavm-dom:jar:0.4.0-SNAPSHOT: Failed to read artifact descriptor for org.teavm:teavm-dom:jar:0.4.0-SNAPSHOT: Could not transfer artifact org.teavm:teavm-dom:pom:0.4.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+2248:[ERROR] 
+2249:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2250:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2251:[ERROR] 
+2252:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2253:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+2254:[ERROR] 
+2255:[ERROR] After correcting the problems, you can resume the build with the command
+2256:[ERROR]   mvn <goals> -rf :teavm-samples-hello
+2754:[ERROR] Failed to execute goal on project teavm-samples-hello: Could not resolve dependencies for project org.teavm:teavm-samples-hello:war:0.4.0-SNAPSHOT: Failed to collect dependencies at org.teavm:teavm-dom:jar:0.4.0-SNAPSHOT: Failed to read artifact descriptor for org.teavm:teavm-dom:jar:0.4.0-SNAPSHOT: Could not transfer artifact org.teavm:teavm-dom:pom:0.4.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+2755:[ERROR] 
+2756:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2757:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2758:[ERROR] 
+2759:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2760:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+2761:[ERROR] 
+2762:[ERROR] After correcting the problems, you can resume the build with the command
+2763:[ERROR]   mvn <goals> -rf :teavm-samples-hello
+3261:[ERROR] Failed to execute goal on project teavm-samples-hello: Could not resolve dependencies for project org.teavm:teavm-samples-hello:war:0.4.0-SNAPSHOT: Failed to collect dependencies at org.teavm:teavm-dom:jar:0.4.0-SNAPSHOT: Failed to read artifact descriptor for org.teavm:teavm-dom:jar:0.4.0-SNAPSHOT: Could not transfer artifact org.teavm:teavm-dom:pom:0.4.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]
+3262:[ERROR] 
+3263:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+3264:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+3265:[ERROR] 
+3266:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+3267:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+3268:[ERROR] 
+3269:[ERROR] After correcting the problems, you can resume the build with the command
+3270:[ERROR]   mvn <goals> -rf :teavm-samples-hello

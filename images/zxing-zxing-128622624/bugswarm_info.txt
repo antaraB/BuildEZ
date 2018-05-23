@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/zxing/zxing
+Github failed trigger commit:  https://www.github.com/zxing/zxing/commit/30bb62bf4f8f9e837e611a1cb577af1a31b92b58
+Github passed trigger commit:  https://www.github.com/zxing/zxing/commit/a064c719e6dc6e112fe13ba42946adb3e4691466
+Github compare link:  https://www.github.com/zxing/zxing/compare/30bb62bf4f8f9e837e611a1cb577af1a31b92b58...a064c719e6dc6e112fe13ba42946adb3e4691466

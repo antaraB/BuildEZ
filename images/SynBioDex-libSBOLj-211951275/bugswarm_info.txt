@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/SynBioDex/libSBOLj
+Github failed trigger commit:  https://www.github.com/SynBioDex/libSBOLj/commit/45c451762d5215ae67984613595bcacef7c410ae
+Github passed trigger commit:  https://www.github.com/SynBioDex/libSBOLj/commit/603ebb8e6d3911082d224d027109453a77d3b88a
+Github compare link:  https://www.github.com/SynBioDex/libSBOLj/compare/45c451762d5215ae67984613595bcacef7c410ae...603ebb8e6d3911082d224d027109453a77d3b88a

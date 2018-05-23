@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 10:52:21 GMT",
+    "_etag": "ac82ea13c1984bf1fb1b2a22de431b653a8449c1",
+    "_id": "5a953865f1f70e8a28c908ee",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/uwescience-myria-151144955",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:31:02 GMT",
+    "base_branch": "",
+    "branch": "perfenforce-to-merge",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 151144954,
+        "build_job": "1213.1",
+        "committed_at": "2016-08-10T07:53:47Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 151144955,
+        "message": "perfenforce refactor",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "bd0cb674679f1322c39dfbad99a51675496d29d9"
+    },
+    "filtered_reason": null,
+    "image_tag": "uwescience-myria-151144955",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 549,
+        "changes": 988,
+        "deletions": 439
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 152279478,
+        "build_job": "1223.1",
+        "committed_at": "2016-08-14T23:32:43Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 152279479,
+        "message": "compiles",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "6199ce123da9294fcf788704e888865d45ef4a1f"
+    },
+    "pr_num": -1,
+    "repo": "uwescience/myria",
+    "repo_builds": 1719,
+    "repo_commits": 4567,
+    "repo_members": 30,
+    "repo_mined_version": "f6ee17b750a120f629c8202a0d09f594a0821e9a",
+    "repo_prs": 168,
+    "repo_watchers": 74,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "uwescience-myria-151144955",
+    "test_framework": ""
+}

@@ -72,4 +72,3 @@
     "tag": "mybatis-mybatis-3-121933094",
     "test_framework": ""
 }
-[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

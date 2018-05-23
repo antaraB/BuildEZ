@@ -1,0 +1,636 @@
+1139:[ERROR] COMPILATION ERROR : 
+1141:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,108] illegal start of expression
+1142:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,111] illegal start of expression
+1143:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,113] illegal start of expression
+1144:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,114] ';' expected
+1145:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[65,10] illegal start of type
+1146:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,14] <identifier> expected
+1147:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,49] ')' expected
+1148:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,50] illegal start of type
+1149:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,59] ';' expected
+1150:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[67,26] <identifier> expected
+1151:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[76,14] <identifier> expected
+1152:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[82,26] <identifier> expected
+1153:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[97,13] class, interface, or enum expected
+1154:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[99,5] class, interface, or enum expected
+1155:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[102,13] class, interface, or enum expected
+1156:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[104,5] class, interface, or enum expected
+1157:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[107,13] class, interface, or enum expected
+1158:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[109,5] class, interface, or enum expected
+1159:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[112,12] class, interface, or enum expected
+1160:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[115,9] class, interface, or enum expected
+1161:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[117,9] class, interface, or enum expected
+1162:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[119,5] class, interface, or enum expected
+1163:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[122,12] class, interface, or enum expected
+1164:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[124,5] class, interface, or enum expected
+1165:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[127,12] class, interface, or enum expected
+1166:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[130,13] class, interface, or enum expected
+1167:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[132,17] class, interface, or enum expected
+1168:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[133,13] class, interface, or enum expected
+1169:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[137,17] class, interface, or enum expected
+1170:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[140,9] class, interface, or enum expected
+1171:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[143,9] class, interface, or enum expected
+1172:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[145,5] class, interface, or enum expected
+1173:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[148,12] class, interface, or enum expected
+1174:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[151,13] class, interface, or enum expected
+1175:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[153,17] class, interface, or enum expected
+1176:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[154,13] class, interface, or enum expected
+1177:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[158,17] class, interface, or enum expected
+1178:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[161,9] class, interface, or enum expected
+1179:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[164,9] class, interface, or enum expected
+1180:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[166,5] class, interface, or enum expected
+1181:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[169,12] class, interface, or enum expected
+1182:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[172,13] class, interface, or enum expected
+1183:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[174,17] class, interface, or enum expected
+1184:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[175,13] class, interface, or enum expected
+1185:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[179,17] class, interface, or enum expected
+1186:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[183,13] class, interface, or enum expected
+1187:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[185,9] class, interface, or enum expected
+1188:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[188,9] class, interface, or enum expected
+1189:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[190,5] class, interface, or enum expected
+1190:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[193,12] class, interface, or enum expected
+1191:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[196,9] class, interface, or enum expected
+1192:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[198,9] class, interface, or enum expected
+1193:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[202,12] class, interface, or enum expected
+1194:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[205,9] class, interface, or enum expected
+1195:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[207,5] class, interface, or enum expected
+1196:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[210,12] class, interface, or enum expected
+1197:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[212,9] class, interface, or enum expected
+1198:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[214,9] class, interface, or enum expected
+1199:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[216,5] class, interface, or enum expected
+1200:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[219,12] class, interface, or enum expected
+1201:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[222,9] class, interface, or enum expected
+1202:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[224,5] class, interface, or enum expected
+1203:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[227,12] class, interface, or enum expected
+1204:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[229,9] class, interface, or enum expected
+1205:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[230,5] class, interface, or enum expected
+1206:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[233,12] class, interface, or enum expected
+1207:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[235,5] class, interface, or enum expected
+1208:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[238,12] class, interface, or enum expected
+1209:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[241,9] class, interface, or enum expected
+1210:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[244,9] class, interface, or enum expected
+1211:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[247,17] class, interface, or enum expected
+1212:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[248,13] class, interface, or enum expected
+1213:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[254,9] class, interface, or enum expected
+1214:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[257,5] class, interface, or enum expected
+1215:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[260,12] class, interface, or enum expected
+1216:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[263,9] class, interface, or enum expected
+1217:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[266,9] class, interface, or enum expected
+1218:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[269,17] class, interface, or enum expected
+1219:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[270,13] class, interface, or enum expected
+1220:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[276,9] class, interface, or enum expected
+1221:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[279,5] class, interface, or enum expected
+1222:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[282,12] class, interface, or enum expected
+1223:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[285,9] class, interface, or enum expected
+1224:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[288,9] class, interface, or enum expected
+1225:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[291,17] class, interface, or enum expected
+1226:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[292,13] class, interface, or enum expected
+1227:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[298,9] class, interface, or enum expected
+1228:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[301,5] class, interface, or enum expected
+1229:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[304,12] class, interface, or enum expected
+1230:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[307,9] class, interface, or enum expected
+1231:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[310,9] class, interface, or enum expected
+1232:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[312,13] class, interface, or enum expected
+1233:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[314,13] class, interface, or enum expected
+1234:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[318,21] class, interface, or enum expected
+1235:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[320,21] class, interface, or enum expected
+1236:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[323,25] class, interface, or enum expected
+1237:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[324,21] class, interface, or enum expected
+1238:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[332,13] class, interface, or enum expected
+1239:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[335,5] class, interface, or enum expected
+1240:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[338,12] class, interface, or enum expected
+1259:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fluentlenium-core: Compilation failure: Compilation failure:
+1260:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,108] illegal start of expression
+1261:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,111] illegal start of expression
+1262:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,113] illegal start of expression
+1263:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,114] ';' expected
+1264:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[65,10] illegal start of type
+1265:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,14] <identifier> expected
+1266:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,49] ')' expected
+1267:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,50] illegal start of type
+1268:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,59] ';' expected
+1269:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[67,26] <identifier> expected
+1270:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[76,14] <identifier> expected
+1271:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[82,26] <identifier> expected
+1272:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[97,13] class, interface, or enum expected
+1273:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[99,5] class, interface, or enum expected
+1274:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[102,13] class, interface, or enum expected
+1275:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[104,5] class, interface, or enum expected
+1276:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[107,13] class, interface, or enum expected
+1277:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[109,5] class, interface, or enum expected
+1278:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[112,12] class, interface, or enum expected
+1279:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[115,9] class, interface, or enum expected
+1280:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[117,9] class, interface, or enum expected
+1281:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[119,5] class, interface, or enum expected
+1282:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[122,12] class, interface, or enum expected
+1283:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[124,5] class, interface, or enum expected
+1284:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[127,12] class, interface, or enum expected
+1285:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[130,13] class, interface, or enum expected
+1286:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[132,17] class, interface, or enum expected
+1287:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[133,13] class, interface, or enum expected
+1288:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[137,17] class, interface, or enum expected
+1289:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[140,9] class, interface, or enum expected
+1290:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[143,9] class, interface, or enum expected
+1291:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[145,5] class, interface, or enum expected
+1292:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[148,12] class, interface, or enum expected
+1293:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[151,13] class, interface, or enum expected
+1294:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[153,17] class, interface, or enum expected
+1295:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[154,13] class, interface, or enum expected
+1296:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[158,17] class, interface, or enum expected
+1297:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[161,9] class, interface, or enum expected
+1298:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[164,9] class, interface, or enum expected
+1299:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[166,5] class, interface, or enum expected
+1300:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[169,12] class, interface, or enum expected
+1301:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[172,13] class, interface, or enum expected
+1302:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[174,17] class, interface, or enum expected
+1303:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[175,13] class, interface, or enum expected
+1304:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[179,17] class, interface, or enum expected
+1305:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[183,13] class, interface, or enum expected
+1306:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[185,9] class, interface, or enum expected
+1307:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[188,9] class, interface, or enum expected
+1308:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[190,5] class, interface, or enum expected
+1309:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[193,12] class, interface, or enum expected
+1310:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[196,9] class, interface, or enum expected
+1311:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[198,9] class, interface, or enum expected
+1312:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[202,12] class, interface, or enum expected
+1313:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[205,9] class, interface, or enum expected
+1314:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[207,5] class, interface, or enum expected
+1315:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[210,12] class, interface, or enum expected
+1316:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[212,9] class, interface, or enum expected
+1317:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[214,9] class, interface, or enum expected
+1318:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[216,5] class, interface, or enum expected
+1319:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[219,12] class, interface, or enum expected
+1320:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[222,9] class, interface, or enum expected
+1321:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[224,5] class, interface, or enum expected
+1322:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[227,12] class, interface, or enum expected
+1323:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[229,9] class, interface, or enum expected
+1324:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[230,5] class, interface, or enum expected
+1325:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[233,12] class, interface, or enum expected
+1326:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[235,5] class, interface, or enum expected
+1327:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[238,12] class, interface, or enum expected
+1328:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[241,9] class, interface, or enum expected
+1329:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[244,9] class, interface, or enum expected
+1330:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[247,17] class, interface, or enum expected
+1331:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[248,13] class, interface, or enum expected
+1332:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[254,9] class, interface, or enum expected
+1333:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[257,5] class, interface, or enum expected
+1334:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[260,12] class, interface, or enum expected
+1335:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[263,9] class, interface, or enum expected
+1336:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[266,9] class, interface, or enum expected
+1337:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[269,17] class, interface, or enum expected
+1338:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[270,13] class, interface, or enum expected
+1339:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[276,9] class, interface, or enum expected
+1340:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[279,5] class, interface, or enum expected
+1341:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[282,12] class, interface, or enum expected
+1342:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[285,9] class, interface, or enum expected
+1343:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[288,9] class, interface, or enum expected
+1344:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[291,17] class, interface, or enum expected
+1345:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[292,13] class, interface, or enum expected
+1346:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[298,9] class, interface, or enum expected
+1347:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[301,5] class, interface, or enum expected
+1348:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[304,12] class, interface, or enum expected
+1349:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[307,9] class, interface, or enum expected
+1350:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[310,9] class, interface, or enum expected
+1351:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[312,13] class, interface, or enum expected
+1352:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[314,13] class, interface, or enum expected
+1353:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[318,21] class, interface, or enum expected
+1354:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[320,21] class, interface, or enum expected
+1355:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[323,25] class, interface, or enum expected
+1356:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[324,21] class, interface, or enum expected
+1357:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[332,13] class, interface, or enum expected
+1358:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[335,5] class, interface, or enum expected
+1359:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[338,12] class, interface, or enum expected
+1360:[ERROR] -> [Help 1]
+1361:[ERROR] 
+1362:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1363:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1364:[ERROR] 
+1365:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1366:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1367:[ERROR] 
+1368:[ERROR] After correcting the problems, you can resume the build with the command
+1369:[ERROR]   mvn <goals> -rf :fluentlenium-core
+1419:[ERROR] COMPILATION ERROR : 
+1421:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,108] illegal start of expression
+1422:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,111] illegal start of expression
+1423:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,113] illegal start of expression
+1424:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,114] ';' expected
+1425:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[65,10] illegal start of type
+1426:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,14] <identifier> expected
+1427:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,49] ')' expected
+1428:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,50] illegal start of type
+1429:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,59] ';' expected
+1430:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[67,26] <identifier> expected
+1431:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[76,14] <identifier> expected
+1432:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[82,26] <identifier> expected
+1433:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[97,13] class, interface, or enum expected
+1434:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[99,5] class, interface, or enum expected
+1435:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[102,13] class, interface, or enum expected
+1436:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[104,5] class, interface, or enum expected
+1437:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[107,13] class, interface, or enum expected
+1438:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[109,5] class, interface, or enum expected
+1439:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[112,12] class, interface, or enum expected
+1440:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[115,9] class, interface, or enum expected
+1441:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[117,9] class, interface, or enum expected
+1442:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[119,5] class, interface, or enum expected
+1443:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[122,12] class, interface, or enum expected
+1444:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[124,5] class, interface, or enum expected
+1445:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[127,12] class, interface, or enum expected
+1446:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[130,13] class, interface, or enum expected
+1447:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[132,17] class, interface, or enum expected
+1448:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[133,13] class, interface, or enum expected
+1449:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[137,17] class, interface, or enum expected
+1450:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[140,9] class, interface, or enum expected
+1451:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[143,9] class, interface, or enum expected
+1452:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[145,5] class, interface, or enum expected
+1453:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[148,12] class, interface, or enum expected
+1454:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[151,13] class, interface, or enum expected
+1455:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[153,17] class, interface, or enum expected
+1456:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[154,13] class, interface, or enum expected
+1457:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[158,17] class, interface, or enum expected
+1458:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[161,9] class, interface, or enum expected
+1459:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[164,9] class, interface, or enum expected
+1460:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[166,5] class, interface, or enum expected
+1461:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[169,12] class, interface, or enum expected
+1462:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[172,13] class, interface, or enum expected
+1463:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[174,17] class, interface, or enum expected
+1464:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[175,13] class, interface, or enum expected
+1465:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[179,17] class, interface, or enum expected
+1466:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[183,13] class, interface, or enum expected
+1467:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[185,9] class, interface, or enum expected
+1468:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[188,9] class, interface, or enum expected
+1469:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[190,5] class, interface, or enum expected
+1470:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[193,12] class, interface, or enum expected
+1471:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[196,9] class, interface, or enum expected
+1472:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[198,9] class, interface, or enum expected
+1473:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[202,12] class, interface, or enum expected
+1474:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[205,9] class, interface, or enum expected
+1475:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[207,5] class, interface, or enum expected
+1476:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[210,12] class, interface, or enum expected
+1477:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[212,9] class, interface, or enum expected
+1478:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[214,9] class, interface, or enum expected
+1479:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[216,5] class, interface, or enum expected
+1480:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[219,12] class, interface, or enum expected
+1481:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[222,9] class, interface, or enum expected
+1482:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[224,5] class, interface, or enum expected
+1483:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[227,12] class, interface, or enum expected
+1484:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[229,9] class, interface, or enum expected
+1485:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[230,5] class, interface, or enum expected
+1486:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[233,12] class, interface, or enum expected
+1487:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[235,5] class, interface, or enum expected
+1488:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[238,12] class, interface, or enum expected
+1489:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[241,9] class, interface, or enum expected
+1490:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[244,9] class, interface, or enum expected
+1491:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[247,17] class, interface, or enum expected
+1492:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[248,13] class, interface, or enum expected
+1493:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[254,9] class, interface, or enum expected
+1494:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[257,5] class, interface, or enum expected
+1495:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[260,12] class, interface, or enum expected
+1496:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[263,9] class, interface, or enum expected
+1497:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[266,9] class, interface, or enum expected
+1498:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[269,17] class, interface, or enum expected
+1499:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[270,13] class, interface, or enum expected
+1500:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[276,9] class, interface, or enum expected
+1501:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[279,5] class, interface, or enum expected
+1502:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[282,12] class, interface, or enum expected
+1503:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[285,9] class, interface, or enum expected
+1504:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[288,9] class, interface, or enum expected
+1505:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[291,17] class, interface, or enum expected
+1506:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[292,13] class, interface, or enum expected
+1507:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[298,9] class, interface, or enum expected
+1508:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[301,5] class, interface, or enum expected
+1509:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[304,12] class, interface, or enum expected
+1510:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[307,9] class, interface, or enum expected
+1511:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[310,9] class, interface, or enum expected
+1512:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[312,13] class, interface, or enum expected
+1513:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[314,13] class, interface, or enum expected
+1514:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[318,21] class, interface, or enum expected
+1515:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[320,21] class, interface, or enum expected
+1516:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[323,25] class, interface, or enum expected
+1517:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[324,21] class, interface, or enum expected
+1518:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[332,13] class, interface, or enum expected
+1519:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[335,5] class, interface, or enum expected
+1520:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[338,12] class, interface, or enum expected
+1539:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fluentlenium-core: Compilation failure: Compilation failure:
+1540:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,108] illegal start of expression
+1541:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,111] illegal start of expression
+1542:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,113] illegal start of expression
+1543:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,114] ';' expected
+1544:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[65,10] illegal start of type
+1545:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,14] <identifier> expected
+1546:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,49] ')' expected
+1547:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,50] illegal start of type
+1548:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,59] ';' expected
+1549:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[67,26] <identifier> expected
+1550:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[76,14] <identifier> expected
+1551:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[82,26] <identifier> expected
+1552:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[97,13] class, interface, or enum expected
+1553:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[99,5] class, interface, or enum expected
+1554:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[102,13] class, interface, or enum expected
+1555:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[104,5] class, interface, or enum expected
+1556:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[107,13] class, interface, or enum expected
+1557:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[109,5] class, interface, or enum expected
+1558:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[112,12] class, interface, or enum expected
+1559:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[115,9] class, interface, or enum expected
+1560:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[117,9] class, interface, or enum expected
+1561:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[119,5] class, interface, or enum expected
+1562:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[122,12] class, interface, or enum expected
+1563:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[124,5] class, interface, or enum expected
+1564:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[127,12] class, interface, or enum expected
+1565:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[130,13] class, interface, or enum expected
+1566:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[132,17] class, interface, or enum expected
+1567:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[133,13] class, interface, or enum expected
+1568:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[137,17] class, interface, or enum expected
+1569:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[140,9] class, interface, or enum expected
+1570:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[143,9] class, interface, or enum expected
+1571:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[145,5] class, interface, or enum expected
+1572:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[148,12] class, interface, or enum expected
+1573:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[151,13] class, interface, or enum expected
+1574:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[153,17] class, interface, or enum expected
+1575:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[154,13] class, interface, or enum expected
+1576:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[158,17] class, interface, or enum expected
+1577:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[161,9] class, interface, or enum expected
+1578:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[164,9] class, interface, or enum expected
+1579:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[166,5] class, interface, or enum expected
+1580:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[169,12] class, interface, or enum expected
+1581:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[172,13] class, interface, or enum expected
+1582:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[174,17] class, interface, or enum expected
+1583:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[175,13] class, interface, or enum expected
+1584:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[179,17] class, interface, or enum expected
+1585:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[183,13] class, interface, or enum expected
+1586:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[185,9] class, interface, or enum expected
+1587:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[188,9] class, interface, or enum expected
+1588:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[190,5] class, interface, or enum expected
+1589:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[193,12] class, interface, or enum expected
+1590:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[196,9] class, interface, or enum expected
+1591:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[198,9] class, interface, or enum expected
+1592:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[202,12] class, interface, or enum expected
+1593:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[205,9] class, interface, or enum expected
+1594:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[207,5] class, interface, or enum expected
+1595:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[210,12] class, interface, or enum expected
+1596:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[212,9] class, interface, or enum expected
+1597:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[214,9] class, interface, or enum expected
+1598:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[216,5] class, interface, or enum expected
+1599:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[219,12] class, interface, or enum expected
+1600:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[222,9] class, interface, or enum expected
+1601:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[224,5] class, interface, or enum expected
+1602:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[227,12] class, interface, or enum expected
+1603:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[229,9] class, interface, or enum expected
+1604:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[230,5] class, interface, or enum expected
+1605:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[233,12] class, interface, or enum expected
+1606:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[235,5] class, interface, or enum expected
+1607:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[238,12] class, interface, or enum expected
+1608:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[241,9] class, interface, or enum expected
+1609:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[244,9] class, interface, or enum expected
+1610:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[247,17] class, interface, or enum expected
+1611:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[248,13] class, interface, or enum expected
+1612:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[254,9] class, interface, or enum expected
+1613:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[257,5] class, interface, or enum expected
+1614:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[260,12] class, interface, or enum expected
+1615:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[263,9] class, interface, or enum expected
+1616:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[266,9] class, interface, or enum expected
+1617:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[269,17] class, interface, or enum expected
+1618:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[270,13] class, interface, or enum expected
+1619:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[276,9] class, interface, or enum expected
+1620:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[279,5] class, interface, or enum expected
+1621:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[282,12] class, interface, or enum expected
+1622:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[285,9] class, interface, or enum expected
+1623:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[288,9] class, interface, or enum expected
+1624:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[291,17] class, interface, or enum expected
+1625:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[292,13] class, interface, or enum expected
+1626:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[298,9] class, interface, or enum expected
+1627:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[301,5] class, interface, or enum expected
+1628:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[304,12] class, interface, or enum expected
+1629:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[307,9] class, interface, or enum expected
+1630:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[310,9] class, interface, or enum expected
+1631:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[312,13] class, interface, or enum expected
+1632:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[314,13] class, interface, or enum expected
+1633:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[318,21] class, interface, or enum expected
+1634:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[320,21] class, interface, or enum expected
+1635:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[323,25] class, interface, or enum expected
+1636:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[324,21] class, interface, or enum expected
+1637:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[332,13] class, interface, or enum expected
+1638:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[335,5] class, interface, or enum expected
+1639:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[338,12] class, interface, or enum expected
+1640:[ERROR] -> [Help 1]
+1641:[ERROR] 
+1642:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1643:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1644:[ERROR] 
+1645:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1646:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1647:[ERROR] 
+1648:[ERROR] After correcting the problems, you can resume the build with the command
+1649:[ERROR]   mvn <goals> -rf :fluentlenium-core
+1699:[ERROR] COMPILATION ERROR : 
+1701:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,108] illegal start of expression
+1702:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,111] illegal start of expression
+1703:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,113] illegal start of expression
+1704:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,114] ';' expected
+1705:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[65,10] illegal start of type
+1706:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,14] <identifier> expected
+1707:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,49] ')' expected
+1708:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,50] illegal start of type
+1709:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,59] ';' expected
+1710:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[67,26] <identifier> expected
+1711:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[76,14] <identifier> expected
+1712:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[82,26] <identifier> expected
+1713:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[97,13] class, interface, or enum expected
+1714:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[99,5] class, interface, or enum expected
+1715:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[102,13] class, interface, or enum expected
+1716:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[104,5] class, interface, or enum expected
+1717:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[107,13] class, interface, or enum expected
+1718:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[109,5] class, interface, or enum expected
+1719:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[112,12] class, interface, or enum expected
+1720:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[115,9] class, interface, or enum expected
+1721:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[117,9] class, interface, or enum expected
+1722:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[119,5] class, interface, or enum expected
+1723:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[122,12] class, interface, or enum expected
+1724:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[124,5] class, interface, or enum expected
+1725:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[127,12] class, interface, or enum expected
+1726:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[130,13] class, interface, or enum expected
+1727:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[132,17] class, interface, or enum expected
+1728:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[133,13] class, interface, or enum expected
+1729:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[137,17] class, interface, or enum expected
+1730:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[140,9] class, interface, or enum expected
+1731:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[143,9] class, interface, or enum expected
+1732:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[145,5] class, interface, or enum expected
+1733:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[148,12] class, interface, or enum expected
+1734:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[151,13] class, interface, or enum expected
+1735:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[153,17] class, interface, or enum expected
+1736:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[154,13] class, interface, or enum expected
+1737:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[158,17] class, interface, or enum expected
+1738:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[161,9] class, interface, or enum expected
+1739:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[164,9] class, interface, or enum expected
+1740:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[166,5] class, interface, or enum expected
+1741:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[169,12] class, interface, or enum expected
+1742:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[172,13] class, interface, or enum expected
+1743:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[174,17] class, interface, or enum expected
+1744:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[175,13] class, interface, or enum expected
+1745:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[179,17] class, interface, or enum expected
+1746:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[183,13] class, interface, or enum expected
+1747:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[185,9] class, interface, or enum expected
+1748:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[188,9] class, interface, or enum expected
+1749:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[190,5] class, interface, or enum expected
+1750:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[193,12] class, interface, or enum expected
+1751:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[196,9] class, interface, or enum expected
+1752:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[198,9] class, interface, or enum expected
+1753:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[202,12] class, interface, or enum expected
+1754:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[205,9] class, interface, or enum expected
+1755:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[207,5] class, interface, or enum expected
+1756:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[210,12] class, interface, or enum expected
+1757:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[212,9] class, interface, or enum expected
+1758:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[214,9] class, interface, or enum expected
+1759:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[216,5] class, interface, or enum expected
+1760:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[219,12] class, interface, or enum expected
+1761:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[222,9] class, interface, or enum expected
+1762:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[224,5] class, interface, or enum expected
+1763:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[227,12] class, interface, or enum expected
+1764:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[229,9] class, interface, or enum expected
+1765:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[230,5] class, interface, or enum expected
+1766:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[233,12] class, interface, or enum expected
+1767:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[235,5] class, interface, or enum expected
+1768:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[238,12] class, interface, or enum expected
+1769:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[241,9] class, interface, or enum expected
+1770:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[244,9] class, interface, or enum expected
+1771:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[247,17] class, interface, or enum expected
+1772:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[248,13] class, interface, or enum expected
+1773:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[254,9] class, interface, or enum expected
+1774:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[257,5] class, interface, or enum expected
+1775:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[260,12] class, interface, or enum expected
+1776:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[263,9] class, interface, or enum expected
+1777:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[266,9] class, interface, or enum expected
+1778:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[269,17] class, interface, or enum expected
+1779:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[270,13] class, interface, or enum expected
+1780:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[276,9] class, interface, or enum expected
+1781:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[279,5] class, interface, or enum expected
+1782:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[282,12] class, interface, or enum expected
+1783:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[285,9] class, interface, or enum expected
+1784:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[288,9] class, interface, or enum expected
+1785:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[291,17] class, interface, or enum expected
+1786:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[292,13] class, interface, or enum expected
+1787:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[298,9] class, interface, or enum expected
+1788:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[301,5] class, interface, or enum expected
+1789:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[304,12] class, interface, or enum expected
+1790:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[307,9] class, interface, or enum expected
+1791:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[310,9] class, interface, or enum expected
+1792:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[312,13] class, interface, or enum expected
+1793:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[314,13] class, interface, or enum expected
+1794:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[318,21] class, interface, or enum expected
+1795:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[320,21] class, interface, or enum expected
+1796:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[323,25] class, interface, or enum expected
+1797:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[324,21] class, interface, or enum expected
+1798:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[332,13] class, interface, or enum expected
+1799:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[335,5] class, interface, or enum expected
+1800:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[338,12] class, interface, or enum expected
+1819:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project fluentlenium-core: Compilation failure: Compilation failure:
+1820:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,108] illegal start of expression
+1821:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,111] illegal start of expression
+1822:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,113] illegal start of expression
+1823:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[60,114] ';' expected
+1824:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[65,10] illegal start of type
+1825:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,14] <identifier> expected
+1826:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,49] ')' expected
+1827:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,50] illegal start of type
+1828:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[66,59] ';' expected
+1829:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[67,26] <identifier> expected
+1830:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[76,14] <identifier> expected
+1831:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[82,26] <identifier> expected
+1832:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[97,13] class, interface, or enum expected
+1833:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[99,5] class, interface, or enum expected
+1834:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[102,13] class, interface, or enum expected
+1835:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[104,5] class, interface, or enum expected
+1836:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[107,13] class, interface, or enum expected
+1837:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[109,5] class, interface, or enum expected
+1838:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[112,12] class, interface, or enum expected
+1839:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[115,9] class, interface, or enum expected
+1840:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[117,9] class, interface, or enum expected
+1841:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[119,5] class, interface, or enum expected
+1842:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[122,12] class, interface, or enum expected
+1843:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[124,5] class, interface, or enum expected
+1844:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[127,12] class, interface, or enum expected
+1845:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[130,13] class, interface, or enum expected
+1846:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[132,17] class, interface, or enum expected
+1847:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[133,13] class, interface, or enum expected
+1848:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[137,17] class, interface, or enum expected
+1849:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[140,9] class, interface, or enum expected
+1850:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[143,9] class, interface, or enum expected
+1851:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[145,5] class, interface, or enum expected
+1852:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[148,12] class, interface, or enum expected
+1853:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[151,13] class, interface, or enum expected
+1854:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[153,17] class, interface, or enum expected
+1855:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[154,13] class, interface, or enum expected
+1856:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[158,17] class, interface, or enum expected
+1857:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[161,9] class, interface, or enum expected
+1858:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[164,9] class, interface, or enum expected
+1859:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[166,5] class, interface, or enum expected
+1860:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[169,12] class, interface, or enum expected
+1861:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[172,13] class, interface, or enum expected
+1862:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[174,17] class, interface, or enum expected
+1863:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[175,13] class, interface, or enum expected
+1864:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[179,17] class, interface, or enum expected
+1865:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[183,13] class, interface, or enum expected
+1866:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[185,9] class, interface, or enum expected
+1867:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[188,9] class, interface, or enum expected
+1868:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[190,5] class, interface, or enum expected
+1869:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[193,12] class, interface, or enum expected
+1870:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[196,9] class, interface, or enum expected
+1871:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[198,9] class, interface, or enum expected
+1872:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[202,12] class, interface, or enum expected
+1873:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[205,9] class, interface, or enum expected
+1874:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[207,5] class, interface, or enum expected
+1875:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[210,12] class, interface, or enum expected
+1876:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[212,9] class, interface, or enum expected
+1877:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[214,9] class, interface, or enum expected
+1878:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[216,5] class, interface, or enum expected
+1879:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[219,12] class, interface, or enum expected
+1880:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[222,9] class, interface, or enum expected
+1881:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[224,5] class, interface, or enum expected
+1882:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[227,12] class, interface, or enum expected
+1883:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[229,9] class, interface, or enum expected
+1884:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[230,5] class, interface, or enum expected
+1885:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[233,12] class, interface, or enum expected
+1886:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[235,5] class, interface, or enum expected
+1887:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[238,12] class, interface, or enum expected
+1888:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[241,9] class, interface, or enum expected
+1889:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[244,9] class, interface, or enum expected
+1890:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[247,17] class, interface, or enum expected
+1891:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[248,13] class, interface, or enum expected
+1892:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[254,9] class, interface, or enum expected
+1893:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[257,5] class, interface, or enum expected
+1894:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[260,12] class, interface, or enum expected
+1895:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[263,9] class, interface, or enum expected
+1896:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[266,9] class, interface, or enum expected
+1897:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[269,17] class, interface, or enum expected
+1898:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[270,13] class, interface, or enum expected
+1899:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[276,9] class, interface, or enum expected
+1900:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[279,5] class, interface, or enum expected
+1901:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[282,12] class, interface, or enum expected
+1902:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[285,9] class, interface, or enum expected
+1903:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[288,9] class, interface, or enum expected
+1904:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[291,17] class, interface, or enum expected
+1905:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[292,13] class, interface, or enum expected
+1906:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[298,9] class, interface, or enum expected
+1907:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[301,5] class, interface, or enum expected
+1908:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[304,12] class, interface, or enum expected
+1909:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[307,9] class, interface, or enum expected
+1910:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[310,9] class, interface, or enum expected
+1911:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[312,13] class, interface, or enum expected
+1912:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[314,13] class, interface, or enum expected
+1913:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[318,21] class, interface, or enum expected
+1914:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[320,21] class, interface, or enum expected
+1915:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[323,25] class, interface, or enum expected
+1916:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[324,21] class, interface, or enum expected
+1917:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[332,13] class, interface, or enum expected
+1918:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[335,5] class, interface, or enum expected
+1919:[ERROR] /home/travis/build/FluentLenium/FluentLenium/fluentlenium-core/src/main/java/org/fluentlenium/core/domain/FluentListImpl.java:[338,12] class, interface, or enum expected
+1920:[ERROR] -> [Help 1]
+1921:[ERROR] 
+1922:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1923:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1924:[ERROR] 
+1925:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1926:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1927:[ERROR] 
+1928:[ERROR] After correcting the problems, you can resume the build with the command
+1929:[ERROR]   mvn <goals> -rf :fluentlenium-core

@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 21:19:11 GMT",
+    "_etag": "ed2d2ed23a4584544a785d1fedd32b26be03e1fa",
+    "_id": "5a95cb4ff1f70e8a28c91d97",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/SynBioDex-libSBOLj-211951275",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:32:11 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 211951274,
+        "build_job": "1585.1",
+        "committed_at": "2017-03-16T23:35:26Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 211951275,
+        "message": "accidentally pushed to master; fixing",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "45c451762d5215ae67984613595bcacef7c410ae"
+    },
+    "filtered_reason": null,
+    "image_tag": "SynBioDex-libSBOLj-211951275",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 0,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 211953624,
+        "build_job": "1586.1",
+        "committed_at": null,
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 211953625,
+        "message": "Fail when trying to change version without URI prefix change.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 447,
+        "trigger_sha": "603ebb8e6d3911082d224d027109453a77d3b88a"
+    },
+    "pr_num": -1,
+    "repo": "SynBioDex/libSBOLj",
+    "repo_builds": 1586,
+    "repo_commits": 1507,
+    "repo_members": 0,
+    "repo_mined_version": "a9ba6e6c523ee3269a245660bae477f4e38ed289",
+    "repo_prs": 129,
+    "repo_watchers": 22,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "SynBioDex-libSBOLj-211951275",
+    "test_framework": ""
+}

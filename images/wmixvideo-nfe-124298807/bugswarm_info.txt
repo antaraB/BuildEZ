@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/wmixvideo/nfe
+Github failed trigger commit:  https://www.github.com/wmixvideo/nfe/commit/6afed3b56c9026a477d500f353970e07578799db
+Github passed trigger commit:  https://www.github.com/wmixvideo/nfe/commit/1bab28b7e54af0e8aaa9536931a5466183c6c2d0
+Github compare link:  https://www.github.com/wmixvideo/nfe/compare/6afed3b56c9026a477d500f353970e07578799db...1bab28b7e54af0e8aaa9536931a5466183c6c2d0

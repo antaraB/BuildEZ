@@ -1,0 +1,171 @@
+1c1
+< Using worker: worker-linux-docker-18c515e0.prod.travis-ci.org:travis-linux-16
+---
+> Using worker: worker-linux-docker-1ec515e6.prod.travis-ci.org:travis-linux-15
+88c88
+< Fetched 8,840 kB in 0s (34.6 MB/s)
+---
+> Fetched 8,840 kB in 0s (36.6 MB/s)
+107c107
+< travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:git.checkout[0Ktravis_time:start:18e1d0f2[0K$ git clone --depth=50 https://github.com/checkstyle/checkstyle.git checkstyle/checkstyle
+---
+> travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:git.checkout[0Ktravis_time:start:1099810c[0K$ git clone --depth=50 https://github.com/checkstyle/checkstyle.git checkstyle/checkstyle
+111,113c111,113
+< Receiving objects:   0% (1/2696)   Receiving objects:   1% (27/2696)   Receiving objects:   2% (54/2696)   Receiving objects:   3% (81/2696)   Receiving objects:   4% (108/2696)   Receiving objects:   5% (135/2696)   Receiving objects:   6% (162/2696)   Receiving objects:   7% (189/2696)   Receiving objects:   8% (216/2696)   Receiving objects:   9% (243/2696)   Receiving objects:  10% (270/2696)   Receiving objects:  11% (297/2696)   Receiving objects:  12% (324/2696)   Receiving objects:  13% (351/2696)   Receiving objects:  14% (378/2696)   Receiving objects:  15% (405/2696)   Receiving objects:  16% (432/2696)   Receiving objects:  17% (459/2696)   Receiving objects:  18% (486/2696)   Receiving objects:  19% (513/2696)   Receiving objects:  20% (540/2696)   Receiving objects:  21% (567/2696)   Receiving objects:  22% (594/2696)   Receiving objects:  23% (621/2696)   Receiving objects:  24% (648/2696)   Receiving objects:  25% (674/2696)   Receiving objects:  26% (701/2696)   Receiving objects:  27% (728/2696)   Receiving objects:  28% (755/2696)   Receiving objects:  29% (782/2696)   Receiving objects:  30% (809/2696)   Receiving objects:  31% (836/2696)   Receiving objects:  32% (863/2696)   Receiving objects:  33% (890/2696)   Receiving objects:  34% (917/2696)   Receiving objects:  35% (944/2696)   Receiving objects:  36% (971/2696)   Receiving objects:  37% (998/2696)   Receiving objects:  38% (1025/2696)   Receiving objects:  39% (1052/2696)   Receiving objects:  40% (1079/2696)   Receiving objects:  41% (1106/2696)   Receiving objects:  42% (1133/2696)   Receiving objects:  43% (1160/2696)   Receiving objects:  44% (1187/2696)   Receiving objects:  45% (1214/2696)   Receiving objects:  46% (1241/2696)   Receiving objects:  47% (1268/2696)   Receiving objects:  48% (1295/2696)   Receiving objects:  49% (1322/2696)   Receiving objects:  50% (1348/2696)   Receiving objects:  51% (1375/2696)   Receiving objects:  52% (1402/2696)   Receiving objects:  53% (1429/2696)   Receiving objects:  54% (1456/2696)   Receiving objects:  55% (1483/2696)   Receiving objects:  56% (1510/2696)   Receiving objects:  57% (1537/2696)   Receiving objects:  58% (1564/2696)   Receiving objects:  59% (1591/2696)   Receiving objects:  60% (1618/2696)   Receiving objects:  61% (1645/2696)   Receiving objects:  62% (1672/2696)   Receiving objects:  63% (1699/2696)   Receiving objects:  64% (1726/2696)   Receiving objects:  65% (1753/2696)   Receiving objects:  66% (1780/2696)   Receiving objects:  67% (1807/2696)   Receiving objects:  68% (1834/2696)   Receiving objects:  69% (1861/2696)   Receiving objects:  70% (1888/2696)   Receiving objects:  71% (1915/2696)   Receiving objects:  72% (1942/2696)   Receiving objects:  73% (1969/2696)   Receiving objects:  74% (1996/2696)   Receiving objects:  75% (2022/2696)   Receiving objects:  76% (2049/2696)   Receiving objects:  77% (2076/2696)   Receiving objects:  78% (2103/2696)   Receiving objects:  79% (2130/2696)   Receiving objects:  80% (2157/2696)   Receiving objects:  81% (2184/2696)   Receiving objects:  82% (2211/2696)   Receiving objects:  83% (2238/2696)   Receiving objects:  84% (2265/2696)   Receiving objects:  85% (2292/2696)   Receiving objects:  86% (2319/2696)   Receiving objects:  87% (2346/2696)   Receiving objects:  88% (2373/2696)   Receiving objects:  89% (2400/2696)   Receiving objects:  90% (2427/2696)   Receiving objects:  91% (2454/2696)   Receiving objects:  92% (2481/2696)   Receiving objects:  93% (2508/2696)   Receiving objects:  94% (2535/2696)   Receiving objects:  95% (2562/2696)   Receiving objects:  96% (2589/2696)   Receiving objects:  97% (2616/2696)   Receiving objects:  98% (2643/2696)   remote: Total 2696 (delta 1069), reused 1527 (delta 557), pack-reused 0[K
+< Receiving objects:  99% (2670/2696)   Receiving objects: 100% (2696/2696)   Receiving objects: 100% (2696/2696), 3.68 MiB | 0 bytes/s, done.
+< Resolving deltas:   0% (0/1069)   Resolving deltas:   4% (47/1069)   Resolving deltas:   5% (56/1069)   Resolving deltas:   6% (65/1069)   Resolving deltas:   7% (80/1069)   Resolving deltas:   8% (89/1069)   Resolving deltas:  10% (109/1069)   Resolving deltas:  11% (123/1069)   Resolving deltas:  12% (135/1069)   Resolving deltas:  15% (168/1069)   Resolving deltas:  16% (172/1069)   Resolving deltas:  17% (182/1069)   Resolving deltas:  18% (197/1069)   Resolving deltas:  19% (204/1069)   Resolving deltas:  20% (214/1069)   Resolving deltas:  21% (234/1069)   Resolving deltas:  22% (236/1069)   Resolving deltas:  23% (247/1069)   Resolving deltas:  24% (259/1069)   Resolving deltas:  25% (270/1069)   Resolving deltas:  26% (288/1069)   Resolving deltas:  27% (291/1069)   Resolving deltas:  31% (333/1069)   Resolving deltas:  32% (346/1069)   Resolving deltas:  33% (355/1069)   Resolving deltas:  34% (364/1069)   Resolving deltas:  35% (378/1069)   Resolving deltas:  36% (386/1069)   Resolving deltas:  37% (396/1069)   Resolving deltas:  38% (411/1069)   Resolving deltas:  39% (421/1069)   Resolving deltas:  40% (428/1069)   Resolving deltas:  41% (439/1069)   Resolving deltas:  42% (450/1069)   Resolving deltas:  43% (464/1069)   Resolving deltas:  44% (472/1069)   Resolving deltas:  45% (485/1069)   Resolving deltas:  46% (492/1069)   Resolving deltas:  47% (504/1069)   Resolving deltas:  48% (514/1069)   Resolving deltas:  49% (527/1069)   Resolving deltas:  50% (535/1069)   Resolving deltas:  51% (547/1069)   Resolving deltas:  52% (558/1069)   Resolving deltas:  53% (576/1069)   Resolving deltas:  54% (578/1069)   Resolving deltas:  55% (588/1069)   Resolving deltas:  56% (599/1069)   Resolving deltas:  57% (610/1069)   Resolving deltas:  58% (621/1069)   Resolving deltas:  60% (644/1069)   Resolving deltas:  61% (654/1069)   Resolving deltas:  62% (663/1069)   Resolving deltas:  63% (674/1069)   Resolving deltas:  64% (686/1069)   Resolving deltas:  65% (700/1069)   Resolving deltas:  66% (711/1069)   Resolving deltas:  68% (733/1069)   Resolving deltas:  69% (739/1069)   Resolving deltas:  71% (768/1069)   Resolving deltas:  72% (770/1069)   Resolving deltas:  73% (781/1069)   Resolving deltas:  74% (793/1069)   Resolving deltas:  75% (805/1069)   Resolving deltas:  76% (819/1069)   Resolving deltas:  77% (829/1069)   Resolving deltas:  78% (835/1069)   Resolving deltas:  79% (846/1069)   Resolving deltas:  80% (856/1069)   Resolving deltas:  81% (866/1069)   Resolving deltas:  82% (877/1069)   Resolving deltas:  83% (888/1069)   Resolving deltas:  84% (899/1069)   Resolving deltas:  85% (911/1069)   Resolving deltas:  86% (923/1069)   Resolving deltas:  87% (933/1069)   Resolving deltas:  88% (941/1069)   Resolving deltas:  89% (952/1069)   Resolving deltas:  90% (963/1069)   Resolving deltas:  91% (974/1069)   Resolving deltas:  92% (984/1069)   Resolving deltas:  93% (995/1069)   Resolving deltas:  94% (1005/1069)   Resolving deltas:  95% (1019/1069)   Resolving deltas:  96% (1036/1069)   Resolving deltas:  97% (1038/1069)   Resolving deltas:  98% (1048/1069)   Resolving deltas:  99% (1059/1069)   Resolving deltas: 100% (1069/1069)   Resolving deltas: 100% (1069/1069), done.
+---
+> Receiving objects:   0% (1/2696)   Receiving objects:   1% (27/2696)   Receiving objects:   2% (54/2696)   Receiving objects:   3% (81/2696)   Receiving objects:   4% (108/2696)   Receiving objects:   5% (135/2696)   Receiving objects:   6% (162/2696)   Receiving objects:   7% (189/2696)   Receiving objects:   8% (216/2696)   Receiving objects:   9% (243/2696)   Receiving objects:  10% (270/2696)   Receiving objects:  11% (297/2696)   Receiving objects:  12% (324/2696)   Receiving objects:  13% (351/2696)   Receiving objects:  14% (378/2696)   Receiving objects:  15% (405/2696)   Receiving objects:  16% (432/2696)   Receiving objects:  17% (459/2696)   Receiving objects:  18% (486/2696)   Receiving objects:  19% (513/2696)   Receiving objects:  20% (540/2696)   Receiving objects:  21% (567/2696)   Receiving objects:  22% (594/2696)   Receiving objects:  23% (621/2696)   Receiving objects:  24% (648/2696)   Receiving objects:  25% (674/2696)   Receiving objects:  26% (701/2696)   Receiving objects:  27% (728/2696)   Receiving objects:  28% (755/2696)   Receiving objects:  29% (782/2696)   Receiving objects:  30% (809/2696)   Receiving objects:  31% (836/2696)   Receiving objects:  32% (863/2696)   Receiving objects:  33% (890/2696)   Receiving objects:  34% (917/2696)   Receiving objects:  35% (944/2696)   Receiving objects:  36% (971/2696)   Receiving objects:  37% (998/2696)   Receiving objects:  38% (1025/2696)   Receiving objects:  39% (1052/2696)   Receiving objects:  40% (1079/2696)   Receiving objects:  41% (1106/2696)   Receiving objects:  42% (1133/2696)   Receiving objects:  43% (1160/2696)   Receiving objects:  44% (1187/2696)   Receiving objects:  45% (1214/2696)   Receiving objects:  46% (1241/2696)   Receiving objects:  47% (1268/2696)   Receiving objects:  48% (1295/2696)   Receiving objects:  49% (1322/2696)   Receiving objects:  50% (1348/2696)   Receiving objects:  51% (1375/2696)   Receiving objects:  52% (1402/2696)   Receiving objects:  53% (1429/2696)   Receiving objects:  54% (1456/2696)   Receiving objects:  55% (1483/2696)   Receiving objects:  56% (1510/2696)   Receiving objects:  57% (1537/2696)   Receiving objects:  58% (1564/2696)   Receiving objects:  59% (1591/2696)   Receiving objects:  60% (1618/2696)   Receiving objects:  61% (1645/2696)   Receiving objects:  62% (1672/2696)   Receiving objects:  63% (1699/2696)   Receiving objects:  64% (1726/2696)   Receiving objects:  65% (1753/2696)   Receiving objects:  66% (1780/2696)   Receiving objects:  67% (1807/2696)   Receiving objects:  68% (1834/2696)   Receiving objects:  69% (1861/2696)   Receiving objects:  70% (1888/2696)   Receiving objects:  71% (1915/2696)   Receiving objects:  72% (1942/2696)   Receiving objects:  73% (1969/2696)   Receiving objects:  74% (1996/2696)   Receiving objects:  75% (2022/2696)   Receiving objects:  76% (2049/2696)   Receiving objects:  77% (2076/2696)   Receiving objects:  78% (2103/2696)   Receiving objects:  79% (2130/2696)   Receiving objects:  80% (2157/2696)   remote: Total 2696 (delta 1069), reused 1527 (delta 557), pack-reused 0[K
+> Receiving objects:  81% (2184/2696)   Receiving objects:  82% (2211/2696)   Receiving objects:  83% (2238/2696)   Receiving objects:  84% (2265/2696)   Receiving objects:  85% (2292/2696)   Receiving objects:  86% (2319/2696)   Receiving objects:  87% (2346/2696)   Receiving objects:  88% (2373/2696)   Receiving objects:  89% (2400/2696)   Receiving objects:  90% (2427/2696)   Receiving objects:  91% (2454/2696)   Receiving objects:  92% (2481/2696)   Receiving objects:  93% (2508/2696)   Receiving objects:  94% (2535/2696)   Receiving objects:  95% (2562/2696)   Receiving objects:  96% (2589/2696)   Receiving objects:  97% (2616/2696)   Receiving objects:  98% (2643/2696)   Receiving objects:  99% (2670/2696)   Receiving objects: 100% (2696/2696)   Receiving objects: 100% (2696/2696), 3.68 MiB | 0 bytes/s, done.
+> Resolving deltas:   0% (0/1069)   Resolving deltas:   4% (47/1069)   Resolving deltas:   5% (58/1069)   Resolving deltas:   6% (66/1069)   Resolving deltas:   7% (75/1069)   Resolving deltas:   8% (86/1069)   Resolving deltas:   9% (97/1069)   Resolving deltas:  10% (111/1069)   Resolving deltas:  11% (126/1069)   Resolving deltas:  12% (135/1069)   Resolving deltas:  15% (162/1069)   Resolving deltas:  16% (172/1069)   Resolving deltas:  17% (183/1069)   Resolving deltas:  18% (194/1069)   Resolving deltas:  20% (218/1069)   Resolving deltas:  21% (230/1069)   Resolving deltas:  22% (236/1069)   Resolving deltas:  23% (248/1069)   Resolving deltas:  24% (257/1069)   Resolving deltas:  25% (274/1069)   Resolving deltas:  26% (279/1069)   Resolving deltas:  28% (301/1069)   Resolving deltas:  29% (313/1069)   Resolving deltas:  30% (327/1069)   Resolving deltas:  31% (332/1069)   Resolving deltas:  32% (349/1069)   Resolving deltas:  33% (355/1069)   Resolving deltas:  34% (370/1069)   Resolving deltas:  35% (376/1069)   Resolving deltas:  36% (385/1069)   Resolving deltas:  37% (399/1069)   Resolving deltas:  38% (408/1069)   Resolving deltas:  39% (417/1069)   Resolving deltas:  40% (428/1069)   Resolving deltas:  41% (440/1069)   Resolving deltas:  42% (451/1069)   Resolving deltas:  43% (460/1069)   Resolving deltas:  44% (471/1069)   Resolving deltas:  45% (483/1069)   Resolving deltas:  46% (497/1069)   Resolving deltas:  47% (506/1069)   Resolving deltas:  50% (537/1069)   Resolving deltas:  51% (548/1069)   Resolving deltas:  52% (556/1069)   Resolving deltas:  53% (572/1069)   Resolving deltas:  54% (578/1069)   Resolving deltas:  55% (588/1069)   Resolving deltas:  56% (599/1069)   Resolving deltas:  57% (610/1069)   Resolving deltas:  58% (621/1069)   Resolving deltas:  60% (645/1069)   Resolving deltas:  61% (653/1069)   Resolving deltas:  63% (682/1069)   Resolving deltas:  64% (692/1069)   Resolving deltas:  65% (695/1069)   Resolving deltas:  66% (707/1069)   Resolving deltas:  67% (724/1069)   Resolving deltas:  68% (731/1069)   Resolving deltas:  69% (739/1069)   Resolving deltas:  70% (753/1069)   Resolving deltas:  71% (759/1069)   Resolving deltas:  72% (770/1069)   Resolving deltas:  73% (791/1069)   Resolving deltas:  74% (793/1069)   Resolving deltas:  75% (806/1069)   Resolving deltas:  76% (813/1069)   Resolving deltas:  77% (824/1069)   Resolving deltas:  78% (837/1069)   Resolving deltas:  79% (849/1069)   Resolving deltas:  80% (856/1069)   Resolving deltas:  81% (866/1069)   Resolving deltas:  82% (877/1069)   Resolving deltas:  84% (898/1069)   Resolving deltas:  85% (911/1069)   Resolving deltas:  86% (925/1069)   Resolving deltas:  87% (934/1069)   Resolving deltas:  88% (941/1069)   Resolving deltas:  89% (953/1069)   Resolving deltas:  90% (963/1069)   Resolving deltas:  91% (975/1069)   Resolving deltas:  92% (985/1069)   Resolving deltas:  93% (998/1069)   Resolving deltas:  94% (1005/1069)   Resolving deltas:  96% (1032/1069)   Resolving deltas:  97% (1045/1069)   Resolving deltas:  98% (1049/1069)   Resolving deltas:  99% (1063/1069)   Resolving deltas: 100% (1069/1069)   Resolving deltas: 100% (1069/1069), done.
+116,117c116,117
+< travis_time:end:18e1d0f2:start=1465308144629523042,finish=1465308145804003827,duration=1174480785[0K$ cd checkstyle/checkstyle
+< travis_time:start:05a6c4f8[0K$ git fetch origin +refs/pull/3252/merge:
+---
+> travis_time:end:1099810c:start=1465317934338699450,finish=1465317935670634594,duration=1331935144[0K$ cd checkstyle/checkstyle
+> travis_time:start:1ac5a6a9[0K$ git fetch origin +refs/pull/3252/merge:
+125c125
+< travis_time:end:05a6c4f8:start=1465308145807895012,finish=1465308146218210739,duration=410315727[0K$ git checkout -qf FETCH_HEAD
+---
+> travis_time:end:1ac5a6a9:start=1465317935674372721,finish=1465317936042139320,duration=367766599[0K$ git checkout -qf FETCH_HEAD
+140c140
+< travis_time:start:06d44920[0K$ Installing caching utilities
+---
+> travis_time:start:091ff894[0K$ Installing caching utilities
+142,143c142,143
+< travis_time:end:06d44920:start=1465308149244030900,finish=1465308149294416600,duration=50385700[0Ktravis_time:start:02cc35e0[0K
+< travis_time:end:02cc35e0:start=1465308149299665809,finish=1465308149303154202,duration=3488393[0Ktravis_time:start:057b2b40[0K[32;1mattempting to download cache archive[0m
+---
+> travis_time:end:091ff894:start=1465317938184224865,finish=1465317938291781245,duration=107556380[0Ktravis_time:start:05d257a8[0K
+> travis_time:end:05d257a8:start=1465317938296509046,finish=1465317938299770087,duration=3261041[0Ktravis_time:start:08c57db4[0K[32;1mattempting to download cache archive[0m
+145,146d144
+< [32;1mfetching PR.3252/cache--jdk-openjdk7.tgz[0m
+< [32;1mfetching master/cache-linux-precise-84932d7ee236ba5418f2fb7a1efb90642bf23de358002f9aae959f1be7636bc5--jdk-openjdk7.tgz[0m
+149,150c147,148
+< travis_time:end:057b2b40:start=1465308149307380006,finish=1465308151238830063,duration=1931450057[0Ktravis_time:start:171e8d40[0K
+< travis_time:end:171e8d40:start=1465308151242941435,finish=1465308151246350123,duration=3408688[0Ktravis_time:start:08b7efa7[0K[32;1madding /home/travis/.m2 to cache[0m
+---
+> travis_time:end:08c57db4:start=1465317938303544015,finish=1465317939755844271,duration=1452300256[0Ktravis_time:start:0b02189c[0K
+> travis_time:end:0b02189c:start=1465317939759804719,finish=1465317939763178385,duration=3373666[0Ktravis_time:start:0745f282[0K[32;1madding /home/travis/.m2 to cache[0m
+152c150
+< travis_time:end:08b7efa7:start=1465308151250196397,finish=1465308152870826264,duration=1620629867[0Ktravis_fold:end:cache.1[0K$ java -Xmx32m -version
+---
+> travis_time:end:0745f282:start=1465317939767068086,finish=1465317941338416500,duration=1571348414[0Ktravis_fold:end:cache.1[0K$ java -Xmx32m -version
+158c156
+< travis_fold:start:install[0Ktravis_time:start:2b2f98d0[0K$ 
+---
+> travis_fold:start:install[0Ktravis_time:start:0fda2ce9[0K$ 
+160c158
+< travis_time:end:2b2f98d0:start=1465308153249807131,finish=1465308153253383913,duration=3576782[0Ktravis_fold:end:install[0Ktravis_time:start:2e6d7756[0K$ eval $CMD
+---
+> travis_time:end:0fda2ce9:start=1465317941855667112,finish=1465317941858929259,duration=3262147[0Ktravis_fold:end:install[0Ktravis_time:start:25021b5a[0K$ eval $CMD
+170d167
+< Downloading: https://repository.apache.org/releases/junit/junit-dep/maven-metadata.xml
+173c170,171
+< 563/563 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml (563 B at 1.0 KB/sec)
+---
+> Downloading: https://repository.apache.org/releases/junit/junit-dep/maven-metadata.xml
+> 563/563 B               Downloaded: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml (563 B at 1.2 KB/sec)
+1112c1110
+<      [echo] Checkstyle started: 07/06/2016 02:03:26 PM
+---
+>      [echo] Checkstyle started: 07/06/2016 04:46:28 PM
+1114,1116c1112,1151
+< [checkstyle] [ERROR] /home/travis/build/checkstyle/checkstyle/src/test/java/com/puppycrawl/tools/checkstyle/grammars/java8/ReceiverParameterTest.java:1: Line does not match expected header line of '////////////////////////////////////////////////////////////////////////////////'. [Header]
+< [checkstyle] [ERROR] /home/travis/build/checkstyle/checkstyle/src/test/java/com/puppycrawl/tools/checkstyle/grammars/java8/ReceiverParameterTest.java:1: Line does not match expected header line of '^/{80}$'. [RegexpHeader]
+<      [echo] Checkstyle finished: 07/06/2016 02:04:13 PM
+---
+>      [echo] Checkstyle finished: 07/06/2016 04:47:15 PM
+> [INFO] Executed tasks
+> [INFO] 
+> [INFO] >>> maven-pmd-plugin:3.6:check (default) > :pmd @ checkstyle >>>
+> [WARNING] Failure to transfer junit:junit-dep/maven-metadata.xml from https://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata junit:junit-dep/maven-metadata.xml from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Name or service not known
+> [INFO] 
+> [INFO] --- maven-pmd-plugin:3.6:pmd (pmd) @ checkstyle ---
+> [INFO] 
+> [INFO] <<< maven-pmd-plugin:3.6:check (default) < :pmd @ checkstyle <<<
+> [INFO] 
+> [INFO] --- maven-pmd-plugin:3.6:check (default) @ checkstyle ---
+> [INFO] 
+> [INFO] >>> findbugs-maven-plugin:3.0.3:check (default) > :findbugs @ checkstyle >>>
+> [WARNING] Failure to transfer junit:junit-dep/maven-metadata.xml from https://nexus.codehaus.org/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of codehaus-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata junit:junit-dep/maven-metadata.xml from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Name or service not known
+> [INFO] 
+> [INFO] --- findbugs-maven-plugin:3.0.3:findbugs (findbugs) @ checkstyle ---
+> [INFO] 
+> [INFO] <<< findbugs-maven-plugin:3.0.3:check (default) < :findbugs @ checkstyle <<<
+> [INFO] 
+> [INFO] --- findbugs-maven-plugin:3.0.3:check (default) @ checkstyle ---
+> [INFO] 
+> [INFO] --- forbiddenapis:2.1:check (default) @ checkstyle ---
+> [INFO] Scanning for classes to check...
+> [INFO] Reading bundled API signatures: jdk-unsafe-1.7
+> [INFO] Reading bundled API signatures: jdk-deprecated-1.7
+> [INFO] Reading bundled API signatures: jdk-system-out
+> [INFO] Reading bundled API signatures: jdk-non-portable
+> [INFO] Loading classes to check...
+> [INFO] Scanning classes for violations...
+> [INFO] Scanned 495 (and 540 related) class file(s) for forbidden API invocations (in 1.52s), 0 error(s).
+> [INFO] 
+> [INFO] --- forbiddenapis:2.1:testCheck (default) @ checkstyle ---
+> [INFO] Scanning for classes to check...
+> [INFO] Reading bundled API signatures: jdk-unsafe-1.7
+> [INFO] Reading bundled API signatures: jdk-deprecated-1.7
+> [INFO] Reading bundled API signatures: jdk-system-out
+> [INFO] Reading bundled API signatures: jdk-non-portable
+> [INFO] Loading classes to check...
+> [INFO] Scanning classes for violations...
+> [INFO] Scanned 1266 (and 791 related) class file(s) for forbidden API invocations (in 1.29s), 0 error(s).
+1118c1153
+< [INFO] BUILD FAILURE
+---
+> [INFO] BUILD SUCCESS
+1120,1122c1155,1157
+< [INFO] Total time: 01:38 min
+< [INFO] Finished at: 2016-06-07T14:04:13+00:00
+< [INFO] Final Memory: 49M/432M
+---
+> [INFO] Total time: 01:35 min
+> [INFO] Finished at: 2016-06-07T16:47:19+00:00
+> [INFO] Final Memory: 62M/402M
+1124,1133d1158
+< [ERROR] Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.8:run (ant-phase-verify) on project checkstyle: An Ant BuildException has occured: The following error occurred while executing this line:
+< [ERROR] /home/travis/build/checkstyle/checkstyle/config/ant-phase-verify.xml:50: Checkstyle failed: Got 2 errors and 0 warnings.
+< [ERROR] around Ant part ...<ant antfile="config/ant-phase-verify.xml"/>... @ 7:47 in /home/travis/build/checkstyle/checkstyle/target/antrun/build-main.xml
+< [ERROR] -> [Help 1]
+< [ERROR] 
+< [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+< [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+< [ERROR] 
+< [ERROR] For more information about the errors and possible solutions, please read the following articles:
+< [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+1135,1136c1160,1161
+< travis_time:end:2e6d7756:start=1465308153258448181,finish=1465308255879280024,duration=102620831843[0K
+< [31;1mThe command "eval $CMD" exited with 1.[0m
+---
+> travis_time:end:25021b5a:start=1465317941863039630,finish=1465318040914721945,duration=99051682315[0K
+> [32;1mThe command "eval $CMD" exited with 0.[0m
+1138,1139c1163,1164
+< travis_time:start:2a4a928a[0K
+< travis_time:end:2a4a928a:start=1465308255883651294,finish=1465308255887168020,duration=3516726[0Ktravis_time:start:0767af8d[0K[32;1mchange detected (content changed, file is created, or file is deleted):
+---
+> travis_time:start:2a39b690[0K
+> travis_time:end:2a39b690:start=1465318040918942286,finish=1465318040922316675,duration=3374389[0Ktravis_time:start:06d7380c[0K[32;1mchange detected (content changed, file is created, or file is deleted):
+1146,1147c1171,1185
+< travis_time:end:0767af8d:start=1465308255891264416,finish=1465308263865831416,duration=7974567000[0Ktravis_fold:end:cache.2[0K
+< Done. Your build exited with 1.
+---
+> travis_time:end:06d7380c:start=1465318040926203936,finish=1465318048242568773,duration=7316364837[0Ktravis_fold:end:cache.2[0Ktravis_fold:start:after_success.1[0Ktravis_time:start:2a146d57[0K$ eval $COVERAGE_CMD
+> 
+> travis_time:end:2a146d57:start=1465318048246953772,finish=1465318048250184786,duration=3231014[0Ktravis_fold:end:after_success.1[0Ktravis_fold:start:after_success.2[0Ktravis_time:start:284e7a6c[0K$ if [[ $TRAVIS_REPO_SLUG == 'checkstyle/checkstyle'
+>             && $TRAVIS_BRANCH == 'master'
+>             && $TRAVIS_PULL_REQUEST == 'false'
+>             && $DEPLOY == 'true'
+>        ]];
+>     then
+>         mvn -s config/deploy-settings.xml deploy \
+>           -DskipTests -DskipITs -Dpmd.skip=true -Dfindbugs.skip=true \
+>           -Dcobertura.skip=true -Dcheckstyle.ant.skip=true -Dcheckstyle.skip=true -Dxml.skip=true ;
+>     fi
+> 
+> travis_time:end:284e7a6c:start=1465318048254435286,finish=1465318048258107356,duration=3672070[0Ktravis_fold:end:after_success.2[0K
+> Done. Your build exited with 0.

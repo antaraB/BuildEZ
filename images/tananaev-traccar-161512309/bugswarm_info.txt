@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/tananaev/traccar
+Github failed trigger commit:  https://www.github.com/tananaev/traccar/commit/de3171940f14fe6d559780027da3efd35bd4ab1c
+Github passed trigger commit:  https://www.github.com/tananaev/traccar/commit/208b66427643d50d2a5fd0dd29b73abe086ce9db
+Github compare link:  https://www.github.com/tananaev/traccar/compare/de3171940f14fe6d559780027da3efd35bd4ab1c...208b66427643d50d2a5fd0dd29b73abe086ce9db

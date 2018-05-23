@@ -1,0 +1,27 @@
+996:[ERROR] src/org/traccar/protocol/AplicomProtocolDecoder.java:[309,115] (whitespace) OperatorWrap: '+' should be on a new line.
+997:[ERROR] src/org/traccar/protocol/AplicomProtocolDecoder.java:[310,115] (whitespace) OperatorWrap: '+' should be on a new line.
+1005:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (checkstyle) on project traccar: You have 2 Checkstyle violations. -> [Help 1]
+1006:[ERROR] 
+1007:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1008:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1009:[ERROR] 
+1010:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1011:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1029:[ERROR] src/org/traccar/protocol/AplicomProtocolDecoder.java:[309,115] (whitespace) OperatorWrap: '+' should be on a new line.
+1030:[ERROR] src/org/traccar/protocol/AplicomProtocolDecoder.java:[310,115] (whitespace) OperatorWrap: '+' should be on a new line.
+1038:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (checkstyle) on project traccar: You have 2 Checkstyle violations. -> [Help 1]
+1039:[ERROR] 
+1040:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1041:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1042:[ERROR] 
+1043:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1044:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1062:[ERROR] src/org/traccar/protocol/AplicomProtocolDecoder.java:[309,115] (whitespace) OperatorWrap: '+' should be on a new line.
+1063:[ERROR] src/org/traccar/protocol/AplicomProtocolDecoder.java:[310,115] (whitespace) OperatorWrap: '+' should be on a new line.
+1071:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:2.17:check (checkstyle) on project traccar: You have 2 Checkstyle violations. -> [Help 1]
+1072:[ERROR] 
+1073:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1074:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1075:[ERROR] 
+1076:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1077:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

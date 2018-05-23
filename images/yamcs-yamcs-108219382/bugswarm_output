@@ -1,0 +1,76 @@
+{
+    "_created": "Mon, 05 Mar 2018 06:44:59 GMT",
+    "_etag": "8603337463c26e708572815a846727c1990afa7e",
+    "_id": "5a9ce76bf1f70e0730978299",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/yamcs-yamcs-108219382",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:45:09 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 108219381,
+        "build_job": "483.1",
+        "committed_at": "2016-02-10T07:51:54Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 108219382,
+        "message": "create a separate class for holding the parameter cache configuration\nplus some doc update\n\nConflicts:\n\tyamcs-core/src/main/java/org/yamcs/YProcessor.java",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "9ccb351f73562f3c865edd27d105bf654ca49c23"
+    },
+    "filtered_reason": null,
+    "image_tag": "yamcs-yamcs-108219382",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 9,
+        "changes": 14,
+        "deletions": 5
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 108220084,
+        "build_job": "485.1",
+        "committed_at": "2016-02-10T07:57:38Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 108220085,
+        "message": "fix error during cherry-pick",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 237,
+        "trigger_sha": "888e53471ab918a6ab28004ce2594128d695aaf4"
+    },
+    "pr_num": -1,
+    "repo": "yamcs/yamcs",
+    "repo_builds": 821,
+    "repo_commits": 1984,
+    "repo_members": 0,
+    "repo_mined_version": "b5c4761996eb5aaaf7ca3618b3102607a55add82",
+    "repo_prs": 166,
+    "repo_watchers": 9,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "yamcs-yamcs-108219382",
+    "test_framework": ""
+}

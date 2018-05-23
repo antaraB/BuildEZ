@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/yamcs/yamcs
+Github failed trigger commit:  https://www.github.com/yamcs/yamcs/commit/9ccb351f73562f3c865edd27d105bf654ca49c23
+Github passed trigger commit:  https://www.github.com/yamcs/yamcs/commit/888e53471ab918a6ab28004ce2594128d695aaf4
+Github compare link:  https://www.github.com/yamcs/yamcs/compare/9ccb351f73562f3c865edd27d105bf654ca49c23...888e53471ab918a6ab28004ce2594128d695aaf4

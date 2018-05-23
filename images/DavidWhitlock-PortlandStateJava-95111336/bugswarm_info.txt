@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/DavidWhitlock/PortlandStateJava
+Github failed trigger commit:  https://www.github.com/DavidWhitlock/PortlandStateJava/commit/5d0af5cca1ef3919271fe2cca872668ccab9b56c
+Github passed trigger commit:  https://www.github.com/DavidWhitlock/PortlandStateJava/commit/da27538e610974fa3dc1f3eabf296164efc52ea4
+Github compare link:  https://www.github.com/DavidWhitlock/PortlandStateJava/compare/5d0af5cca1ef3919271fe2cca872668ccab9b56c...da27538e610974fa3dc1f3eabf296164efc52ea4

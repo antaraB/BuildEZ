@@ -1,0 +1,74 @@
+{
+    "_created": "Sat, 27 Jan 2018 20:18:28 GMT",
+    "_etag": "874f5ea63186c7842289f4f48afa48eef23c6fff",
+    "_id": "5a6cde94f1f70e07903badb8",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/tananaev-traccar-161512309",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:19:04 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 161512308,
+        "build_job": "2231.1",
+        "committed_at": "2016-09-20T18:27:12Z",
+        "failed_tests": "",
+        "job_id": 161512309,
+        "message": "Implement Aplicom E protocol",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "de3171940f14fe6d559780027da3efd35bd4ab1c"
+    },
+    "filtered_reason": "",
+    "image_tag": "tananaev-traccar-161512309",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 4,
+        "changes": 9,
+        "deletions": 5
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 161512599,
+        "build_job": "2232.1",
+        "committed_at": "2016-09-20T18:29:49Z",
+        "failed_tests": "",
+        "job_id": 161512600,
+        "message": "Fix some style issues",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 199,
+        "trigger_sha": "208b66427643d50d2a5fd0dd29b73abe086ce9db"
+    },
+    "pr_num": -1,
+    "repo": "tananaev/traccar",
+    "repo_builds": 2955,
+    "repo_commits": 3478,
+    "repo_members": 2,
+    "repo_mined_version": "98f14df734f2772d65c28ab4364e37f16efabbad",
+    "repo_prs": 317,
+    "repo_watchers": 792,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "tananaev-traccar-161512309",
+    "test_framework": ""
+}

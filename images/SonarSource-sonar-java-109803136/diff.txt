@@ -1,0 +1,67 @@
+1c1
+< Using worker: worker-linux-docker-305a4bb5.prod.travis-ci.org:travis-linux-14
+---
+> Using worker: worker-linux-docker-634b129a.prod.travis-ci.org:travis-linux-9
+68c68
+< travis_fold:start:git.checkout[0Ktravis_time:start:165e3272[0K$ git clone --depth=50 --branch=travis_push https://github.com/SonarSource/sonar-java.git SonarSource/sonar-java
+---
+> travis_fold:start:git.checkout[0Ktravis_time:start:191d09e7[0K$ git clone --depth=50 --branch=travis_push https://github.com/SonarSource/sonar-java.git SonarSource/sonar-java
+74c74
+< Resolving deltas:   0% (0/1974)   Resolving deltas:   1% (27/1974)   Resolving deltas:   2% (46/1974)   Resolving deltas:   3% (60/1974)   Resolving deltas:   4% (80/1974)   Resolving deltas:   6% (136/1974)   Resolving deltas:   7% (140/1974)   Resolving deltas:   8% (159/1974)   Resolving deltas:   9% (178/1974)   Resolving deltas:  10% (210/1974)   Resolving deltas:  11% (227/1974)   Resolving deltas:  13% (259/1974)   Resolving deltas:  14% (277/1974)   Resolving deltas:  15% (298/1974)   Resolving deltas:  16% (317/1974)   Resolving deltas:  17% (338/1974)   Resolving deltas:  18% (370/1974)   Resolving deltas:  19% (379/1974)   Resolving deltas:  20% (396/1974)   Resolving deltas:  21% (415/1974)   Resolving deltas:  22% (435/1974)   Resolving deltas:  23% (456/1974)   Resolving deltas:  24% (475/1974)   Resolving deltas:  25% (511/1974)   Resolving deltas:  27% (533/1974)   Resolving deltas:  28% (554/1974)   Resolving deltas:  29% (591/1974)   Resolving deltas:  30% (595/1974)   Resolving deltas:  31% (620/1974)   Resolving deltas:  32% (637/1974)   Resolving deltas:  33% (654/1974)   Resolving deltas:  34% (677/1974)   Resolving deltas:  35% (691/1974)   Resolving deltas:  36% (712/1974)   Resolving deltas:  38% (752/1974)   Resolving deltas:  39% (775/1974)   Resolving deltas:  40% (790/1974)   Resolving deltas:  41% (812/1974)   Resolving deltas:  42% (839/1974)   Resolving deltas:  43% (854/1974)   Resolving deltas:  44% (871/1974)   Resolving deltas:  45% (893/1974)   Resolving deltas:  46% (911/1974)   Resolving deltas:  47% (938/1974)   Resolving deltas:  48% (950/1974)   Resolving deltas:  49% (973/1974)   Resolving deltas:  50% (994/1974)   Resolving deltas:  51% (1007/1974)   Resolving deltas:  52% (1030/1974)   Resolving deltas:  53% (1049/1974)   Resolving deltas:  54% (1067/1974)   Resolving deltas:  55% (1086/1974)   Resolving deltas:  56% (1110/1974)   Resolving deltas:  57% (1129/1974)   Resolving deltas:  58% (1145/1974)   Resolving deltas:  59% (1165/1974)   Resolving deltas:  60% (1185/1974)   Resolving deltas:  76% (1518/1974)   Resolving deltas:  77% (1528/1974)   Resolving deltas:  78% (1540/1974)   Resolving deltas:  79% (1566/1974)   Resolving deltas:  81% (1604/1974)   Resolving deltas:  82% (1619/1974)   Resolving deltas:  83% (1646/1974)   Resolving deltas:  84% (1659/1974)   Resolving deltas:  86% (1704/1974)   Resolving deltas:  87% (1722/1974)   Resolving deltas:  88% (1746/1974)   Resolving deltas:  89% (1763/1974)   Resolving deltas:  90% (1787/1974)   Resolving deltas:  91% (1799/1974)   Resolving deltas:  92% (1817/1974)   Resolving deltas:  93% (1838/1974)   Resolving deltas:  94% (1871/1974)   Resolving deltas:  95% (1876/1974)   Resolving deltas:  96% (1897/1974)   Resolving deltas:  97% (1917/1974)   Resolving deltas:  98% (1935/1974)   Resolving deltas:  99% (1955/1974)   Resolving deltas: 100% (1974/1974)   Resolving deltas: 100% (1974/1974), done.
+---
+> Resolving deltas:   0% (0/1974)   Resolving deltas:   1% (23/1974)   Resolving deltas:   2% (53/1974)   Resolving deltas:   3% (60/1974)   Resolving deltas:   4% (87/1974)   Resolving deltas:   7% (139/1974)   Resolving deltas:   8% (160/1974)   Resolving deltas:   9% (178/1974)   Resolving deltas:  11% (225/1974)   Resolving deltas:  14% (277/1974)   Resolving deltas:  15% (313/1974)   Resolving deltas:  16% (321/1974)   Resolving deltas:  17% (337/1974)   Resolving deltas:  18% (360/1974)   Resolving deltas:  19% (377/1974)   Resolving deltas:  20% (395/1974)   Resolving deltas:  21% (415/1974)   Resolving deltas:  22% (436/1974)   Resolving deltas:  23% (457/1974)   Resolving deltas:  24% (474/1974)   Resolving deltas:  25% (495/1974)   Resolving deltas:  27% (533/1974)   Resolving deltas:  28% (554/1974)   Resolving deltas:  29% (591/1974)   Resolving deltas:  30% (595/1974)   Resolving deltas:  31% (620/1974)   Resolving deltas:  32% (637/1974)   Resolving deltas:  33% (657/1974)   Resolving deltas:  34% (680/1974)   Resolving deltas:  35% (692/1974)   Resolving deltas:  36% (711/1974)   Resolving deltas:  37% (731/1974)   Resolving deltas:  38% (755/1974)   Resolving deltas:  39% (771/1974)   Resolving deltas:  40% (793/1974)   Resolving deltas:  41% (810/1974)   Resolving deltas:  42% (833/1974)   Resolving deltas:  43% (850/1974)   Resolving deltas:  44% (874/1974)   Resolving deltas:  45% (893/1974)   Resolving deltas:  46% (909/1974)   Resolving deltas:  47% (932/1974)   Resolving deltas:  48% (952/1974)   Resolving deltas:  49% (971/1974)   Resolving deltas:  50% (990/1974)   Resolving deltas:  51% (1008/1974)   Resolving deltas:  52% (1027/1974)   Resolving deltas:  53% (1047/1974)   Resolving deltas:  54% (1066/1974)   Resolving deltas:  55% (1091/1974)   Resolving deltas:  56% (1109/1974)   Resolving deltas:  57% (1126/1974)   Resolving deltas:  58% (1145/1974)   Resolving deltas:  59% (1165/1974)   Resolving deltas:  60% (1185/1974)   Resolving deltas:  66% (1307/1974)   Resolving deltas:  67% (1323/1974)   Resolving deltas:  68% (1343/1974)   Resolving deltas:  69% (1366/1974)   Resolving deltas:  70% (1392/1974)   Resolving deltas:  71% (1402/1974)   Resolving deltas:  72% (1422/1974)   Resolving deltas:  73% (1443/1974)   Resolving deltas:  75% (1492/1974)   Resolving deltas:  76% (1513/1974)   Resolving deltas:  77% (1520/1974)   Resolving deltas:  78% (1540/1974)   Resolving deltas:  79% (1560/1974)   Resolving deltas:  80% (1583/1974)   Resolving deltas:  81% (1600/1974)   Resolving deltas:  82% (1622/1974)   Resolving deltas:  83% (1646/1974)   Resolving deltas:  84% (1665/1974)   Resolving deltas:  85% (1678/1974)   Resolving deltas:  86% (1702/1974)   Resolving deltas:  87% (1718/1974)   Resolving deltas:  88% (1738/1974)   Resolving deltas:  89% (1760/1974)   Resolving deltas: 100% (1974/1974)   Resolving deltas: 100% (1974/1974), done.
+77,78c77,78
+< travis_time:end:165e3272:start=1455695674500511713,finish=1455695675655994961,duration=1155483248[0K$ cd SonarSource/sonar-java
+< $ git checkout -qf 6273288d1b70132007331d60e3c3e6f6f9f293af
+---
+> travis_time:end:191d09e7:start=1455696323071423516,finish=1455696325637732222,duration=2566308706[0K$ cd SonarSource/sonar-java
+> $ git checkout -qf a0a02895dd2f6615e009b5fb514c55f63058408c
+100c100
+< travis_time:start:1bbe9210[0K$ Installing caching utilities
+---
+> travis_time:start:26ca2f22[0K$ Installing caching utilities
+102,103c102,103
+< travis_time:end:1bbe9210:start=1455695677339098919,finish=1455695677391666766,duration=52567847[0Ktravis_time:start:095935c8[0K
+< travis_time:end:095935c8:start=1455695677396078497,finish=1455695677399023909,duration=2945412[0Ktravis_time:start:152b7fe2[0K[32;1mattempting to download cache archive[0m
+---
+> travis_time:end:26ca2f22:start=1455696344879747417,finish=1455696344906623628,duration=26876211[0Ktravis_time:start:02818593[0K
+> travis_time:end:02818593:start=1455696344911007354,finish=1455696344913899160,duration=2891806[0Ktravis_time:start:04e1cf06[0K[32;1mattempting to download cache archive[0m
+109,110c109,110
+< travis_time:end:152b7fe2:start=1455695677402870175,finish=1455695679878208822,duration=2475338647[0Ktravis_time:start:014cd861[0K
+< travis_time:end:014cd861:start=1455695679882022142,finish=1455695679885584813,duration=3562671[0Ktravis_time:start:0c76117d[0K[32;1madding /home/travis/.m2/repository to cache[0m
+---
+> travis_time:end:04e1cf06:start=1455696344917506318,finish=1455696348922688136,duration=4005181818[0Ktravis_time:start:0d0bc351[0K
+> travis_time:end:0d0bc351:start=1455696348926627385,finish=1455696348929755890,duration=3128505[0Ktravis_time:start:1e7f77ea[0K[32;1madding /home/travis/.m2/repository to cache[0m
+112c112
+< travis_time:end:0c76117d:start=1455695679889641378,finish=1455695682690090643,duration=2800449265[0Ktravis_fold:end:cache.1[0K$ jdk_switcher use oraclejdk8
+---
+> travis_time:end:1e7f77ea:start=1455696348933447184,finish=1455696352345550680,duration=3412103496[0Ktravis_fold:end:cache.1[0K$ jdk_switcher use oraclejdk8
+120c120
+< travis_fold:start:install[0Ktravis_time:start:19d156aa[0K$ true
+---
+> travis_fold:start:install[0Ktravis_time:start:09d667d0[0K$ true
+122,123c122
+< travis_time:end:19d156aa:start=1455695683121620338,finish=1455695683124679456,duration=3059118[0Ktravis_fold:end:install[0Ktravis_time:start:0d52a990[0K$ ./travis.sh
+< ./travis.sh: line 61: stringEcho: command not found
+---
+> travis_time:end:09d667d0:start=1455696352901354810,finish=1455696352904715444,duration=3360634[0Ktravis_fold:end:install[0Ktravis_time:start:0759c8d6[0K$ ./travis.sh
+125,126c124,127
+< travis_time:end:0d52a990:start=1455695683128528512,finish=1455695683133744906,duration=5216394[0K
+< [31;1mThe command "./travis.sh" exited with 127.[0m
+---
+> ================ We do not run plugin or ruling tests on branches, open a pull request to run those! =================
+> 
+> travis_time:end:0759c8d6:start=1455696352908873114,finish=1455696352914424729,duration=5551615[0K
+> [32;1mThe command "./travis.sh" exited with 0.[0m
+128,129c129,130
+< travis_time:start:07953d0b[0K
+< travis_time:end:07953d0b:start=1455695683139412509,finish=1455695683143508051,duration=4095542[0Ktravis_time:start:0f67f63e[0K[32;1mnothing changed, not updating cache[0m
+---
+> travis_time:start:09dcb100[0K
+> travis_time:end:09dcb100:start=1455696352919622524,finish=1455696352923130033,duration=3507509[0Ktravis_time:start:0cd57d8b[0K[32;1mnothing changed, not updating cache[0m
+131,132c132,133
+< travis_time:end:0f67f63e:start=1455695683148155949,finish=1455695683936869785,duration=788713836[0Ktravis_fold:end:cache.2[0K
+< Done. Your build exited with 1.
+---
+> travis_time:end:0cd57d8b:start=1455696352926945490,finish=1455696353811912513,duration=884967023[0Ktravis_fold:end:cache.2[0K
+> Done. Your build exited with 0.

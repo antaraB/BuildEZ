@@ -1,0 +1,76 @@
+{
+    "_created": "Sat, 03 Mar 2018 15:15:21 GMT",
+    "_etag": "1fb5450a9288e00c71968211d4f9b117df9d422e",
+    "_id": "5a9abc09f1f70ee79901617a",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/wmixvideo-nfe-124298807",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:40:35 GMT",
+    "base_branch": "",
+    "branch": "protocolo_por_uf",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 124298805,
+        "build_job": "533.1",
+        "committed_at": "2016-04-19T20:27:17Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 124298807,
+        "message": "Criado branche para teste de certificado.",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "6afed3b56c9026a477d500f353970e07578799db"
+    },
+    "filtered_reason": null,
+    "image_tag": "wmixvideo-nfe-124298807",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1068,
+        "changes": 2131,
+        "deletions": 1063
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 124301645,
+        "build_job": "534.1",
+        "committed_at": "2016-04-19T20:37:37Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 124301646,
+        "message": "Corrigido testes.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 2628,
+        "trigger_sha": "1bab28b7e54af0e8aaa9536931a5466183c6c2d0"
+    },
+    "pr_num": -1,
+    "repo": "wmixvideo/nfe",
+    "repo_builds": 896,
+    "repo_commits": 570,
+    "repo_members": 3,
+    "repo_mined_version": "19bd8e35f8b2625565206dbe3a9e64d3cb065c5e",
+    "repo_prs": 116,
+    "repo_watchers": 156,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "wmixvideo-nfe-124298807",
+    "test_framework": ""
+}

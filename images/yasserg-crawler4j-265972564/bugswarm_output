@@ -1,0 +1,74 @@
+{
+    "_created": "Thu, 25 Jan 2018 21:36:25 GMT",
+    "_etag": "02261439029e56c0f6c6cd1f13e60991e7785856",
+    "_id": "5a6a4dd9f1f70e07903ba2ce",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/yasserg-crawler4j-265972564",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:17:33 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 265972563,
+        "build_job": "189.1",
+        "committed_at": "2017-08-18T13:36:13Z",
+        "failed_tests": "",
+        "job_id": 265972564,
+        "message": "#221, create parent pom, move current code in submodule.",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "3ff5e67dda265b09e5936bb3e16d8ab88f15e2bc"
+    },
+    "filtered_reason": "",
+    "image_tag": "yasserg-crawler4j-265972564",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 2,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 265977629,
+        "build_job": "190.1",
+        "committed_at": "2017-08-18T13:51:00Z",
+        "failed_tests": "",
+        "job_id": 265977630,
+        "message": "#221, point to local parent pom.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 18,
+        "trigger_sha": "e939976a03c6a2dce1a2b7f7f44c5f86c66783ee"
+    },
+    "pr_num": -1,
+    "repo": "yasserg/crawler4j",
+    "repo_builds": 73,
+    "repo_commits": 261,
+    "repo_members": 1,
+    "repo_mined_version": "312408a1f4b23b43c1d8cd9598db89f82f764d8e",
+    "repo_prs": 79,
+    "repo_watchers": 1694,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "yasserg-crawler4j-265972564",
+    "test_framework": ""
+}

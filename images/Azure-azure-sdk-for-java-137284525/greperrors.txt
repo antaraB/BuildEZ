@@ -1,0 +1,48 @@
+1161:[ERROR] COMPILATION ERROR : 
+1163:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImpl.java:[892,38] cannot find symbol
+1194:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project azure-mgmt-compute: Compilation failure
+1195:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImpl.java:[892,38] cannot find symbol
+1196:[ERROR] symbol:   variable AccountType
+1197:[ERROR] location: class com.microsoft.azure.management.compute.implementation.VirtualMachineImpl
+1198:[ERROR] -> [Help 1]
+1199:[ERROR] 
+1200:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1201:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1202:[ERROR] 
+1203:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1204:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1205:[ERROR] 
+1206:[ERROR] After correcting the problems, you can resume the build with the command
+1207:[ERROR]   mvn <goals> -rf :azure-mgmt-compute
+1578:[ERROR] COMPILATION ERROR : 
+1580:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImpl.java:[892,38] cannot find symbol
+1611:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project azure-mgmt-compute: Compilation failure
+1612:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImpl.java:[892,38] cannot find symbol
+1613:[ERROR] symbol:   variable AccountType
+1614:[ERROR] location: class com.microsoft.azure.management.compute.implementation.VirtualMachineImpl
+1615:[ERROR] -> [Help 1]
+1616:[ERROR] 
+1617:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1618:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1619:[ERROR] 
+1620:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1621:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1622:[ERROR] 
+1623:[ERROR] After correcting the problems, you can resume the build with the command
+1624:[ERROR]   mvn <goals> -rf :azure-mgmt-compute
+1995:[ERROR] COMPILATION ERROR : 
+1997:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImpl.java:[892,38] cannot find symbol
+2028:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project azure-mgmt-compute: Compilation failure
+2029:[ERROR] /home/travis/build/Azure/azure-sdk-for-java/azure-mgmt-compute/src/main/java/com/microsoft/azure/management/compute/implementation/VirtualMachineImpl.java:[892,38] cannot find symbol
+2030:[ERROR] symbol:   variable AccountType
+2031:[ERROR] location: class com.microsoft.azure.management.compute.implementation.VirtualMachineImpl
+2032:[ERROR] -> [Help 1]
+2033:[ERROR] 
+2034:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2035:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2036:[ERROR] 
+2037:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2038:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2039:[ERROR] 
+2040:[ERROR] After correcting the problems, you can resume the build with the command
+2041:[ERROR]   mvn <goals> -rf :azure-mgmt-compute

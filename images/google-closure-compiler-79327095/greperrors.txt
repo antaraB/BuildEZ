@@ -1,0 +1,1038 @@
+838:[ERROR] COMPILATION ERROR : 
+840:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/Tracer.java:[20,6] error: duplicate class: com.google.javascript.jscomp.Tracer
+841:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CompilerExecutor.java:[22,6] error: duplicate class: com.google.javascript.jscomp.CompilerExecutor
+842:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PrintStreamErrorManager.java:[22,7] error: duplicate class: com.google.javascript.jscomp.PrintStreamErrorManager
+843:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/rhino/TokenUtil.java:[26,7] error: duplicate class: com.google.javascript.rhino.TokenUtil
+844:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/ResourceLoader.java:[32,6] error: duplicate class: com.google.javascript.jscomp.ResourceLoader
+845:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileParser.java:[38,13] error: duplicate class: com.google.javascript.jscomp.deps.JsFileParser
+846:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:[46,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapConsumerV3
+847:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/CoverageInstrumentationPass.java:[36] error: duplicate class: com.google.javascript.jscomp.CoverageInstrumentationPass
+848:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/OutputCharsetEncoder.java:[33,6] error: duplicate class: com.google.javascript.jscomp.OutputCharsetEncoder
+849:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckMissingGetCssName.java:[22] error: duplicate class: com.google.javascript.jscomp.CheckMissingGetCssName
+850:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PerformanceTracker.java:[25,13] error: duplicate class: com.google.javascript.jscomp.PerformanceTracker
+851:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessagesForChrome.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessagesForChrome
+852:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[45,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapGeneratorV3
+853:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AliasStrings.java:[49] error: duplicate class: com.google.javascript.jscomp.AliasStrings
+854:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/newtypes/PersistentMap.java:[26,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentMap
+855:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckConformance.java:[23,13] error: duplicate class: com.google.javascript.jscomp.CheckConformance
+856:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessages.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessages
+857:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/newtypes/PersistentSet.java:[22,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentSet
+858:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+859:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[27,10] error: cannot find symbol
+860:[ERROR]   symbol:   class RegExp
+863:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[20,35] error: package com.google.gwt.regexp.shared does not exist
+864:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[29,16] error: cannot find symbol
+865:[ERROR]   symbol:   class RegExp
+868:[ERROR]   symbol:   class RegExp
+871:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[20,38] error: package com.google.gwt.resources.client does not exist
+872:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[21,38] error: package com.google.gwt.resources.client does not exist
+873:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[28,37] error: cannot find symbol
+874:[ERROR]   symbol:   class ClientBundle
+877:[ERROR]   symbol:   class TextResource
+880:[ERROR]   symbol:   class TextResource
+883:[ERROR]   symbol:   class TextResource
+886:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[20,33] error: package com.google.gwt.core.client does not exist
+887:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[93,28] error: cannot find symbol
+888:[ERROR]   symbol:   class JsArrayInteger
+891:[ERROR]   symbol:   class JsArrayInteger
+894:[ERROR]   symbol:   class JsArrayInteger
+897:[ERROR]   symbol:   class JsArrayInteger
+900:[ERROR]   symbol:   class JsArrayInteger
+903:[ERROR]   symbol:   class JsArrayInteger
+906:[ERROR]   symbol:   class JsArrayInteger
+909:[ERROR]   symbol:   class JsArrayInteger
+912:[ERROR]   symbol:   class JsArrayInteger
+915:[ERROR]   symbol:   class JsArrayInteger
+918:[ERROR]   symbol:   class JsArrayInteger
+921:[ERROR]   symbol:   class JsArrayInteger
+924:[ERROR]   symbol:   class JsArrayInteger
+927:[ERROR]   symbol:   class JsArrayInteger
+930:[ERROR]   symbol:   class JsArrayInteger
+933:[ERROR]   symbol:   class JsArrayInteger
+936:[ERROR]   symbol:   class JsArrayInteger
+939:[ERROR]   symbol:   class JsArrayInteger
+942:[ERROR]   symbol:   class JsArrayInteger
+945:[ERROR]   symbol:   class JsArrayInteger
+948:[ERROR]   symbol:   class JsArrayInteger
+951:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[23,36] error: package com.google.gwt.core.client.js does not exist
+952:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[24,36] error: package com.google.gwt.core.client.js does not exist
+953:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[25,38] error: package com.google.gwt.event.dom.client does not exist
+954:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[26,38] error: package com.google.gwt.event.dom.client does not exist
+955:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[27,36] error: package com.google.gwt.user.client.ui does not exist
+956:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[28,36] error: package com.google.gwt.user.client.ui does not exist
+957:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[29,36] error: package com.google.gwt.user.client.ui does not exist
+958:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[41,38] error: cannot find symbol
+959:[ERROR]   symbol: class EntryPoint
+961:[ERROR]   symbol: class JsNamespace
+963:[ERROR]   symbol:   class EntryVisitor
+966:[ERROR]   symbol:   class Source
+969:[ERROR]   symbol:   class Source
+972:[ERROR]   symbol:   class Source
+975:[ERROR]   symbol:   class JsExport
+978:[ERROR]   required: StaticTypedScope<JSType>
+983:[ERROR]   symbol:   method getAbsolutePath()
+986:[ERROR]   symbol:   method asCharSource(File,Charset)
+989:[ERROR]   required: StaticTypedSlot<JSType>
+992:[ERROR] File
+995:[ERROR]   return type requires unchecked conversion from TypedScope to T
+999:[ERROR]   symbol:   variable RegExp
+1002:[ERROR]   symbol:   method getGroup(int)
+1005:[ERROR]   symbol:   method getGroup(int)
+1008:[ERROR]   symbol:   method getGroup(int)
+1011:[ERROR]   symbol:   variable RegExp
+1014:[ERROR]   symbol:   method start()
+1017:[ERROR]   symbol:   method end()
+1020:[ERROR]   symbol:   method start()
+1023:[ERROR]   symbol:   method exists()
+1026:[ERROR]   symbol:   variable GWT
+1029:[ERROR]   symbol:   method pattern()
+1032:[ERROR]   required: no arguments
+1036:[ERROR]   required: no arguments
+1040:[ERROR]   symbol:   method lookingAt()
+1043:[ERROR]   symbol:   method hitEnd()
+1046:[ERROR]   symbol:   method end()
+1049:[ERROR]   symbol:   method end()
+1052:[ERROR]   symbol:   method regionEnd()
+1055:[ERROR]   required: no arguments
+1059:[ERROR]   symbol:   variable JavaScriptObject
+1062:[ERROR]   symbol:   variable JavaScriptObject
+1065:[ERROR]   symbol:   class JsArrayInteger
+1068:[ERROR]   symbol:   method toByteArray()
+1071:[ERROR]   symbol:   method getName()
+1089:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project closure-compiler: Compilation failure: Compilation failure:
+1090:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/Tracer.java:[20,6] error: duplicate class: com.google.javascript.jscomp.Tracer
+1091:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CompilerExecutor.java:[22,6] error: duplicate class: com.google.javascript.jscomp.CompilerExecutor
+1092:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PrintStreamErrorManager.java:[22,7] error: duplicate class: com.google.javascript.jscomp.PrintStreamErrorManager
+1093:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/rhino/TokenUtil.java:[26,7] error: duplicate class: com.google.javascript.rhino.TokenUtil
+1094:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/ResourceLoader.java:[32,6] error: duplicate class: com.google.javascript.jscomp.ResourceLoader
+1095:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileParser.java:[38,13] error: duplicate class: com.google.javascript.jscomp.deps.JsFileParser
+1096:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:[46,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapConsumerV3
+1097:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/CoverageInstrumentationPass.java:[36] error: duplicate class: com.google.javascript.jscomp.CoverageInstrumentationPass
+1098:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/OutputCharsetEncoder.java:[33,6] error: duplicate class: com.google.javascript.jscomp.OutputCharsetEncoder
+1099:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckMissingGetCssName.java:[22] error: duplicate class: com.google.javascript.jscomp.CheckMissingGetCssName
+1100:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PerformanceTracker.java:[25,13] error: duplicate class: com.google.javascript.jscomp.PerformanceTracker
+1101:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessagesForChrome.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessagesForChrome
+1102:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[45,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapGeneratorV3
+1103:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AliasStrings.java:[49] error: duplicate class: com.google.javascript.jscomp.AliasStrings
+1104:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/newtypes/PersistentMap.java:[26,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentMap
+1105:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckConformance.java:[23,13] error: duplicate class: com.google.javascript.jscomp.CheckConformance
+1106:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessages.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessages
+1107:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/newtypes/PersistentSet.java:[22,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentSet
+1108:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+1109:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[27,10] error: cannot find symbol
+1110:[ERROR] symbol:   class RegExp
+1111:[ERROR] location: class Pattern
+1112:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+1113:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[20,35] error: package com.google.gwt.regexp.shared does not exist
+1114:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[29,16] error: cannot find symbol
+1115:[ERROR] symbol:   class RegExp
+1116:[ERROR] location: class Matcher
+1117:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[35,10] error: cannot find symbol
+1118:[ERROR] symbol:   class RegExp
+1119:[ERROR] location: class Matcher
+1120:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[19,33] error: package com.google.gwt.core.client does not exist
+1121:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[20,38] error: package com.google.gwt.resources.client does not exist
+1122:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[21,38] error: package com.google.gwt.resources.client does not exist
+1123:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[28,37] error: cannot find symbol
+1124:[ERROR] symbol:   class ClientBundle
+1125:[ERROR] location: class ResourceLoader
+1126:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[32,4] error: cannot find symbol
+1127:[ERROR] symbol:   class TextResource
+1128:[ERROR] location: interface Libraries
+1129:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[35,4] error: cannot find symbol
+1130:[ERROR] symbol:   class TextResource
+1131:[ERROR] location: interface Libraries
+1132:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[38,4] error: cannot find symbol
+1133:[ERROR] symbol:   class TextResource
+1134:[ERROR] location: interface Libraries
+1135:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[19,33] error: package com.google.gwt.core.client does not exist
+1136:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[20,33] error: package com.google.gwt.core.client does not exist
+1137:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[93,28] error: cannot find symbol
+1138:[ERROR] symbol:   class JsArrayInteger
+1139:[ERROR] location: class BitSet
+1140:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[103,45] error: cannot find symbol
+1141:[ERROR] symbol:   class JsArrayInteger
+1142:[ERROR] location: class BitSet
+1143:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[103,24] error: cannot find symbol
+1144:[ERROR] symbol:   class JsArrayInteger
+1145:[ERROR] location: class BitSet
+1146:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[108,27] error: cannot find symbol
+1147:[ERROR] symbol:   class JsArrayInteger
+1148:[ERROR] location: class BitSet
+1149:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[125,29] error: cannot find symbol
+1150:[ERROR] symbol:   class JsArrayInteger
+1151:[ERROR] location: class BitSet
+1152:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[134,26] error: cannot find symbol
+1153:[ERROR] symbol:   class JsArrayInteger
+1154:[ERROR] location: class BitSet
+1155:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[140,26] error: cannot find symbol
+1156:[ERROR] symbol:   class JsArrayInteger
+1157:[ERROR] location: class BitSet
+1158:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[171,45] error: cannot find symbol
+1159:[ERROR] symbol:   class JsArrayInteger
+1160:[ERROR] location: class BitSet
+1161:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[171,24] error: cannot find symbol
+1162:[ERROR] symbol:   class JsArrayInteger
+1163:[ERROR] location: class BitSet
+1164:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[178,39] error: cannot find symbol
+1165:[ERROR] symbol:   class JsArrayInteger
+1166:[ERROR] location: class BitSet
+1167:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[220,40] error: cannot find symbol
+1168:[ERROR] symbol:   class JsArrayInteger
+1169:[ERROR] location: class BitSet
+1170:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[225,31] error: cannot find symbol
+1171:[ERROR] symbol:   class JsArrayInteger
+1172:[ERROR] location: class BitSet
+1173:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[236,37] error: cannot find symbol
+1174:[ERROR] symbol:   class JsArrayInteger
+1175:[ERROR] location: class BitSet
+1176:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[251,36] error: cannot find symbol
+1177:[ERROR] symbol:   class JsArrayInteger
+1178:[ERROR] location: class BitSet
+1179:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[257,33] error: cannot find symbol
+1180:[ERROR] symbol:   class JsArrayInteger
+1181:[ERROR] location: class BitSet
+1182:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[272,34] error: cannot find symbol
+1183:[ERROR] symbol:   class JsArrayInteger
+1184:[ERROR] location: class BitSet
+1185:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[295,40] error: cannot find symbol
+1186:[ERROR] symbol:   class JsArrayInteger
+1187:[ERROR] location: class BitSet
+1188:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[327,30] error: cannot find symbol
+1189:[ERROR] symbol:   class JsArrayInteger
+1190:[ERROR] location: class BitSet
+1191:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[337,44] error: cannot find symbol
+1192:[ERROR] symbol:   class JsArrayInteger
+1193:[ERROR] location: class BitSet
+1194:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[342,10] error: cannot find symbol
+1195:[ERROR] symbol:   class JsArrayInteger
+1196:[ERROR] location: class BitSet
+1197:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[365,17] error: cannot find symbol
+1198:[ERROR] symbol:   class JsArrayInteger
+1199:[ERROR] location: class BitSet
+1200:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[22,33] error: package com.google.gwt.core.client does not exist
+1201:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[23,36] error: package com.google.gwt.core.client.js does not exist
+1202:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[24,36] error: package com.google.gwt.core.client.js does not exist
+1203:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[25,38] error: package com.google.gwt.event.dom.client does not exist
+1204:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[26,38] error: package com.google.gwt.event.dom.client does not exist
+1205:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[27,36] error: package com.google.gwt.user.client.ui does not exist
+1206:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[28,36] error: package com.google.gwt.user.client.ui does not exist
+1207:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[29,36] error: package com.google.gwt.user.client.ui does not exist
+1208:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[41,38] error: cannot find symbol
+1209:[ERROR] symbol: class EntryPoint
+1210:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[40,1] error: cannot find symbol
+1211:[ERROR] symbol: class JsNamespace
+1212:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[21,57] error: cannot find symbol
+1213:[ERROR] symbol:   class EntryVisitor
+1214:[ERROR] location: class SourceMapConsumerV3
+1215:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[31,5] error: cannot find symbol
+1216:[ERROR] symbol:   class Source
+1217:[ERROR] location: interface Libraries
+1218:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[34,5] error: cannot find symbol
+1219:[ERROR] symbol:   class Source
+1220:[ERROR] location: interface Libraries
+1221:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[37,5] error: cannot find symbol
+1222:[ERROR] symbol:   class Source
+1223:[ERROR] location: interface Libraries
+1224:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[42,3] error: cannot find symbol
+1225:[ERROR] symbol:   class JsExport
+1226:[ERROR] location: class JsCompGwtMain
+1227:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/DiagnosticType.java:[132,30] error: cannot find symbol
+1228:[ERROR] required: StaticTypedScope<JSType>
+1229:[ERROR] found:    StaticTypedScope<CAP#1>
+1230:[ERROR] where CAP#1 is a fresh type-variable:
+1231:[ERROR] CAP#1 extends TypeI from capture of ? extends TypeI
+1232:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[333,52] error: cannot find symbol
+1233:[ERROR] symbol:   method getAbsolutePath()
+1234:[ERROR] location: class File
+1235:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[551,20] error: cannot find symbol
+1236:[ERROR] symbol:   method asCharSource(File,Charset)
+1237:[ERROR] location: class Files
+1238:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[565,20] error: cannot find symbol
+1239:[ERROR] required: StaticTypedSlot<JSType>
+1240:[ERROR] found:    StaticSlot
+1241:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/VariableMap.java:[98,9] error: method write in class Files cannot be applied to given types;
+1242:[ERROR] File
+1243:[ERROR] reason: actual and formal argument lists differ in length
+1244:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/VariableMap.java:[107,28] error: cannot find symbol
+1245:[ERROR] return type requires unchecked conversion from TypedScope to T
+1246:[ERROR] where T is a type-variable:
+1247:[ERROR] T extends Scope declared in method <T>createScope(Node,T)
+1248:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[33,21] error: cannot find symbol
+1249:[ERROR] symbol:   variable RegExp
+1250:[ERROR] location: class Pattern
+1251:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[54,27] error: cannot find symbol
+1252:[ERROR] symbol:   method getGroup(int)
+1253:[ERROR] location: variable result of type MatchResult
+1254:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[63,27] error: cannot find symbol
+1255:[ERROR] symbol:   method getGroup(int)
+1256:[ERROR] location: variable result of type MatchResult
+1257:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[73,19] error: cannot find symbol
+1258:[ERROR] symbol:   method getGroup(int)
+1259:[ERROR] location: variable result of type MatchResult
+1260:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[80,11] error: cannot find symbol
+1261:[ERROR] symbol:   variable RegExp
+1262:[ERROR] location: class Matcher
+1263:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[385,36] error: cannot find symbol
+1264:[ERROR] symbol:   method start()
+1265:[ERROR] location: variable m of type Matcher
+1266:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[386,17] error: cannot find symbol
+1267:[ERROR] symbol:   method end()
+1268:[ERROR] location: variable m of type Matcher
+1269:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[386,27] error: cannot find symbol
+1270:[ERROR] symbol:   method start()
+1271:[ERROR] location: variable m of type Matcher
+1272:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/RefasterJs.java:[99,25] error: cannot find symbol
+1273:[ERROR] symbol:   method exists()
+1274:[ERROR] location: class File
+1275:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[29,25] error: cannot find symbol
+1276:[ERROR] symbol:   variable GWT
+1277:[ERROR] location: interface Libraries
+1278:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/JsFlumeCallback.java:[61,52] error: cannot find symbol
+1279:[ERROR] symbol:   method pattern()
+1280:[ERROR] location: variable includeFilePattern of type Pattern
+1281:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[217,16] error: method reset in class Matcher cannot be applied to given types;
+1282:[ERROR] required: no arguments
+1283:[ERROR] found: String
+1284:[ERROR] reason: actual and formal argument lists differ in length
+1285:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[241,18] error: method reset in class Matcher cannot be applied to given types;
+1286:[ERROR] required: no arguments
+1287:[ERROR] found: String
+1288:[ERROR] reason: actual and formal argument lists differ in length
+1289:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[244,25] error: cannot find symbol
+1290:[ERROR] symbol:   method lookingAt()
+1291:[ERROR] location: variable valueMatcher of type Matcher
+1292:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[250,24] error: cannot find symbol
+1293:[ERROR] symbol:   method hitEnd()
+1294:[ERROR] location: variable valueMatcher of type Matcher
+1295:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[254,43] error: cannot find symbol
+1296:[ERROR] symbol:   method end()
+1297:[ERROR] location: variable valueMatcher of type Matcher
+1298:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[258,40] error: cannot find symbol
+1299:[ERROR] symbol:   method end()
+1300:[ERROR] location: variable valueMatcher of type Matcher
+1301:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[258,64] error: cannot find symbol
+1302:[ERROR] symbol:   method regionEnd()
+1303:[ERROR] location: variable valueMatcher of type Matcher
+1304:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFunctionParser.java:[140,13] error: method reset in class Matcher cannot be applied to given types;
+1305:[ERROR] required: no arguments
+1306:[ERROR] found: String
+1307:[ERROR] reason: actual and formal argument lists differ in length
+1308:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[346,12] error: cannot find symbol
+1309:[ERROR] symbol:   variable JavaScriptObject
+1310:[ERROR] location: class BitSet
+1311:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[449,12] error: cannot find symbol
+1312:[ERROR] symbol:   variable JavaScriptObject
+1313:[ERROR] location: class BitSet
+1314:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[605,6] error: cannot find symbol
+1315:[ERROR] symbol:   class JsArrayInteger
+1316:[ERROR] location: class BitSet
+1317:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/FileInstrumentationData.java:[64,42] error: cannot find symbol
+1318:[ERROR] symbol:   method toByteArray()
+1319:[ERROR] location: variable instrumentedBits of type BitSet
+1320:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java:[762,40] error: cannot find symbol
+1321:[ERROR] symbol:   method getName()
+1322:[ERROR] location: class File
+1323:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java:[814,60] error: cannot find symbol
+1324:[ERROR] -> [Help 1]
+1325:[ERROR] 
+1326:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1327:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1328:[ERROR] 
+1329:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1330:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1331:[ERROR] 
+1332:[ERROR] After correcting the problems, you can resume the build with the command
+1333:[ERROR]   mvn <goals> -rf :closure-compiler
+1473:[ERROR] COMPILATION ERROR : 
+1475:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/Tracer.java:[20,6] error: duplicate class: com.google.javascript.jscomp.Tracer
+1476:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CompilerExecutor.java:[22,6] error: duplicate class: com.google.javascript.jscomp.CompilerExecutor
+1477:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PrintStreamErrorManager.java:[22,7] error: duplicate class: com.google.javascript.jscomp.PrintStreamErrorManager
+1478:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/rhino/TokenUtil.java:[26,7] error: duplicate class: com.google.javascript.rhino.TokenUtil
+1479:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/ResourceLoader.java:[32,6] error: duplicate class: com.google.javascript.jscomp.ResourceLoader
+1480:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileParser.java:[38,13] error: duplicate class: com.google.javascript.jscomp.deps.JsFileParser
+1481:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:[46,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapConsumerV3
+1482:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/CoverageInstrumentationPass.java:[36] error: duplicate class: com.google.javascript.jscomp.CoverageInstrumentationPass
+1483:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/OutputCharsetEncoder.java:[33,6] error: duplicate class: com.google.javascript.jscomp.OutputCharsetEncoder
+1484:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckMissingGetCssName.java:[22] error: duplicate class: com.google.javascript.jscomp.CheckMissingGetCssName
+1485:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PerformanceTracker.java:[25,13] error: duplicate class: com.google.javascript.jscomp.PerformanceTracker
+1486:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessagesForChrome.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessagesForChrome
+1487:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[45,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapGeneratorV3
+1488:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AliasStrings.java:[49] error: duplicate class: com.google.javascript.jscomp.AliasStrings
+1489:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/newtypes/PersistentMap.java:[26,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentMap
+1490:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckConformance.java:[23,13] error: duplicate class: com.google.javascript.jscomp.CheckConformance
+1491:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessages.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessages
+1492:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/newtypes/PersistentSet.java:[22,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentSet
+1493:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+1494:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[27,10] error: cannot find symbol
+1495:[ERROR]   symbol:   class RegExp
+1498:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[20,35] error: package com.google.gwt.regexp.shared does not exist
+1499:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[29,16] error: cannot find symbol
+1500:[ERROR]   symbol:   class RegExp
+1503:[ERROR]   symbol:   class RegExp
+1506:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[20,38] error: package com.google.gwt.resources.client does not exist
+1507:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[21,38] error: package com.google.gwt.resources.client does not exist
+1508:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[28,37] error: cannot find symbol
+1509:[ERROR]   symbol:   class ClientBundle
+1512:[ERROR]   symbol:   class TextResource
+1515:[ERROR]   symbol:   class TextResource
+1518:[ERROR]   symbol:   class TextResource
+1521:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[20,33] error: package com.google.gwt.core.client does not exist
+1522:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[93,28] error: cannot find symbol
+1523:[ERROR]   symbol:   class JsArrayInteger
+1526:[ERROR]   symbol:   class JsArrayInteger
+1529:[ERROR]   symbol:   class JsArrayInteger
+1532:[ERROR]   symbol:   class JsArrayInteger
+1535:[ERROR]   symbol:   class JsArrayInteger
+1538:[ERROR]   symbol:   class JsArrayInteger
+1541:[ERROR]   symbol:   class JsArrayInteger
+1544:[ERROR]   symbol:   class JsArrayInteger
+1547:[ERROR]   symbol:   class JsArrayInteger
+1550:[ERROR]   symbol:   class JsArrayInteger
+1553:[ERROR]   symbol:   class JsArrayInteger
+1556:[ERROR]   symbol:   class JsArrayInteger
+1559:[ERROR]   symbol:   class JsArrayInteger
+1562:[ERROR]   symbol:   class JsArrayInteger
+1565:[ERROR]   symbol:   class JsArrayInteger
+1568:[ERROR]   symbol:   class JsArrayInteger
+1571:[ERROR]   symbol:   class JsArrayInteger
+1574:[ERROR]   symbol:   class JsArrayInteger
+1577:[ERROR]   symbol:   class JsArrayInteger
+1580:[ERROR]   symbol:   class JsArrayInteger
+1583:[ERROR]   symbol:   class JsArrayInteger
+1586:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[23,36] error: package com.google.gwt.core.client.js does not exist
+1587:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[24,36] error: package com.google.gwt.core.client.js does not exist
+1588:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[25,38] error: package com.google.gwt.event.dom.client does not exist
+1589:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[26,38] error: package com.google.gwt.event.dom.client does not exist
+1590:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[27,36] error: package com.google.gwt.user.client.ui does not exist
+1591:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[28,36] error: package com.google.gwt.user.client.ui does not exist
+1592:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[29,36] error: package com.google.gwt.user.client.ui does not exist
+1593:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[41,38] error: cannot find symbol
+1594:[ERROR]   symbol: class EntryPoint
+1596:[ERROR]   symbol: class JsNamespace
+1598:[ERROR]   symbol:   class EntryVisitor
+1601:[ERROR]   symbol:   class Source
+1604:[ERROR]   symbol:   class Source
+1607:[ERROR]   symbol:   class Source
+1610:[ERROR]   symbol:   class JsExport
+1613:[ERROR]   required: StaticTypedScope<JSType>
+1618:[ERROR]   symbol:   method getAbsolutePath()
+1621:[ERROR]   symbol:   method asCharSource(File,Charset)
+1624:[ERROR]   required: StaticTypedSlot<JSType>
+1627:[ERROR] File
+1630:[ERROR]   return type requires unchecked conversion from TypedScope to T
+1634:[ERROR]   symbol:   variable RegExp
+1637:[ERROR]   symbol:   method getGroup(int)
+1640:[ERROR]   symbol:   method getGroup(int)
+1643:[ERROR]   symbol:   method getGroup(int)
+1646:[ERROR]   symbol:   variable RegExp
+1649:[ERROR]   symbol:   method start()
+1652:[ERROR]   symbol:   method end()
+1655:[ERROR]   symbol:   method start()
+1658:[ERROR]   symbol:   method exists()
+1661:[ERROR]   symbol:   variable GWT
+1664:[ERROR]   symbol:   method pattern()
+1667:[ERROR]   required: no arguments
+1671:[ERROR]   required: no arguments
+1675:[ERROR]   symbol:   method lookingAt()
+1678:[ERROR]   symbol:   method hitEnd()
+1681:[ERROR]   symbol:   method end()
+1684:[ERROR]   symbol:   method end()
+1687:[ERROR]   symbol:   method regionEnd()
+1690:[ERROR]   required: no arguments
+1694:[ERROR]   symbol:   variable JavaScriptObject
+1697:[ERROR]   symbol:   variable JavaScriptObject
+1700:[ERROR]   symbol:   class JsArrayInteger
+1703:[ERROR]   symbol:   method toByteArray()
+1706:[ERROR]   symbol:   method getName()
+1724:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project closure-compiler: Compilation failure: Compilation failure:
+1725:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/Tracer.java:[20,6] error: duplicate class: com.google.javascript.jscomp.Tracer
+1726:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CompilerExecutor.java:[22,6] error: duplicate class: com.google.javascript.jscomp.CompilerExecutor
+1727:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PrintStreamErrorManager.java:[22,7] error: duplicate class: com.google.javascript.jscomp.PrintStreamErrorManager
+1728:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/rhino/TokenUtil.java:[26,7] error: duplicate class: com.google.javascript.rhino.TokenUtil
+1729:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/ResourceLoader.java:[32,6] error: duplicate class: com.google.javascript.jscomp.ResourceLoader
+1730:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileParser.java:[38,13] error: duplicate class: com.google.javascript.jscomp.deps.JsFileParser
+1731:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:[46,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapConsumerV3
+1732:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/CoverageInstrumentationPass.java:[36] error: duplicate class: com.google.javascript.jscomp.CoverageInstrumentationPass
+1733:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/OutputCharsetEncoder.java:[33,6] error: duplicate class: com.google.javascript.jscomp.OutputCharsetEncoder
+1734:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckMissingGetCssName.java:[22] error: duplicate class: com.google.javascript.jscomp.CheckMissingGetCssName
+1735:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PerformanceTracker.java:[25,13] error: duplicate class: com.google.javascript.jscomp.PerformanceTracker
+1736:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessagesForChrome.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessagesForChrome
+1737:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[45,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapGeneratorV3
+1738:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AliasStrings.java:[49] error: duplicate class: com.google.javascript.jscomp.AliasStrings
+1739:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/newtypes/PersistentMap.java:[26,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentMap
+1740:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckConformance.java:[23,13] error: duplicate class: com.google.javascript.jscomp.CheckConformance
+1741:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessages.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessages
+1742:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/newtypes/PersistentSet.java:[22,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentSet
+1743:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+1744:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[27,10] error: cannot find symbol
+1745:[ERROR] symbol:   class RegExp
+1746:[ERROR] location: class Pattern
+1747:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+1748:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[20,35] error: package com.google.gwt.regexp.shared does not exist
+1749:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[29,16] error: cannot find symbol
+1750:[ERROR] symbol:   class RegExp
+1751:[ERROR] location: class Matcher
+1752:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[35,10] error: cannot find symbol
+1753:[ERROR] symbol:   class RegExp
+1754:[ERROR] location: class Matcher
+1755:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[19,33] error: package com.google.gwt.core.client does not exist
+1756:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[20,38] error: package com.google.gwt.resources.client does not exist
+1757:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[21,38] error: package com.google.gwt.resources.client does not exist
+1758:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[28,37] error: cannot find symbol
+1759:[ERROR] symbol:   class ClientBundle
+1760:[ERROR] location: class ResourceLoader
+1761:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[32,4] error: cannot find symbol
+1762:[ERROR] symbol:   class TextResource
+1763:[ERROR] location: interface Libraries
+1764:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[35,4] error: cannot find symbol
+1765:[ERROR] symbol:   class TextResource
+1766:[ERROR] location: interface Libraries
+1767:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[38,4] error: cannot find symbol
+1768:[ERROR] symbol:   class TextResource
+1769:[ERROR] location: interface Libraries
+1770:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[19,33] error: package com.google.gwt.core.client does not exist
+1771:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[20,33] error: package com.google.gwt.core.client does not exist
+1772:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[93,28] error: cannot find symbol
+1773:[ERROR] symbol:   class JsArrayInteger
+1774:[ERROR] location: class BitSet
+1775:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[103,45] error: cannot find symbol
+1776:[ERROR] symbol:   class JsArrayInteger
+1777:[ERROR] location: class BitSet
+1778:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[103,24] error: cannot find symbol
+1779:[ERROR] symbol:   class JsArrayInteger
+1780:[ERROR] location: class BitSet
+1781:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[108,27] error: cannot find symbol
+1782:[ERROR] symbol:   class JsArrayInteger
+1783:[ERROR] location: class BitSet
+1784:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[125,29] error: cannot find symbol
+1785:[ERROR] symbol:   class JsArrayInteger
+1786:[ERROR] location: class BitSet
+1787:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[134,26] error: cannot find symbol
+1788:[ERROR] symbol:   class JsArrayInteger
+1789:[ERROR] location: class BitSet
+1790:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[140,26] error: cannot find symbol
+1791:[ERROR] symbol:   class JsArrayInteger
+1792:[ERROR] location: class BitSet
+1793:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[171,45] error: cannot find symbol
+1794:[ERROR] symbol:   class JsArrayInteger
+1795:[ERROR] location: class BitSet
+1796:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[171,24] error: cannot find symbol
+1797:[ERROR] symbol:   class JsArrayInteger
+1798:[ERROR] location: class BitSet
+1799:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[178,39] error: cannot find symbol
+1800:[ERROR] symbol:   class JsArrayInteger
+1801:[ERROR] location: class BitSet
+1802:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[220,40] error: cannot find symbol
+1803:[ERROR] symbol:   class JsArrayInteger
+1804:[ERROR] location: class BitSet
+1805:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[225,31] error: cannot find symbol
+1806:[ERROR] symbol:   class JsArrayInteger
+1807:[ERROR] location: class BitSet
+1808:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[236,37] error: cannot find symbol
+1809:[ERROR] symbol:   class JsArrayInteger
+1810:[ERROR] location: class BitSet
+1811:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[251,36] error: cannot find symbol
+1812:[ERROR] symbol:   class JsArrayInteger
+1813:[ERROR] location: class BitSet
+1814:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[257,33] error: cannot find symbol
+1815:[ERROR] symbol:   class JsArrayInteger
+1816:[ERROR] location: class BitSet
+1817:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[272,34] error: cannot find symbol
+1818:[ERROR] symbol:   class JsArrayInteger
+1819:[ERROR] location: class BitSet
+1820:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[295,40] error: cannot find symbol
+1821:[ERROR] symbol:   class JsArrayInteger
+1822:[ERROR] location: class BitSet
+1823:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[327,30] error: cannot find symbol
+1824:[ERROR] symbol:   class JsArrayInteger
+1825:[ERROR] location: class BitSet
+1826:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[337,44] error: cannot find symbol
+1827:[ERROR] symbol:   class JsArrayInteger
+1828:[ERROR] location: class BitSet
+1829:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[342,10] error: cannot find symbol
+1830:[ERROR] symbol:   class JsArrayInteger
+1831:[ERROR] location: class BitSet
+1832:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[365,17] error: cannot find symbol
+1833:[ERROR] symbol:   class JsArrayInteger
+1834:[ERROR] location: class BitSet
+1835:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[22,33] error: package com.google.gwt.core.client does not exist
+1836:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[23,36] error: package com.google.gwt.core.client.js does not exist
+1837:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[24,36] error: package com.google.gwt.core.client.js does not exist
+1838:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[25,38] error: package com.google.gwt.event.dom.client does not exist
+1839:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[26,38] error: package com.google.gwt.event.dom.client does not exist
+1840:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[27,36] error: package com.google.gwt.user.client.ui does not exist
+1841:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[28,36] error: package com.google.gwt.user.client.ui does not exist
+1842:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[29,36] error: package com.google.gwt.user.client.ui does not exist
+1843:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[41,38] error: cannot find symbol
+1844:[ERROR] symbol: class EntryPoint
+1845:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[40,1] error: cannot find symbol
+1846:[ERROR] symbol: class JsNamespace
+1847:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[21,57] error: cannot find symbol
+1848:[ERROR] symbol:   class EntryVisitor
+1849:[ERROR] location: class SourceMapConsumerV3
+1850:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[31,5] error: cannot find symbol
+1851:[ERROR] symbol:   class Source
+1852:[ERROR] location: interface Libraries
+1853:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[34,5] error: cannot find symbol
+1854:[ERROR] symbol:   class Source
+1855:[ERROR] location: interface Libraries
+1856:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[37,5] error: cannot find symbol
+1857:[ERROR] symbol:   class Source
+1858:[ERROR] location: interface Libraries
+1859:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[42,3] error: cannot find symbol
+1860:[ERROR] symbol:   class JsExport
+1861:[ERROR] location: class JsCompGwtMain
+1862:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/DiagnosticType.java:[132,30] error: cannot find symbol
+1863:[ERROR] required: StaticTypedScope<JSType>
+1864:[ERROR] found:    StaticTypedScope<CAP#1>
+1865:[ERROR] where CAP#1 is a fresh type-variable:
+1866:[ERROR] CAP#1 extends TypeI from capture of ? extends TypeI
+1867:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[333,52] error: cannot find symbol
+1868:[ERROR] symbol:   method getAbsolutePath()
+1869:[ERROR] location: class File
+1870:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[551,20] error: cannot find symbol
+1871:[ERROR] symbol:   method asCharSource(File,Charset)
+1872:[ERROR] location: class Files
+1873:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[565,20] error: cannot find symbol
+1874:[ERROR] required: StaticTypedSlot<JSType>
+1875:[ERROR] found:    StaticSlot
+1876:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/VariableMap.java:[98,9] error: method write in class Files cannot be applied to given types;
+1877:[ERROR] File
+1878:[ERROR] reason: actual and formal argument lists differ in length
+1879:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/VariableMap.java:[107,28] error: cannot find symbol
+1880:[ERROR] return type requires unchecked conversion from TypedScope to T
+1881:[ERROR] where T is a type-variable:
+1882:[ERROR] T extends Scope declared in method <T>createScope(Node,T)
+1883:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[33,21] error: cannot find symbol
+1884:[ERROR] symbol:   variable RegExp
+1885:[ERROR] location: class Pattern
+1886:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[54,27] error: cannot find symbol
+1887:[ERROR] symbol:   method getGroup(int)
+1888:[ERROR] location: variable result of type MatchResult
+1889:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[63,27] error: cannot find symbol
+1890:[ERROR] symbol:   method getGroup(int)
+1891:[ERROR] location: variable result of type MatchResult
+1892:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[73,19] error: cannot find symbol
+1893:[ERROR] symbol:   method getGroup(int)
+1894:[ERROR] location: variable result of type MatchResult
+1895:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[80,11] error: cannot find symbol
+1896:[ERROR] symbol:   variable RegExp
+1897:[ERROR] location: class Matcher
+1898:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[385,36] error: cannot find symbol
+1899:[ERROR] symbol:   method start()
+1900:[ERROR] location: variable m of type Matcher
+1901:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[386,17] error: cannot find symbol
+1902:[ERROR] symbol:   method end()
+1903:[ERROR] location: variable m of type Matcher
+1904:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[386,27] error: cannot find symbol
+1905:[ERROR] symbol:   method start()
+1906:[ERROR] location: variable m of type Matcher
+1907:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/RefasterJs.java:[99,25] error: cannot find symbol
+1908:[ERROR] symbol:   method exists()
+1909:[ERROR] location: class File
+1910:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[29,25] error: cannot find symbol
+1911:[ERROR] symbol:   variable GWT
+1912:[ERROR] location: interface Libraries
+1913:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/JsFlumeCallback.java:[61,52] error: cannot find symbol
+1914:[ERROR] symbol:   method pattern()
+1915:[ERROR] location: variable includeFilePattern of type Pattern
+1916:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[217,16] error: method reset in class Matcher cannot be applied to given types;
+1917:[ERROR] required: no arguments
+1918:[ERROR] found: String
+1919:[ERROR] reason: actual and formal argument lists differ in length
+1920:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[241,18] error: method reset in class Matcher cannot be applied to given types;
+1921:[ERROR] required: no arguments
+1922:[ERROR] found: String
+1923:[ERROR] reason: actual and formal argument lists differ in length
+1924:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[244,25] error: cannot find symbol
+1925:[ERROR] symbol:   method lookingAt()
+1926:[ERROR] location: variable valueMatcher of type Matcher
+1927:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[250,24] error: cannot find symbol
+1928:[ERROR] symbol:   method hitEnd()
+1929:[ERROR] location: variable valueMatcher of type Matcher
+1930:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[254,43] error: cannot find symbol
+1931:[ERROR] symbol:   method end()
+1932:[ERROR] location: variable valueMatcher of type Matcher
+1933:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[258,40] error: cannot find symbol
+1934:[ERROR] symbol:   method end()
+1935:[ERROR] location: variable valueMatcher of type Matcher
+1936:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[258,64] error: cannot find symbol
+1937:[ERROR] symbol:   method regionEnd()
+1938:[ERROR] location: variable valueMatcher of type Matcher
+1939:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFunctionParser.java:[140,13] error: method reset in class Matcher cannot be applied to given types;
+1940:[ERROR] required: no arguments
+1941:[ERROR] found: String
+1942:[ERROR] reason: actual and formal argument lists differ in length
+1943:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[346,12] error: cannot find symbol
+1944:[ERROR] symbol:   variable JavaScriptObject
+1945:[ERROR] location: class BitSet
+1946:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[449,12] error: cannot find symbol
+1947:[ERROR] symbol:   variable JavaScriptObject
+1948:[ERROR] location: class BitSet
+1949:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[605,6] error: cannot find symbol
+1950:[ERROR] symbol:   class JsArrayInteger
+1951:[ERROR] location: class BitSet
+1952:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/FileInstrumentationData.java:[64,42] error: cannot find symbol
+1953:[ERROR] symbol:   method toByteArray()
+1954:[ERROR] location: variable instrumentedBits of type BitSet
+1955:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java:[762,40] error: cannot find symbol
+1956:[ERROR] symbol:   method getName()
+1957:[ERROR] location: class File
+1958:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java:[814,60] error: cannot find symbol
+1959:[ERROR] -> [Help 1]
+1960:[ERROR] 
+1961:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1962:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1963:[ERROR] 
+1964:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1965:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1966:[ERROR] 
+1967:[ERROR] After correcting the problems, you can resume the build with the command
+1968:[ERROR]   mvn <goals> -rf :closure-compiler
+2108:[ERROR] COMPILATION ERROR : 
+2110:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/Tracer.java:[20,6] error: duplicate class: com.google.javascript.jscomp.Tracer
+2111:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CompilerExecutor.java:[22,6] error: duplicate class: com.google.javascript.jscomp.CompilerExecutor
+2112:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PrintStreamErrorManager.java:[22,7] error: duplicate class: com.google.javascript.jscomp.PrintStreamErrorManager
+2113:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/rhino/TokenUtil.java:[26,7] error: duplicate class: com.google.javascript.rhino.TokenUtil
+2114:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/ResourceLoader.java:[32,6] error: duplicate class: com.google.javascript.jscomp.ResourceLoader
+2115:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileParser.java:[38,13] error: duplicate class: com.google.javascript.jscomp.deps.JsFileParser
+2116:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:[46,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapConsumerV3
+2117:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/CoverageInstrumentationPass.java:[36] error: duplicate class: com.google.javascript.jscomp.CoverageInstrumentationPass
+2118:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/OutputCharsetEncoder.java:[33,6] error: duplicate class: com.google.javascript.jscomp.OutputCharsetEncoder
+2119:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckMissingGetCssName.java:[22] error: duplicate class: com.google.javascript.jscomp.CheckMissingGetCssName
+2120:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PerformanceTracker.java:[25,13] error: duplicate class: com.google.javascript.jscomp.PerformanceTracker
+2121:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessagesForChrome.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessagesForChrome
+2122:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[45,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapGeneratorV3
+2123:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AliasStrings.java:[49] error: duplicate class: com.google.javascript.jscomp.AliasStrings
+2124:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/newtypes/PersistentMap.java:[26,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentMap
+2125:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckConformance.java:[23,13] error: duplicate class: com.google.javascript.jscomp.CheckConformance
+2126:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessages.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessages
+2127:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/newtypes/PersistentSet.java:[22,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentSet
+2128:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+2129:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[27,10] error: cannot find symbol
+2130:[ERROR]   symbol:   class RegExp
+2133:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[20,35] error: package com.google.gwt.regexp.shared does not exist
+2134:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[29,16] error: cannot find symbol
+2135:[ERROR]   symbol:   class RegExp
+2138:[ERROR]   symbol:   class RegExp
+2141:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[20,38] error: package com.google.gwt.resources.client does not exist
+2142:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[21,38] error: package com.google.gwt.resources.client does not exist
+2143:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[28,37] error: cannot find symbol
+2144:[ERROR]   symbol:   class ClientBundle
+2147:[ERROR]   symbol:   class TextResource
+2150:[ERROR]   symbol:   class TextResource
+2153:[ERROR]   symbol:   class TextResource
+2156:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[20,33] error: package com.google.gwt.core.client does not exist
+2157:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[93,28] error: cannot find symbol
+2158:[ERROR]   symbol:   class JsArrayInteger
+2161:[ERROR]   symbol:   class JsArrayInteger
+2164:[ERROR]   symbol:   class JsArrayInteger
+2167:[ERROR]   symbol:   class JsArrayInteger
+2170:[ERROR]   symbol:   class JsArrayInteger
+2173:[ERROR]   symbol:   class JsArrayInteger
+2176:[ERROR]   symbol:   class JsArrayInteger
+2179:[ERROR]   symbol:   class JsArrayInteger
+2182:[ERROR]   symbol:   class JsArrayInteger
+2185:[ERROR]   symbol:   class JsArrayInteger
+2188:[ERROR]   symbol:   class JsArrayInteger
+2191:[ERROR]   symbol:   class JsArrayInteger
+2194:[ERROR]   symbol:   class JsArrayInteger
+2197:[ERROR]   symbol:   class JsArrayInteger
+2200:[ERROR]   symbol:   class JsArrayInteger
+2203:[ERROR]   symbol:   class JsArrayInteger
+2206:[ERROR]   symbol:   class JsArrayInteger
+2209:[ERROR]   symbol:   class JsArrayInteger
+2212:[ERROR]   symbol:   class JsArrayInteger
+2215:[ERROR]   symbol:   class JsArrayInteger
+2218:[ERROR]   symbol:   class JsArrayInteger
+2221:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[23,36] error: package com.google.gwt.core.client.js does not exist
+2222:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[24,36] error: package com.google.gwt.core.client.js does not exist
+2223:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[25,38] error: package com.google.gwt.event.dom.client does not exist
+2224:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[26,38] error: package com.google.gwt.event.dom.client does not exist
+2225:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[27,36] error: package com.google.gwt.user.client.ui does not exist
+2226:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[28,36] error: package com.google.gwt.user.client.ui does not exist
+2227:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[29,36] error: package com.google.gwt.user.client.ui does not exist
+2228:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[41,38] error: cannot find symbol
+2229:[ERROR]   symbol: class EntryPoint
+2231:[ERROR]   symbol: class JsNamespace
+2233:[ERROR]   symbol:   class EntryVisitor
+2236:[ERROR]   symbol:   class Source
+2239:[ERROR]   symbol:   class Source
+2242:[ERROR]   symbol:   class Source
+2245:[ERROR]   symbol:   class JsExport
+2248:[ERROR]   required: StaticTypedScope<JSType>
+2253:[ERROR]   symbol:   method getAbsolutePath()
+2256:[ERROR]   symbol:   method asCharSource(File,Charset)
+2259:[ERROR]   required: StaticTypedSlot<JSType>
+2262:[ERROR] File
+2265:[ERROR]   return type requires unchecked conversion from TypedScope to T
+2269:[ERROR]   symbol:   variable RegExp
+2272:[ERROR]   symbol:   method getGroup(int)
+2275:[ERROR]   symbol:   method getGroup(int)
+2278:[ERROR]   symbol:   method getGroup(int)
+2281:[ERROR]   symbol:   variable RegExp
+2284:[ERROR]   symbol:   method start()
+2287:[ERROR]   symbol:   method end()
+2290:[ERROR]   symbol:   method start()
+2293:[ERROR]   symbol:   method exists()
+2296:[ERROR]   symbol:   variable GWT
+2299:[ERROR]   symbol:   method pattern()
+2302:[ERROR]   required: no arguments
+2306:[ERROR]   required: no arguments
+2310:[ERROR]   symbol:   method lookingAt()
+2313:[ERROR]   symbol:   method hitEnd()
+2316:[ERROR]   symbol:   method end()
+2319:[ERROR]   symbol:   method end()
+2322:[ERROR]   symbol:   method regionEnd()
+2325:[ERROR]   required: no arguments
+2329:[ERROR]   symbol:   variable JavaScriptObject
+2332:[ERROR]   symbol:   variable JavaScriptObject
+2335:[ERROR]   symbol:   class JsArrayInteger
+2338:[ERROR]   symbol:   method toByteArray()
+2341:[ERROR]   symbol:   method getName()
+2359:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project closure-compiler: Compilation failure: Compilation failure:
+2360:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/Tracer.java:[20,6] error: duplicate class: com.google.javascript.jscomp.Tracer
+2361:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CompilerExecutor.java:[22,6] error: duplicate class: com.google.javascript.jscomp.CompilerExecutor
+2362:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PrintStreamErrorManager.java:[22,7] error: duplicate class: com.google.javascript.jscomp.PrintStreamErrorManager
+2363:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/rhino/TokenUtil.java:[26,7] error: duplicate class: com.google.javascript.rhino.TokenUtil
+2364:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/ResourceLoader.java:[32,6] error: duplicate class: com.google.javascript.jscomp.ResourceLoader
+2365:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileParser.java:[38,13] error: duplicate class: com.google.javascript.jscomp.deps.JsFileParser
+2366:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapConsumerV3.java:[46,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapConsumerV3
+2367:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/CoverageInstrumentationPass.java:[36] error: duplicate class: com.google.javascript.jscomp.CoverageInstrumentationPass
+2368:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/OutputCharsetEncoder.java:[33,6] error: duplicate class: com.google.javascript.jscomp.OutputCharsetEncoder
+2369:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckMissingGetCssName.java:[22] error: duplicate class: com.google.javascript.jscomp.CheckMissingGetCssName
+2370:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/PerformanceTracker.java:[25,13] error: duplicate class: com.google.javascript.jscomp.PerformanceTracker
+2371:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessagesForChrome.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessagesForChrome
+2372:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[45,13] error: duplicate class: com.google.debugging.sourcemap.SourceMapGeneratorV3
+2373:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AliasStrings.java:[49] error: duplicate class: com.google.javascript.jscomp.AliasStrings
+2374:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/newtypes/PersistentMap.java:[26,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentMap
+2375:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/CheckConformance.java:[23,13] error: duplicate class: com.google.javascript.jscomp.CheckConformance
+2376:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ReplaceMessages.java:[22,6] error: duplicate class: com.google.javascript.jscomp.ReplaceMessages
+2377:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/newtypes/PersistentSet.java:[22,9] error: duplicate class: com.google.javascript.jscomp.newtypes.PersistentSet
+2378:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+2379:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[27,10] error: cannot find symbol
+2380:[ERROR] symbol:   class RegExp
+2381:[ERROR] location: class Pattern
+2382:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[19,35] error: package com.google.gwt.regexp.shared does not exist
+2383:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[20,35] error: package com.google.gwt.regexp.shared does not exist
+2384:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[29,16] error: cannot find symbol
+2385:[ERROR] symbol:   class RegExp
+2386:[ERROR] location: class Matcher
+2387:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[35,10] error: cannot find symbol
+2388:[ERROR] symbol:   class RegExp
+2389:[ERROR] location: class Matcher
+2390:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[19,33] error: package com.google.gwt.core.client does not exist
+2391:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[20,38] error: package com.google.gwt.resources.client does not exist
+2392:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[21,38] error: package com.google.gwt.resources.client does not exist
+2393:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[28,37] error: cannot find symbol
+2394:[ERROR] symbol:   class ClientBundle
+2395:[ERROR] location: class ResourceLoader
+2396:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[32,4] error: cannot find symbol
+2397:[ERROR] symbol:   class TextResource
+2398:[ERROR] location: interface Libraries
+2399:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[35,4] error: cannot find symbol
+2400:[ERROR] symbol:   class TextResource
+2401:[ERROR] location: interface Libraries
+2402:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[38,4] error: cannot find symbol
+2403:[ERROR] symbol:   class TextResource
+2404:[ERROR] location: interface Libraries
+2405:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[19,33] error: package com.google.gwt.core.client does not exist
+2406:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[20,33] error: package com.google.gwt.core.client does not exist
+2407:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[93,28] error: cannot find symbol
+2408:[ERROR] symbol:   class JsArrayInteger
+2409:[ERROR] location: class BitSet
+2410:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[103,45] error: cannot find symbol
+2411:[ERROR] symbol:   class JsArrayInteger
+2412:[ERROR] location: class BitSet
+2413:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[103,24] error: cannot find symbol
+2414:[ERROR] symbol:   class JsArrayInteger
+2415:[ERROR] location: class BitSet
+2416:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[108,27] error: cannot find symbol
+2417:[ERROR] symbol:   class JsArrayInteger
+2418:[ERROR] location: class BitSet
+2419:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[125,29] error: cannot find symbol
+2420:[ERROR] symbol:   class JsArrayInteger
+2421:[ERROR] location: class BitSet
+2422:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[134,26] error: cannot find symbol
+2423:[ERROR] symbol:   class JsArrayInteger
+2424:[ERROR] location: class BitSet
+2425:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[140,26] error: cannot find symbol
+2426:[ERROR] symbol:   class JsArrayInteger
+2427:[ERROR] location: class BitSet
+2428:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[171,45] error: cannot find symbol
+2429:[ERROR] symbol:   class JsArrayInteger
+2430:[ERROR] location: class BitSet
+2431:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[171,24] error: cannot find symbol
+2432:[ERROR] symbol:   class JsArrayInteger
+2433:[ERROR] location: class BitSet
+2434:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[178,39] error: cannot find symbol
+2435:[ERROR] symbol:   class JsArrayInteger
+2436:[ERROR] location: class BitSet
+2437:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[220,40] error: cannot find symbol
+2438:[ERROR] symbol:   class JsArrayInteger
+2439:[ERROR] location: class BitSet
+2440:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[225,31] error: cannot find symbol
+2441:[ERROR] symbol:   class JsArrayInteger
+2442:[ERROR] location: class BitSet
+2443:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[236,37] error: cannot find symbol
+2444:[ERROR] symbol:   class JsArrayInteger
+2445:[ERROR] location: class BitSet
+2446:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[251,36] error: cannot find symbol
+2447:[ERROR] symbol:   class JsArrayInteger
+2448:[ERROR] location: class BitSet
+2449:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[257,33] error: cannot find symbol
+2450:[ERROR] symbol:   class JsArrayInteger
+2451:[ERROR] location: class BitSet
+2452:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[272,34] error: cannot find symbol
+2453:[ERROR] symbol:   class JsArrayInteger
+2454:[ERROR] location: class BitSet
+2455:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[295,40] error: cannot find symbol
+2456:[ERROR] symbol:   class JsArrayInteger
+2457:[ERROR] location: class BitSet
+2458:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[327,30] error: cannot find symbol
+2459:[ERROR] symbol:   class JsArrayInteger
+2460:[ERROR] location: class BitSet
+2461:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[337,44] error: cannot find symbol
+2462:[ERROR] symbol:   class JsArrayInteger
+2463:[ERROR] location: class BitSet
+2464:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[342,10] error: cannot find symbol
+2465:[ERROR] symbol:   class JsArrayInteger
+2466:[ERROR] location: class BitSet
+2467:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[365,17] error: cannot find symbol
+2468:[ERROR] symbol:   class JsArrayInteger
+2469:[ERROR] location: class BitSet
+2470:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[22,33] error: package com.google.gwt.core.client does not exist
+2471:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[23,36] error: package com.google.gwt.core.client.js does not exist
+2472:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[24,36] error: package com.google.gwt.core.client.js does not exist
+2473:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[25,38] error: package com.google.gwt.event.dom.client does not exist
+2474:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[26,38] error: package com.google.gwt.event.dom.client does not exist
+2475:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[27,36] error: package com.google.gwt.user.client.ui does not exist
+2476:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[28,36] error: package com.google.gwt.user.client.ui does not exist
+2477:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[29,36] error: package com.google.gwt.user.client.ui does not exist
+2478:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[41,38] error: cannot find symbol
+2479:[ERROR] symbol: class EntryPoint
+2480:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[40,1] error: cannot find symbol
+2481:[ERROR] symbol: class JsNamespace
+2482:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/debugging/sourcemap/SourceMapGeneratorV3.java:[21,57] error: cannot find symbol
+2483:[ERROR] symbol:   class EntryVisitor
+2484:[ERROR] location: class SourceMapConsumerV3
+2485:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[31,5] error: cannot find symbol
+2486:[ERROR] symbol:   class Source
+2487:[ERROR] location: interface Libraries
+2488:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[34,5] error: cannot find symbol
+2489:[ERROR] symbol:   class Source
+2490:[ERROR] location: interface Libraries
+2491:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[37,5] error: cannot find symbol
+2492:[ERROR] symbol:   class Source
+2493:[ERROR] location: interface Libraries
+2494:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/client/JsCompGwtMain.java:[42,3] error: cannot find symbol
+2495:[ERROR] symbol:   class JsExport
+2496:[ERROR] location: class JsCompGwtMain
+2497:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/DiagnosticType.java:[132,30] error: cannot find symbol
+2498:[ERROR] required: StaticTypedScope<JSType>
+2499:[ERROR] found:    StaticTypedScope<CAP#1>
+2500:[ERROR] where CAP#1 is a fresh type-variable:
+2501:[ERROR] CAP#1 extends TypeI from capture of ? extends TypeI
+2502:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[333,52] error: cannot find symbol
+2503:[ERROR] symbol:   method getAbsolutePath()
+2504:[ERROR] location: class File
+2505:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[551,20] error: cannot find symbol
+2506:[ERROR] symbol:   method asCharSource(File,Charset)
+2507:[ERROR] location: class Files
+2508:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/SourceFile.java:[565,20] error: cannot find symbol
+2509:[ERROR] required: StaticTypedSlot<JSType>
+2510:[ERROR] found:    StaticSlot
+2511:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/VariableMap.java:[98,9] error: method write in class Files cannot be applied to given types;
+2512:[ERROR] File
+2513:[ERROR] reason: actual and formal argument lists differ in length
+2514:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/VariableMap.java:[107,28] error: cannot find symbol
+2515:[ERROR] return type requires unchecked conversion from TypedScope to T
+2516:[ERROR] where T is a type-variable:
+2517:[ERROR] T extends Scope declared in method <T>createScope(Node,T)
+2518:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Pattern.java:[33,21] error: cannot find symbol
+2519:[ERROR] symbol:   variable RegExp
+2520:[ERROR] location: class Pattern
+2521:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[54,27] error: cannot find symbol
+2522:[ERROR] symbol:   method getGroup(int)
+2523:[ERROR] location: variable result of type MatchResult
+2524:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[63,27] error: cannot find symbol
+2525:[ERROR] symbol:   method getGroup(int)
+2526:[ERROR] location: variable result of type MatchResult
+2527:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[73,19] error: cannot find symbol
+2528:[ERROR] symbol:   method getGroup(int)
+2529:[ERROR] location: variable result of type MatchResult
+2530:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/regex/Matcher.java:[80,11] error: cannot find symbol
+2531:[ERROR] symbol:   variable RegExp
+2532:[ERROR] location: class Matcher
+2533:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[385,36] error: cannot find symbol
+2534:[ERROR] symbol:   method start()
+2535:[ERROR] location: variable m of type Matcher
+2536:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[386,17] error: cannot find symbol
+2537:[ERROR] symbol:   method end()
+2538:[ERROR] location: variable m of type Matcher
+2539:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/SuggestedFix.java:[386,27] error: cannot find symbol
+2540:[ERROR] symbol:   method start()
+2541:[ERROR] location: variable m of type Matcher
+2542:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/RefasterJs.java:[99,25] error: cannot find symbol
+2543:[ERROR] symbol:   method exists()
+2544:[ERROR] location: class File
+2545:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/com/google/javascript/jscomp/ResourceLoader.java:[29,25] error: cannot find symbol
+2546:[ERROR] symbol:   variable GWT
+2547:[ERROR] location: interface Libraries
+2548:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/refactoring/JsFlumeCallback.java:[61,52] error: cannot find symbol
+2549:[ERROR] symbol:   method pattern()
+2550:[ERROR] location: variable includeFilePattern of type Pattern
+2551:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[217,16] error: method reset in class Matcher cannot be applied to given types;
+2552:[ERROR] required: no arguments
+2553:[ERROR] found: String
+2554:[ERROR] reason: actual and formal argument lists differ in length
+2555:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[241,18] error: method reset in class Matcher cannot be applied to given types;
+2556:[ERROR] required: no arguments
+2557:[ERROR] found: String
+2558:[ERROR] reason: actual and formal argument lists differ in length
+2559:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[244,25] error: cannot find symbol
+2560:[ERROR] symbol:   method lookingAt()
+2561:[ERROR] location: variable valueMatcher of type Matcher
+2562:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[250,24] error: cannot find symbol
+2563:[ERROR] symbol:   method hitEnd()
+2564:[ERROR] location: variable valueMatcher of type Matcher
+2565:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[254,43] error: cannot find symbol
+2566:[ERROR] symbol:   method end()
+2567:[ERROR] location: variable valueMatcher of type Matcher
+2568:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[258,40] error: cannot find symbol
+2569:[ERROR] symbol:   method end()
+2570:[ERROR] location: variable valueMatcher of type Matcher
+2571:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFileLineParser.java:[258,64] error: cannot find symbol
+2572:[ERROR] symbol:   method regionEnd()
+2573:[ERROR] location: variable valueMatcher of type Matcher
+2574:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/deps/JsFunctionParser.java:[140,13] error: method reset in class Matcher cannot be applied to given types;
+2575:[ERROR] required: no arguments
+2576:[ERROR] found: String
+2577:[ERROR] reason: actual and formal argument lists differ in length
+2578:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[346,12] error: cannot find symbol
+2579:[ERROR] symbol:   variable JavaScriptObject
+2580:[ERROR] location: class BitSet
+2581:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[449,12] error: cannot find symbol
+2582:[ERROR] symbol:   variable JavaScriptObject
+2583:[ERROR] location: class BitSet
+2584:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/gwt/super/java/util/BitSet.java:[605,6] error: cannot find symbol
+2585:[ERROR] symbol:   class JsArrayInteger
+2586:[ERROR] location: class BitSet
+2587:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/FileInstrumentationData.java:[64,42] error: cannot find symbol
+2588:[ERROR] symbol:   method toByteArray()
+2589:[ERROR] location: variable instrumentedBits of type BitSet
+2590:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java:[762,40] error: cannot find symbol
+2591:[ERROR] symbol:   method getName()
+2592:[ERROR] location: class File
+2593:[ERROR] /home/travis/build/google/closure-compiler/src/com/google/javascript/jscomp/AbstractCommandLineRunner.java:[814,60] error: cannot find symbol
+2594:[ERROR] -> [Help 1]
+2595:[ERROR] 
+2596:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2597:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2598:[ERROR] 
+2599:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2600:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2601:[ERROR] 
+2602:[ERROR] After correcting the problems, you can resume the build with the command
+2603:[ERROR]   mvn <goals> -rf :closure-compiler

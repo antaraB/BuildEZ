@@ -1,0 +1,27 @@
+685:[ERROR] COMPILATION ERROR : 
+687:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/mapl/impl/convert/ObjConvertImpl.java:[196,14] cannot find symbol
+699:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project nutz: Compilation failure
+700:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/mapl/impl/convert/ObjConvertImpl.java:[196,14] cannot find symbol
+701:[ERROR] symbol:   class Entry
+702:[ERROR] location: class org.nutz.mapl.impl.convert.ObjConvertImpl
+703:[ERROR] -> [Help 1]
+704:[ERROR] 
+705:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+706:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+707:[ERROR] 
+708:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+709:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+722:[ERROR] COMPILATION ERROR : 
+724:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/mapl/impl/convert/ObjConvertImpl.java:[196,14] cannot find symbol
+736:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:compile (default-compile) on project nutz: Compilation failure
+737:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/mapl/impl/convert/ObjConvertImpl.java:[196,14] cannot find symbol
+738:[ERROR] symbol:   class Entry
+739:[ERROR] location: class org.nutz.mapl.impl.convert.ObjConvertImpl
+740:[ERROR] -> [Help 1]
+741:[ERROR] 
+742:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+743:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+744:[ERROR] 
+745:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+746:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+770:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/mapl/impl/convert/ObjConvertImpl.java:[196,14] cannot find symbol

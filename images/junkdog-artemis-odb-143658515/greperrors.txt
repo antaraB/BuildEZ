@@ -1,0 +1,51 @@
+1723:[ERROR] COMPILATION ERROR : 
+1725:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis-maven/src/main/java/com/artemis/ComponentMatrix.java:[50,25] constructor ComponentDependencyMatrix in class net.onedaybeard.ecs.model.ComponentDependencyMatrix cannot be applied to given types;
+1753:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project artemis-odb-maven-plugin: Compilation failure
+1754:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis-maven/src/main/java/com/artemis/ComponentMatrix.java:[50,25] constructor ComponentDependencyMatrix in class net.onedaybeard.ecs.model.ComponentDependencyMatrix cannot be applied to given types;
+1755:[ERROR] required: java.lang.String,java.util.List<java.net.URI>,java.io.File
+1756:[ERROR] found: java.lang.String,java.io.File,java.io.File
+1757:[ERROR] reason: actual argument java.io.File cannot be converted to java.util.List<java.net.URI> by method invocation conversion
+1758:[ERROR] -> [Help 1]
+1759:[ERROR] 
+1760:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1761:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1762:[ERROR] 
+1763:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1764:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1765:[ERROR] 
+1766:[ERROR] After correcting the problems, you can resume the build with the command
+1767:[ERROR]   mvn <goals> -rf :artemis-odb-maven-plugin
+2057:[ERROR] COMPILATION ERROR : 
+2059:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis-maven/src/main/java/com/artemis/ComponentMatrix.java:[50,25] constructor ComponentDependencyMatrix in class net.onedaybeard.ecs.model.ComponentDependencyMatrix cannot be applied to given types;
+2087:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project artemis-odb-maven-plugin: Compilation failure
+2088:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis-maven/src/main/java/com/artemis/ComponentMatrix.java:[50,25] constructor ComponentDependencyMatrix in class net.onedaybeard.ecs.model.ComponentDependencyMatrix cannot be applied to given types;
+2089:[ERROR] required: java.lang.String,java.util.List<java.net.URI>,java.io.File
+2090:[ERROR] found: java.lang.String,java.io.File,java.io.File
+2091:[ERROR] reason: actual argument java.io.File cannot be converted to java.util.List<java.net.URI> by method invocation conversion
+2092:[ERROR] -> [Help 1]
+2093:[ERROR] 
+2094:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2095:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2096:[ERROR] 
+2097:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2098:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2099:[ERROR] 
+2100:[ERROR] After correcting the problems, you can resume the build with the command
+2101:[ERROR]   mvn <goals> -rf :artemis-odb-maven-plugin
+2391:[ERROR] COMPILATION ERROR : 
+2393:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis-maven/src/main/java/com/artemis/ComponentMatrix.java:[50,25] constructor ComponentDependencyMatrix in class net.onedaybeard.ecs.model.ComponentDependencyMatrix cannot be applied to given types;
+2421:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project artemis-odb-maven-plugin: Compilation failure
+2422:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis-maven/src/main/java/com/artemis/ComponentMatrix.java:[50,25] constructor ComponentDependencyMatrix in class net.onedaybeard.ecs.model.ComponentDependencyMatrix cannot be applied to given types;
+2423:[ERROR] required: java.lang.String,java.util.List<java.net.URI>,java.io.File
+2424:[ERROR] found: java.lang.String,java.io.File,java.io.File
+2425:[ERROR] reason: actual argument java.io.File cannot be converted to java.util.List<java.net.URI> by method invocation conversion
+2426:[ERROR] -> [Help 1]
+2427:[ERROR] 
+2428:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2429:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2430:[ERROR] 
+2431:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2432:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2433:[ERROR] 
+2434:[ERROR] After correcting the problems, you can resume the build with the command
+2435:[ERROR]   mvn <goals> -rf :artemis-odb-maven-plugin

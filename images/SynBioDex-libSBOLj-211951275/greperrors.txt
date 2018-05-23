@@ -1,0 +1,120 @@
+1797:[ERROR] COMPILATION ERROR : 
+1799:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,1] illegal start of expression
+1800:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,3] illegal start of expression
+1801:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,5] illegal start of expression
+1802:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,17] > expected
+1803:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,25] ';' expected
+1804:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,1] illegal start of expression
+1805:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,3] illegal start of expression
+1806:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,5] illegal start of expression
+1807:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,7] illegal start of expression
+1808:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,1] illegal start of expression
+1809:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,4] illegal start of expression
+1810:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,7] illegal start of expression
+1811:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,11] ';' expected
+1812:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,49] ';' expected
+1828:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project libSBOLj: Compilation failure: Compilation failure:
+1829:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,1] illegal start of expression
+1830:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,3] illegal start of expression
+1831:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,5] illegal start of expression
+1832:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,17] > expected
+1833:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,25] ';' expected
+1834:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,1] illegal start of expression
+1835:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,3] illegal start of expression
+1836:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,5] illegal start of expression
+1837:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,7] illegal start of expression
+1838:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,1] illegal start of expression
+1839:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,4] illegal start of expression
+1840:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,7] illegal start of expression
+1841:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,11] ';' expected
+1842:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,49] ';' expected
+1843:[ERROR] -> [Help 1]
+1844:[ERROR] 
+1845:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1846:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1847:[ERROR] 
+1848:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1849:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1850:[ERROR] 
+1851:[ERROR] After correcting the problems, you can resume the build with the command
+1852:[ERROR]   mvn <goals> -rf :libSBOLj
+1943:[ERROR] COMPILATION ERROR : 
+1945:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,1] illegal start of expression
+1946:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,3] illegal start of expression
+1947:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,5] illegal start of expression
+1948:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,17] > expected
+1949:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,25] ';' expected
+1950:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,1] illegal start of expression
+1951:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,3] illegal start of expression
+1952:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,5] illegal start of expression
+1953:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,7] illegal start of expression
+1954:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,1] illegal start of expression
+1955:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,4] illegal start of expression
+1956:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,7] illegal start of expression
+1957:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,11] ';' expected
+1958:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,49] ';' expected
+1974:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project libSBOLj: Compilation failure: Compilation failure:
+1975:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,1] illegal start of expression
+1976:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,3] illegal start of expression
+1977:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,5] illegal start of expression
+1978:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,17] > expected
+1979:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,25] ';' expected
+1980:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,1] illegal start of expression
+1981:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,3] illegal start of expression
+1982:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,5] illegal start of expression
+1983:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,7] illegal start of expression
+1984:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,1] illegal start of expression
+1985:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,4] illegal start of expression
+1986:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,7] illegal start of expression
+1987:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,11] ';' expected
+1988:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,49] ';' expected
+1989:[ERROR] -> [Help 1]
+1990:[ERROR] 
+1991:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1992:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1993:[ERROR] 
+1994:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1995:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1996:[ERROR] 
+1997:[ERROR] After correcting the problems, you can resume the build with the command
+1998:[ERROR]   mvn <goals> -rf :libSBOLj
+2089:[ERROR] COMPILATION ERROR : 
+2091:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,1] illegal start of expression
+2092:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,3] illegal start of expression
+2093:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,5] illegal start of expression
+2094:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,17] > expected
+2095:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,25] ';' expected
+2096:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,1] illegal start of expression
+2097:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,3] illegal start of expression
+2098:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,5] illegal start of expression
+2099:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,7] illegal start of expression
+2100:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,1] illegal start of expression
+2101:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,4] illegal start of expression
+2102:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,7] illegal start of expression
+2103:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,11] ';' expected
+2104:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,49] ';' expected
+2120:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project libSBOLj: Compilation failure: Compilation failure:
+2121:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,1] illegal start of expression
+2122:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,3] illegal start of expression
+2123:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1824,5] illegal start of expression
+2124:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,17] > expected
+2125:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1825,25] ';' expected
+2126:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,1] illegal start of expression
+2127:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,3] illegal start of expression
+2128:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,5] illegal start of expression
+2129:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1827,7] illegal start of expression
+2130:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,1] illegal start of expression
+2131:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,4] illegal start of expression
+2132:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,7] illegal start of expression
+2133:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,11] ';' expected
+2134:[ERROR] /home/travis/build/SynBioDex/libSBOLj/core2/src/test/java/org/sbolstandard/core2/SBOLAbstractTests.java:[1830,49] ';' expected
+2135:[ERROR] -> [Help 1]
+2136:[ERROR] 
+2137:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2138:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2139:[ERROR] 
+2140:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2141:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2142:[ERROR] 
+2143:[ERROR] After correcting the problems, you can resume the build with the command
+2144:[ERROR]   mvn <goals> -rf :libSBOLj

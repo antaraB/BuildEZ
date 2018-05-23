@@ -1,0 +1,1155 @@
+1235:[ERROR] COMPILATION ERROR : 
+1237:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,39] cannot find symbol
+1240:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,1] static import only from classes and interfaces
+1241:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,39] cannot find symbol
+1244:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,1] static import only from classes and interfaces
+1245:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,39] cannot find symbol
+1248:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,1] static import only from classes and interfaces
+1249:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,39] cannot find symbol
+1252:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,1] static import only from classes and interfaces
+1253:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,39] cannot find symbol
+1256:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,1] static import only from classes and interfaces
+1257:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,39] cannot find symbol
+1260:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,1] static import only from classes and interfaces
+1261:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,39] cannot find symbol
+1264:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,1] static import only from classes and interfaces
+1265:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,39] cannot find symbol
+1268:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,1] static import only from classes and interfaces
+1269:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,39] cannot find symbol
+1272:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,1] static import only from classes and interfaces
+1273:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,39] cannot find symbol
+1276:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,1] static import only from classes and interfaces
+1277:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,39] cannot find symbol
+1280:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,1] static import only from classes and interfaces
+1281:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,39] cannot find symbol
+1284:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,1] static import only from classes and interfaces
+1285:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[34,32] cannot find symbol
+1288:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[35,33] cannot find symbol
+1291:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[36,35] cannot find symbol
+1294:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[37,38] cannot find symbol
+1297:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[38,42] cannot find symbol
+1300:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[39,45] cannot find symbol
+1303:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,49] cannot find symbol
+1306:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,32] cannot find symbol
+1309:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,52] cannot find symbol
+1312:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,35] cannot find symbol
+1315:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,55] cannot find symbol
+1318:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,38] cannot find symbol
+1321:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,59] cannot find symbol
+1324:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,42] cannot find symbol
+1327:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,62] cannot find symbol
+1330:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,45] cannot find symbol
+1333:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[50,32] cannot find symbol
+1336:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[51,32] cannot find symbol
+1339:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[52,35] cannot find symbol
+1342:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[53,38] cannot find symbol
+1345:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[54,42] cannot find symbol
+1348:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[55,45] cannot find symbol
+1351:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,49] cannot find symbol
+1354:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,32] cannot find symbol
+1357:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,52] cannot find symbol
+1360:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,35] cannot find symbol
+1363:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,55] cannot find symbol
+1366:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,38] cannot find symbol
+1369:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,59] cannot find symbol
+1372:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,42] cannot find symbol
+1375:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,62] cannot find symbol
+1378:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,45] cannot find symbol
+1381:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[66,32] cannot find symbol
+1384:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[67,32] cannot find symbol
+1387:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[68,32] cannot find symbol
+1390:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[69,32] cannot find symbol
+1393:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[70,35] cannot find symbol
+1396:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,63] cannot find symbol
+1399:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,32] cannot find symbol
+1402:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,59] cannot find symbol
+1405:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,32] cannot find symbol
+1408:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,56] cannot find symbol
+1411:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,32] cannot find symbol
+1414:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,53] cannot find symbol
+1417:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,32] cannot find symbol
+1420:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,56] cannot find symbol
+1423:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,35] cannot find symbol
+1426:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[81,32] cannot find symbol
+1429:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[82,32] cannot find symbol
+1432:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[83,35] cannot find symbol
+1435:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[84,38] cannot find symbol
+1438:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[85,42] cannot find symbol
+1441:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,56] cannot find symbol
+1444:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,32] cannot find symbol
+1447:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,53] cannot find symbol
+1450:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,32] cannot find symbol
+1453:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,56] cannot find symbol
+1456:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,35] cannot find symbol
+1459:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,59] cannot find symbol
+1462:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,38] cannot find symbol
+1465:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,63] cannot find symbol
+1468:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,42] cannot find symbol
+1471:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[96,32] cannot find symbol
+1474:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[97,32] cannot find symbol
+1477:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[98,32] cannot find symbol
+1480:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[99,35] cannot find symbol
+1483:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[100,38] cannot find symbol
+1486:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,59] cannot find symbol
+1489:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,32] cannot find symbol
+1492:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,56] cannot find symbol
+1495:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,32] cannot find symbol
+1498:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,53] cannot find symbol
+1501:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,32] cannot find symbol
+1504:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,56] cannot find symbol
+1507:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,35] cannot find symbol
+1510:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[106,59] cannot find symbol
+1522:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile) on project commons-lang3: Compilation failure: Compilation failure:
+1523:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,39] cannot find symbol
+1524:[ERROR] symbol:   class DigitalBase2SizeUnit
+1525:[ERROR] location: package org.apache.commons.lang3
+1526:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,1] static import only from classes and interfaces
+1527:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,39] cannot find symbol
+1528:[ERROR] symbol:   class DigitalBase2SizeUnit
+1529:[ERROR] location: package org.apache.commons.lang3
+1530:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,1] static import only from classes and interfaces
+1531:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,39] cannot find symbol
+1532:[ERROR] symbol:   class DigitalBase2SizeUnit
+1533:[ERROR] location: package org.apache.commons.lang3
+1534:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,1] static import only from classes and interfaces
+1535:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,39] cannot find symbol
+1536:[ERROR] symbol:   class DigitalBase2SizeUnit
+1537:[ERROR] location: package org.apache.commons.lang3
+1538:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,1] static import only from classes and interfaces
+1539:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,39] cannot find symbol
+1540:[ERROR] symbol:   class DigitalBase2SizeUnit
+1541:[ERROR] location: package org.apache.commons.lang3
+1542:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,1] static import only from classes and interfaces
+1543:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,39] cannot find symbol
+1544:[ERROR] symbol:   class DigitalBase2SizeUnit
+1545:[ERROR] location: package org.apache.commons.lang3
+1546:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,1] static import only from classes and interfaces
+1547:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,39] cannot find symbol
+1548:[ERROR] symbol:   class DigitalBase10SizeUnit
+1549:[ERROR] location: package org.apache.commons.lang3
+1550:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,1] static import only from classes and interfaces
+1551:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,39] cannot find symbol
+1552:[ERROR] symbol:   class DigitalBase10SizeUnit
+1553:[ERROR] location: package org.apache.commons.lang3
+1554:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,1] static import only from classes and interfaces
+1555:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,39] cannot find symbol
+1556:[ERROR] symbol:   class DigitalBase10SizeUnit
+1557:[ERROR] location: package org.apache.commons.lang3
+1558:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,1] static import only from classes and interfaces
+1559:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,39] cannot find symbol
+1560:[ERROR] symbol:   class DigitalBase10SizeUnit
+1561:[ERROR] location: package org.apache.commons.lang3
+1562:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,1] static import only from classes and interfaces
+1563:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,39] cannot find symbol
+1564:[ERROR] symbol:   class DigitalBase10SizeUnit
+1565:[ERROR] location: package org.apache.commons.lang3
+1566:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,1] static import only from classes and interfaces
+1567:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,39] cannot find symbol
+1568:[ERROR] symbol:   class DigitalBase10SizeUnit
+1569:[ERROR] location: package org.apache.commons.lang3
+1570:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,1] static import only from classes and interfaces
+1571:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[34,32] cannot find symbol
+1572:[ERROR] symbol:   variable BITS
+1573:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1574:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[35,33] cannot find symbol
+1575:[ERROR] symbol:   variable BYTES
+1576:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1577:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[36,35] cannot find symbol
+1578:[ERROR] symbol:   variable KILOBYTES
+1579:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1580:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[37,38] cannot find symbol
+1581:[ERROR] symbol:   variable MEGABYTES
+1582:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1583:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[38,42] cannot find symbol
+1584:[ERROR] symbol:   variable GIGABYTES
+1585:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1586:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[39,45] cannot find symbol
+1587:[ERROR] symbol:   variable TERABYTES
+1588:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1589:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,49] cannot find symbol
+1590:[ERROR] symbol:   variable BYTES
+1591:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1592:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,32] cannot find symbol
+1593:[ERROR] symbol:   variable BYTES
+1594:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1595:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,52] cannot find symbol
+1596:[ERROR] symbol:   variable KILOBYTES
+1597:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1598:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,35] cannot find symbol
+1599:[ERROR] symbol:   variable BYTES
+1600:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1601:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,55] cannot find symbol
+1602:[ERROR] symbol:   variable MEGABYTES
+1603:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1604:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,38] cannot find symbol
+1605:[ERROR] symbol:   variable BYTES
+1606:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1607:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,59] cannot find symbol
+1608:[ERROR] symbol:   variable GIGABYTES
+1609:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1610:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,42] cannot find symbol
+1611:[ERROR] symbol:   variable BYTES
+1612:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1613:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,62] cannot find symbol
+1614:[ERROR] symbol:   variable TERABYTES
+1615:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1616:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,45] cannot find symbol
+1617:[ERROR] symbol:   variable BYTES
+1618:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1619:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[50,32] cannot find symbol
+1620:[ERROR] symbol:   variable BITS
+1621:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1622:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[51,32] cannot find symbol
+1623:[ERROR] symbol:   variable BYTES
+1624:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1625:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[52,35] cannot find symbol
+1626:[ERROR] symbol:   variable KILOBYTES
+1627:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1628:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[53,38] cannot find symbol
+1629:[ERROR] symbol:   variable MEGABYTES
+1630:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1631:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[54,42] cannot find symbol
+1632:[ERROR] symbol:   variable GIGABYTES
+1633:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1634:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[55,45] cannot find symbol
+1635:[ERROR] symbol:   variable TERABYTES
+1636:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1637:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,49] cannot find symbol
+1638:[ERROR] symbol:   variable BYTES
+1639:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1640:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,32] cannot find symbol
+1641:[ERROR] symbol:   variable BYTES
+1642:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1643:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,52] cannot find symbol
+1644:[ERROR] symbol:   variable KILOBYTES
+1645:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1646:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,35] cannot find symbol
+1647:[ERROR] symbol:   variable BYTES
+1648:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1649:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,55] cannot find symbol
+1650:[ERROR] symbol:   variable MEGABYTES
+1651:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1652:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,38] cannot find symbol
+1653:[ERROR] symbol:   variable BYTES
+1654:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1655:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,59] cannot find symbol
+1656:[ERROR] symbol:   variable GIGABYTES
+1657:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1658:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,42] cannot find symbol
+1659:[ERROR] symbol:   variable BYTES
+1660:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1661:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,62] cannot find symbol
+1662:[ERROR] symbol:   variable TERABYTES
+1663:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1664:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,45] cannot find symbol
+1665:[ERROR] symbol:   variable BYTES
+1666:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1667:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[66,32] cannot find symbol
+1668:[ERROR] symbol:   variable BYTES
+1669:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1670:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[67,32] cannot find symbol
+1671:[ERROR] symbol:   variable KILOBYTES
+1672:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1673:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[68,32] cannot find symbol
+1674:[ERROR] symbol:   variable MEGABYTES
+1675:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1676:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[69,32] cannot find symbol
+1677:[ERROR] symbol:   variable GIGABYTES
+1678:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1679:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[70,35] cannot find symbol
+1680:[ERROR] symbol:   variable TERABYTES
+1681:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1682:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,63] cannot find symbol
+1683:[ERROR] symbol:   variable BYTES
+1684:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1685:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,32] cannot find symbol
+1686:[ERROR] symbol:   variable GIGABYTES
+1687:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1688:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,59] cannot find symbol
+1689:[ERROR] symbol:   variable KILOBYTES
+1690:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1691:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,32] cannot find symbol
+1692:[ERROR] symbol:   variable GIGABYTES
+1693:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1694:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,56] cannot find symbol
+1695:[ERROR] symbol:   variable MEGABYTES
+1696:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1697:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,32] cannot find symbol
+1698:[ERROR] symbol:   variable GIGABYTES
+1699:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1700:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,53] cannot find symbol
+1701:[ERROR] symbol:   variable GIGABYTES
+1702:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1703:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,32] cannot find symbol
+1704:[ERROR] symbol:   variable GIGABYTES
+1705:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1706:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,56] cannot find symbol
+1707:[ERROR] symbol:   variable TERABYTES
+1708:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1709:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,35] cannot find symbol
+1710:[ERROR] symbol:   variable GIGABYTES
+1711:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1712:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[81,32] cannot find symbol
+1713:[ERROR] symbol:   variable BYTES
+1714:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1715:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[82,32] cannot find symbol
+1716:[ERROR] symbol:   variable KILOBYTES
+1717:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1718:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[83,35] cannot find symbol
+1719:[ERROR] symbol:   variable MEGABYTES
+1720:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1721:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[84,38] cannot find symbol
+1722:[ERROR] symbol:   variable GIGABYTES
+1723:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1724:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[85,42] cannot find symbol
+1725:[ERROR] symbol:   variable TERABYTES
+1726:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1727:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,56] cannot find symbol
+1728:[ERROR] symbol:   variable BYTES
+1729:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1730:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,32] cannot find symbol
+1731:[ERROR] symbol:   variable KILOBYTES
+1732:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1733:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,53] cannot find symbol
+1734:[ERROR] symbol:   variable KILOBYTES
+1735:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1736:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,32] cannot find symbol
+1737:[ERROR] symbol:   variable KILOBYTES
+1738:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1739:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,56] cannot find symbol
+1740:[ERROR] symbol:   variable MEGABYTES
+1741:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1742:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,35] cannot find symbol
+1743:[ERROR] symbol:   variable KILOBYTES
+1744:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1745:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,59] cannot find symbol
+1746:[ERROR] symbol:   variable GIGABYTES
+1747:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1748:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,38] cannot find symbol
+1749:[ERROR] symbol:   variable KILOBYTES
+1750:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1751:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,63] cannot find symbol
+1752:[ERROR] symbol:   variable TERABYTES
+1753:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1754:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,42] cannot find symbol
+1755:[ERROR] symbol:   variable KILOBYTES
+1756:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1757:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[96,32] cannot find symbol
+1758:[ERROR] symbol:   variable BYTES
+1759:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1760:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[97,32] cannot find symbol
+1761:[ERROR] symbol:   variable KILOBYTES
+1762:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1763:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[98,32] cannot find symbol
+1764:[ERROR] symbol:   variable MEGABYTES
+1765:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1766:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[99,35] cannot find symbol
+1767:[ERROR] symbol:   variable GIGABYTES
+1768:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1769:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[100,38] cannot find symbol
+1770:[ERROR] symbol:   variable TERABYTES
+1771:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1772:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,59] cannot find symbol
+1773:[ERROR] symbol:   variable BYTES
+1774:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1775:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,32] cannot find symbol
+1776:[ERROR] symbol:   variable MEGABYTES
+1777:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1778:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,56] cannot find symbol
+1779:[ERROR] symbol:   variable KILOBYTES
+1780:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1781:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,32] cannot find symbol
+1782:[ERROR] symbol:   variable MEGABYTES
+1783:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1784:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,53] cannot find symbol
+1785:[ERROR] symbol:   variable MEGABYTES
+1786:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1787:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,32] cannot find symbol
+1788:[ERROR] symbol:   variable MEGABYTES
+1789:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1790:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,56] cannot find symbol
+1791:[ERROR] symbol:   variable GIGABYTES
+1792:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1793:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,35] cannot find symbol
+1794:[ERROR] symbol:   variable MEGABYTES
+1795:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1796:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[106,59] cannot find symbol
+1797:[ERROR] symbol:   variable TERABYTES
+1798:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+1799:[ERROR] -> [Help 1]
+1800:[ERROR] 
+1801:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1802:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1803:[ERROR] 
+1804:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1805:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1869:[ERROR] COMPILATION ERROR : 
+1871:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,39] cannot find symbol
+1874:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,1] static import only from classes and interfaces
+1875:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,39] cannot find symbol
+1878:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,1] static import only from classes and interfaces
+1879:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,39] cannot find symbol
+1882:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,1] static import only from classes and interfaces
+1883:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,39] cannot find symbol
+1886:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,1] static import only from classes and interfaces
+1887:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,39] cannot find symbol
+1890:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,1] static import only from classes and interfaces
+1891:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,39] cannot find symbol
+1894:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,1] static import only from classes and interfaces
+1895:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,39] cannot find symbol
+1898:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,1] static import only from classes and interfaces
+1899:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,39] cannot find symbol
+1902:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,1] static import only from classes and interfaces
+1903:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,39] cannot find symbol
+1906:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,1] static import only from classes and interfaces
+1907:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,39] cannot find symbol
+1910:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,1] static import only from classes and interfaces
+1911:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,39] cannot find symbol
+1914:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,1] static import only from classes and interfaces
+1915:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,39] cannot find symbol
+1918:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,1] static import only from classes and interfaces
+1919:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[34,32] cannot find symbol
+1922:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[35,33] cannot find symbol
+1925:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[36,35] cannot find symbol
+1928:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[37,38] cannot find symbol
+1931:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[38,42] cannot find symbol
+1934:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[39,45] cannot find symbol
+1937:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,49] cannot find symbol
+1940:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,32] cannot find symbol
+1943:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,52] cannot find symbol
+1946:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,35] cannot find symbol
+1949:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,55] cannot find symbol
+1952:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,38] cannot find symbol
+1955:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,59] cannot find symbol
+1958:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,42] cannot find symbol
+1961:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,62] cannot find symbol
+1964:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,45] cannot find symbol
+1967:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[50,32] cannot find symbol
+1970:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[51,32] cannot find symbol
+1973:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[52,35] cannot find symbol
+1976:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[53,38] cannot find symbol
+1979:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[54,42] cannot find symbol
+1982:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[55,45] cannot find symbol
+1985:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,49] cannot find symbol
+1988:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,32] cannot find symbol
+1991:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,52] cannot find symbol
+1994:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,35] cannot find symbol
+1997:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,55] cannot find symbol
+2000:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,38] cannot find symbol
+2003:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,59] cannot find symbol
+2006:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,42] cannot find symbol
+2009:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,62] cannot find symbol
+2012:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,45] cannot find symbol
+2015:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[66,32] cannot find symbol
+2018:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[67,32] cannot find symbol
+2021:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[68,32] cannot find symbol
+2024:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[69,32] cannot find symbol
+2027:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[70,35] cannot find symbol
+2030:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,63] cannot find symbol
+2033:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,32] cannot find symbol
+2036:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,59] cannot find symbol
+2039:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,32] cannot find symbol
+2042:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,56] cannot find symbol
+2045:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,32] cannot find symbol
+2048:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,53] cannot find symbol
+2051:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,32] cannot find symbol
+2054:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,56] cannot find symbol
+2057:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,35] cannot find symbol
+2060:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[81,32] cannot find symbol
+2063:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[82,32] cannot find symbol
+2066:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[83,35] cannot find symbol
+2069:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[84,38] cannot find symbol
+2072:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[85,42] cannot find symbol
+2075:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,56] cannot find symbol
+2078:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,32] cannot find symbol
+2081:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,53] cannot find symbol
+2084:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,32] cannot find symbol
+2087:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,56] cannot find symbol
+2090:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,35] cannot find symbol
+2093:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,59] cannot find symbol
+2096:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,38] cannot find symbol
+2099:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,63] cannot find symbol
+2102:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,42] cannot find symbol
+2105:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[96,32] cannot find symbol
+2108:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[97,32] cannot find symbol
+2111:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[98,32] cannot find symbol
+2114:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[99,35] cannot find symbol
+2117:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[100,38] cannot find symbol
+2120:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,59] cannot find symbol
+2123:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,32] cannot find symbol
+2126:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,56] cannot find symbol
+2129:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,32] cannot find symbol
+2132:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,53] cannot find symbol
+2135:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,32] cannot find symbol
+2138:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,56] cannot find symbol
+2141:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,35] cannot find symbol
+2144:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[106,59] cannot find symbol
+2156:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile) on project commons-lang3: Compilation failure: Compilation failure:
+2157:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,39] cannot find symbol
+2158:[ERROR] symbol:   class DigitalBase2SizeUnit
+2159:[ERROR] location: package org.apache.commons.lang3
+2160:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,1] static import only from classes and interfaces
+2161:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,39] cannot find symbol
+2162:[ERROR] symbol:   class DigitalBase2SizeUnit
+2163:[ERROR] location: package org.apache.commons.lang3
+2164:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,1] static import only from classes and interfaces
+2165:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,39] cannot find symbol
+2166:[ERROR] symbol:   class DigitalBase2SizeUnit
+2167:[ERROR] location: package org.apache.commons.lang3
+2168:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,1] static import only from classes and interfaces
+2169:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,39] cannot find symbol
+2170:[ERROR] symbol:   class DigitalBase2SizeUnit
+2171:[ERROR] location: package org.apache.commons.lang3
+2172:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,1] static import only from classes and interfaces
+2173:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,39] cannot find symbol
+2174:[ERROR] symbol:   class DigitalBase2SizeUnit
+2175:[ERROR] location: package org.apache.commons.lang3
+2176:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,1] static import only from classes and interfaces
+2177:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,39] cannot find symbol
+2178:[ERROR] symbol:   class DigitalBase2SizeUnit
+2179:[ERROR] location: package org.apache.commons.lang3
+2180:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,1] static import only from classes and interfaces
+2181:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,39] cannot find symbol
+2182:[ERROR] symbol:   class DigitalBase10SizeUnit
+2183:[ERROR] location: package org.apache.commons.lang3
+2184:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,1] static import only from classes and interfaces
+2185:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,39] cannot find symbol
+2186:[ERROR] symbol:   class DigitalBase10SizeUnit
+2187:[ERROR] location: package org.apache.commons.lang3
+2188:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,1] static import only from classes and interfaces
+2189:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,39] cannot find symbol
+2190:[ERROR] symbol:   class DigitalBase10SizeUnit
+2191:[ERROR] location: package org.apache.commons.lang3
+2192:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,1] static import only from classes and interfaces
+2193:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,39] cannot find symbol
+2194:[ERROR] symbol:   class DigitalBase10SizeUnit
+2195:[ERROR] location: package org.apache.commons.lang3
+2196:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,1] static import only from classes and interfaces
+2197:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,39] cannot find symbol
+2198:[ERROR] symbol:   class DigitalBase10SizeUnit
+2199:[ERROR] location: package org.apache.commons.lang3
+2200:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,1] static import only from classes and interfaces
+2201:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,39] cannot find symbol
+2202:[ERROR] symbol:   class DigitalBase10SizeUnit
+2203:[ERROR] location: package org.apache.commons.lang3
+2204:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,1] static import only from classes and interfaces
+2205:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[34,32] cannot find symbol
+2206:[ERROR] symbol:   variable BITS
+2207:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2208:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[35,33] cannot find symbol
+2209:[ERROR] symbol:   variable BYTES
+2210:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2211:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[36,35] cannot find symbol
+2212:[ERROR] symbol:   variable KILOBYTES
+2213:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2214:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[37,38] cannot find symbol
+2215:[ERROR] symbol:   variable MEGABYTES
+2216:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2217:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[38,42] cannot find symbol
+2218:[ERROR] symbol:   variable GIGABYTES
+2219:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2220:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[39,45] cannot find symbol
+2221:[ERROR] symbol:   variable TERABYTES
+2222:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2223:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,49] cannot find symbol
+2224:[ERROR] symbol:   variable BYTES
+2225:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2226:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,32] cannot find symbol
+2227:[ERROR] symbol:   variable BYTES
+2228:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2229:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,52] cannot find symbol
+2230:[ERROR] symbol:   variable KILOBYTES
+2231:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2232:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,35] cannot find symbol
+2233:[ERROR] symbol:   variable BYTES
+2234:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2235:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,55] cannot find symbol
+2236:[ERROR] symbol:   variable MEGABYTES
+2237:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2238:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,38] cannot find symbol
+2239:[ERROR] symbol:   variable BYTES
+2240:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2241:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,59] cannot find symbol
+2242:[ERROR] symbol:   variable GIGABYTES
+2243:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2244:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,42] cannot find symbol
+2245:[ERROR] symbol:   variable BYTES
+2246:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2247:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,62] cannot find symbol
+2248:[ERROR] symbol:   variable TERABYTES
+2249:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2250:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,45] cannot find symbol
+2251:[ERROR] symbol:   variable BYTES
+2252:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2253:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[50,32] cannot find symbol
+2254:[ERROR] symbol:   variable BITS
+2255:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2256:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[51,32] cannot find symbol
+2257:[ERROR] symbol:   variable BYTES
+2258:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2259:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[52,35] cannot find symbol
+2260:[ERROR] symbol:   variable KILOBYTES
+2261:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2262:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[53,38] cannot find symbol
+2263:[ERROR] symbol:   variable MEGABYTES
+2264:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2265:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[54,42] cannot find symbol
+2266:[ERROR] symbol:   variable GIGABYTES
+2267:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2268:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[55,45] cannot find symbol
+2269:[ERROR] symbol:   variable TERABYTES
+2270:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2271:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,49] cannot find symbol
+2272:[ERROR] symbol:   variable BYTES
+2273:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2274:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,32] cannot find symbol
+2275:[ERROR] symbol:   variable BYTES
+2276:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2277:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,52] cannot find symbol
+2278:[ERROR] symbol:   variable KILOBYTES
+2279:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2280:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,35] cannot find symbol
+2281:[ERROR] symbol:   variable BYTES
+2282:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2283:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,55] cannot find symbol
+2284:[ERROR] symbol:   variable MEGABYTES
+2285:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2286:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,38] cannot find symbol
+2287:[ERROR] symbol:   variable BYTES
+2288:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2289:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,59] cannot find symbol
+2290:[ERROR] symbol:   variable GIGABYTES
+2291:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2292:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,42] cannot find symbol
+2293:[ERROR] symbol:   variable BYTES
+2294:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2295:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,62] cannot find symbol
+2296:[ERROR] symbol:   variable TERABYTES
+2297:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2298:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,45] cannot find symbol
+2299:[ERROR] symbol:   variable BYTES
+2300:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2301:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[66,32] cannot find symbol
+2302:[ERROR] symbol:   variable BYTES
+2303:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2304:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[67,32] cannot find symbol
+2305:[ERROR] symbol:   variable KILOBYTES
+2306:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2307:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[68,32] cannot find symbol
+2308:[ERROR] symbol:   variable MEGABYTES
+2309:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2310:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[69,32] cannot find symbol
+2311:[ERROR] symbol:   variable GIGABYTES
+2312:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2313:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[70,35] cannot find symbol
+2314:[ERROR] symbol:   variable TERABYTES
+2315:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2316:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,63] cannot find symbol
+2317:[ERROR] symbol:   variable BYTES
+2318:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2319:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,32] cannot find symbol
+2320:[ERROR] symbol:   variable GIGABYTES
+2321:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2322:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,59] cannot find symbol
+2323:[ERROR] symbol:   variable KILOBYTES
+2324:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2325:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,32] cannot find symbol
+2326:[ERROR] symbol:   variable GIGABYTES
+2327:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2328:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,56] cannot find symbol
+2329:[ERROR] symbol:   variable MEGABYTES
+2330:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2331:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,32] cannot find symbol
+2332:[ERROR] symbol:   variable GIGABYTES
+2333:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2334:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,53] cannot find symbol
+2335:[ERROR] symbol:   variable GIGABYTES
+2336:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2337:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,32] cannot find symbol
+2338:[ERROR] symbol:   variable GIGABYTES
+2339:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2340:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,56] cannot find symbol
+2341:[ERROR] symbol:   variable TERABYTES
+2342:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2343:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,35] cannot find symbol
+2344:[ERROR] symbol:   variable GIGABYTES
+2345:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2346:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[81,32] cannot find symbol
+2347:[ERROR] symbol:   variable BYTES
+2348:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2349:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[82,32] cannot find symbol
+2350:[ERROR] symbol:   variable KILOBYTES
+2351:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2352:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[83,35] cannot find symbol
+2353:[ERROR] symbol:   variable MEGABYTES
+2354:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2355:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[84,38] cannot find symbol
+2356:[ERROR] symbol:   variable GIGABYTES
+2357:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2358:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[85,42] cannot find symbol
+2359:[ERROR] symbol:   variable TERABYTES
+2360:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2361:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,56] cannot find symbol
+2362:[ERROR] symbol:   variable BYTES
+2363:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2364:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,32] cannot find symbol
+2365:[ERROR] symbol:   variable KILOBYTES
+2366:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2367:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,53] cannot find symbol
+2368:[ERROR] symbol:   variable KILOBYTES
+2369:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2370:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,32] cannot find symbol
+2371:[ERROR] symbol:   variable KILOBYTES
+2372:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2373:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,56] cannot find symbol
+2374:[ERROR] symbol:   variable MEGABYTES
+2375:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2376:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,35] cannot find symbol
+2377:[ERROR] symbol:   variable KILOBYTES
+2378:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2379:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,59] cannot find symbol
+2380:[ERROR] symbol:   variable GIGABYTES
+2381:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2382:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,38] cannot find symbol
+2383:[ERROR] symbol:   variable KILOBYTES
+2384:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2385:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,63] cannot find symbol
+2386:[ERROR] symbol:   variable TERABYTES
+2387:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2388:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,42] cannot find symbol
+2389:[ERROR] symbol:   variable KILOBYTES
+2390:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2391:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[96,32] cannot find symbol
+2392:[ERROR] symbol:   variable BYTES
+2393:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2394:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[97,32] cannot find symbol
+2395:[ERROR] symbol:   variable KILOBYTES
+2396:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2397:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[98,32] cannot find symbol
+2398:[ERROR] symbol:   variable MEGABYTES
+2399:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2400:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[99,35] cannot find symbol
+2401:[ERROR] symbol:   variable GIGABYTES
+2402:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2403:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[100,38] cannot find symbol
+2404:[ERROR] symbol:   variable TERABYTES
+2405:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2406:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,59] cannot find symbol
+2407:[ERROR] symbol:   variable BYTES
+2408:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2409:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,32] cannot find symbol
+2410:[ERROR] symbol:   variable MEGABYTES
+2411:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2412:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,56] cannot find symbol
+2413:[ERROR] symbol:   variable KILOBYTES
+2414:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2415:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,32] cannot find symbol
+2416:[ERROR] symbol:   variable MEGABYTES
+2417:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2418:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,53] cannot find symbol
+2419:[ERROR] symbol:   variable MEGABYTES
+2420:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2421:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,32] cannot find symbol
+2422:[ERROR] symbol:   variable MEGABYTES
+2423:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2424:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,56] cannot find symbol
+2425:[ERROR] symbol:   variable GIGABYTES
+2426:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2427:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,35] cannot find symbol
+2428:[ERROR] symbol:   variable MEGABYTES
+2429:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2430:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[106,59] cannot find symbol
+2431:[ERROR] symbol:   variable TERABYTES
+2432:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2433:[ERROR] -> [Help 1]
+2434:[ERROR] 
+2435:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2436:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2437:[ERROR] 
+2438:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2439:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2503:[ERROR] COMPILATION ERROR : 
+2505:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,39] cannot find symbol
+2508:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,1] static import only from classes and interfaces
+2509:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,39] cannot find symbol
+2512:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,1] static import only from classes and interfaces
+2513:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,39] cannot find symbol
+2516:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,1] static import only from classes and interfaces
+2517:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,39] cannot find symbol
+2520:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,1] static import only from classes and interfaces
+2521:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,39] cannot find symbol
+2524:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,1] static import only from classes and interfaces
+2525:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,39] cannot find symbol
+2528:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,1] static import only from classes and interfaces
+2529:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,39] cannot find symbol
+2532:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,1] static import only from classes and interfaces
+2533:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,39] cannot find symbol
+2536:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,1] static import only from classes and interfaces
+2537:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,39] cannot find symbol
+2540:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,1] static import only from classes and interfaces
+2541:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,39] cannot find symbol
+2544:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,1] static import only from classes and interfaces
+2545:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,39] cannot find symbol
+2548:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,1] static import only from classes and interfaces
+2549:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,39] cannot find symbol
+2552:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,1] static import only from classes and interfaces
+2553:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[34,32] cannot find symbol
+2556:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[35,33] cannot find symbol
+2559:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[36,35] cannot find symbol
+2562:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[37,38] cannot find symbol
+2565:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[38,42] cannot find symbol
+2568:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[39,45] cannot find symbol
+2571:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,49] cannot find symbol
+2574:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,32] cannot find symbol
+2577:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,52] cannot find symbol
+2580:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,35] cannot find symbol
+2583:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,55] cannot find symbol
+2586:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,38] cannot find symbol
+2589:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,59] cannot find symbol
+2592:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,42] cannot find symbol
+2595:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,62] cannot find symbol
+2598:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,45] cannot find symbol
+2601:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[50,32] cannot find symbol
+2604:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[51,32] cannot find symbol
+2607:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[52,35] cannot find symbol
+2610:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[53,38] cannot find symbol
+2613:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[54,42] cannot find symbol
+2616:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[55,45] cannot find symbol
+2619:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,49] cannot find symbol
+2622:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,32] cannot find symbol
+2625:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,52] cannot find symbol
+2628:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,35] cannot find symbol
+2631:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,55] cannot find symbol
+2634:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,38] cannot find symbol
+2637:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,59] cannot find symbol
+2640:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,42] cannot find symbol
+2643:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,62] cannot find symbol
+2646:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,45] cannot find symbol
+2649:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[66,32] cannot find symbol
+2652:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[67,32] cannot find symbol
+2655:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[68,32] cannot find symbol
+2658:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[69,32] cannot find symbol
+2661:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[70,35] cannot find symbol
+2664:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,63] cannot find symbol
+2667:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,32] cannot find symbol
+2670:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,59] cannot find symbol
+2673:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,32] cannot find symbol
+2676:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,56] cannot find symbol
+2679:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,32] cannot find symbol
+2682:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,53] cannot find symbol
+2685:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,32] cannot find symbol
+2688:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,56] cannot find symbol
+2691:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,35] cannot find symbol
+2694:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[81,32] cannot find symbol
+2697:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[82,32] cannot find symbol
+2700:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[83,35] cannot find symbol
+2703:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[84,38] cannot find symbol
+2706:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[85,42] cannot find symbol
+2709:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,56] cannot find symbol
+2712:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,32] cannot find symbol
+2715:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,53] cannot find symbol
+2718:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,32] cannot find symbol
+2721:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,56] cannot find symbol
+2724:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,35] cannot find symbol
+2727:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,59] cannot find symbol
+2730:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,38] cannot find symbol
+2733:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,63] cannot find symbol
+2736:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,42] cannot find symbol
+2739:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[96,32] cannot find symbol
+2742:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[97,32] cannot find symbol
+2745:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[98,32] cannot find symbol
+2748:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[99,35] cannot find symbol
+2751:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[100,38] cannot find symbol
+2754:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,59] cannot find symbol
+2757:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,32] cannot find symbol
+2760:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,56] cannot find symbol
+2763:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,32] cannot find symbol
+2766:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,53] cannot find symbol
+2769:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,32] cannot find symbol
+2772:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,56] cannot find symbol
+2775:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,35] cannot find symbol
+2778:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[106,59] cannot find symbol
+2790:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.5.1:testCompile (default-testCompile) on project commons-lang3: Compilation failure: Compilation failure:
+2791:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,39] cannot find symbol
+2792:[ERROR] symbol:   class DigitalBase2SizeUnit
+2793:[ERROR] location: package org.apache.commons.lang3
+2794:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[20,1] static import only from classes and interfaces
+2795:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,39] cannot find symbol
+2796:[ERROR] symbol:   class DigitalBase2SizeUnit
+2797:[ERROR] location: package org.apache.commons.lang3
+2798:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[21,1] static import only from classes and interfaces
+2799:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,39] cannot find symbol
+2800:[ERROR] symbol:   class DigitalBase2SizeUnit
+2801:[ERROR] location: package org.apache.commons.lang3
+2802:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[22,1] static import only from classes and interfaces
+2803:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,39] cannot find symbol
+2804:[ERROR] symbol:   class DigitalBase2SizeUnit
+2805:[ERROR] location: package org.apache.commons.lang3
+2806:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[23,1] static import only from classes and interfaces
+2807:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,39] cannot find symbol
+2808:[ERROR] symbol:   class DigitalBase2SizeUnit
+2809:[ERROR] location: package org.apache.commons.lang3
+2810:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[24,1] static import only from classes and interfaces
+2811:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,39] cannot find symbol
+2812:[ERROR] symbol:   class DigitalBase2SizeUnit
+2813:[ERROR] location: package org.apache.commons.lang3
+2814:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[25,1] static import only from classes and interfaces
+2815:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,39] cannot find symbol
+2816:[ERROR] symbol:   class DigitalBase10SizeUnit
+2817:[ERROR] location: package org.apache.commons.lang3
+2818:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[20,1] static import only from classes and interfaces
+2819:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,39] cannot find symbol
+2820:[ERROR] symbol:   class DigitalBase10SizeUnit
+2821:[ERROR] location: package org.apache.commons.lang3
+2822:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[21,1] static import only from classes and interfaces
+2823:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,39] cannot find symbol
+2824:[ERROR] symbol:   class DigitalBase10SizeUnit
+2825:[ERROR] location: package org.apache.commons.lang3
+2826:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[22,1] static import only from classes and interfaces
+2827:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,39] cannot find symbol
+2828:[ERROR] symbol:   class DigitalBase10SizeUnit
+2829:[ERROR] location: package org.apache.commons.lang3
+2830:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[23,1] static import only from classes and interfaces
+2831:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,39] cannot find symbol
+2832:[ERROR] symbol:   class DigitalBase10SizeUnit
+2833:[ERROR] location: package org.apache.commons.lang3
+2834:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[24,1] static import only from classes and interfaces
+2835:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,39] cannot find symbol
+2836:[ERROR] symbol:   class DigitalBase10SizeUnit
+2837:[ERROR] location: package org.apache.commons.lang3
+2838:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase10SizeUnitTest.java:[25,1] static import only from classes and interfaces
+2839:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[34,32] cannot find symbol
+2840:[ERROR] symbol:   variable BITS
+2841:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2842:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[35,33] cannot find symbol
+2843:[ERROR] symbol:   variable BYTES
+2844:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2845:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[36,35] cannot find symbol
+2846:[ERROR] symbol:   variable KILOBYTES
+2847:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2848:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[37,38] cannot find symbol
+2849:[ERROR] symbol:   variable MEGABYTES
+2850:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2851:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[38,42] cannot find symbol
+2852:[ERROR] symbol:   variable GIGABYTES
+2853:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2854:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[39,45] cannot find symbol
+2855:[ERROR] symbol:   variable TERABYTES
+2856:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2857:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,49] cannot find symbol
+2858:[ERROR] symbol:   variable BYTES
+2859:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2860:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[41,32] cannot find symbol
+2861:[ERROR] symbol:   variable BYTES
+2862:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2863:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,52] cannot find symbol
+2864:[ERROR] symbol:   variable KILOBYTES
+2865:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2866:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[42,35] cannot find symbol
+2867:[ERROR] symbol:   variable BYTES
+2868:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2869:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,55] cannot find symbol
+2870:[ERROR] symbol:   variable MEGABYTES
+2871:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2872:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[43,38] cannot find symbol
+2873:[ERROR] symbol:   variable BYTES
+2874:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2875:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,59] cannot find symbol
+2876:[ERROR] symbol:   variable GIGABYTES
+2877:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2878:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[44,42] cannot find symbol
+2879:[ERROR] symbol:   variable BYTES
+2880:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2881:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,62] cannot find symbol
+2882:[ERROR] symbol:   variable TERABYTES
+2883:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2884:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[45,45] cannot find symbol
+2885:[ERROR] symbol:   variable BYTES
+2886:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2887:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[50,32] cannot find symbol
+2888:[ERROR] symbol:   variable BITS
+2889:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2890:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[51,32] cannot find symbol
+2891:[ERROR] symbol:   variable BYTES
+2892:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2893:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[52,35] cannot find symbol
+2894:[ERROR] symbol:   variable KILOBYTES
+2895:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2896:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[53,38] cannot find symbol
+2897:[ERROR] symbol:   variable MEGABYTES
+2898:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2899:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[54,42] cannot find symbol
+2900:[ERROR] symbol:   variable GIGABYTES
+2901:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2902:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[55,45] cannot find symbol
+2903:[ERROR] symbol:   variable TERABYTES
+2904:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2905:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,49] cannot find symbol
+2906:[ERROR] symbol:   variable BYTES
+2907:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2908:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[57,32] cannot find symbol
+2909:[ERROR] symbol:   variable BYTES
+2910:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2911:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,52] cannot find symbol
+2912:[ERROR] symbol:   variable KILOBYTES
+2913:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2914:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[58,35] cannot find symbol
+2915:[ERROR] symbol:   variable BYTES
+2916:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2917:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,55] cannot find symbol
+2918:[ERROR] symbol:   variable MEGABYTES
+2919:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2920:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[59,38] cannot find symbol
+2921:[ERROR] symbol:   variable BYTES
+2922:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2923:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,59] cannot find symbol
+2924:[ERROR] symbol:   variable GIGABYTES
+2925:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2926:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[60,42] cannot find symbol
+2927:[ERROR] symbol:   variable BYTES
+2928:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2929:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,62] cannot find symbol
+2930:[ERROR] symbol:   variable TERABYTES
+2931:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2932:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[61,45] cannot find symbol
+2933:[ERROR] symbol:   variable BYTES
+2934:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2935:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[66,32] cannot find symbol
+2936:[ERROR] symbol:   variable BYTES
+2937:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2938:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[67,32] cannot find symbol
+2939:[ERROR] symbol:   variable KILOBYTES
+2940:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2941:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[68,32] cannot find symbol
+2942:[ERROR] symbol:   variable MEGABYTES
+2943:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2944:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[69,32] cannot find symbol
+2945:[ERROR] symbol:   variable GIGABYTES
+2946:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2947:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[70,35] cannot find symbol
+2948:[ERROR] symbol:   variable TERABYTES
+2949:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2950:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,63] cannot find symbol
+2951:[ERROR] symbol:   variable BYTES
+2952:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2953:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[72,32] cannot find symbol
+2954:[ERROR] symbol:   variable GIGABYTES
+2955:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2956:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,59] cannot find symbol
+2957:[ERROR] symbol:   variable KILOBYTES
+2958:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2959:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[73,32] cannot find symbol
+2960:[ERROR] symbol:   variable GIGABYTES
+2961:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2962:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,56] cannot find symbol
+2963:[ERROR] symbol:   variable MEGABYTES
+2964:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2965:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[74,32] cannot find symbol
+2966:[ERROR] symbol:   variable GIGABYTES
+2967:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2968:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,53] cannot find symbol
+2969:[ERROR] symbol:   variable GIGABYTES
+2970:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2971:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[75,32] cannot find symbol
+2972:[ERROR] symbol:   variable GIGABYTES
+2973:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2974:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,56] cannot find symbol
+2975:[ERROR] symbol:   variable TERABYTES
+2976:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2977:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[76,35] cannot find symbol
+2978:[ERROR] symbol:   variable GIGABYTES
+2979:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2980:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[81,32] cannot find symbol
+2981:[ERROR] symbol:   variable BYTES
+2982:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2983:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[82,32] cannot find symbol
+2984:[ERROR] symbol:   variable KILOBYTES
+2985:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2986:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[83,35] cannot find symbol
+2987:[ERROR] symbol:   variable MEGABYTES
+2988:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2989:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[84,38] cannot find symbol
+2990:[ERROR] symbol:   variable GIGABYTES
+2991:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2992:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[85,42] cannot find symbol
+2993:[ERROR] symbol:   variable TERABYTES
+2994:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2995:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,56] cannot find symbol
+2996:[ERROR] symbol:   variable BYTES
+2997:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+2998:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[87,32] cannot find symbol
+2999:[ERROR] symbol:   variable KILOBYTES
+3000:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3001:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,53] cannot find symbol
+3002:[ERROR] symbol:   variable KILOBYTES
+3003:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3004:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[88,32] cannot find symbol
+3005:[ERROR] symbol:   variable KILOBYTES
+3006:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3007:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,56] cannot find symbol
+3008:[ERROR] symbol:   variable MEGABYTES
+3009:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3010:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[89,35] cannot find symbol
+3011:[ERROR] symbol:   variable KILOBYTES
+3012:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3013:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,59] cannot find symbol
+3014:[ERROR] symbol:   variable GIGABYTES
+3015:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3016:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[90,38] cannot find symbol
+3017:[ERROR] symbol:   variable KILOBYTES
+3018:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3019:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,63] cannot find symbol
+3020:[ERROR] symbol:   variable TERABYTES
+3021:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3022:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[91,42] cannot find symbol
+3023:[ERROR] symbol:   variable KILOBYTES
+3024:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3025:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[96,32] cannot find symbol
+3026:[ERROR] symbol:   variable BYTES
+3027:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3028:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[97,32] cannot find symbol
+3029:[ERROR] symbol:   variable KILOBYTES
+3030:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3031:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[98,32] cannot find symbol
+3032:[ERROR] symbol:   variable MEGABYTES
+3033:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3034:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[99,35] cannot find symbol
+3035:[ERROR] symbol:   variable GIGABYTES
+3036:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3037:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[100,38] cannot find symbol
+3038:[ERROR] symbol:   variable TERABYTES
+3039:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3040:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,59] cannot find symbol
+3041:[ERROR] symbol:   variable BYTES
+3042:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3043:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[102,32] cannot find symbol
+3044:[ERROR] symbol:   variable MEGABYTES
+3045:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3046:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,56] cannot find symbol
+3047:[ERROR] symbol:   variable KILOBYTES
+3048:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3049:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[103,32] cannot find symbol
+3050:[ERROR] symbol:   variable MEGABYTES
+3051:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3052:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,53] cannot find symbol
+3053:[ERROR] symbol:   variable MEGABYTES
+3054:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3055:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[104,32] cannot find symbol
+3056:[ERROR] symbol:   variable MEGABYTES
+3057:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3058:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,56] cannot find symbol
+3059:[ERROR] symbol:   variable GIGABYTES
+3060:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3061:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[105,35] cannot find symbol
+3062:[ERROR] symbol:   variable MEGABYTES
+3063:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3064:[ERROR] /home/travis/build/apache/commons-lang/src/test/java/org/apache/commons/lang3/DigitalBase2SizeUnitTest.java:[106,59] cannot find symbol
+3065:[ERROR] symbol:   variable TERABYTES
+3066:[ERROR] location: class org.apache.commons.lang3.DigitalBase2SizeUnitTest
+3067:[ERROR] -> [Help 1]
+3068:[ERROR] 
+3069:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+3070:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+3071:[ERROR] 
+3072:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+3073:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

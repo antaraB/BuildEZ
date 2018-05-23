@@ -1,0 +1,1333 @@
+1c1
+< Using worker: worker-linux-docker-f159e0b4.prod.travis-ci.org:travis-linux-12
+---
+> Using worker: worker-linux-docker-edb11015.prod.travis-ci.org:travis-linux-16
+88c88
+< Fetched 8,840 kB in 0s (35.0 MB/s)
+---
+> Fetched 8,840 kB in 0s (24.4 MB/s)
+107c107
+< travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:git.checkout[0Ktravis_time:start:2961faca[0K$ git clone --depth=50 --branch=multivalues_rewriter https://github.com/pgjdbc/pgjdbc.git pgjdbc/pgjdbc
+---
+> travis_fold:end:fix.CVE-2015-7547[0Ktravis_fold:start:git.checkout[0Ktravis_time:start:0748fb15[0K$ git clone --depth=50 --branch=multivalues_rewriter https://github.com/pgjdbc/pgjdbc.git pgjdbc/pgjdbc
+109c109
+< remote: Counting objects: 1255, done.[K
+---
+> remote: Counting objects: 1254, done.[K
+111,113c111,113
+< Receiving objects:   0% (1/1255)   Receiving objects:   1% (13/1255)   Receiving objects:   2% (26/1255)   Receiving objects:   3% (38/1255)   Receiving objects:   4% (51/1255)   Receiving objects:   5% (63/1255)   Receiving objects:   6% (76/1255)   Receiving objects:   7% (88/1255)   Receiving objects:   8% (101/1255)   Receiving objects:   9% (113/1255)   Receiving objects:  10% (126/1255)   Receiving objects:  11% (139/1255)   Receiving objects:  12% (151/1255)   Receiving objects:  13% (164/1255)   Receiving objects:  14% (176/1255)   Receiving objects:  15% (189/1255)   Receiving objects:  16% (201/1255)   Receiving objects:  17% (214/1255)   Receiving objects:  18% (226/1255)   Receiving objects:  19% (239/1255)   Receiving objects:  20% (251/1255)   Receiving objects:  21% (264/1255)   Receiving objects:  22% (277/1255)   Receiving objects:  23% (289/1255)   Receiving objects:  24% (302/1255)   Receiving objects:  25% (314/1255)   Receiving objects:  26% (327/1255)   Receiving objects:  27% (339/1255)   Receiving objects:  28% (352/1255)   Receiving objects:  29% (364/1255)   Receiving objects:  30% (377/1255)   Receiving objects:  31% (390/1255)   Receiving objects:  32% (402/1255)   Receiving objects:  33% (415/1255)   Receiving objects:  34% (427/1255)   Receiving objects:  35% (440/1255)   Receiving objects:  36% (452/1255)   Receiving objects:  37% (465/1255)   Receiving objects:  38% (477/1255)   Receiving objects:  39% (490/1255)   Receiving objects:  40% (502/1255)   Receiving objects:  41% (515/1255)   Receiving objects:  42% (528/1255)   Receiving objects:  43% (540/1255)   Receiving objects:  44% (553/1255)   Receiving objects:  45% (565/1255)   Receiving objects:  46% (578/1255)   Receiving objects:  47% (590/1255)   Receiving objects:  48% (603/1255)   Receiving objects:  49% (615/1255)   Receiving objects:  50% (628/1255)   Receiving objects:  51% (641/1255)   Receiving objects:  52% (653/1255)   Receiving objects:  53% (666/1255)   Receiving objects:  54% (678/1255)   Receiving objects:  55% (691/1255)   Receiving objects:  56% (703/1255)   Receiving objects:  57% (716/1255)   Receiving objects:  58% (728/1255)   Receiving objects:  59% (741/1255)   Receiving objects:  60% (753/1255)   Receiving objects:  61% (766/1255)   Receiving objects:  62% (779/1255)   Receiving objects:  63% (791/1255)   Receiving objects:  64% (804/1255)   Receiving objects:  65% (816/1255)   Receiving objects:  66% (829/1255)   Receiving objects:  67% (841/1255)   Receiving objects:  68% (854/1255)   Receiving objects:  69% (866/1255)   Receiving objects:  70% (879/1255)   Receiving objects:  71% (892/1255)   Receiving objects:  72% (904/1255)   Receiving objects:  73% (917/1255)   Receiving objects:  74% (929/1255)   Receiving objects:  75% (942/1255)   Receiving objects:  76% (954/1255)   Receiving objects:  77% (967/1255)   Receiving objects:  78% (979/1255)   Receiving objects:  79% (992/1255)   Receiving objects:  80% (1004/1255)   Receiving objects:  81% (1017/1255)   Receiving objects:  82% (1030/1255)   Receiving objects:  83% (1042/1255)   Receiving objects:  84% (1055/1255)   Receiving objects:  85% (1067/1255)   Receiving objects:  86% (1080/1255)   Receiving objects:  87% (1092/1255)   Receiving objects:  88% (1105/1255)   Receiving objects:  89% (1117/1255)   Receiving objects:  90% (1130/1255)   remote: Total 1255 (delta 493), reused 801 (delta 289), pack-reused 0[K
+< Receiving objects:  91% (1143/1255)   Receiving objects:  92% (1155/1255)   Receiving objects:  93% (1168/1255)   Receiving objects:  94% (1180/1255)   Receiving objects:  95% (1193/1255)   Receiving objects:  96% (1205/1255)   Receiving objects:  97% (1218/1255)   Receiving objects:  98% (1230/1255)   Receiving objects:  99% (1243/1255)   Receiving objects: 100% (1255/1255)   Receiving objects: 100% (1255/1255), 973.77 KiB | 0 bytes/s, done.
+< Resolving deltas:   0% (0/493)   Resolving deltas:   9% (49/493)   Resolving deltas:  10% (50/493)   Resolving deltas:  11% (58/493)   Resolving deltas:  12% (61/493)   Resolving deltas:  17% (84/493)   Resolving deltas:  23% (116/493)   Resolving deltas:  24% (120/493)   Resolving deltas:  25% (124/493)   Resolving deltas:  28% (142/493)   Resolving deltas:  29% (144/493)   Resolving deltas:  30% (150/493)   Resolving deltas:  32% (158/493)   Resolving deltas:  33% (163/493)   Resolving deltas:  34% (168/493)   Resolving deltas:  35% (175/493)   Resolving deltas:  36% (182/493)   Resolving deltas:  38% (191/493)   Resolving deltas:  39% (194/493)   Resolving deltas:  40% (202/493)   Resolving deltas:  41% (207/493)   Resolving deltas:  42% (210/493)   Resolving deltas:  43% (215/493)   Resolving deltas:  44% (218/493)   Resolving deltas:  45% (223/493)   Resolving deltas:  48% (237/493)   Resolving deltas:  49% (242/493)   Resolving deltas:  50% (247/493)   Resolving deltas:  54% (271/493)   Resolving deltas:  55% (273/493)   Resolving deltas:  56% (278/493)   Resolving deltas:  57% (283/493)   Resolving deltas:  58% (287/493)   Resolving deltas:  59% (295/493)   Resolving deltas:  60% (299/493)   Resolving deltas:  61% (301/493)   Resolving deltas:  62% (306/493)   Resolving deltas:  63% (311/493)   Resolving deltas:  64% (316/493)   Resolving deltas:  65% (322/493)   Resolving deltas:  67% (332/493)   Resolving deltas:  69% (341/493)   Resolving deltas:  70% (346/493)   Resolving deltas:  71% (351/493)   Resolving deltas:  72% (355/493)   Resolving deltas:  75% (374/493)   Resolving deltas:  78% (385/493)   Resolving deltas:  79% (390/493)   Resolving deltas:  81% (404/493)   Resolving deltas:  82% (405/493)   Resolving deltas:  83% (410/493)   Resolving deltas:  84% (415/493)   Resolving deltas:  86% (426/493)   Resolving deltas:  87% (429/493)   Resolving deltas:  88% (434/493)   Resolving deltas:  89% (440/493)   Resolving deltas:  90% (445/493)   Resolving deltas:  91% (449/493)   Resolving deltas:  92% (455/493)   Resolving deltas:  93% (459/493)   Resolving deltas:  94% (465/493)   Resolving deltas:  95% (469/493)   Resolving deltas:  96% (474/493)   Resolving deltas:  97% (480/493)   Resolving deltas:  98% (484/493)   Resolving deltas:  99% (490/493)   Resolving deltas: 100% (493/493)   Resolving deltas: 100% (493/493), done.
+---
+> Receiving objects:   0% (1/1254)   Receiving objects:   1% (13/1254)   Receiving objects:   2% (26/1254)   Receiving objects:   3% (38/1254)   Receiving objects:   4% (51/1254)   Receiving objects:   5% (63/1254)   Receiving objects:   6% (76/1254)   Receiving objects:   7% (88/1254)   Receiving objects:   8% (101/1254)   Receiving objects:   9% (113/1254)   Receiving objects:  10% (126/1254)   Receiving objects:  11% (138/1254)   Receiving objects:  12% (151/1254)   Receiving objects:  13% (164/1254)   Receiving objects:  14% (176/1254)   Receiving objects:  15% (189/1254)   Receiving objects:  16% (201/1254)   Receiving objects:  17% (214/1254)   Receiving objects:  18% (226/1254)   Receiving objects:  19% (239/1254)   Receiving objects:  20% (251/1254)   Receiving objects:  21% (264/1254)   Receiving objects:  22% (276/1254)   Receiving objects:  23% (289/1254)   Receiving objects:  24% (301/1254)   Receiving objects:  25% (314/1254)   Receiving objects:  26% (327/1254)   Receiving objects:  27% (339/1254)   Receiving objects:  28% (352/1254)   Receiving objects:  29% (364/1254)   Receiving objects:  30% (377/1254)   Receiving objects:  31% (389/1254)   Receiving objects:  32% (402/1254)   Receiving objects:  33% (414/1254)   Receiving objects:  34% (427/1254)   Receiving objects:  35% (439/1254)   Receiving objects:  36% (452/1254)   Receiving objects:  37% (464/1254)   Receiving objects:  38% (477/1254)   Receiving objects:  39% (490/1254)   Receiving objects:  40% (502/1254)   Receiving objects:  41% (515/1254)   Receiving objects:  42% (527/1254)   Receiving objects:  43% (540/1254)   Receiving objects:  44% (552/1254)   Receiving objects:  45% (565/1254)   Receiving objects:  46% (577/1254)   Receiving objects:  47% (590/1254)   Receiving objects:  48% (602/1254)   Receiving objects:  49% (615/1254)   Receiving objects:  50% (627/1254)   Receiving objects:  51% (640/1254)   Receiving objects:  52% (653/1254)   Receiving objects:  53% (665/1254)   Receiving objects:  54% (678/1254)   Receiving objects:  55% (690/1254)   Receiving objects:  56% (703/1254)   Receiving objects:  57% (715/1254)   Receiving objects:  58% (728/1254)   Receiving objects:  59% (740/1254)   Receiving objects:  60% (753/1254)   Receiving objects:  61% (765/1254)   Receiving objects:  62% (778/1254)   Receiving objects:  63% (791/1254)   Receiving objects:  64% (803/1254)   Receiving objects:  65% (816/1254)   Receiving objects:  66% (828/1254)   Receiving objects:  67% (841/1254)   Receiving objects:  68% (853/1254)   Receiving objects:  69% (866/1254)   Receiving objects:  70% (878/1254)   Receiving objects:  71% (891/1254)   Receiving objects:  72% (903/1254)   Receiving objects:  73% (916/1254)   Receiving objects:  74% (928/1254)   Receiving objects:  75% (941/1254)   Receiving objects:  76% (954/1254)   Receiving objects:  77% (966/1254)   Receiving objects:  78% (979/1254)   Receiving objects:  79% (991/1254)   Receiving objects:  80% (1004/1254)   remote: Total 1254 (delta 493), reused 799 (delta 288), pack-reused 0[K
+> Receiving objects:  81% (1016/1254)   Receiving objects:  82% (1029/1254)   Receiving objects:  83% (1041/1254)   Receiving objects:  84% (1054/1254)   Receiving objects:  85% (1066/1254)   Receiving objects:  86% (1079/1254)   Receiving objects:  87% (1091/1254)   Receiving objects:  88% (1104/1254)   Receiving objects:  89% (1117/1254)   Receiving objects:  90% (1129/1254)   Receiving objects:  91% (1142/1254)   Receiving objects:  92% (1154/1254)   Receiving objects:  93% (1167/1254)   Receiving objects:  94% (1179/1254)   Receiving objects:  95% (1192/1254)   Receiving objects:  96% (1204/1254)   Receiving objects:  97% (1217/1254)   Receiving objects:  98% (1229/1254)   Receiving objects:  99% (1242/1254)   Receiving objects: 100% (1254/1254)   Receiving objects: 100% (1254/1254), 973.08 KiB | 0 bytes/s, done.
+> Resolving deltas:   0% (0/493)   Resolving deltas:   3% (17/493)   Resolving deltas:   5% (27/493)   Resolving deltas:   7% (39/493)   Resolving deltas:   8% (44/493)   Resolving deltas:  12% (64/493)   Resolving deltas:  13% (66/493)   Resolving deltas:  17% (85/493)   Resolving deltas:  21% (108/493)   Resolving deltas:  23% (116/493)   Resolving deltas:  24% (119/493)   Resolving deltas:  25% (128/493)   Resolving deltas:  27% (137/493)   Resolving deltas:  28% (141/493)   Resolving deltas:  29% (143/493)   Resolving deltas:  30% (149/493)   Resolving deltas:  31% (154/493)   Resolving deltas:  32% (158/493)   Resolving deltas:  34% (170/493)   Resolving deltas:  35% (174/493)   Resolving deltas:  37% (186/493)   Resolving deltas:  38% (190/493)   Resolving deltas:  39% (195/493)   Resolving deltas:  42% (209/493)   Resolving deltas:  43% (213/493)   Resolving deltas:  44% (218/493)   Resolving deltas:  46% (227/493)   Resolving deltas:  47% (235/493)   Resolving deltas:  48% (240/493)   Resolving deltas:  50% (249/493)   Resolving deltas:  51% (252/493)   Resolving deltas:  52% (257/493)   Resolving deltas:  55% (275/493)   Resolving deltas:  56% (278/493)   Resolving deltas:  57% (283/493)   Resolving deltas:  58% (286/493)   Resolving deltas:  60% (300/493)   Resolving deltas:  61% (301/493)   Resolving deltas:  62% (307/493)   Resolving deltas:  63% (311/493)   Resolving deltas:  64% (317/493)   Resolving deltas:  65% (322/493)   Resolving deltas:  66% (329/493)   Resolving deltas:  68% (336/493)   Resolving deltas:  69% (341/493)   Resolving deltas:  70% (346/493)   Resolving deltas:  71% (351/493)   Resolving deltas:  77% (382/493)   Resolving deltas:  78% (385/493)   Resolving deltas:  81% (400/493)   Resolving deltas:  82% (405/493)   Resolving deltas:  83% (410/493)   Resolving deltas:  84% (416/493)   Resolving deltas:  86% (426/493)   Resolving deltas:  87% (429/493)   Resolving deltas:  88% (434/493)   Resolving deltas:  89% (439/493)   Resolving deltas:  90% (445/493)   Resolving deltas:  91% (449/493)   Resolving deltas:  92% (454/493)   Resolving deltas:  93% (459/493)   Resolving deltas:  94% (464/493)   Resolving deltas:  95% (470/493)   Resolving deltas:  96% (476/493)   Resolving deltas:  97% (479/493)   Resolving deltas:  98% (484/493)   Resolving deltas:  99% (489/493)   Resolving deltas: 100% (493/493)   Resolving deltas: 100% (493/493), done.
+116,117c116,117
+< travis_time:end:2961faca:start=1466627012756901042,finish=1466627013734191909,duration=977290867[0K$ cd pgjdbc/pgjdbc
+< $ git checkout -qf cac20a401c03c3aeba731f4f96f087ddd9bcc064
+---
+> travis_time:end:0748fb15:start=1466627766292167862,finish=1466627768714266039,duration=2422098177[0K$ cd pgjdbc/pgjdbc
+> $ git checkout -qf 6fb851c46e34f15f2107c804687511078ea34bee
+119c119
+< travis_time:start:084bdc46[0K$ sudo service postgresql stop
+---
+> travis_time:start:107a3694[0K$ sudo service postgresql stop
+125c125
+< travis_time:end:084bdc46:start=1466627013787107265,finish=1466627015073078412,duration=1285971147[0Ktravis_time:start:10b63d62[0K$ sudo service postgresql start 9.4
+---
+> travis_time:end:107a3694:start=1466627768772525269,finish=1466627770179947933,duration=1407422664[0Ktravis_time:start:099b7027[0K$ sudo service postgresql start 9.4
+128c128
+< travis_time:end:10b63d62:start=1466627015076968382,finish=1466627019071111152,duration=3994142770[0Ktravis_time:start:05ea0088[0K$ sudo -u postgres createuser -s -p 5432 travis &>/dev/null
+---
+> travis_time:end:099b7027:start=1466627770185154067,finish=1466627772482326249,duration=2297172182[0Ktravis_time:start:0c32d8c7[0K$ sudo -u postgres createuser -s -p 5432 travis &>/dev/null
+130c130
+< travis_time:end:05ea0088:start=1466627019074888224,finish=1466627019131437635,duration=56549411[0Ktravis_time:start:089f92fc[0K$ sudo -u postgres createdb -O travis -p 5432 travis &>/dev/null
+---
+> travis_time:end:0c32d8c7:start=1466627772488247221,finish=1466627772609599184,duration=121351963[0Ktravis_time:start:1db49471[0K$ sudo -u postgres createdb -O travis -p 5432 travis &>/dev/null
+132c132
+< travis_time:end:089f92fc:start=1466627019135227535,finish=1466627019392937550,duration=257710015[0Ktravis_time:start:00ba65cc[0K$ sudo -u postgres createuser -s -p 5433 travis &>/dev/null
+---
+> travis_time:end:1db49471:start=1466627772615343880,finish=1466627772897933730,duration=282589850[0Ktravis_time:start:032df5c4[0K$ sudo -u postgres createuser -s -p 5433 travis &>/dev/null
+134c134
+< travis_time:end:00ba65cc:start=1466627019396872880,finish=1466627019438736857,duration=41863977[0Ktravis_time:start:10481283[0K$ sudo -u postgres createdb -O travis -p 5433 travis &>/dev/null
+---
+> travis_time:end:032df5c4:start=1466627772901909024,finish=1466627772947432324,duration=45523300[0Ktravis_time:start:03b7c840[0K$ sudo -u postgres createdb -O travis -p 5433 travis &>/dev/null
+136c136
+< travis_time:end:10481283:start=1466627019442392578,finish=1466627019485465296,duration=43072718[0Ktravis_fold:end:postgresql[0K
+---
+> travis_time:end:03b7c840:start=1466627772952383575,finish=1466627773022249208,duration=69865633[0Ktravis_fold:end:postgresql[0K
+152c152
+< travis_time:start:0258ce37[0K$ Installing caching utilities
+---
+> travis_time:start:0d95e5ef[0K$ Installing caching utilities
+154,155c154,155
+< travis_time:end:0258ce37:start=1466627021703887803,finish=1466627021803701364,duration=99813561[0Ktravis_time:start:14c83074[0K
+< travis_time:end:14c83074:start=1466627021808879291,finish=1466627021812340427,duration=3461136[0Ktravis_time:start:0aea2894[0K[32;1mattempting to download cache archive[0m
+---
+> travis_time:end:0d95e5ef:start=1466627775371937426,finish=1466627775468158659,duration=96221233[0Ktravis_time:start:0faa4bb8[0K
+> travis_time:end:0faa4bb8:start=1466627775475907341,finish=1466627775481415193,duration=5507852[0Ktravis_time:start:18115118[0K[32;1mattempting to download cache archive[0m
+161,162c161,162
+< travis_time:end:0aea2894:start=1466627021816435576,finish=1466627028400425824,duration=6583990248[0Ktravis_time:start:016a55d8[0K
+< travis_time:end:016a55d8:start=1466627028405477600,finish=1466627028409110554,duration=3632954[0Ktravis_time:start:2b15af09[0K[32;1madding /home/travis/.m2/repository to cache[0m
+---
+> travis_time:end:18115118:start=1466627775486143812,finish=1466627776393483674,duration=907339862[0Ktravis_time:start:0a1c278f[0K
+> travis_time:end:0a1c278f:start=1466627776398637425,finish=1466627776402913636,duration=4276211[0Ktravis_time:start:0165e6a0[0K[32;1madding /home/travis/.m2/repository to cache[0m
+164c164
+< travis_time:end:2b15af09:start=1466627028413381262,finish=1466627029807884282,duration=1394503020[0Ktravis_fold:end:cache.1[0K$ java -Xmx32m -version
+---
+> travis_time:end:0165e6a0:start=1466627776408215639,finish=1466627777947642821,duration=1539427182[0Ktravis_fold:end:cache.1[0K$ java -Xmx32m -version
+170c170
+< travis_fold:start:install[0Ktravis_time:start:0b54c2ec[0K$ true
+---
+> travis_fold:start:install[0Ktravis_time:start:23eae116[0K$ true
+172c172
+< travis_time:end:0b54c2ec:start=1466627030163203211,finish=1466627030166338528,duration=3135317[0Ktravis_fold:end:install[0Ktravis_fold:start:before_script.1[0Ktravis_time:start:04db3b7e[0K$ test "x$XA" == 'x' || ./travis_install_dependencies.sh
+---
+> travis_time:end:23eae116:start=1466627778671924735,finish=1466627778676494181,duration=4569446[0Ktravis_fold:end:install[0Ktravis_fold:start:before_script.1[0Ktravis_time:start:23519c4a[0K$ test "x$XA" == 'x' || ./travis_install_dependencies.sh
+174c174
+< travis_time:end:04db3b7e:start=1466627030170395224,finish=1466627030173570825,duration=3175601[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:09ccfc48[0K$ psql -U postgres -c "create user test with password 'test';"
+---
+> travis_time:end:23519c4a:start=1466627778682571773,finish=1466627778686901365,duration=4329592[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:0beb4ca0[0K$ psql -U postgres -c "create user test with password 'test';"
+177c177
+< travis_time:end:09ccfc48:start=1466627030177710996,finish=1466627030187604501,duration=9893505[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:038967d6[0K$ psql -c 'create database test owner test;' -U postgres
+---
+> travis_time:end:0beb4ca0:start=1466627778692770800,finish=1466627778706431844,duration=13661044[0Ktravis_fold:end:before_script.2[0Ktravis_fold:start:before_script.3[0Ktravis_time:start:14b611cc[0K$ psql -c 'create database test owner test;' -U postgres
+180c180
+< travis_time:end:038967d6:start=1466627030191689670,finish=1466627030414986835,duration=223297165[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:0e04086e[0K$ echo "MAVEN_OPTS='-Xmx1g -Dgpg.skip=true'" > ~/.mavenrc
+---
+> travis_time:end:14b611cc:start=1466627778712022259,finish=1466627778738968899,duration=26946640[0Ktravis_fold:end:before_script.3[0Ktravis_fold:start:before_script.4[0Ktravis_time:start:3631d2b7[0K$ echo "MAVEN_OPTS='-Xmx1g -Dgpg.skip=true'" > ~/.mavenrc
+182c182
+< travis_time:end:0e04086e:start=1466627030419085984,finish=1466627030422257227,duration=3171243[0Ktravis_fold:end:before_script.4[0Ktravis_fold:start:before_script.5[0Ktravis_time:start:00f1c1df[0K$ test "x$PG_VERSION" == 'x' || test $PG_VERSION == '8.4' || test $PG_VERSION == '9.0' || psql test -c 'CREATE EXTENSION hstore;' -U postgres
+---
+> travis_time:end:3631d2b7:start=1466627778744456502,finish=1466627778748740944,duration=4284442[0Ktravis_fold:end:before_script.4[0Ktravis_fold:start:before_script.5[0Ktravis_time:start:13c855b6[0K$ test "x$PG_VERSION" == 'x' || test $PG_VERSION == '8.4' || test $PG_VERSION == '9.0' || psql test -c 'CREATE EXTENSION hstore;' -U postgres
+185c185
+< travis_time:end:00f1c1df:start=1466627030426539420,finish=1466627030455498063,duration=28958643[0Ktravis_fold:end:before_script.5[0Ktravis_fold:start:before_script.6[0Ktravis_time:start:05cdc369[0K$ test "x$PG_VERSION" == 'x' || test $PG_VERSION != '8.4' || createlang -U postgres plpgsql test
+---
+> travis_time:end:13c855b6:start=1466627778754657940,finish=1466627778802825912,duration=48167972[0Ktravis_fold:end:before_script.5[0Ktravis_fold:start:before_script.6[0Ktravis_time:start:03ab6c48[0K$ test "x$PG_VERSION" == 'x' || test $PG_VERSION != '8.4' || createlang -U postgres plpgsql test
+187c187
+< travis_time:end:05cdc369:start=1466627030460013262,finish=1466627030463450353,duration=3437091[0Ktravis_fold:end:before_script.6[0Ktravis_fold:start:before_script.7[0Ktravis_time:start:11bc9c20[0K$ if [[ "x$JDK" == *'x9'* ]]; then remove_dir_from_path $JAVA_HOME/bin; export JAVA_HOME=/usr/lib/jvm/java-9-oracle; export PATH=$JAVA_HOME/bin:$PATH; java -Xmx32m -version; fi
+---
+> travis_time:end:03ab6c48:start=1466627778808872028,finish=1466627778813570104,duration=4698076[0Ktravis_fold:end:before_script.6[0Ktravis_fold:start:before_script.7[0Ktravis_time:start:03f0e8a4[0K$ if [[ "x$JDK" == *'x9'* ]]; then remove_dir_from_path $JAVA_HOME/bin; export JAVA_HOME=/usr/lib/jvm/java-9-oracle; export PATH=$JAVA_HOME/bin:$PATH; java -Xmx32m -version; fi
+189c189
+< travis_time:end:11bc9c20:start=1466627030467627909,finish=1466627030470896994,duration=3269085[0Ktravis_fold:end:before_script.7[0Ktravis_time:start:132d20d5[0K$ rm -rf $HOME/.m2/repository/org/postgresql || true
+---
+> travis_time:end:03f0e8a4:start=1466627778819344308,finish=1466627778824141907,duration=4797599[0Ktravis_fold:end:before_script.7[0Ktravis_time:start:0432a11e[0K$ rm -rf $HOME/.m2/repository/org/postgresql || true
+191c191
+< travis_time:end:132d20d5:start=1466627030475425969,finish=1466627030479485735,duration=4059766[0K
+---
+> travis_time:end:0432a11e:start=1466627778829883016,finish=1466627778835532645,duration=5649629[0K
+193c193
+< travis_time:start:2c893d58[0K$ export JDK6_HOME=$(jdk_switcher home openjdk6)
+---
+> travis_time:start:1fd041c4[0K$ export JDK6_HOME=$(jdk_switcher home openjdk6)
+195c195
+< travis_time:end:2c893d58:start=1466627030483705923,finish=1466627030488135659,duration=4429736[0K
+---
+> travis_time:end:1fd041c4:start=1466627778841582473,finish=1466627778847308575,duration=5726102[0K
+197c197
+< travis_time:start:14b19eaa[0K$ export JDK7_HOME=$(jdk_switcher home openjdk7)
+---
+> travis_time:start:37004de9[0K$ export JDK7_HOME=$(jdk_switcher home openjdk7)
+199c199
+< travis_time:end:14b19eaa:start=1466627030492265348,finish=1466627030496634173,duration=4368825[0K
+---
+> travis_time:end:37004de9:start=1466627778853435271,finish=1466627778859035588,duration=5600317[0K
+201c201
+< travis_time:start:1304b033[0K$ export JDK8_HOME=$(jdk_switcher home oraclejdk8)
+---
+> travis_time:start:1d4150ea[0K$ export JDK8_HOME=$(jdk_switcher home oraclejdk8)
+203c203
+< travis_time:end:1304b033:start=1466627030500888878,finish=1466627030505210065,duration=4321187[0K
+---
+> travis_time:end:1d4150ea:start=1466627778864568469,finish=1466627778870469437,duration=5900968[0K
+205c205
+< travis_time:start:0ee5c072[0K$ export JDK9_HOME=/usr/lib/jvm/java-9-oracle
+---
+> travis_time:start:196f0134[0K$ export JDK9_HOME=/usr/lib/jvm/java-9-oracle
+207c207
+< travis_time:end:0ee5c072:start=1466627030509379083,finish=1466627030512583879,duration=3204796[0K
+---
+> travis_time:end:196f0134:start=1466627778876488837,finish=1466627778880664364,duration=4175527[0K
+209c209
+< travis_time:start:20075c28[0K$ test -d "${JDK9_HOME}" || export JDK9_HOME=$(jdk_switcher home oraclejdk8)
+---
+> travis_time:start:0947f493[0K$ test -d "${JDK9_HOME}" || export JDK9_HOME=$(jdk_switcher home oraclejdk8)
+211c211
+< travis_time:end:20075c28:start=1466627030516956273,finish=1466627030521330265,duration=4373992[0K
+---
+> travis_time:end:0947f493:start=1466627778886274704,finish=1466627778891999983,duration=5725279[0K
+213c213
+< travis_time:start:02ed68b3[0K$ envsubst < toolchains.xml > ~/.m2/toolchains.xml
+---
+> travis_time:start:0d43c400[0K$ envsubst < toolchains.xml > ~/.m2/toolchains.xml
+215c215
+< travis_time:end:02ed68b3:start=1466627030525398778,finish=1466627030538973024,duration=13574246[0K
+---
+> travis_time:end:0d43c400:start=1466627778897871822,finish=1466627778904218884,duration=6347062[0K
+217c217
+< travis_time:start:04a23e08[0K$ ./travis_build.sh
+---
+> travis_time:start:15663ac8[0K$ ./travis_build.sh
+244c244
+< [INFO] Downloaded: http://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-prevjre/1.0.8/pgjdbc-core-prevjre-1.0.8.pom (7 KB at 46.4 KB/sec)
+---
+> [INFO] Downloaded: http://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-prevjre/1.0.8/pgjdbc-core-prevjre-1.0.8.pom (7 KB at 40.4 KB/sec)
+246c246
+< [INFO] Downloaded: http://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-parent/1.0.8/pgjdbc-core-parent-1.0.8.pom (16 KB at 596.4 KB/sec)
+---
+> [INFO] Downloaded: http://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-parent/1.0.8/pgjdbc-core-parent-1.0.8.pom (16 KB at 620.3 KB/sec)
+248c248
+< [INFO] Downloaded: http://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-versions/1.0.8/pgjdbc-versions-1.0.8.pom (22 KB at 780.2 KB/sec)
+---
+> [INFO] Downloaded: http://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-versions/1.0.8/pgjdbc-versions-1.0.8.pom (22 KB at 726.4 KB/sec)
+342c342
+< [INFO] Completed, preprocessed 173 files, copied 16 files, elapsed time 345ms
+---
+> [INFO] Completed, preprocessed 173 files, copied 16 files, elapsed time 642ms
+362c362
+< [INFO] Compiling 121 source files to /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/test-classes
+---
+> [INFO] Compiling 120 source files to /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/test-classes
+397c397
+< Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.946 sec - in org.postgresql.test.jdbc2.optional.OptionalTestSuite
+---
+> Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.289 sec - in org.postgresql.test.jdbc2.optional.OptionalTestSuite
+400,416c400,410
+< Using seed = 1466627128854 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627128854 to reproduce the test
+< Using seed = 1466627129172 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627129172 to reproduce the test
+< Using seed = 1466627129484 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627129484 to reproduce the test
+< Using seed = 1466627129789 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627129789 to reproduce the test
+< Using seed = 1466627130127 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627130127 to reproduce the test
+< Using seed = 1466627130435 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627130435 to reproduce the test
+< Using seed = 1466627130744 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627130744 to reproduce the test
+< Using seed = 1466627131051 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627131051 to reproduce the test
+< Using seed = 1466627131348 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627131348 to reproduce the test
+< Using seed = 1466627131655 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627131655 to reproduce the test
+< Tests run: 1323, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 73.702 sec <<< FAILURE! - in org.postgresql.test.jdbc2.Jdbc2TestSuite
+< testStatementPreparedStatusOnBackend(org.postgresql.test.jdbc2.BatchedInsertStatementPreparingTest)  Time elapsed: 0.014 sec  <<< FAILURE!
+< junit.framework.ComparisonFailure: Expected outcome not returned by batch execution. expected:<[-2, -2, -2, -2, [-2]]> but was:<[-2, -2, -2, -2, [1]]>
+< 	at junit.framework.Assert.assertEquals(Assert.java:100)
+< 	at junit.framework.TestCase.assertEquals(TestCase.java:261)
+< 	at org.postgresql.test.jdbc2.BatchedInsertStatementPreparingTest.testStatementPreparedStatusOnBackend(BatchedInsertStatementPreparingTest.java:68)
+< 
+---
+> Using seed = 1466627887870 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627887870 to reproduce the test
+> Using seed = 1466627888408 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627888408 to reproduce the test
+> Using seed = 1466627888850 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627888850 to reproduce the test
+> Using seed = 1466627889236 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627889236 to reproduce the test
+> Using seed = 1466627889601 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627889601 to reproduce the test
+> Using seed = 1466627889981 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627889981 to reproduce the test
+> Using seed = 1466627890533 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627890533 to reproduce the test
+> Using seed = 1466627891015 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627891015 to reproduce the test
+> Using seed = 1466627891618 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627891618 to reproduce the test
+> Using seed = 1466627892197 for StrangeInputStream. Set -DStrangeInputStream.seed=1466627892197 to reproduce the test
+> Tests run: 1322, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 83.807 sec - in org.postgresql.test.jdbc2.Jdbc2TestSuite
+418c412
+< Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.postgresql.test.hostchooser.MultiHostTestSuite
+---
+> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.postgresql.test.hostchooser.MultiHostTestSuite
+420c414
+< Tests run: 93, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.165 sec - in org.postgresql.test.jdbc4.Jdbc4TestSuite
+---
+> Tests run: 93, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.906 sec - in org.postgresql.test.jdbc4.Jdbc4TestSuite
+422c416
+< Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.488 sec - in org.postgresql.test.jdbc4.jdbc41.Jdbc41TestSuite
+---
+> Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.789 sec - in org.postgresql.test.jdbc4.jdbc41.Jdbc41TestSuite
+424c418
+< Tests run: 93, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1 sec - in org.postgresql.test.jdbc3.Jdbc3TestSuite
+---
+> Tests run: 93, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.87 sec - in org.postgresql.test.jdbc3.Jdbc3TestSuite
+429c423
+< Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.postgresql.test.xa.XATestSuite
+---
+> Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.postgresql.test.xa.XATestSuite
+431c425
+< Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in org.postgresql.test.extensions.ExtensionsTestSuite
+---
+> Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec - in org.postgresql.test.extensions.ExtensionsTestSuite
+435c429
+< Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.postgresql.test.socketfactory.SocketFactoryTestSuite
+---
+> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.postgresql.test.socketfactory.SocketFactoryTestSuite
+438c432
+< Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.postgresql.test.ssl.SingleCertValidatingFactoryTestSuite
+---
+> Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.postgresql.test.ssl.SingleCertValidatingFactoryTestSuite
+461c455
+< Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.postgresql.test.ssl.SslTestSuite
+---
+> Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.postgresql.test.ssl.SslTestSuite
+465,466c459
+< Failed tests: 
+<   BatchedInsertStatementPreparingTest.testStatementPreparedStatusOnBackend:68 Expected outcome not returned by batch execution. expected:<[-2, -2, -2, -2, [-2]]> but was:<[-2, -2, -2, -2, [1]]>
+---
+> Tests run: 1617, Failures: 0, Errors: 0, Skipped: 1
+468c461,548
+< Tests run: 1618, Failures: 1, Errors: 0, Skipped: 1
+---
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ postgresql ---
+> [INFO] ------------------------------------------------------------------------
+> [INFO] BUILD SUCCESS
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Total time: 01:57 min
+> [INFO] Finished at: 2016-06-22T20:38:19+00:00
+> [INFO] Final Memory: 23M/931M
+> [INFO] ------------------------------------------------------------------------
+> +[[ '' == \Y ]]
+> 
+> travis_time:end:15663ac8:start=1466627778909794835,finish=1466627899969277396,duration=121059482561[0K
+> [32;1mThe command "./travis_build.sh" exited with 0.[0m
+> travis_fold:start:before_cache[0Ktravis_time:start:081bc3b4[0K$ rm -rf $HOME/.m2/repository/org/postgresql
+> 
+> travis_time:end:081bc3b4:start=1466627899975753831,finish=1466627899982463261,duration=6709430[0Ktravis_fold:end:before_cache[0Ktravis_fold:start:cache.2[0Kstore build cache
+> travis_time:start:104d5f10[0K
+> travis_time:end:104d5f10:start=1466627899989025662,finish=1466627899994158656,duration=5132994[0Ktravis_time:start:000d39b0[0K[32;1mnothing changed, not updating cache[0m
+> 
+> travis_time:end:000d39b0:start=1466627899999875674,finish=1466627900547678273,duration=547802599[0Ktravis_fold:end:cache.2[0Ktravis_fold:start:after_success[0Ktravis_time:start:19a492b8[0K$ test $MCENTRAL == 'Y' && ./travis_deploy.sh
+> +MVN_ARGS='clean deploy -B -V -DskipTests -Dcheckstyle.skip=true -Dskip.assembly=true --settings settings.xml'
+> +[[ openjdk7 == *\j\d\k\6* ]]
+> +[[ openjdk7 == *\j\d\k\7* ]]
+> +cd pgjdbc-jre7
+> +mvn clean deploy -B -V -DskipTests -Dcheckstyle.skip=true -Dskip.assembly=true --settings settings.xml -P release-artifacts,release,skip-unzip-jdk
+> Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T17:29:23+00:00)
+> Maven home: /usr/local/maven
+> Java version: 1.7.0_75, vendor: Oracle Corporation
+> Java home: /usr/lib/jvm/java-7-openjdk-amd64/jre
+> Default locale: en_US, platform encoding: UTF-8
+> OS name: "linux", version: "3.13.0-40-generic", arch: "amd64", family: "unix"
+> [INFO] Scanning for projects...
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-prevjre/1.0.8/pgjdbc-core-prevjre-1.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-prevjre/1.0.8/pgjdbc-core-prevjre-1.0.8.pom (7 KB at 10.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-parent/1.0.8/pgjdbc-core-parent-1.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-core-parent/1.0.8/pgjdbc-core-parent-1.0.8.pom (16 KB at 443.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-versions/1.0.8/pgjdbc-versions-1.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/postgresql/pgjdbc-versions/1.0.8/pgjdbc-versions-1.0.8.pom (22 KB at 679.5 KB/sec)
+> [INFO]                                                                         
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Building PostgreSQL JDBC Driver - JDBC 4.1 9.4.1209.jre7-SNAPSHOT
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom (7 KB at 231.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/25/maven-plugins-25.pom (10 KB at 358.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.jar (31 KB at 713.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.pom (16 KB at 548.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.jar (396 KB at 2355.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.pom (17 KB at 619.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.6/maven-assembly-plugin-2.6.jar (240 KB at 3808.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.pom (6 KB at 135.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar (47 KB at 1216.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.1/maven-install-plugin-2.5.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.1/maven-install-plugin-2.5.1.pom (8 KB at 309.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/24/maven-plugins-24.pom (11 KB at 458.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.1/maven-install-plugin-2.5.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.1/maven-install-plugin-2.5.1.jar (33 KB at 823.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.1/maven-deploy-plugin-2.8.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.1/maven-deploy-plugin-2.8.1.pom (8 KB at 323.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.1/maven-deploy-plugin-2.8.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/2.8.1/maven-deploy-plugin-2.8.1.jar (34 KB at 1323.8 KB/sec)
+> [INFO] 
+> [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ postgresql ---
+> [INFO] Deleting /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ postgresql ---
+> [INFO] Skipping Rule Enforcement.
+> [INFO] 
+> [INFO] --- maven-toolchains-plugin:1.1:toolchain (default) @ postgresql ---
+> [INFO] Required toolchain: jdk [ version='1.7' ]
+> [INFO] Found matching toolchain for type jdk: JDK[/usr/lib/jvm/java-7-openjdk-amd64]
+> [INFO] 
+> [INFO] --- build-helper-maven-plugin:1.5:parse-version (parse-version) @ postgresql ---
+> [INFO] 
+> [INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ postgresql ---
+> [WARNING] Ignoring missing properties file: /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/../build.local.properties
+> [INFO] 
+> [INFO] --- maven-antrun-plugin:1.7:run (create-unzipjdkant.xml) @ postgresql ---
+> [INFO] Executing tasks
+469a550,1488
+> main:
+>      [echo] Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/unzip-jdk-ant.xml
+> [INFO] Executed tasks
+> [INFO] 
+> [INFO] --- jcp:6.0.1:preprocess (preprocessSources) @ postgresql ---
+> [INFO] Added MAVEN property mvn.project.name=PostgreSQL JDBC Driver - JDBC 4.1
+> [INFO] Added MAVEN property mvn.project.version=9.4.1209.jre7-SNAPSHOT
+> [INFO] Added MAVEN property mvn.project.url=https://github.com/pgjdbc/pgjdbc-parent-poms/pgjdbc-core-parent/pgjdbc-core-prevjre/postgresql
+> [INFO] Added MAVEN property mvn.project.packaging=bundle
+> [INFO] Added MAVEN property mvn.project.modelversion=4.0.0
+> [INFO] Added MAVEN property mvn.project.inceptionyear=
+> [INFO] Added MAVEN property mvn.project.id=org.postgresql:postgresql:bundle:9.4.1209.jre7-SNAPSHOT
+> [INFO] Added MAVEN property mvn.project.groupid=org.postgresql
+> [INFO] Added MAVEN property mvn.project.description=Java JDBC 4.1 (JRE 7+) driver for PostgreSQL database
+> [INFO] Added MAVEN property mvn.project.artifact.id=org.postgresql:postgresql:bundle:9.4.1209.jre7-SNAPSHOT
+> [INFO] Added MAVEN property mvn.project.artifact.artifactid=postgresql
+> [INFO] Added MAVEN property mvn.project.artifact.baseversion=9.4.1209.jre7-SNAPSHOT
+> [INFO] Added MAVEN property mvn.project.artifact.dependencyconflictid=org.postgresql:postgresql:bundle
+> [INFO] Added MAVEN property mvn.project.artifact.downloadurl=
+> [INFO] Added MAVEN property mvn.project.artifact.groupid=org.postgresql
+> [INFO] Added MAVEN property mvn.project.artifact.scope=
+> [INFO] Added MAVEN property mvn.project.artifact.type=bundle
+> [INFO] Added MAVEN property mvn.project.artifact.version=9.4.1209.jre7-SNAPSHOT
+> [INFO] Added MAVEN property mvn.project.build.directory=/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target
+> [INFO] Added MAVEN property mvn.project.build.defaultgoal=
+> [INFO] Added MAVEN property mvn.project.build.outputdirectory=/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/classes
+> [INFO] Added MAVEN property mvn.project.build.scriptsourcedirectory=/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/src/main/scripts
+> [INFO] Added MAVEN property mvn.project.build.sourcedirectory=/home/travis/build/pgjdbc/pgjdbc/pgjdbc/src/main/java
+> [INFO] Added MAVEN property mvn.project.build.testoutputdirectory=/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/test-classes
+> [INFO] Added MAVEN property mvn.project.build.testsourcedirectory=/home/travis/build/pgjdbc/pgjdbc/pgjdbc/src/test/java
+> [INFO] Added MAVEN property mvn.project.organization.name=PostgreSQL Global Development Group
+> [INFO] Added MAVEN property mvn.project.organization.url=http://jdbc.postgresql.org/
+> [INFO] Added MAVEN property mvn.project.activeprofiles=release
+> [INFO] Added MAVEN property mvn.project.property.jdbc.specification.version.nodot=41
+> [INFO] Added MAVEN property mvn.project.property.password=***** [hidden because may contain private info]
+> [INFO] Added MAVEN property mvn.project.property.preparethreshold=5
+> [INFO] Added MAVEN property mvn.project.property.waffleenabled=true
+> [INFO] Added MAVEN property mvn.project.property.pgjdbc.clone.location=..
+> [INFO] Added MAVEN property mvn.project.property.parsedversion.osgiversion=9.4.1209.jre7
+> [INFO] Added MAVEN property mvn.project.property.postgresql.preprocessed.sources.directory=/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/gen-src
+> [INFO] Added MAVEN property mvn.project.property.postgresql.driver.fullversion=PostgreSQL JDBC4.1
+> [INFO] Added MAVEN property mvn.project.property.username=test
+> [INFO] Added MAVEN property mvn.project.property.parsedversion.incrementalversion=1209
+> [INFO] Added MAVEN property mvn.project.property.protocolversion=0
+> [INFO] Added MAVEN property mvn.project.property.osgienabled=true
+> [INFO] Added MAVEN property mvn.project.property.parsedversion.buildnumber=0
+> [INFO] Added MAVEN property mvn.project.property.javac.target=1.7
+> [INFO] Added MAVEN property mvn.project.property.project.build.sourceencoding=UTF-8
+> [INFO] Added MAVEN property mvn.project.property.postgresql.jdbc.spec=JDBC4.1
+> [INFO] Added MAVEN property mvn.project.property.parsedversion.minorversion=4
+> [INFO] Added MAVEN property mvn.project.property.port=5432
+> [INFO] Added MAVEN property mvn.project.property.unzip.jdk.ant.build.xml=/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/unzip-jdk-ant.xml
+> [INFO] Added MAVEN property mvn.project.property.skip.assembly=false
+> [INFO] Added MAVEN property mvn.project.property.database=test
+> [INFO] Added MAVEN property mvn.project.property.privilegedpassword=***** [hidden because may contain private info]
+> [INFO] Added MAVEN property mvn.project.property.server=localhost
+> [INFO] Added MAVEN property mvn.project.property.skip.unzip-jdk-src=false
+> [INFO] Added MAVEN property mvn.project.property.waffle-jna.version=1.7.5
+> [INFO] Added MAVEN property mvn.project.property.sspiusername=testsspi
+> [INFO] Added MAVEN property mvn.project.property.parsedversion.majorversion=9
+> [INFO] Added MAVEN property mvn.project.property.postgresql.enforce.jdk.version=[1.7,1.8)
+> [INFO] Added MAVEN property mvn.project.property.jdbc.specification.version=4.1
+> [INFO] Added MAVEN property mvn.project.property.build.properties.relative.path=/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/..
+> [INFO] Added MAVEN property mvn.project.property.loglevel=0
+> [INFO] Added MAVEN property mvn.project.property.parsedversion.qualifier=jre7
+> [INFO] Added MAVEN property mvn.project.property.template.default.pg.port=5432
+> [INFO] Added MAVEN property mvn.project.property.argline=-Xmx512m
+> [INFO] Added MAVEN property mvn.project.property.privilegeduser=postgres
+> [INFO] Preprocess sources : /home/travis/build/pgjdbc/pgjdbc/pgjdbc/src/main/java
+> [INFO] Preprocess destination : /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/gen-src
+> [INFO] -----------------------------------------------------------------
+> [INFO] Completed, preprocessed 173 files, copied 16 files, elapsed time 2414ms
+> [INFO] A Compile source root has been removed from the root list [/home/travis/build/pgjdbc/pgjdbc/pgjdbc/src/main/java]
+> [INFO] The New compile source root has been added into the list [/home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/gen-src]
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ postgresql ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] Copying 16 resources
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ postgresql ---
+> [INFO] Toolchain in maven-compiler-plugin: JDK[/usr/lib/jvm/java-7-openjdk-amd64]
+> [INFO] Changes detected - recompiling the module!
+> [INFO] Compiling 173 source files to /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/classes
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ postgresql ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] Copying 1 resource
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ postgresql ---
+> [INFO] Toolchain in maven-compiler-plugin: JDK[/usr/lib/jvm/java-7-openjdk-amd64]
+> [INFO] Changes detected - recompiling the module!
+> [INFO] Compiling 120 source files to /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/test-classes
+> [INFO] 
+> [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ postgresql ---
+> [INFO] Tests are skipped.
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ postgresql ---
+> [INFO] 
+> [INFO] --- maven-source-plugin:2.4:jar-no-fork (attach-sources-no-fork) @ postgresql ---
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.pom (4 KB at 145.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom (3 KB at 129.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.pom (4 KB at 150.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom (3 KB at 91.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom (3 KB at 106.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.2/plexus-3.2.pom (19 KB at 832.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom (12 KB at 485.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/33/commons-parent-33.pom (52 KB at 1620.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.jar (129 KB at 3128.5 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar (65 KB at 531.9 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar (357 KB at 2605.7 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.jar (238 KB at 1483.2 KB/sec)
+> [INFO] Building jar: /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/postgresql-9.4.1209.jre7-SNAPSHOT-sources.jar
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.10.3:jar (attach-javadocs) @ postgresql ---
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.pom (6 KB at 245.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom (4 KB at 162.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.pom (4 KB at 190.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/12/maven-shared-components-12.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/12/maven-shared-components-12.pom (10 KB at 434.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/13/maven-parent-13.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/13/maven-parent-13.pom (23 KB at 1052.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom (2 KB at 71.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom (3 KB at 115.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom (3 KB at 74.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom (2 KB at 82.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom (3 KB at 125.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom (2 KB at 84.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom (2 KB at 72.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom (2 KB at 66.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (3 KB at 93.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom (2 KB at 57.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom (18 KB at 762.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.pom (2 KB at 71.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.pom (6 KB at 271.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.4/doxia-sitetools-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.4/doxia-sitetools-1.4.pom (17 KB at 761.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.pom (4 KB at 180.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom (2 KB at 66.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.pom (2 KB at 77.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom (14 KB at 649.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/9/commons-parent-9.pom (22 KB at 973.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom (8 KB at 332.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom (9 KB at 416.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom (16 KB at 800.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom (5 KB at 217.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom (10 KB at 456.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom (13 KB at 640.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom (18 KB at 815.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom (16 KB at 712.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom (6 KB at 298.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.pom (3 KB at 130.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.pom (2 KB at 75.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.4/doxia-modules-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.4/doxia-modules-1.4.pom (3 KB at 116.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.pom (5 KB at 223.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom (18 KB at 710.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom (357 B at 17.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.3/commons-logging-1.0.3.pom (866 B at 40.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom (7 KB at 325.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom (7 KB at 262.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom (147 B at 7.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom (167 B at 7.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom (156 B at 6.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.pom (6 KB at 234.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.pom (974 B at 43.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6/commons-beanutils-1.6.pom (3 KB at 77.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0/commons-logging-1.0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0/commons-logging-1.0.pom (163 B at 7.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.0/commons-collections-2.0.pom (171 B at 7.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/2.1/commons-collections-2.1.pom (4 KB at 141.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.pom (3 KB at 104.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom (9 KB at 339.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.pom (6 KB at 233.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.pom (142 B at 4.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.pom (653 B at 29.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom (5 KB at 191.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-parent/1.3.8/struts-parent-1.3.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-parent/1.3.8/struts-parent-1.3.8.pom (10 KB at 417.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-master/4/struts-master-4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-master/4/struts-master-4.pom (12 KB at 525.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/apache/2/apache-2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/apache/2/apache-2.pom (4 KB at 151.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.pom (145 B at 6.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.pom (4 KB at 136.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.pom (3 KB at 129.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom (11 KB at 471.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom (13 KB at 610.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom (2 KB at 74.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom (13 KB at 525.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.2/plexus-utils-1.4.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.2/plexus-utils-1.4.2.pom (2 KB at 91.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.pom (11 KB at 513.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom (47 KB at 1923.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom (6 KB at 262.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom (15 KB at 528.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/6/project-6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/6/project-6.pom (24 KB at 1018.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom (6 KB at 222.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom (12 KB at 448.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 KB at 473.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom (3 KB at 77.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom (18 KB at 781.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom (5 KB at 23.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.pom (5 KB at 170.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.pom (4 KB at 161.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom (4 KB at 173.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom (12 KB at 507.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom (55 KB at 2023.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.jar (28 KB at 1104.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar (11 KB at 331.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/1.3/maven-common-artifact-filters-1.3.jar (31 KB at 619.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.jar (12 KB at 225.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar (162 KB at 3157.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.jar (16 KB at 208.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar (190 KB at 2530.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.jar (60 KB at 767.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.jar (52 KB at 589.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar (1201 KB at 13486.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.jar (37 KB at 397.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar (339 KB at 3163.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar (185 KB at 1630.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar (136 KB at 1159.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar (141 KB at 1178.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.jar (88 KB at 732.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.jar (26 KB at 162.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar (322 KB at 2020.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar (246 KB at 1428.1 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.jar (447 KB at 2579.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.jar (350 KB at 2022.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar (117 KB at 642.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.2/commons-io-2.2.jar (170 KB at 826.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar (256 KB at 1194.7 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar (219 KB at 1020.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar (423 KB at 1777.0 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar (562 KB at 2341.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (228 KB at 881.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar (60 KB at 221.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar (359 KB at 1286.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar (80 KB at 276.3 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.jar (142 KB at 486.2 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar (176 KB at 599.3 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar (238 KB at 768.4 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar (370 KB at 1187.6 KB/sec)
+> [INFO] Toolchain in maven-javadoc-plugin: JDK[/usr/lib/jvm/java-7-openjdk-amd64]
+> [INFO] 
+> Loading source files for package org.postgresql.core...
+> Loading source files for package org.postgresql.core.v2...
+> Loading source files for package org.postgresql.core.v3...
+> Loading source files for package org.postgresql...
+> Loading source files for package org.postgresql.copy...
+> Loading source files for package org.postgresql.geometric...
+> Loading source files for package org.postgresql.jdbc...
+> Loading source files for package org.postgresql.ssl...
+> Loading source files for package org.postgresql.ssl.jdbc4...
+> Loading source files for package org.postgresql.gss...
+> Loading source files for package org.postgresql.util...
+> Loading source files for package org.postgresql.hostchooser...
+> Loading source files for package org.postgresql.xa...
+> Loading source files for package org.postgresql.ds...
+> Loading source files for package org.postgresql.ds.common...
+> Loading source files for package org.postgresql.sspi...
+> Loading source files for package org.postgresql.largeobject...
+> Loading source files for package org.postgresql.osgi...
+> Loading source files for package org.postgresql.jdbc3...
+> Loading source files for package org.postgresql.jdbc2.optional...
+> Loading source files for package org.postgresql.jdbc2...
+> Loading source files for package org.postgresql.fastpath...
+> Constructing Javadoc information...
+> Standard Doclet version 1.7.0_75
+> Building tree for all the packages and classes...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/BaseConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/BaseStatement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/CachedQuery.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/ConnectionFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/DMLCommand.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/DMLCommandType.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Encoding.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Field.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/JdbcCallParseInfo.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Keyword.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Logger.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/NativeQuery.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Notification.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Oid.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/ParameterList.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Parser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/PGBindException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/PGStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/ProtocolConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Provider.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Query.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/QueryExecutor.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/ResultCursor.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/ResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/ServerVersion.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/SetupQueryRunner.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/TypeInfo.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Utils.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/Version.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/VisibleBufferedInputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/ConnectionFactoryImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/QueryExecutorImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/SocketFactoryFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/BatchedQuery.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/ConnectionFactoryImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/CopyInImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/CopyOperationImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/CopyOutImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/QueryExecutorImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/Driver.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/PGConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/PGNotification.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/PGProperty.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/PGRefCursorResultSet.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/PGResultSetMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/PGStatement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/CopyIn.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/CopyManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/CopyOperation.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/CopyOut.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/PGCopyInputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/PGCopyOutputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/PGbox.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/PGcircle.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/PGline.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/PGlseg.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/PGpath.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/PGpoint.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/PGpolygon.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/AbstractBlobClob.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/BatchResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/EscapedFunctions.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/FieldMetadata.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/FieldMetadata.Key.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgArray.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgBlob.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgClob.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgConnection.AbortCommand.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgDatabaseMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgParameterMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgResultSet.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgResultSet.CursorResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgResultSetMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgSQLXML.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgStatement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PgStatement.StatementResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/PSQLSavepoint.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/ResultWrapper.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/TimestampUtils.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/TypeInfoCache.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/UUIDArrayAssistant.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/DbKeyStoreSocketFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/DbKeyStoreSocketFactory.DbKeyStoreSocketException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/MakeSSL.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/NonValidatingFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/NonValidatingFactory.NonValidatingTM.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/SingleCertValidatingFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/SingleCertValidatingFactory.SingleCertTrustManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/WrappedFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/LazyKeyManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/LibPQFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/GSSCallbackHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/MakeGSS.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/Base64.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/ByteConverter.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/CanEstimateSize.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/GT.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/HostSpec.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/HStoreConverter.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/LruCache.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/LruCache.CreateAction.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/LruCache.EvictAction.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/MD5Digest.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/ObjectFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGBinaryObject.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGbytea.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGInterval.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGJDBCMain.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGmoney.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGobject.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGTime.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGTimestamp.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PGtokenizer.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PSQLDriverVersion.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PSQLException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PSQLState.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/PSQLWarning.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/ServerErrorMessage.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/SharedTimer.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/StreamWrapper.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/UnixCrypt.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/GlobalHostStatusTracker.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/HostChooser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/HostChooserFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/HostRequirement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/HostStatus.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/MultiHostChooser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/SingleHostChooser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/PGXAConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/PGXADataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/PGXADataSourceFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/PGXAException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/PGConnectionPoolDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/PGPooledConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/PGPoolingDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/PGSimpleDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/BaseDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/PGObjectFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/ISSPIClient.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/NTDSAPIWrapper.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/SSPIClient.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/BlobInputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/BlobOutputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/LargeObject.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/LargeObjectManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/PGBundleActivator.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/PGDataSourceFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/Jdbc3ConnectionPool.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/Jdbc3PoolingDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/Jdbc3SimpleDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/ConnectionPool.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/PoolingDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/SimpleDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/ArrayAssistant.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/ArrayAssistantRegistry.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/Fastpath.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/FastpathArg.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/overview-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/package-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/package-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/package-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/constant-values.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/serialized-form.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/ConnectionFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/PGBindException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/ParameterList.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/QueryExecutor.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Logger.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/DMLCommand.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/DMLCommandType.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Utils.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Keyword.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/TypeInfo.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Version.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/ServerVersion.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/SetupQueryRunner.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/NativeQuery.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/CachedQuery.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Field.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/JdbcCallParseInfo.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Query.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Parser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Encoding.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/ResultCursor.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/ProtocolConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/VisibleBufferedInputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/BaseStatement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/BaseConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Provider.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Oid.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/ResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/PGStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/class-use/Notification.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/class-use/SocketFactoryFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/class-use/ConnectionFactoryImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/class-use/QueryExecutorImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/class-use/ConnectionFactoryImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/class-use/QueryExecutorImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/class-use/CopyOperationImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/class-use/CopyInImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/class-use/CopyOutImpl.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/class-use/BatchedQuery.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/class-use/PGResultSetMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/class-use/Driver.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/class-use/PGNotification.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/class-use/PGConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/class-use/PGProperty.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/class-use/PGStatement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/class-use/PGRefCursorResultSet.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/class-use/CopyOperation.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/class-use/PGCopyOutputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/class-use/CopyManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/class-use/PGCopyInputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/class-use/CopyIn.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/class-use/CopyOut.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/class-use/PGline.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/class-use/PGbox.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/class-use/PGcircle.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/class-use/PGpolygon.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/class-use/PGpoint.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/class-use/PGlseg.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/class-use/PGpath.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgResultSetMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgDatabaseMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgSQLXML.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/FieldMetadata.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/FieldMetadata.Key.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgBlob.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/TimestampUtils.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgStatement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgStatement.StatementResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgConnection.AbortCommand.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/AbstractBlobClob.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/ResultWrapper.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/TypeInfoCache.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PSQLSavepoint.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgResultSet.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgResultSet.CursorResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/UUIDArrayAssistant.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/EscapedFunctions.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgParameterMetaData.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgArray.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/PgClob.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/class-use/BatchResultHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/NonValidatingFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/NonValidatingFactory.NonValidatingTM.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/MakeSSL.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/SingleCertValidatingFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/SingleCertValidatingFactory.SingleCertTrustManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/DbKeyStoreSocketFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/DbKeyStoreSocketFactory.DbKeyStoreSocketException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/class-use/WrappedFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/class-use/LazyKeyManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/class-use/LibPQFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/class-use/GSSCallbackHandler.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/class-use/MakeGSS.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGJDBCMain.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGTime.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/UnixCrypt.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/MD5Digest.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/HStoreConverter.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGbytea.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/GT.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/CanEstimateSize.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PSQLWarning.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGmoney.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/HostSpec.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/ObjectFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGBinaryObject.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGobject.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGTimestamp.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/Base64.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/StreamWrapper.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/SharedTimer.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PSQLState.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/ByteConverter.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGtokenizer.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/ServerErrorMessage.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PGInterval.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PSQLException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/PSQLDriverVersion.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/LruCache.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/LruCache.EvictAction.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/class-use/LruCache.CreateAction.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/class-use/HostChooser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/class-use/MultiHostChooser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/class-use/HostRequirement.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/class-use/SingleHostChooser.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/class-use/HostStatus.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/class-use/GlobalHostStatusTracker.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/class-use/HostChooserFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/class-use/PGXADataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/class-use/PGXADataSourceFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/class-use/PGXAException.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/class-use/PGXAConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/class-use/PGPooledConnection.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/class-use/PGSimpleDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/class-use/PGConnectionPoolDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/class-use/PGPoolingDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/class-use/PGObjectFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/class-use/BaseDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/class-use/SSPIClient.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/class-use/NTDSAPIWrapper.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/class-use/ISSPIClient.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/class-use/BlobOutputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/class-use/LargeObjectManager.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/class-use/BlobInputStream.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/class-use/LargeObject.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/class-use/PGDataSourceFactory.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/class-use/PGBundleActivator.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/class-use/Jdbc3PoolingDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/class-use/Jdbc3ConnectionPool.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/class-use/Jdbc3SimpleDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/class-use/SimpleDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/class-use/PoolingDataSource.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/class-use/ConnectionPool.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/class-use/ArrayAssistant.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/class-use/ArrayAssistantRegistry.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/class-use/Fastpath.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/class-use/FastpathArg.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/copy/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v2/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/core/v3/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ds/common/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/fastpath/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/geometric/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/gss/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/hostchooser/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc2/optional/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/jdbc3/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/largeobject/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/osgi/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/ssl/jdbc4/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/sspi/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/util/package-use.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/org/postgresql/xa/package-use.html...
+> Building index for all the packages and classes...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/overview-tree.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/index-all.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/deprecated-list.html...
+> Building index for all classes...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/allclasses-frame.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/allclasses-noframe.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/index.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/overview-summary.html...
+> Generating /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/apidocs/help-doc.html...
+> Note: Custom tags that could override future standard tags:  @jls. To avoid potential overrides, use at least one period character (.) in custom tag names.
+> Note: Custom tags that were not seen:  @jls
+> 3 warnings
+> [WARNING] Javadoc Warnings
+> [WARNING] /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/gen-src/org/postgresql/jdbc/PgArray.java:100: warning - Tag @link: reference not found: PgArrayList
+> [WARNING] /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/gen-src/org/postgresql/jdbc/PgArray.java:100: warning - Tag @link: reference not found: PgArrayList
+> [WARNING] /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/gen-src/org/postgresql/jdbc/PgArray.java:100: warning - Tag @link: reference not found: PgArrayList
+> [INFO] Building jar: /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/postgresql-9.4.1209.jre7-SNAPSHOT-javadoc.jar
+> [INFO] 
+> [INFO] --- maven-assembly-plugin:2.6:single (make-assembly) @ postgresql ---
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom (4 KB at 179.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom (2 KB at 75.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.0.1/plexus-archiver-3.0.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.0.1/plexus-archiver-3.0.1.pom (6 KB at 235.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.6/plexus-io-2.6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.6/plexus-io-2.6.pom (4 KB at 192.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.3/snappy-0.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.3/snappy-0.3.pom (15 KB at 669.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.1/file-management-1.1.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.1/file-management-1.1.pom (3 KB at 123.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/4/maven-shared-components-4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/4/maven-shared-components-4.pom (3 KB at 113.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom (10 KB at 464.8 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.0/maven-shared-io-1.0.pom (3 KB at 140.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.2/plexus-utils-1.2.pom (767 B at 35.7 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.5/plexus-1.0.5.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.5/plexus-1.0.5.pom (6 KB at 290.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.3/maven-filtering-1.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.3/maven-filtering-1.3.pom (7 KB at 288.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.pom (5 KB at 216.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.19/plexus-interpolation-1.19.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.19/plexus-interpolation-1.19.pom (2 KB at 50.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.21/plexus-utils-3.0.21.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.21/plexus-utils-3.0.21.pom (4 KB at 177.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-repository-builder/1.0/maven-repository-builder-1.0.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-repository-builder/1.0/maven-repository-builder-1.0.pom (5 KB at 222.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom (5 KB at 249.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.4/maven-artifact-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.4/maven-artifact-2.0.4.pom (765 B at 37.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.4/maven-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.4/maven-2.0.4.pom (12 KB at 575.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.4/maven-artifact-manager-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.4/maven-artifact-manager-2.0.4.pom (2 KB at 66.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.4/maven-repository-metadata-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.4/maven-repository-metadata-2.0.4.pom (2 KB at 72.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.4/maven-project-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.4/maven-project-2.0.4.pom (2 KB at 89.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.4/maven-settings-2.0.4.pom (2 KB at 72.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.4/maven-model-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.4/maven-model-2.0.4.pom (3 KB at 132.3 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.4/maven-profile-2.0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.4/maven-profile-2.0.4.pom (2 KB at 79.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.3/maven-shared-utils-0.3.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.3/maven-shared-utils-0.3.pom (4 KB at 188.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.0.1/plexus-archiver-3.0.1.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.3/snappy-0.3.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.1/file-management-1.1.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.3/maven-filtering-1.3.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.1/file-management-1.1.jar (31 KB at 1217.5 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.jar (76 KB at 2588.4 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.6/plexus-io-2.6.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.3/snappy-0.3.jar (48 KB at 1536.2 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.21/plexus-utils-3.0.21.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.0.1/plexus-archiver-3.0.1.jar (373 KB at 10054.1 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-repository-builder/1.0/maven-repository-builder-1.0.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.3/maven-filtering-1.3.jar (50 KB at 1190.1 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.6/plexus-io-2.6.jar (83 KB at 1867.2 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.6/maven-shared-utils-0.6.jar (161 KB at 3281.1 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-repository-builder/1.0/maven-repository-builder-1.0.jar (22 KB at 415.1 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.21/plexus-utils-3.0.21.jar (240 KB at 4193.5 KB/sec)
+> [INFO] Assemblies have been skipped per configuration of the skipAssembly parameter.
+> [INFO] 
+> [INFO] --- maven-gpg-plugin:1.6:sign (sign-artifacts) @ postgresql ---
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom (3 KB at 87.6 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar (28 KB at 1082.1 KB/sec)
+> [INFO] 
+> [INFO] --- maven-install-plugin:2.5.1:install (default-install) @ postgresql ---
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.pom (4 KB at 152.0 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.pom (4 KB at 105.9 KB/sec)
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar
+> [INFO] Downloading: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar (152 KB at 3995.0 KB/sec)
+> [INFO] Downloaded: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.15/plexus-utils-3.0.15.jar (234 KB at 4861.5 KB/sec)
+> [INFO] Installing /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/postgresql-9.4.1209.jre7-SNAPSHOT.jar to /home/travis/.m2/repository/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-SNAPSHOT.jar
+> [INFO] Installing /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/pom.xml to /home/travis/.m2/repository/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-SNAPSHOT.pom
+> [INFO] Installing /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/postgresql-9.4.1209.jre7-SNAPSHOT-sources.jar to /home/travis/.m2/repository/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-SNAPSHOT-sources.jar
+> [INFO] Installing /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/postgresql-9.4.1209.jre7-SNAPSHOT-javadoc.jar to /home/travis/.m2/repository/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-SNAPSHOT-javadoc.jar
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:install (default-install) @ postgresql ---
+> [INFO] Writing OBR metadata
+> [INFO] Installing org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-SNAPSHOT.jar
+> [INFO] Writing OBR metadata
+> [INFO] 
+> [INFO] --- maven-deploy-plugin:2.8.1:deploy (default-deploy) @ postgresql ---
+> [INFO] Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml
+> [INFO] Downloaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml (2 KB at 18.5 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51.jar
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51.jar (667 KB at 2676.5 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51.pom
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51.pom (5 KB at 30.7 KB/sec)
+> [INFO] Downloading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/maven-metadata.xml
+> [INFO] Downloaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/maven-metadata.xml (757 B at 16.1 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml (2 KB at 8.7 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/maven-metadata.xml
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/maven-metadata.xml (757 B at 5.6 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51-sources.jar
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51-sources.jar (728 KB at 4915.5 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml (2 KB at 10.9 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51-javadoc.jar
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/postgresql-9.4.1209.jre7-20160622.203911-51-javadoc.jar (1126 KB at 6777.3 KB/sec)
+> [INFO] Uploading: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml
+> [INFO] Uploaded: https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.4.1209.jre7-SNAPSHOT/maven-metadata.xml (2 KB at 9.4 KB/sec)
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:deploy (default-deploy) @ postgresql ---
+> [INFO] Remote OBR update disabled (enable with -DremoteOBR)
+471c1490
+< [INFO] BUILD FAILURE
+---
+> [INFO] BUILD SUCCESS
+473,475c1492,1494
+< [INFO] Total time: 01:41 min
+< [INFO] Finished at: 2016-06-22T20:25:35+00:00
+< [INFO] Final Memory: 19M/931M
+---
+> [INFO] Total time: 50.190 s
+> [INFO] Finished at: 2016-06-22T20:39:12+00:00
+> [INFO] Final Memory: 30M/931M
+477,494d1495
+< [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test) on project postgresql: There are test failures.
+< [ERROR] 
+< [ERROR] Please refer to /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/surefire-reports for the individual test results.
+< [ERROR] -> [Help 1]
+< [ERROR] 
+< [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+< [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+< [ERROR] 
+< [ERROR] For more information about the errors and possible solutions, please read the following articles:
+< [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+< 
+< travis_time:end:04a23e08:start=1466627030543153911,finish=1466627135731856395,duration=105188702484[0K
+< [31;1mThe command "./travis_build.sh" exited with 1.[0m
+< travis_fold:start:before_cache[0Ktravis_time:start:120e6418[0K$ rm -rf $HOME/.m2/repository/org/postgresql
+< 
+< travis_time:end:120e6418:start=1466627135736432361,finish=1466627135740953618,duration=4521257[0Ktravis_fold:end:before_cache[0Ktravis_fold:start:cache.2[0Kstore build cache
+< travis_time:start:1201fc50[0K
+< travis_time:end:1201fc50:start=1466627135745342139,finish=1466627135748884221,duration=3542082[0Ktravis_time:start:13e8d7c5[0K[32;1mnothing changed, not updating cache[0m
+496,497c1497,1498
+< travis_time:end:13e8d7c5:start=1466627135753048726,finish=1466627136133760941,duration=380712215[0Ktravis_fold:end:cache.2[0K
+< Done. Your build exited with 1.
+---
+> travis_time:end:19a492b8:start=1466627900552509707,finish=1466627953571410573,duration=53018900866[0Ktravis_fold:end:after_success[0K
+> Done. Your build exited with 0.

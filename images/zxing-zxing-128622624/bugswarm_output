@@ -1,0 +1,74 @@
+{
+    "_created": "Sat, 27 Jan 2018 03:35:47 GMT",
+    "_etag": "b5a755afef30baa6acf87e8478c45c5534027cd5",
+    "_id": "5a6bf393f1f70e0793e600d8",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/zxing-zxing-128622624",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:18:06 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 128622622,
+        "build_job": "536.1",
+        "committed_at": "2016-05-08T08:13:41Z",
+        "failed_tests": "",
+        "job_id": 128622624,
+        "message": "Minor changes from inspection",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "30bb62bf4f8f9e837e611a1cb577af1a31b92b58"
+    },
+    "filtered_reason": "",
+    "image_tag": "zxing-zxing-128622624",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 3,
+        "changes": 6,
+        "deletions": 3
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 128624423,
+        "build_job": "537.1",
+        "committed_at": "2016-05-08T08:32:07Z",
+        "failed_tests": "",
+        "job_id": 128624424,
+        "message": "Update plugins",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 381,
+        "trigger_sha": "a064c719e6dc6e112fe13ba42946adb3e4691466"
+    },
+    "pr_num": -1,
+    "repo": "zxing/zxing",
+    "repo_builds": 673,
+    "repo_commits": 2099,
+    "repo_members": 3,
+    "repo_mined_version": "1861cf4f013d7b2ffede653211e3aadacd8234d5",
+    "repo_prs": 164,
+    "repo_watchers": 10738,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "zxing-zxing-128622624",
+    "test_framework": ""
+}

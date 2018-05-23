@@ -1,0 +1,10 @@
+477:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.18.1:test (default-test) on project postgresql: There are test failures.
+478:[ERROR] 
+479:[ERROR] Please refer to /home/travis/build/pgjdbc/pgjdbc/pgjdbc-jre7/target/surefire-reports for the individual test results.
+480:[ERROR] -> [Help 1]
+481:[ERROR] 
+482:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+483:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+484:[ERROR] 
+485:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+486:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

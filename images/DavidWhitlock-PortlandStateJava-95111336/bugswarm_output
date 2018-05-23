@@ -1,0 +1,76 @@
+{
+    "_created": "Mon, 16 Apr 2018 22:21:33 GMT",
+    "_etag": "08e7e7b18f5fa7265c7c173953cc4705e63a79d3",
+    "_id": "5ad521edf1f70eeb88da21cf",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/DavidWhitlock-PortlandStateJava-95111336",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Wed, 16 May 2018 18:52:28 GMT",
+    "base_branch": "",
+    "branch": "issue-127-archetypes-under-projects",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 95111335,
+        "build_job": "488.1",
+        "committed_at": "2015-12-05T22:30:44Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 95111336,
+        "message": "Move the projects API code to the projects-parent directory.",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "5d0af5cca1ef3919271fe2cca872668ccab9b56c"
+    },
+    "filtered_reason": null,
+    "image_tag": "DavidWhitlock-PortlandStateJava-95111336",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 1,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 95111563,
+        "build_job": "489.1",
+        "committed_at": "2015-12-05T22:33:35Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 95111564,
+        "message": "\"projects\" is no longer a child of the top-level POM.",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 337,
+        "trigger_sha": "da27538e610974fa3dc1f3eabf296164efc52ea4"
+    },
+    "pr_num": -1,
+    "repo": "DavidWhitlock/PortlandStateJava",
+    "repo_builds": 713,
+    "repo_commits": 798,
+    "repo_members": 1,
+    "repo_mined_version": "0d44c2651da42a4183828ee80ceb41f8dba4dc15",
+    "repo_prs": 75,
+    "repo_watchers": 10,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "DavidWhitlock-PortlandStateJava-95111336",
+    "test_framework": ""
+}

@@ -1,0 +1,2162 @@
+1c1
+< Using worker: worker-linux-docker-44e99ecd.prod.travis-ci.org:travis-linux-3
+---
+> Using worker: worker-linux-docker-a371335a.prod.travis-ci.org:travis-linux-7
+68c68
+< travis_fold:start:git.checkout[0Ktravis_time:start:0e6d7014[0K$ git clone --depth=50 --branch=version4 https://github.com/owlcs/owlapi.git owlcs/owlapi
+---
+> travis_fold:start:git.checkout[0Ktravis_time:start:059a166b[0K$ git clone --depth=50 --branch=version4 https://github.com/owlcs/owlapi.git owlcs/owlapi
+70,74c70,74
+< remote: Counting objects: 3626, done.[K
+< remote: Compressing objects:   0% (1/1954)   [Kremote: Compressing objects:   1% (20/1954)   [Kremote: Compressing objects:   2% (40/1954)   [Kremote: Compressing objects:   3% (59/1954)   [Kremote: Compressing objects:   4% (79/1954)   [Kremote: Compressing objects:   5% (98/1954)   [Kremote: Compressing objects:   6% (118/1954)   [Kremote: Compressing objects:   7% (137/1954)   [Kremote: Compressing objects:   8% (157/1954)   [Kremote: Compressing objects:   9% (176/1954)   [Kremote: Compressing objects:  10% (196/1954)   [Kremote: Compressing objects:  11% (215/1954)   [Kremote: Compressing objects:  12% (235/1954)   [Kremote: Compressing objects:  13% (255/1954)   [Kremote: Compressing objects:  14% (274/1954)   [Kremote: Compressing objects:  15% (294/1954)   [Kremote: Compressing objects:  16% (313/1954)   [Kremote: Compressing objects:  17% (333/1954)   [Kremote: Compressing objects:  18% (352/1954)   [Kremote: Compressing objects:  19% (372/1954)   [Kremote: Compressing objects:  20% (391/1954)   [Kremote: Compressing objects:  21% (411/1954)   [Kremote: Compressing objects:  22% (430/1954)   [Kremote: Compressing objects:  23% (450/1954)   [Kremote: Compressing objects:  24% (469/1954)   [Kremote: Compressing objects:  25% (489/1954)   [Kremote: Compressing objects:  26% (509/1954)   [Kremote: Compressing objects:  27% (528/1954)   [Kremote: Compressing objects:  28% (548/1954)   [Kremote: Compressing objects:  29% (567/1954)   [Kremote: Compressing objects:  30% (587/1954)   [Kremote: Compressing objects:  31% (606/1954)   [Kremote: Compressing objects:  32% (626/1954)   [Kremote: Compressing objects:  33% (645/1954)   [Kremote: Compressing objects:  34% (665/1954)   [Kremote: Compressing objects:  35% (684/1954)   [Kremote: Compressing objects:  36% (704/1954)   [Kremote: Compressing objects:  37% (723/1954)   [Kremote: Compressing objects:  38% (743/1954)   [Kremote: Compressing objects:  39% (763/1954)   [Kremote: Compressing objects:  40% (782/1954)   [Kremote: Compressing objects:  41% (802/1954)   [Kremote: Compressing objects:  42% (821/1954)   [Kremote: Compressing objects:  43% (841/1954)   [Kremote: Compressing objects:  44% (860/1954)   [Kremote: Compressing objects:  45% (880/1954)   [Kremote: Compressing objects:  46% (899/1954)   [Kremote: Compressing objects:  47% (919/1954)   [Kremote: Compressing objects:  48% (938/1954)   [Kremote: Compressing objects:  49% (958/1954)   [Kremote: Compressing objects:  50% (977/1954)   [Kremote: Compressing objects:  51% (997/1954)   [Kremote: Compressing objects:  52% (1017/1954)   [Kremote: Compressing objects:  53% (1036/1954)   [Kremote: Compressing objects:  54% (1056/1954)   [Kremote: Compressing objects:  55% (1075/1954)   [Kremote: Compressing objects:  56% (1095/1954)   [Kremote: Compressing objects:  57% (1114/1954)   [Kremote: Compressing objects:  58% (1134/1954)   [Kremote: Compressing objects:  59% (1153/1954)   [Kremote: Compressing objects:  60% (1173/1954)   [Kremote: Compressing objects:  61% (1192/1954)   [Kremote: Compressing objects:  62% (1212/1954)   [Kremote: Compressing objects:  63% (1232/1954)   [Kremote: Compressing objects:  64% (1251/1954)   [Kremote: Compressing objects:  65% (1271/1954)   [Kremote: Compressing objects:  66% (1290/1954)   [Kremote: Compressing objects:  67% (1310/1954)   [Kremote: Compressing objects:  68% (1329/1954)   [Kremote: Compressing objects:  69% (1349/1954)   [Kremote: Compressing objects:  70% (1368/1954)   [Kremote: Compressing objects:  71% (1388/1954)   [Kremote: Compressing objects:  72% (1407/1954)   [Kremote: Compressing objects:  73% (1427/1954)   [Kremote: Compressing objects:  74% (1446/1954)   [Kremote: Compressing objects:  75% (1466/1954)   [Kremote: Compressing objects:  76% (1486/1954)   [Kremote: Compressing objects:  77% (1505/1954)   [Kremote: Compressing objects:  78% (1525/1954)   [Kremote: Compressing objects:  79% (1544/1954)   [Kremote: Compressing objects:  80% (1564/1954)   [Kremote: Compressing objects:  81% (1583/1954)   [Kremote: Compressing objects:  82% (1603/1954)   [Kremote: Compressing objects:  83% (1622/1954)   [Kremote: Compressing objects:  84% (1642/1954)   [Kremote: Compressing objects:  85% (1661/1954)   [Kremote: Compressing objects:  86% (1681/1954)   [Kremote: Compressing objects:  87% (1700/1954)   [Kremote: Compressing objects:  88% (1720/1954)   [Kremote: Compressing objects:  89% (1740/1954)   [Kremote: Compressing objects:  90% (1759/1954)   [Kremote: Compressing objects:  91% (1779/1954)   [Kremote: Compressing objects:  92% (1798/1954)   [Kremote: Compressing objects:  93% (1818/1954)   [Kremote: Compressing objects:  94% (1837/1954)   [Kremote: Compressing objects:  95% (1857/1954)   [Kremote: Compressing objects:  96% (1876/1954)   [Kremote: Compressing objects:  97% (1896/1954)   [Kremote: Compressing objects:  98% (1915/1954)   [Kremote: Compressing objects:  99% (1935/1954)   [Kremote: Compressing objects: 100% (1954/1954)   [Kremote: Compressing objects: 100% (1954/1954), done.[K
+< Receiving objects:   0% (1/3626)   Receiving objects:   1% (37/3626)   Receiving objects:   2% (73/3626)   Receiving objects:   3% (109/3626)   Receiving objects:   4% (146/3626)   Receiving objects:   5% (182/3626)   Receiving objects:   6% (218/3626)   Receiving objects:   7% (254/3626)   Receiving objects:   8% (291/3626)   Receiving objects:   9% (327/3626)   Receiving objects:  10% (363/3626)   Receiving objects:  11% (399/3626)   Receiving objects:  12% (436/3626)   Receiving objects:  13% (472/3626)   Receiving objects:  14% (508/3626)   Receiving objects:  15% (544/3626)   Receiving objects:  16% (581/3626)   Receiving objects:  17% (617/3626)   Receiving objects:  18% (653/3626)   Receiving objects:  19% (689/3626)   Receiving objects:  20% (726/3626)   Receiving objects:  21% (762/3626)   Receiving objects:  22% (798/3626)   Receiving objects:  23% (834/3626)   Receiving objects:  24% (871/3626)   Receiving objects:  25% (907/3626)   Receiving objects:  26% (943/3626)   Receiving objects:  27% (980/3626)   Receiving objects:  28% (1016/3626)   Receiving objects:  29% (1052/3626)   Receiving objects:  30% (1088/3626)   Receiving objects:  31% (1125/3626)   Receiving objects:  32% (1161/3626)   Receiving objects:  33% (1197/3626)   Receiving objects:  34% (1233/3626)   Receiving objects:  35% (1270/3626)   Receiving objects:  36% (1306/3626)   Receiving objects:  37% (1342/3626)   Receiving objects:  38% (1378/3626)   Receiving objects:  39% (1415/3626)   Receiving objects:  40% (1451/3626)   Receiving objects:  41% (1487/3626)   Receiving objects:  42% (1523/3626)   Receiving objects:  43% (1560/3626)   Receiving objects:  44% (1596/3626)   Receiving objects:  45% (1632/3626)   Receiving objects:  46% (1668/3626)   Receiving objects:  47% (1705/3626)   Receiving objects:  48% (1741/3626)   Receiving objects:  49% (1777/3626)   Receiving objects:  50% (1813/3626)   Receiving objects:  51% (1850/3626)   Receiving objects:  52% (1886/3626)   Receiving objects:  53% (1922/3626)   Receiving objects:  54% (1959/3626)   Receiving objects:  55% (1995/3626)   Receiving objects:  56% (2031/3626)   Receiving objects:  57% (2067/3626)   Receiving objects:  58% (2104/3626)   Receiving objects:  59% (2140/3626)   Receiving objects:  60% (2176/3626)   Receiving objects:  61% (2212/3626)   Receiving objects:  62% (2249/3626)   Receiving objects:  63% (2285/3626)   Receiving objects:  64% (2321/3626)   Receiving objects:  65% (2357/3626)   Receiving objects:  66% (2394/3626)   Receiving objects:  67% (2430/3626)   Receiving objects:  68% (2466/3626)   Receiving objects:  69% (2502/3626)   Receiving objects:  70% (2539/3626)   Receiving objects:  71% (2575/3626)   Receiving objects:  72% (2611/3626)   Receiving objects:  73% (2647/3626)   Receiving objects:  74% (2684/3626)   Receiving objects:  75% (2720/3626)   Receiving objects:  76% (2756/3626)   Receiving objects:  77% (2793/3626)   Receiving objects:  78% (2829/3626)   Receiving objects:  79% (2865/3626)   Receiving objects:  80% (2901/3626)   Receiving objects:  81% (2938/3626)   Receiving objects:  82% (2974/3626)   Receiving objects:  83% (3010/3626)   Receiving objects:  84% (3046/3626)   Receiving objects:  85% (3083/3626)   Receiving objects:  86% (3119/3626)   Receiving objects:  87% (3155/3626)   Receiving objects:  88% (3191/3626)   Receiving objects:  89% (3228/3626)   Receiving objects:  90% (3264/3626)   Receiving objects:  91% (3300/3626)   Receiving objects:  92% (3336/3626)   Receiving objects:  93% (3373/3626)   Receiving objects:  94% (3409/3626)   Receiving objects:  95% (3445/3626)   Receiving objects:  96% (3481/3626)   Receiving objects:  97% (3518/3626)   remote: Total 3626 (delta 2040), reused 2404 (delta 1270), pack-reused 0[K
+< Receiving objects:  98% (3554/3626)   Receiving objects:  99% (3590/3626)   Receiving objects: 100% (3626/3626)   Receiving objects: 100% (3626/3626), 2.16 MiB | 0 bytes/s, done.
+< Resolving deltas:   0% (0/2040)   Resolving deltas:   1% (22/2040)   Resolving deltas:   2% (49/2040)   Resolving deltas:   6% (135/2040)   Resolving deltas:   7% (147/2040)   Resolving deltas:   8% (170/2040)   Resolving deltas:   9% (185/2040)   Resolving deltas:  10% (223/2040)   Resolving deltas:  11% (235/2040)   Resolving deltas:  12% (247/2040)   Resolving deltas:  13% (278/2040)   Resolving deltas:  16% (344/2040)   Resolving deltas:  17% (347/2040)   Resolving deltas:  24% (509/2040)   Resolving deltas:  25% (525/2040)   Resolving deltas:  26% (531/2040)   Resolving deltas:  27% (558/2040)   Resolving deltas:  28% (576/2040)   Resolving deltas:  31% (639/2040)   Resolving deltas:  32% (661/2040)   Resolving deltas:  33% (685/2040)   Resolving deltas:  34% (694/2040)   Resolving deltas:  35% (716/2040)   Resolving deltas:  38% (776/2040)   Resolving deltas:  39% (797/2040)   Resolving deltas:  40% (821/2040)   Resolving deltas:  42% (858/2040)   Resolving deltas:  43% (892/2040)   Resolving deltas:  44% (906/2040)   Resolving deltas:  45% (921/2040)   Resolving deltas:  46% (939/2040)   Resolving deltas:  47% (960/2040)   Resolving deltas:  48% (986/2040)   Resolving deltas:  49% (1007/2040)   Resolving deltas:  50% (1024/2040)   Resolving deltas:  51% (1041/2040)   Resolving deltas:  52% (1062/2040)   Resolving deltas:  53% (1082/2040)   Resolving deltas:  54% (1102/2040)   Resolving deltas:  55% (1125/2040)   Resolving deltas:  56% (1148/2040)   Resolving deltas:  57% (1176/2040)   Resolving deltas:  60% (1224/2040)   Resolving deltas:  61% (1256/2040)   Resolving deltas:  62% (1273/2040)   Resolving deltas:  63% (1286/2040)   Resolving deltas:  64% (1307/2040)   Resolving deltas:  65% (1328/2040)   Resolving deltas:  66% (1348/2040)   Resolving deltas:  67% (1368/2040)   Resolving deltas:  68% (1390/2040)   Resolving deltas:  69% (1411/2040)   Resolving deltas:  72% (1482/2040)   Resolving deltas:  73% (1499/2040)   Resolving deltas:  75% (1541/2040)   Resolving deltas:  77% (1578/2040)   Resolving deltas:  78% (1594/2040)   Resolving deltas:  79% (1616/2040)   Resolving deltas:  80% (1641/2040)   Resolving deltas:  81% (1655/2040)   Resolving deltas:  82% (1674/2040)   Resolving deltas:  83% (1694/2040)   Resolving deltas:  84% (1718/2040)   Resolving deltas:  85% (1734/2040)   Resolving deltas:  86% (1755/2040)   Resolving deltas:  87% (1777/2040)   Resolving deltas:  88% (1798/2040)   Resolving deltas:  89% (1818/2040)   Resolving deltas:  90% (1842/2040)   Resolving deltas:  91% (1857/2040)   Resolving deltas:  92% (1877/2040)   Resolving deltas:  93% (1900/2040)   Resolving deltas:  94% (1921/2040)   Resolving deltas:  95% (1939/2040)   Resolving deltas:  96% (1959/2040)   Resolving deltas:  97% (1979/2040)   Resolving deltas:  98% (2000/2040)   Resolving deltas:  99% (2023/2040)   Resolving deltas: 100% (2040/2040)   Resolving deltas: 100% (2040/2040), done.
+---
+> remote: Counting objects: 3616, done.[K
+> remote: Compressing objects:   0% (1/1952)   [Kremote: Compressing objects:   1% (20/1952)   [Kremote: Compressing objects:   2% (40/1952)   [Kremote: Compressing objects:   3% (59/1952)   [Kremote: Compressing objects:   4% (79/1952)   [Kremote: Compressing objects:   5% (98/1952)   [Kremote: Compressing objects:   6% (118/1952)   [Kremote: Compressing objects:   7% (137/1952)   [Kremote: Compressing objects:   8% (157/1952)   [Kremote: Compressing objects:   9% (176/1952)   [Kremote: Compressing objects:  10% (196/1952)   [Kremote: Compressing objects:  11% (215/1952)   [Kremote: Compressing objects:  12% (235/1952)   [Kremote: Compressing objects:  13% (254/1952)   [Kremote: Compressing objects:  14% (274/1952)   [Kremote: Compressing objects:  15% (293/1952)   [Kremote: Compressing objects:  16% (313/1952)   [Kremote: Compressing objects:  17% (332/1952)   [Kremote: Compressing objects:  18% (352/1952)   [Kremote: Compressing objects:  19% (371/1952)   [Kremote: Compressing objects:  20% (391/1952)   [Kremote: Compressing objects:  21% (410/1952)   [Kremote: Compressing objects:  22% (430/1952)   [Kremote: Compressing objects:  23% (449/1952)   [Kremote: Compressing objects:  24% (469/1952)   [Kremote: Compressing objects:  25% (488/1952)   [Kremote: Compressing objects:  26% (508/1952)   [Kremote: Compressing objects:  27% (528/1952)   [Kremote: Compressing objects:  28% (547/1952)   [Kremote: Compressing objects:  29% (567/1952)   [Kremote: Compressing objects:  30% (586/1952)   [Kremote: Compressing objects:  31% (606/1952)   [Kremote: Compressing objects:  32% (625/1952)   [Kremote: Compressing objects:  33% (645/1952)   [Kremote: Compressing objects:  34% (664/1952)   [Kremote: Compressing objects:  35% (684/1952)   [Kremote: Compressing objects:  36% (703/1952)   [Kremote: Compressing objects:  37% (723/1952)   [Kremote: Compressing objects:  38% (742/1952)   [Kremote: Compressing objects:  39% (762/1952)   [Kremote: Compressing objects:  40% (781/1952)   [Kremote: Compressing objects:  41% (801/1952)   [Kremote: Compressing objects:  42% (820/1952)   [Kremote: Compressing objects:  43% (840/1952)   [Kremote: Compressing objects:  44% (859/1952)   [Kremote: Compressing objects:  45% (879/1952)   [Kremote: Compressing objects:  46% (898/1952)   [Kremote: Compressing objects:  47% (918/1952)   [Kremote: Compressing objects:  48% (937/1952)   [Kremote: Compressing objects:  49% (957/1952)   [Kremote: Compressing objects:  50% (976/1952)   [Kremote: Compressing objects:  51% (996/1952)   [Kremote: Compressing objects:  52% (1016/1952)   [Kremote: Compressing objects:  53% (1035/1952)   [Kremote: Compressing objects:  54% (1055/1952)   [Kremote: Compressing objects:  55% (1074/1952)   [Kremote: Compressing objects:  56% (1094/1952)   [Kremote: Compressing objects:  57% (1113/1952)   [Kremote: Compressing objects:  58% (1133/1952)   [Kremote: Compressing objects:  59% (1152/1952)   [Kremote: Compressing objects:  60% (1172/1952)   [Kremote: Compressing objects:  61% (1191/1952)   [Kremote: Compressing objects:  62% (1211/1952)   [Kremote: Compressing objects:  63% (1230/1952)   [Kremote: Compressing objects:  64% (1250/1952)   [Kremote: Compressing objects:  65% (1269/1952)   [Kremote: Compressing objects:  66% (1289/1952)   [Kremote: Compressing objects:  67% (1308/1952)   [Kremote: Compressing objects:  68% (1328/1952)   [Kremote: Compressing objects:  69% (1347/1952)   [Kremote: Compressing objects:  70% (1367/1952)   [Kremote: Compressing objects:  71% (1386/1952)   [Kremote: Compressing objects:  72% (1406/1952)   [Kremote: Compressing objects:  73% (1425/1952)   [Kremote: Compressing objects:  74% (1445/1952)   [Kremote: Compressing objects:  75% (1464/1952)   [Kremote: Compressing objects:  76% (1484/1952)   [Kremote: Compressing objects:  77% (1504/1952)   [Kremote: Compressing objects:  78% (1523/1952)   [Kremote: Compressing objects:  79% (1543/1952)   [Kremote: Compressing objects:  80% (1562/1952)   [Kremote: Compressing objects:  81% (1582/1952)   [Kremote: Compressing objects:  82% (1601/1952)   [Kremote: Compressing objects:  83% (1621/1952)   [Kremote: Compressing objects:  84% (1640/1952)   [Kremote: Compressing objects:  85% (1660/1952)   [Kremote: Compressing objects:  86% (1679/1952)   [Kremote: Compressing objects:  87% (1699/1952)   [Kremote: Compressing objects:  88% (1718/1952)   [Kremote: Compressing objects:  89% (1738/1952)   [Kremote: Compressing objects:  90% (1757/1952)   [Kremote: Compressing objects:  91% (1777/1952)   [Kremote: Compressing objects:  92% (1796/1952)   [Kremote: Compressing objects:  93% (1816/1952)   [Kremote: Compressing objects:  94% (1835/1952)   [Kremote: Compressing objects:  95% (1855/1952)   [Kremote: Compressing objects:  96% (1874/1952)   [Kremote: Compressing objects:  97% (1894/1952)   [Kremote: Compressing objects:  98% (1913/1952)   [Kremote: Compressing objects:  99% (1933/1952)   [Kremote: Compressing objects: 100% (1952/1952)   [Kremote: Compressing objects: 100% (1952/1952), done.[K
+> Receiving objects:   0% (1/3616)   Receiving objects:   1% (37/3616)   Receiving objects:   2% (73/3616)   Receiving objects:   3% (109/3616)   Receiving objects:   4% (145/3616)   Receiving objects:   5% (181/3616)   Receiving objects:   6% (217/3616)   Receiving objects:   7% (254/3616)   Receiving objects:   8% (290/3616)   Receiving objects:   9% (326/3616)   Receiving objects:  10% (362/3616)   Receiving objects:  11% (398/3616)   Receiving objects:  12% (434/3616)   Receiving objects:  13% (471/3616)   Receiving objects:  14% (507/3616)   Receiving objects:  15% (543/3616)   Receiving objects:  16% (579/3616)   Receiving objects:  17% (615/3616)   Receiving objects:  18% (651/3616)   Receiving objects:  19% (688/3616)   Receiving objects:  20% (724/3616)   Receiving objects:  21% (760/3616)   Receiving objects:  22% (796/3616)   Receiving objects:  23% (832/3616)   Receiving objects:  24% (868/3616)   Receiving objects:  25% (904/3616)   Receiving objects:  26% (941/3616)   Receiving objects:  27% (977/3616)   Receiving objects:  28% (1013/3616)   Receiving objects:  29% (1049/3616)   Receiving objects:  30% (1085/3616)   Receiving objects:  31% (1121/3616)   Receiving objects:  32% (1158/3616)   Receiving objects:  33% (1194/3616)   Receiving objects:  34% (1230/3616)   Receiving objects:  35% (1266/3616)   Receiving objects:  36% (1302/3616)   Receiving objects:  37% (1338/3616)   Receiving objects:  38% (1375/3616)   Receiving objects:  39% (1411/3616)   Receiving objects:  40% (1447/3616)   Receiving objects:  41% (1483/3616)   Receiving objects:  42% (1519/3616)   Receiving objects:  43% (1555/3616)   Receiving objects:  44% (1592/3616)   Receiving objects:  45% (1628/3616)   Receiving objects:  46% (1664/3616)   Receiving objects:  47% (1700/3616)   Receiving objects:  48% (1736/3616)   Receiving objects:  49% (1772/3616)   Receiving objects:  50% (1808/3616)   Receiving objects:  51% (1845/3616)   Receiving objects:  52% (1881/3616)   Receiving objects:  53% (1917/3616)   Receiving objects:  54% (1953/3616)   Receiving objects:  55% (1989/3616)   Receiving objects:  56% (2025/3616)   Receiving objects:  57% (2062/3616)   Receiving objects:  58% (2098/3616)   Receiving objects:  59% (2134/3616)   Receiving objects:  60% (2170/3616)   Receiving objects:  61% (2206/3616)   Receiving objects:  62% (2242/3616)   Receiving objects:  63% (2279/3616)   Receiving objects:  64% (2315/3616)   Receiving objects:  65% (2351/3616)   Receiving objects:  66% (2387/3616)   Receiving objects:  67% (2423/3616)   Receiving objects:  68% (2459/3616)   Receiving objects:  69% (2496/3616)   Receiving objects:  70% (2532/3616)   Receiving objects:  71% (2568/3616)   Receiving objects:  72% (2604/3616)   Receiving objects:  73% (2640/3616)   Receiving objects:  74% (2676/3616)   Receiving objects:  75% (2712/3616)   Receiving objects:  76% (2749/3616)   Receiving objects:  77% (2785/3616)   Receiving objects:  78% (2821/3616)   Receiving objects:  79% (2857/3616)   Receiving objects:  80% (2893/3616)   Receiving objects:  81% (2929/3616)   Receiving objects:  82% (2966/3616)   Receiving objects:  83% (3002/3616)   Receiving objects:  84% (3038/3616)   Receiving objects:  85% (3074/3616)   Receiving objects:  86% (3110/3616)   Receiving objects:  87% (3146/3616)   Receiving objects:  88% (3183/3616)   Receiving objects:  89% (3219/3616)   Receiving objects:  90% (3255/3616)   Receiving objects:  91% (3291/3616)   Receiving objects:  92% (3327/3616)   Receiving objects:  93% (3363/3616)   remote: Total 3616 (delta 2036), reused 2392 (delta 1265), pack-reused 0[K
+> Receiving objects:  94% (3400/3616)   Receiving objects:  95% (3436/3616)   Receiving objects:  96% (3472/3616)   Receiving objects:  97% (3508/3616)   Receiving objects:  98% (3544/3616)   Receiving objects:  99% (3580/3616)   Receiving objects: 100% (3616/3616)   Receiving objects: 100% (3616/3616), 2.16 MiB | 0 bytes/s, done.
+> Resolving deltas:   0% (0/2036)   Resolving deltas:   1% (23/2036)   Resolving deltas:   2% (51/2036)   Resolving deltas:   5% (114/2036)   Resolving deltas:   7% (150/2036)   Resolving deltas:   8% (171/2036)   Resolving deltas:   9% (194/2036)   Resolving deltas:  10% (209/2036)   Resolving deltas:  12% (247/2036)   Resolving deltas:  13% (283/2036)   Resolving deltas:  15% (307/2036)   Resolving deltas:  18% (370/2036)   Resolving deltas:  20% (419/2036)   Resolving deltas:  21% (439/2036)   Resolving deltas:  22% (455/2036)   Resolving deltas:  23% (479/2036)   Resolving deltas:  24% (498/2036)   Resolving deltas:  25% (512/2036)   Resolving deltas:  27% (568/2036)   Resolving deltas:  28% (571/2036)   Resolving deltas:  29% (609/2036)   Resolving deltas:  31% (640/2036)   Resolving deltas:  32% (661/2036)   Resolving deltas:  34% (702/2036)   Resolving deltas:  35% (713/2036)   Resolving deltas:  36% (734/2036)   Resolving deltas:  37% (757/2036)   Resolving deltas:  38% (790/2036)   Resolving deltas:  39% (799/2036)   Resolving deltas:  40% (818/2036)   Resolving deltas:  42% (863/2036)   Resolving deltas:  43% (876/2036)   Resolving deltas:  44% (899/2036)   Resolving deltas:  45% (931/2036)   Resolving deltas:  46% (941/2036)   Resolving deltas:  47% (958/2036)   Resolving deltas:  48% (988/2036)   Resolving deltas:  49% (998/2036)   Resolving deltas:  50% (1036/2036)   Resolving deltas:  51% (1040/2036)   Resolving deltas:  52% (1060/2036)   Resolving deltas:  53% (1081/2036)   Resolving deltas:  54% (1100/2036)   Resolving deltas:  55% (1120/2036)   Resolving deltas:  56% (1150/2036)   Resolving deltas:  57% (1170/2036)   Resolving deltas:  58% (1185/2036)   Resolving deltas:  60% (1222/2036)   Resolving deltas:  61% (1248/2036)   Resolving deltas:  62% (1265/2036)   Resolving deltas:  63% (1287/2036)   Resolving deltas:  64% (1304/2036)   Resolving deltas:  65% (1324/2036)   Resolving deltas:  66% (1344/2036)   Resolving deltas:  67% (1366/2036)   Resolving deltas:  68% (1390/2036)   Resolving deltas:  69% (1409/2036)   Resolving deltas:  70% (1431/2036)   Resolving deltas:  72% (1466/2036)   Resolving deltas:  75% (1529/2036)   Resolving deltas:  76% (1552/2036)   Resolving deltas:  77% (1573/2036)   Resolving deltas:  78% (1603/2036)   Resolving deltas:  79% (1611/2036)   Resolving deltas:  80% (1631/2036)   Resolving deltas:  81% (1650/2036)   Resolving deltas:  82% (1672/2036)   Resolving deltas:  83% (1690/2036)   Resolving deltas:  84% (1718/2036)   Resolving deltas:  85% (1731/2036)   Resolving deltas:  86% (1751/2036)   Resolving deltas:  87% (1776/2036)   Resolving deltas:  88% (1792/2036)   Resolving deltas:  89% (1813/2036)   Resolving deltas:  90% (1837/2036)   Resolving deltas:  91% (1863/2036)   Resolving deltas:  92% (1874/2036)   Resolving deltas:  93% (1898/2036)   Resolving deltas:  94% (1920/2036)   Resolving deltas:  95% (1943/2036)   Resolving deltas:  96% (1955/2036)   Resolving deltas:  97% (1975/2036)   Resolving deltas:  98% (1997/2036)   Resolving deltas:  99% (2020/2036)   Resolving deltas: 100% (2036/2036)   Resolving deltas: 100% (2036/2036), done.
+77,78c77,78
+< travis_time:end:0e6d7014:start=1453967672718716377,finish=1453967673952326558,duration=1233610181[0K$ cd owlcs/owlapi
+< $ git checkout -qf a0e607f76ea54e0a2fce22e5df7a3decf8399b5a
+---
+> travis_time:end:059a166b:start=1453968595935121494,finish=1453968597161237056,duration=1226115562[0K$ cd owlcs/owlapi
+> $ git checkout -qf db247696b0c272d7dcb2fe8ade098a5a19c56cc7
+85c85
+< travis_time:start:021c93f8[0K$ Installing caching utilities
+---
+> travis_time:start:042b1cde[0K$ Installing caching utilities
+87,88c87,88
+< travis_time:end:021c93f8:start=1453967675906182454,finish=1453967675932098262,duration=25915808[0Ktravis_time:start:1cccaf28[0K
+< travis_time:end:1cccaf28:start=1453967675936358748,finish=1453967675939321728,duration=2962980[0Ktravis_time:start:2ed6f4c0[0K[32;1mattempting to download cache archive[0m
+---
+> travis_time:end:042b1cde:start=1453968598753331408,finish=1453968598781744362,duration=28412954[0Ktravis_time:start:00012db6[0K
+> travis_time:end:00012db6:start=1453968598786162925,finish=1453968598789136593,duration=2973668[0Ktravis_time:start:09db20a0[0K[32;1mattempting to download cache archive[0m
+92,93c92,93
+< travis_time:end:2ed6f4c0:start=1453967675942901823,finish=1453967686691230851,duration=10748329028[0Ktravis_time:start:09320c25[0K
+< travis_time:end:09320c25:start=1453967686694927938,finish=1453967686698055269,duration=3127331[0Ktravis_time:start:2df2e810[0K[32;1madding /home/travis/.m2 to cache[0m
+---
+> travis_time:end:09db20a0:start=1453968598792713188,finish=1453968607787464111,duration=8994750923[0Ktravis_time:start:01efedd6[0K
+> travis_time:end:01efedd6:start=1453968607791293660,finish=1453968607794610649,duration=3316989[0Ktravis_time:start:16e8efff[0K[32;1madding /home/travis/.m2 to cache[0m
+95c95
+< travis_time:end:2df2e810:start=1453967686701702171,finish=1453967690793470309,duration=4091768138[0Ktravis_fold:end:cache.1[0K$ jdk_switcher use oraclejdk8
+---
+> travis_time:end:16e8efff:start=1453968607798267827,finish=1453968611910799004,duration=4112531177[0Ktravis_fold:end:cache.1[0K$ jdk_switcher use oraclejdk8
+103c103
+< travis_fold:start:install[0Ktravis_time:start:2e92e6c5[0K$ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+---
+> travis_fold:start:install[0Ktravis_time:start:2e926dd4[0K$ mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+588,958d587
+< [INFO] -------------------------------------------------------------
+< [ERROR] COMPILATION ERROR : 
+< [INFO] -------------------------------------------------------------
+< [ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+< [INFO] 1 error
+< [INFO] -------------------------------------------------------------
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Reactor Summary:
+< [INFO] 
+< [INFO] OWLAPI ............................................. SUCCESS [  5.575 s]
+< [INFO] OWLAPI Model Interfaces and utilities .............. SUCCESS [ 27.561 s]
+< [INFO] OWLAPI Default Implementation ...................... SUCCESS [ 14.326 s]
+< [INFO] tools .............................................. SUCCESS [  5.536 s]
+< [INFO] parsers ............................................ SUCCESS [ 16.090 s]
+< [INFO] oboformat parser ................................... SUCCESS [  6.848 s]
+< [INFO] OWLAPITOOLS OWL profile and fixers ................. SUCCESS [  4.424 s]
+< [INFO] OWLAPI :: Sesame Rio module ........................ SUCCESS [  2.631 s]
+< [INFO] OWLAPI Binding and Config .......................... SUCCESS [  1.664 s]
+< [INFO] compatibility ...................................... SUCCESS [  6.034 s]
+< [INFO] tests and tutorials ................................ FAILURE [  9.916 s]
+< [INFO] OWLAPI Distribution ................................ SKIPPED
+< [INFO] OWLAPI OSGi and Compatibility Distribution ......... SKIPPED
+< [INFO] ------------------------------------------------------------------------
+< [INFO] BUILD FAILURE
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Total time: 01:44 min
+< [INFO] Finished at: 2016-01-28T07:56:37+00:00
+< [INFO] Final Memory: 129M/472M
+< [INFO] ------------------------------------------------------------------------
+< [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project owlapi-contract: Compilation failure
+< [ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+< [ERROR] -> [Help 1]
+< [ERROR] 
+< [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+< [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+< [ERROR] 
+< [ERROR] For more information about the errors and possible solutions, please read the following articles:
+< [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+< [ERROR] 
+< [ERROR] After correcting the problems, you can resume the build with the command
+< [ERROR]   mvn <goals> -rf :owlapi-contract
+< 
+< [31;1mThe command "eval mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" failed. Retrying, 2 of 3.[0m
+< 
+< Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=192m; support was removed in 8.0
+< Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T17:29:23+00:00)
+< Maven home: /usr/local/maven
+< Java version: 1.8.0_31, vendor: Oracle Corporation
+< Java home: /usr/lib/jvm/java-8-oracle/jre
+< Default locale: en_US, platform encoding: UTF-8
+< OS name: "linux", version: "3.13.0-40-generic", arch: "amd64", family: "unix"
+< [INFO] Scanning for projects...
+< [INFO] Inspecting build with total of 13 modules...
+< [INFO] Installing Nexus Staging features:
+< [INFO]   ... total of 13 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Reactor Build Order:
+< [INFO] 
+< [INFO] OWLAPI
+< [INFO] OWLAPI Model Interfaces and utilities
+< [INFO] OWLAPI Default Implementation
+< [INFO] tools
+< [INFO] parsers
+< [INFO] oboformat parser
+< [INFO] OWLAPITOOLS OWL profile and fixers
+< [INFO] OWLAPI :: Sesame Rio module
+< [INFO] OWLAPI Binding and Config
+< [INFO] compatibility
+< [INFO] tests and tutorials
+< [INFO] OWLAPI Distribution
+< [INFO] OWLAPI OSGi and Compatibility Distribution
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building OWLAPI 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-parent ---
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-parent ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-parent >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-parent ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-parent <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-parent ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-parent ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-parent ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parent/4.1.4-SNAPSHOT/owlapi-parent-4.1.4-SNAPSHOT.pom
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building OWLAPI Model Interfaces and utilities 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-api ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-api ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/api/src/main/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-api ---
+< [INFO] Compiling 10 source files to /home/travis/build/owlcs/owlapi/api/target/classes
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-api ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] Copying 1 resource
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-api ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-api ---
+< [INFO] Tests are skipped.
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-api ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-api ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-api >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-api ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-api <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-api ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-api ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-api ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/api/target/owlapi-api-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/api/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/api/target/owlapi-api-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building OWLAPI Default Implementation 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-impl ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-impl ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/impl/src/main/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-impl ---
+< [INFO] Compiling 3 source files to /home/travis/build/owlcs/owlapi/impl/target/classes
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-impl ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/impl/src/test/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-impl ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-impl ---
+< [INFO] Tests are skipped.
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-impl ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-impl ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-impl >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-impl ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-impl <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-impl ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-impl ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-impl ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/impl/target/owlapi-impl-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-impl/4.1.4-SNAPSHOT/owlapi-impl-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/impl/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-impl/4.1.4-SNAPSHOT/owlapi-impl-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/impl/target/owlapi-impl-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-impl/4.1.4-SNAPSHOT/owlapi-impl-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building tools 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-tools ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-tools ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/tools/src/main/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-tools ---
+< [INFO] Compiling 10 source files to /home/travis/build/owlcs/owlapi/tools/target/classes
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-tools ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/tools/src/test/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-tools ---
+< [INFO] No sources to compile
+< [INFO] 
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-tools ---
+< [INFO] Tests are skipped.
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-tools ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-tools ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-tools >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-tools ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-tools <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-tools ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-tools ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-tools ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/tools/target/owlapi-tools-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-tools/4.1.4-SNAPSHOT/owlapi-tools-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/tools/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-tools/4.1.4-SNAPSHOT/owlapi-tools-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/tools/target/owlapi-tools-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-tools/4.1.4-SNAPSHOT/owlapi-tools-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building parsers 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-parsers ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-parsers ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] Copying 2 resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-parsers ---
+< [INFO] Compiling 10 source files to /home/travis/build/owlcs/owlapi/parsers/target/classes
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-parsers ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/parsers/src/test/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-parsers ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-parsers ---
+< [INFO] Tests are skipped.
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-parsers ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-parsers ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-parsers >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-parsers ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-parsers <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-parsers ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-parsers ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-parsers ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/parsers/target/owlapi-parsers-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/4.1.4-SNAPSHOT/owlapi-parsers-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/parsers/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/4.1.4-SNAPSHOT/owlapi-parsers-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/parsers/target/owlapi-parsers-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/4.1.4-SNAPSHOT/owlapi-parsers-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building oboformat parser 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-oboformat ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-oboformat ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] Copying 2 resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-oboformat ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-oboformat ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/oboformat/src/test/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-oboformat ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-oboformat ---
+< [INFO] Tests are skipped.
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-oboformat ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-oboformat ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-oboformat >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-oboformat ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-oboformat <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-oboformat ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-oboformat ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-oboformat ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/oboformat/target/owlapi-oboformat-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-oboformat/4.1.4-SNAPSHOT/owlapi-oboformat-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/oboformat/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-oboformat/4.1.4-SNAPSHOT/owlapi-oboformat-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/oboformat/target/owlapi-oboformat-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-oboformat/4.1.4-SNAPSHOT/owlapi-oboformat-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building OWLAPITOOLS OWL profile and fixers 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-fixers ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-fixers ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/fixers/src/main/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-fixers ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-fixers ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/fixers/src/test/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-fixers ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-fixers ---
+< [INFO] Tests are skipped.
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-fixers ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-fixers ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-fixers >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-fixers ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-fixers <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-fixers ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-fixers ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-fixers ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/fixers/target/owlapi-fixers-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-fixers/4.1.4-SNAPSHOT/owlapi-fixers-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/fixers/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-fixers/4.1.4-SNAPSHOT/owlapi-fixers-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/fixers/target/owlapi-fixers-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-fixers/4.1.4-SNAPSHOT/owlapi-fixers-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building OWLAPI :: Sesame Rio module 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-rio ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-rio ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] Copying 4 resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-rio ---
+< [INFO] Nothing to compile - all classes are up to date
+960,967c589
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-rio ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/rio/src/test/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-rio ---
+< [INFO] No sources to compile
+< [INFO] 
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-rio ---
+---
+> [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-contract ---
+970c592
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-rio ---
+---
+> [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-contract ---
+973c595,596
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-rio ---
+---
+> [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-contract ---
+> [INFO] Building jar: /home/travis/build/owlcs/owlapi/contract/target/owlapi-contract-4.1.4-SNAPSHOT.jar
+975c598
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-rio >>>
+---
+> [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-contract >>>
+977c600
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-rio ---
+---
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-contract ---
+979c602
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-rio <<<
+---
+> [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-contract <<<
+981c604,605
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-rio ---
+---
+> [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-contract ---
+> [INFO] Building jar: /home/travis/build/owlcs/owlapi/contract/target/owlapi-contract-4.1.4-SNAPSHOT-sources.jar
+983c607
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-rio ---
+---
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-contract ---
+986,989c610,613
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-rio ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/rio/target/owlapi-rio-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-rio/4.1.4-SNAPSHOT/owlapi-rio-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/rio/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-rio/4.1.4-SNAPSHOT/owlapi-rio-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/rio/target/owlapi-rio-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-rio/4.1.4-SNAPSHOT/owlapi-rio-4.1.4-SNAPSHOT-sources.jar
+---
+> [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-contract ---
+> [INFO] Installing /home/travis/build/owlcs/owlapi/contract/target/owlapi-contract-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-contract/4.1.4-SNAPSHOT/owlapi-contract-4.1.4-SNAPSHOT.jar
+> [INFO] Installing /home/travis/build/owlcs/owlapi/contract/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-contract/4.1.4-SNAPSHOT/owlapi-contract-4.1.4-SNAPSHOT.pom
+> [INFO] Installing /home/travis/build/owlcs/owlapi/contract/target/owlapi-contract-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-contract/4.1.4-SNAPSHOT/owlapi-contract-4.1.4-SNAPSHOT-sources.jar
+992c616
+< [INFO] Building OWLAPI Binding and Config 4.1.4-SNAPSHOT
+---
+> [INFO] Building OWLAPI Distribution 4.1.4-SNAPSHOT
+995,1002c619
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-apibinding ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-apibinding ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] Copying 1 resource
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-apibinding ---
+< [INFO] Compiling 1 source file to /home/travis/build/owlcs/owlapi/apibinding/target/classes
+---
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-distribution ---
+1004c621
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-apibinding ---
+---
+> [INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ owlapi-distribution ---
+1006c623
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/apibinding/src/test/resources
+---
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/distribution/src/main/resources
+1008c625
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-apibinding ---
+---
+> [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-distribution ---
+1011,1048c628
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-apibinding ---
+< [INFO] Tests are skipped.
+< [INFO] 
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-apibinding ---
+< [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+< [INFO] 
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-apibinding ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-apibinding >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-apibinding ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-apibinding <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-apibinding ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-apibinding ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-apibinding ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/apibinding/target/owlapi-apibinding-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/apibinding/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/apibinding/target/owlapi-apibinding-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building compatibility 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-compatibility ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-compatibility ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] Copying 1 resource
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-compatibility ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-compatibility ---
+---
+> [INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ owlapi-distribution ---
+1050c630
+< [INFO] Copying 2 resources
+---
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/distribution/src/test/resources
+1052,1053c632,633
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-compatibility ---
+< [INFO] Nothing to compile - all classes are up to date
+---
+> [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-distribution ---
+> [INFO] No sources to compile
+1055c635
+< [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-compatibility ---
+---
+> [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-distribution ---
+1058c638
+< [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-compatibility ---
+---
+> [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-distribution ---
+1061,1094c641,642
+< [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-compatibility ---
+< [INFO] 
+< [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-compatibility >>>
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-compatibility ---
+< [INFO] 
+< [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-compatibility <<<
+< [INFO] 
+< [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-compatibility ---
+< [INFO] 
+< [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-compatibility ---
+< [INFO] Skipping javadoc generation
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-compatibility ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/compatibility/target/owlapi-compatibility-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/4.1.4-SNAPSHOT/owlapi-compatibility-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/compatibility/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/4.1.4-SNAPSHOT/owlapi-compatibility-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/compatibility/target/owlapi-compatibility-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/4.1.4-SNAPSHOT/owlapi-compatibility-4.1.4-SNAPSHOT-sources.jar
+< [INFO]                                                                         
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Building tests and tutorials 4.1.4-SNAPSHOT
+< [INFO] ------------------------------------------------------------------------
+< [INFO] 
+< [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-contract ---
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ owlapi-contract ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/contract/src/main/resources
+< [INFO] 
+< [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-contract ---
+< [INFO] Nothing to compile - all classes are up to date
+< [INFO] 
+< [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ owlapi-contract ---
+< [INFO] Using 'UTF-8' encoding to copy filtered resources.
+< [INFO] Copying 172 resources
+---
+> [INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ owlapi-distribution ---
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-distribution:bundle:4.1.4-SNAPSHOT : Unused Private-Package instructions, no such package(s) on the class path: [!*]
+1096,1103c644,1057
+< [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-contract ---
+< [INFO] Compiling 406 source files to /home/travis/build/owlcs/owlapi/contract/target/test-classes
+< [INFO] -------------------------------------------------------------
+< [ERROR] COMPILATION ERROR : 
+< [INFO] -------------------------------------------------------------
+< [ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+< [INFO] 1 error
+< [INFO] -------------------------------------------------------------
+---
+> [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-distribution >>>
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-distribution ---
+> [INFO] 
+> [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-distribution <<<
+> [INFO] 
+> [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-distribution ---
+> [INFO] No sources in project. Archive not created.
+> [INFO] 
+> [INFO] --- maven-shade-plugin:2.3:shade (default) @ owlapi-distribution ---
+> [INFO] Including net.sourceforge.owlapi:owlapi-apibinding:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-tools:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-impl:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-parsers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-oboformat:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-fixers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-rio:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-api:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-core:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-databind:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding org.tukaani:xz:jar:1.5 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-model:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-util:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-api:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-languages:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-binary:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-n3:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-nquads:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trix:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trig:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java-sesame:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient-cache:jar:4.2.5 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient:jar:4.2.5 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpcore:jar:4.2.4 from the shaded jar.
+> [INFO] Excluding commons-codec:commons-codec:jar:1.6 from the shaded jar.
+> [INFO] Excluding org.slf4j:jcl-over-slf4j:jar:1.7.7 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-sesame:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-core:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdfa:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdf:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding net.sf.trove4j:trove4j:jar:3.0.3 from the shaded jar.
+> [INFO] Excluding com.google.guava:guava:jar:18.0 from the shaded jar.
+> [INFO] Excluding com.google.inject:guice:jar:4.0 from the shaded jar.
+> [INFO] Excluding javax.inject:javax.inject:jar:1 from the shaded jar.
+> [INFO] Excluding aopalliance:aopalliance:jar:1.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-assistedinject:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-multibindings:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.code.findbugs:jsr305:jar:2.0.1 from the shaded jar.
+> [INFO] Excluding org.slf4j:slf4j-api:jar:1.7.10 from the shaded jar.
+> [INFO] Excluding commons-io:commons-io:jar:2.4 from the shaded jar.
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-tools-4.1.4-SNAPSHOT.jar define 84 overlappping classes: 
+> [WARNING]   - com.clarkparsia.owlapi.explanation.util.SilentExplanationProgressMonitor
+> [WARNING]   - org.semanticweb.owlapi.metrics.HiddenGCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.SingleExplanationGenerator
+> [WARNING]   - org.semanticweb.owlapi.metrics.GCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.BlackBoxExplanation$1
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$PropertiesFirstComparator
+> [WARNING]   - com.clarkparsia.owlapi.modularity.locality.SemanticLocalityEvaluator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.NodeRenderer
+> [WARNING]   - org.semanticweb.owlapi.debugging.JustificationMap$OWLAxiomComparator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$AxiomMapBuilder
+> [WARNING]   - 74 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-api-4.1.4-SNAPSHOT.jar define 755 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.model.OWLPropertyAssertionObject
+> [WARNING]   - org.semanticweb.owlapi.model.OWLAnonymousClassExpression
+> [WARNING]   - org.semanticweb.owlapi.model.HasApplyChange
+> [WARNING]   - org.semanticweb.owlapi.util.InferredIndividualAxiomGenerator
+> [WARNING]   - org.semanticweb.owlapi.model.SWRLDArgument
+> [WARNING]   - org.semanticweb.owlapi.util.OWLEntityURIUnderscores2CamelBackConverterStrategy
+> [WARNING]   - org.semanticweb.owlapi.util.HornAxiomVisitorEx
+> [WARNING]   - org.semanticweb.owlapi.change.RemoveAxiomData
+> [WARNING]   - org.semanticweb.owlapi.util.OWLOntologyWalkerVisitor
+> [WARNING]   - org.semanticweb.owlapi.model.OWLObjectPropertyDomainAxiom
+> [WARNING]   - 745 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-apibinding-4.1.4-SNAPSHOT.jar define 2 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLManager
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLFunctionalSyntaxFactory
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-oboformat-4.1.4-SNAPSHOT.jar define 75 overlappping classes: 
+> [WARNING]   - org.obolibrary.oboformat.parser.OBOFormatException
+> [WARNING]   - org.obolibrary.obo2owl.OWLAPIOwl2Obo
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions$GCIVisitor
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions
+> [WARNING]   - org.obolibrary.oboformat.diff.Diff
+> [WARNING]   - org.semanticweb.owlapi.oboformat.OBOFormatRenderer$1
+> [WARNING]   - org.obolibrary.obo2owl.IdTranslator
+> [WARNING]   - org.obolibrary.oboformat.model.Clause
+> [WARNING]   - org.obolibrary.oboformat.parser.XrefExpander$ReverseGenusDifferentiaExpansion
+> [WARNING]   - org.obolibrary.owl.LabelFunctionalSyntaxStorer
+> [WARNING]   - 65 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-rio-4.1.4-SNAPSHOT.jar define 68 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.formats.RioTurtleDocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioStorer
+> [WARNING]   - org.semanticweb.owlapi.rio.RioOWLRDFParser
+> [WARNING]   - org.semanticweb.owlapi.rio.OWLAPIRDFFormat
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormat
+> [WARNING]   - org.semanticweb.owlapi.rio.RioFunctionalSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioTrigStorerFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioManchesterSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.AbstractRioStorerFactory
+> [WARNING]   - 58 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-impl-4.1.4-SNAPSHOT.jar define 217 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.reasoner.impl.OWLNamedIndividualNodeSet
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.SWRLIndividualArgumentImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.InitVisitorFactory$InitIndividualVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataAllValuesFromImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.CollectionContainerVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.concurrent.NonConcurrentOWLOntologyBuilder
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLImportsDeclarationImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl$Buildable$1
+> [WARNING]   - 207 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-fixers-4.1.4-SNAPSHOT.jar define 95 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataHasValue
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderPropertyChain
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataExactCardinality
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderIrreflexiveObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BaseAnnotationPropertyBuilder
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataPropertyAssertion
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderAsymmetricObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderFacetRestriction
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderComplementOf
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataUnionOf
+> [WARNING]   - 85 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-parsers-4.1.4-SNAPSHOT.jar define 606 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$DataPropertyExpressionListItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPOneOfHandler
+> [WARNING]   - org.semanticweb.owlapi.krss2.renderer.KRSS2SyntaxRenderer
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.Translators$ObjectMinCardinalityTranslator
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.TurtleParserException
+> [WARNING]   - org.semanticweb.owlapi.owlxml.parser.AbstractNaryBooleanClassExpressionElementHandler
+> [WARNING]   - org.semanticweb.owlapi.latex.renderer.LatexOWLObjectRenderer
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$IndividualFactsItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.OWLRDFConsumerAdapter
+> [WARNING]   - org.semanticweb.owlapi.owlxml.renderer.OWLXMLObjectRenderer
+> [WARNING]   - 596 more...
+> [WARNING] maven-shade-plugin has detected that some .class files
+> [WARNING] are present in two or more JARs. When this happens, only
+> [WARNING] one single version of the class is copied in the uberjar.
+> [WARNING] Usually this is not harmful and you can skeep these
+> [WARNING] warnings, otherwise try to manually exclude artifacts
+> [WARNING] based on mvn dependency:tree -Ddetail=true and the above
+> [WARNING] output
+> [WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+> [INFO] Replacing original artifact with shaded artifact.
+> [INFO] Replacing /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT.jar with /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT-shaded.jar
+> [INFO] Dependency-reduced POM written at: /home/travis/build/owlcs/owlapi/distribution/dependency-reduced-pom.xml
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-distribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadoc) @ owlapi-distribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-assembly-plugin:2.4:single (attach-sources) @ owlapi-distribution ---
+> [INFO] Reading assembly descriptor: src/assembly/sources.xml
+> [INFO] Building jar: /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] 
+> [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ owlapi-distribution ---
+> [INFO] Installing /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-distribution/4.1.4-SNAPSHOT/owlapi-distribution-4.1.4-SNAPSHOT.jar
+> [INFO] Installing /home/travis/build/owlcs/owlapi/distribution/dependency-reduced-pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-distribution/4.1.4-SNAPSHOT/owlapi-distribution-4.1.4-SNAPSHOT.pom
+> [INFO] Installing /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-distribution/4.1.4-SNAPSHOT/owlapi-distribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:install (default-install) @ owlapi-distribution ---
+> [INFO] Installing net/sourceforge/owlapi/owlapi-distribution/4.1.4-SNAPSHOT/owlapi-distribution-4.1.4-SNAPSHOT.jar
+> [INFO] Installing net/sourceforge/owlapi/owlapi-distribution/4.1.4-SNAPSHOT/owlapi-distribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] Writing OBR metadata
+> [INFO]                                                                         
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Building OWLAPI OSGi and Compatibility Distribution 4.1.4-SNAPSHOT
+> [INFO] ------------------------------------------------------------------------
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-osgidistribution ---
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ owlapi-osgidistribution ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/osgidistribution/src/main/resources
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-osgidistribution ---
+> [INFO] Compiling 4 source files to /home/travis/build/owlcs/owlapi/osgidistribution/target/classes
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ owlapi-osgidistribution ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/osgidistribution/src/test/resources
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-osgidistribution ---
+> [INFO] Compiling 3 source files to /home/travis/build/owlcs/owlapi/osgidistribution/target/test-classes
+> [INFO] 
+> [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-osgidistribution ---
+> [INFO] Tests are skipped.
+> [INFO] 
+> [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-osgidistribution ---
+> [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ owlapi-osgidistribution ---
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Split package, multiple jars provide the same package:org/coode/owlapi/obo/parser
+> Use Import/Export Package directive -split-package:=(merge-first|merge-last|error|first) to get rid of this warning
+> Package found in   [Jar:., Jar:owlapi-compatibility]
+> Class path         [Jar:., Jar:owlapi-apibinding, Jar:owlapi-tools, Jar:owlapi-impl, Jar:owlapi-parsers, Jar:owlapi-oboformat, Jar:owlapi-fixers, Jar:owlapi-rio, Jar:owlapi-api, Jar:jackson-core, Jar:jackson-databind, Jar:jackson-annotations, Jar:owlapi-compatibility, Jar:xz, Jar:sesame-model, Jar:sesame-rio-api, Jar:sesame-rio-languages, Jar:sesame-rio-datatypes, Jar:sesame-rio-binary, Jar:sesame-rio-n3, Jar:sesame-rio-nquads, Jar:sesame-rio-ntriples, Jar:sesame-rio-rdfjson, Jar:sesame-rio-rdfxml, Jar:sesame-rio-trix, Jar:sesame-rio-turtle, Jar:sesame-rio-trig, Jar:sesame-util, Jar:jsonld-java-sesame, Jar:jsonld-java, Jar:jcl-over-slf4j, Jar:httpclient, Jar:httpclient-cache, Jar:httpcore, Jar:commons-codec, Jar:commons-logging, Jar:semargl-sesame, Jar:semargl-core, Jar:semargl-rdfa, Jar:semargl-rdf, Jar:org.apache.servicemix.bundles.javax-inject, Jar:org.apache.servicemix.bundles.aopalliance, Jar:trove4j, Jar:guava, Jar:guice, Jar:javax.inject, Jar:aopalliance, Jar:guice-assistedinject, Jar:guice-multibindings, Jar:jsr305, Jar:slf4j-api, Jar:commons-io]
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Split package, multiple jars provide the same package:uk/ac/manchester/cs/owl/explanation/ordering
+> Use Import/Export Package directive -split-package:=(merge-first|merge-last|error|first) to get rid of this warning
+> Package found in   [Jar:., Jar:owlapi-tools]
+> Class path         [Jar:., Jar:owlapi-apibinding, Jar:owlapi-tools, Jar:owlapi-impl, Jar:owlapi-parsers, Jar:owlapi-oboformat, Jar:owlapi-fixers, Jar:owlapi-rio, Jar:owlapi-api, Jar:jackson-core, Jar:jackson-databind, Jar:jackson-annotations, Jar:owlapi-compatibility, Jar:xz, Jar:sesame-model, Jar:sesame-rio-api, Jar:sesame-rio-languages, Jar:sesame-rio-datatypes, Jar:sesame-rio-binary, Jar:sesame-rio-n3, Jar:sesame-rio-nquads, Jar:sesame-rio-ntriples, Jar:sesame-rio-rdfjson, Jar:sesame-rio-rdfxml, Jar:sesame-rio-trix, Jar:sesame-rio-turtle, Jar:sesame-rio-trig, Jar:sesame-util, Jar:jsonld-java-sesame, Jar:jsonld-java, Jar:jcl-over-slf4j, Jar:httpclient, Jar:httpclient-cache, Jar:httpcore, Jar:commons-codec, Jar:commons-logging, Jar:semargl-sesame, Jar:semargl-core, Jar:semargl-rdfa, Jar:semargl-rdf, Jar:org.apache.servicemix.bundles.javax-inject, Jar:org.apache.servicemix.bundles.aopalliance, Jar:trove4j, Jar:guava, Jar:guice, Jar:javax.inject, Jar:aopalliance, Jar:guice-assistedinject, Jar:guice-multibindings, Jar:jsr305, Jar:slf4j-api, Jar:commons-io]
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.formats,  has 1,  private references [org.openrdf.rio], 
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.io,  has 1,  private references [org.tukaani.xz], 
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.rio,  has 5,  private references [info.aduna.iteration, org.openrdf, org.openrdf.rio, org.openrdf.rio.helpers, org.openrdf.model], 
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.rio.utils,  has 1,  private references [org.openrdf.model], 
+> [INFO] 
+> [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-osgidistribution >>>
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-osgidistribution ---
+> [INFO] 
+> [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-osgidistribution <<<
+> [INFO] 
+> [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-osgidistribution ---
+> [INFO] Building jar: /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] 
+> [INFO] --- maven-shade-plugin:2.3:shade (default) @ owlapi-osgidistribution ---
+> [INFO] Including net.sourceforge.owlapi:owlapi-apibinding:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-tools:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-impl:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-parsers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-oboformat:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-fixers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-rio:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-api:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-core:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-databind:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.5.1 from the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-compatibility:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Excluding org.tukaani:xz:jar:1.5 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-model:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-api:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-languages:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-binary:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-n3:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-nquads:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trix:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trig:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-util:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java-sesame:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding org.slf4j:jcl-over-slf4j:jar:1.7.7 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient:jar:4.5.1 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient-cache:jar:4.5.1 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpcore:jar:4.4.3 from the shaded jar.
+> [INFO] Excluding commons-codec:commons-codec:jar:1.9 from the shaded jar.
+> [INFO] Excluding commons-logging:commons-logging:jar:1.2 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-sesame:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-core:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdfa:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdf:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-inject:jar:1_2 from the shaded jar.
+> [INFO] Excluding org.apache.servicemix.bundles:org.apache.servicemix.bundles.aopalliance:jar:1.0_6 from the shaded jar.
+> [INFO] Excluding net.sf.trove4j:trove4j:jar:3.0.3 from the shaded jar.
+> [INFO] Excluding com.google.guava:guava:jar:18.0 from the shaded jar.
+> [INFO] Excluding com.google.inject:guice:jar:4.0 from the shaded jar.
+> [INFO] Excluding javax.inject:javax.inject:jar:1 from the shaded jar.
+> [INFO] Excluding aopalliance:aopalliance:jar:1.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-assistedinject:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-multibindings:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.code.findbugs:jsr305:jar:2.0.1 from the shaded jar.
+> [INFO] Excluding org.slf4j:slf4j-api:jar:1.7.10 from the shaded jar.
+> [INFO] Excluding commons-io:commons-io:jar:2.4 from the shaded jar.
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-rio-4.1.4-SNAPSHOT.jar define 68 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.formats.RioTurtleDocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioStorer
+> [WARNING]   - org.semanticweb.owlapi.rio.RioOWLRDFParser
+> [WARNING]   - org.semanticweb.owlapi.rio.OWLAPIRDFFormat
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormat
+> [WARNING]   - org.semanticweb.owlapi.rio.RioFunctionalSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioTrigStorerFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioManchesterSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.AbstractRioStorerFactory
+> [WARNING]   - 58 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-api-4.1.4-SNAPSHOT.jar define 755 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.model.OWLPropertyAssertionObject
+> [WARNING]   - org.semanticweb.owlapi.model.OWLAnonymousClassExpression
+> [WARNING]   - org.semanticweb.owlapi.model.HasApplyChange
+> [WARNING]   - org.semanticweb.owlapi.util.InferredIndividualAxiomGenerator
+> [WARNING]   - org.semanticweb.owlapi.model.SWRLDArgument
+> [WARNING]   - org.semanticweb.owlapi.util.OWLEntityURIUnderscores2CamelBackConverterStrategy
+> [WARNING]   - org.semanticweb.owlapi.util.HornAxiomVisitorEx
+> [WARNING]   - org.semanticweb.owlapi.change.RemoveAxiomData
+> [WARNING]   - org.semanticweb.owlapi.util.OWLOntologyWalkerVisitor
+> [WARNING]   - org.semanticweb.owlapi.model.OWLObjectPropertyDomainAxiom
+> [WARNING]   - 745 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-tools-4.1.4-SNAPSHOT.jar define 84 overlappping classes: 
+> [WARNING]   - com.clarkparsia.owlapi.explanation.util.SilentExplanationProgressMonitor
+> [WARNING]   - org.semanticweb.owlapi.metrics.HiddenGCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.SingleExplanationGenerator
+> [WARNING]   - org.semanticweb.owlapi.metrics.GCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.BlackBoxExplanation$1
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$PropertiesFirstComparator
+> [WARNING]   - com.clarkparsia.owlapi.modularity.locality.SemanticLocalityEvaluator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.NodeRenderer
+> [WARNING]   - org.semanticweb.owlapi.debugging.JustificationMap$OWLAxiomComparator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$AxiomMapBuilder
+> [WARNING]   - 74 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-parsers-4.1.4-SNAPSHOT.jar define 606 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$DataPropertyExpressionListItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPOneOfHandler
+> [WARNING]   - org.semanticweb.owlapi.krss2.renderer.KRSS2SyntaxRenderer
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.Translators$ObjectMinCardinalityTranslator
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.TurtleParserException
+> [WARNING]   - org.semanticweb.owlapi.owlxml.parser.AbstractNaryBooleanClassExpressionElementHandler
+> [WARNING]   - org.semanticweb.owlapi.latex.renderer.LatexOWLObjectRenderer
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$IndividualFactsItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.OWLRDFConsumerAdapter
+> [WARNING]   - org.semanticweb.owlapi.owlxml.renderer.OWLXMLObjectRenderer
+> [WARNING]   - 596 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-oboformat-4.1.4-SNAPSHOT.jar define 75 overlappping classes: 
+> [WARNING]   - org.obolibrary.oboformat.parser.OBOFormatException
+> [WARNING]   - org.obolibrary.obo2owl.OWLAPIOwl2Obo
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions$GCIVisitor
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions
+> [WARNING]   - org.obolibrary.oboformat.diff.Diff
+> [WARNING]   - org.semanticweb.owlapi.oboformat.OBOFormatRenderer$1
+> [WARNING]   - org.obolibrary.obo2owl.IdTranslator
+> [WARNING]   - org.obolibrary.oboformat.model.Clause
+> [WARNING]   - org.obolibrary.oboformat.parser.XrefExpander$ReverseGenusDifferentiaExpansion
+> [WARNING]   - org.obolibrary.owl.LabelFunctionalSyntaxStorer
+> [WARNING]   - 65 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-compatibility-4.1.4-SNAPSHOT.jar define 84 overlappping classes: 
+> [WARNING]   - org.coode.owlapi.obo12.parser.OBOIdType$1
+> [WARNING]   - uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntaxHTMLOntologyFormat
+> [WARNING]   - org.coode.owl.krssparser.KRSSOntologyFormat
+> [WARNING]   - org.coode.owlapi.turtle.TurtleOntologyFormat
+> [WARNING]   - org.coode.owlapi.obo12.parser.SynonymScope
+> [WARNING]   - org.coode.owlapi.obo12.parser.NameTagValueHandler
+> [WARNING]   - org.coode.owlapi.obo12.parser.OBOVocabulary$1
+> [WARNING]   - org.coode.owlapi.obo12.parser.DataVersionTagValueHandler
+> [WARNING]   - org.coode.owlapi.obo12.parser.UnionOfHandler
+> [WARNING]   - org.coode.owlapi.manchesterowlsyntax.ManchesterOWLSyntaxEditorParser$1
+> [WARNING]   - 74 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-apibinding-4.1.4-SNAPSHOT.jar define 2 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLManager
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLFunctionalSyntaxFactory
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-impl-4.1.4-SNAPSHOT.jar define 217 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.reasoner.impl.OWLNamedIndividualNodeSet
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.SWRLIndividualArgumentImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.InitVisitorFactory$InitIndividualVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataAllValuesFromImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.CollectionContainerVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.concurrent.NonConcurrentOWLOntologyBuilder
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLImportsDeclarationImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl$Buildable$1
+> [WARNING]   - 207 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-fixers-4.1.4-SNAPSHOT.jar define 95 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataHasValue
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderPropertyChain
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataExactCardinality
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderIrreflexiveObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BaseAnnotationPropertyBuilder
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataPropertyAssertion
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderAsymmetricObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderFacetRestriction
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderComplementOf
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataUnionOf
+> [WARNING]   - 85 more...
+> [WARNING] maven-shade-plugin has detected that some .class files
+> [WARNING] are present in two or more JARs. When this happens, only
+> [WARNING] one single version of the class is copied in the uberjar.
+> [WARNING] Usually this is not harmful and you can skeep these
+> [WARNING] warnings, otherwise try to manually exclude artifacts
+> [WARNING] based on mvn dependency:tree -Ddetail=true and the above
+> [WARNING] output
+> [WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+> [INFO] Replacing original artifact with shaded artifact.
+> [INFO] Replacing /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT.jar with /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT-shaded.jar
+> [INFO] Dependency-reduced POM written at: /home/travis/build/owlcs/owlapi/osgidistribution/dependency-reduced-pom.xml
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-osgidistribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadoc) @ owlapi-osgidistribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-assembly-plugin:2.4:single (attach-sources) @ owlapi-osgidistribution ---
+> [INFO] Reading assembly descriptor: src/assembly/sources.xml
+> [INFO] Building jar: /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] 
+> [INFO] --- maven-failsafe-plugin:2.18.1:integration-test (default) @ owlapi-osgidistribution ---
+> [INFO] Tests are skipped.
+> [INFO] 
+> [INFO] --- maven-failsafe-plugin:2.18.1:verify (default) @ owlapi-osgidistribution ---
+> [INFO] Tests are skipped.
+> [INFO] 
+> [INFO] --- maven-install-plugin:2.5.2:install (default-install) @ owlapi-osgidistribution ---
+> [INFO] Installing /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-osgidistribution/4.1.4-SNAPSHOT/owlapi-osgidistribution-4.1.4-SNAPSHOT.jar
+> [INFO] Installing /home/travis/build/owlcs/owlapi/osgidistribution/dependency-reduced-pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-osgidistribution/4.1.4-SNAPSHOT/owlapi-osgidistribution-4.1.4-SNAPSHOT.pom
+> [INFO] Installing /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-osgidistribution/4.1.4-SNAPSHOT/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] Installing /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-osgidistribution/4.1.4-SNAPSHOT/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:install (default-install) @ owlapi-osgidistribution ---
+> [INFO] Installing net/sourceforge/owlapi/owlapi-osgidistribution/4.1.4-SNAPSHOT/owlapi-osgidistribution-4.1.4-SNAPSHOT.jar
+> [INFO] Installing net/sourceforge/owlapi/owlapi-osgidistribution/4.1.4-SNAPSHOT/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] Writing OBR metadata
+1107,1140c1061,1080
+< [INFO] OWLAPI ............................................. SUCCESS [  5.591 s]
+< [INFO] OWLAPI Model Interfaces and utilities .............. SUCCESS [  7.642 s]
+< [INFO] OWLAPI Default Implementation ...................... SUCCESS [  2.849 s]
+< [INFO] tools .............................................. SUCCESS [  2.128 s]
+< [INFO] parsers ............................................ SUCCESS [  4.621 s]
+< [INFO] oboformat parser ................................... SUCCESS [  1.422 s]
+< [INFO] OWLAPITOOLS OWL profile and fixers ................. SUCCESS [  0.983 s]
+< [INFO] OWLAPI :: Sesame Rio module ........................ SUCCESS [  1.641 s]
+< [INFO] OWLAPI Binding and Config .......................... SUCCESS [  1.683 s]
+< [INFO] compatibility ...................................... SUCCESS [  0.817 s]
+< [INFO] tests and tutorials ................................ FAILURE [  8.552 s]
+< [INFO] OWLAPI Distribution ................................ SKIPPED
+< [INFO] OWLAPI OSGi and Compatibility Distribution ......... SKIPPED
+< [INFO] ------------------------------------------------------------------------
+< [INFO] BUILD FAILURE
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Total time: 40.687 s
+< [INFO] Finished at: 2016-01-28T07:57:21+00:00
+< [INFO] Final Memory: 56M/400M
+< [INFO] ------------------------------------------------------------------------
+< [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project owlapi-contract: Compilation failure
+< [ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+< [ERROR] -> [Help 1]
+< [ERROR] 
+< [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+< [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+< [ERROR] 
+< [ERROR] For more information about the errors and possible solutions, please read the following articles:
+< [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+< [ERROR] 
+< [ERROR] After correcting the problems, you can resume the build with the command
+< [ERROR]   mvn <goals> -rf :owlapi-contract
+< 
+< [31;1mThe command "eval mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" failed. Retrying, 3 of 3.[0m
+---
+> [INFO] OWLAPI ............................................. SUCCESS [  6.084 s]
+> [INFO] OWLAPI Model Interfaces and utilities .............. SUCCESS [ 21.465 s]
+> [INFO] OWLAPI Default Implementation ...................... SUCCESS [ 15.722 s]
+> [INFO] tools .............................................. SUCCESS [  5.242 s]
+> [INFO] parsers ............................................ SUCCESS [ 14.633 s]
+> [INFO] oboformat parser ................................... SUCCESS [  7.295 s]
+> [INFO] OWLAPITOOLS OWL profile and fixers ................. SUCCESS [  4.438 s]
+> [INFO] OWLAPI :: Sesame Rio module ........................ SUCCESS [  2.803 s]
+> [INFO] OWLAPI Binding and Config .......................... SUCCESS [  2.203 s]
+> [INFO] compatibility ...................................... SUCCESS [  7.042 s]
+> [INFO] tests and tutorials ................................ SUCCESS [ 13.539 s]
+> [INFO] OWLAPI Distribution ................................ SUCCESS [ 11.128 s]
+> [INFO] OWLAPI OSGi and Compatibility Distribution ......... SUCCESS [  8.499 s]
+> [INFO] ------------------------------------------------------------------------
+> [INFO] BUILD SUCCESS
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Total time: 02:02 min
+> [INFO] Finished at: 2016-01-28T08:12:17+00:00
+> [INFO] Final Memory: 152M/421M
+> [INFO] ------------------------------------------------------------------------
+1141a1082
+> travis_time:end:2e926dd4:start=1453968612550201665,finish=1453968737958279151,duration=125408077486[0Ktravis_fold:end:install[0Ktravis_time:start:11978328[0K$ mvn verify
+1143,1148d1083
+< Apache Maven 3.2.5 (12a6b3acb947671f09b81f49094c53f426d8cea1; 2014-12-14T17:29:23+00:00)
+< Maven home: /usr/local/maven
+< Java version: 1.8.0_31, vendor: Oracle Corporation
+< Java home: /usr/lib/jvm/java-8-oracle/jre
+< Default locale: en_US, platform encoding: UTF-8
+< OS name: "linux", version: "3.13.0-40-generic", arch: "amd64", family: "unix"
+1189,1191d1123
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-parent ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parent/4.1.4-SNAPSHOT/owlapi-parent-4.1.4-SNAPSHOT.pom
+1214c1146,1152
+< [INFO] Tests are skipped.
+---
+> [INFO] Surefire report directory: /home/travis/build/owlcs/owlapi/api/target/surefire-reports
+> 
+> -------------------------------------------------------
+>  T E S T S
+> -------------------------------------------------------
+> Tests run: 864, Failures: 0, Errors: 0, Skipped: 0
+> 
+1231,1235d1168
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-api ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/api/target/owlapi-api-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/api/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/api/target/owlapi-api-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT-sources.jar
+1258c1191,1199
+< [INFO] Tests are skipped.
+---
+> [INFO] Surefire report directory: /home/travis/build/owlcs/owlapi/impl/target/surefire-reports
+> 
+> -------------------------------------------------------
+>  T E S T S
+> -------------------------------------------------------
+> [main] ERROR uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl - Runtime Warning: Parsers should load imported ontologies using the makeImportLoadRequest method.
+> [main] ERROR uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl - Runtime Warning: Parsers should load imported ontologies using the makeImportLoadRequest method.
+> Tests run: 499, Failures: 0, Errors: 0, Skipped: 0
+> 
+1275,1279d1215
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-impl ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/impl/target/owlapi-impl-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-impl/4.1.4-SNAPSHOT/owlapi-impl-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/impl/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-impl/4.1.4-SNAPSHOT/owlapi-impl-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/impl/target/owlapi-impl-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-impl/4.1.4-SNAPSHOT/owlapi-impl-4.1.4-SNAPSHOT-sources.jar
+1302c1238
+< [INFO] Tests are skipped.
+---
+> [INFO] No tests to run.
+1319,1323d1254
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-tools ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/tools/target/owlapi-tools-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-tools/4.1.4-SNAPSHOT/owlapi-tools-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/tools/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-tools/4.1.4-SNAPSHOT/owlapi-tools-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/tools/target/owlapi-tools-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-tools/4.1.4-SNAPSHOT/owlapi-tools-4.1.4-SNAPSHOT-sources.jar
+1346c1277,1283
+< [INFO] Tests are skipped.
+---
+> [INFO] Surefire report directory: /home/travis/build/owlcs/owlapi/parsers/target/surefire-reports
+> 
+> -------------------------------------------------------
+>  T E S T S
+> -------------------------------------------------------
+> Tests run: 3, Failures: 0, Errors: 0, Skipped: 1
+> 
+1363,1367d1299
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-parsers ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/parsers/target/owlapi-parsers-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/4.1.4-SNAPSHOT/owlapi-parsers-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/parsers/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/4.1.4-SNAPSHOT/owlapi-parsers-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/parsers/target/owlapi-parsers-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-parsers/4.1.4-SNAPSHOT/owlapi-parsers-4.1.4-SNAPSHOT-sources.jar
+1390c1322,1328
+< [INFO] Tests are skipped.
+---
+> [INFO] Surefire report directory: /home/travis/build/owlcs/owlapi/oboformat/target/surefire-reports
+> 
+> -------------------------------------------------------
+>  T E S T S
+> -------------------------------------------------------
+> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+> 
+1407,1411d1344
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-oboformat ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/oboformat/target/owlapi-oboformat-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-oboformat/4.1.4-SNAPSHOT/owlapi-oboformat-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/oboformat/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-oboformat/4.1.4-SNAPSHOT/owlapi-oboformat-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/oboformat/target/owlapi-oboformat-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-oboformat/4.1.4-SNAPSHOT/owlapi-oboformat-4.1.4-SNAPSHOT-sources.jar
+1434c1367,1373
+< [INFO] Tests are skipped.
+---
+> [INFO] Surefire report directory: /home/travis/build/owlcs/owlapi/fixers/target/surefire-reports
+> 
+> -------------------------------------------------------
+>  T E S T S
+> -------------------------------------------------------
+> Tests run: 207, Failures: 0, Errors: 0, Skipped: 0
+> 
+1451,1455d1389
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-fixers ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/fixers/target/owlapi-fixers-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-fixers/4.1.4-SNAPSHOT/owlapi-fixers-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/fixers/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-fixers/4.1.4-SNAPSHOT/owlapi-fixers-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/fixers/target/owlapi-fixers-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-fixers/4.1.4-SNAPSHOT/owlapi-fixers-4.1.4-SNAPSHOT-sources.jar
+1478c1412
+< [INFO] Tests are skipped.
+---
+> [INFO] No tests to run.
+1495,1499d1428
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-rio ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/rio/target/owlapi-rio-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-rio/4.1.4-SNAPSHOT/owlapi-rio-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/rio/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-rio/4.1.4-SNAPSHOT/owlapi-rio-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/rio/target/owlapi-rio-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-rio/4.1.4-SNAPSHOT/owlapi-rio-4.1.4-SNAPSHOT-sources.jar
+1522c1451
+< [INFO] Tests are skipped.
+---
+> [INFO] No tests to run.
+1539,1543d1467
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-apibinding ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/apibinding/target/owlapi-apibinding-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/apibinding/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/apibinding/target/owlapi-apibinding-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT-sources.jar
+1566c1490,1503
+< [INFO] Tests are skipped.
+---
+> [INFO] Surefire report directory: /home/travis/build/owlcs/owlapi/compatibility/target/surefire-reports
+> 
+> -------------------------------------------------------
+>  T E S T S
+> -------------------------------------------------------
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [main] ERROR org.obolibrary.obo2owl.OWLAPIObo2Owl - id contains space: "'participates in' some 
+> ('regulation of drinking behavior' and (has_quality some 
+> ('increased frequency' and towards some 'liquid consumption' and owl:qualifier some chronic)))"
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [main] INFO org.semanticweb.owlapi.rdf.rdfxml.parser.OWLRDFConsumer - dumping remaining triples
+> [main] INFO org.semanticweb.owlapi.rdf.rdfxml.parser.OWLRDFConsumer - done dumping remaining triples
+> Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+> 
+1583,1587d1519
+< [INFO] 
+< [INFO] --- maven-install-plugin:2.4:install (default-install) @ owlapi-compatibility ---
+< [INFO] Installing /home/travis/build/owlcs/owlapi/compatibility/target/owlapi-compatibility-4.1.4-SNAPSHOT.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/4.1.4-SNAPSHOT/owlapi-compatibility-4.1.4-SNAPSHOT.jar
+< [INFO] Installing /home/travis/build/owlcs/owlapi/compatibility/pom.xml to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/4.1.4-SNAPSHOT/owlapi-compatibility-4.1.4-SNAPSHOT.pom
+< [INFO] Installing /home/travis/build/owlcs/owlapi/compatibility/target/owlapi-compatibility-4.1.4-SNAPSHOT-sources.jar to /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-compatibility/4.1.4-SNAPSHOT/owlapi-compatibility-4.1.4-SNAPSHOT-sources.jar
+1607,1613c1539,1595
+< [INFO] Compiling 406 source files to /home/travis/build/owlcs/owlapi/contract/target/test-classes
+< [INFO] -------------------------------------------------------------
+< [ERROR] COMPILATION ERROR : 
+< [INFO] -------------------------------------------------------------
+< [ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+< [INFO] 1 error
+< [INFO] -------------------------------------------------------------
+---
+> [INFO] Nothing to compile - all classes are up to date
+> [INFO] 
+> [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-contract ---
+> [INFO] Surefire report directory: /home/travis/build/owlcs/owlapi/contract/target/surefire-reports
+> 
+> -------------------------------------------------------
+>  T E S T S
+> -------------------------------------------------------
+> 2016-01-28 08:13:04:933 +0000 [Time-limited test] ERROR uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl - OWLOntologyManagerImpl.checkForOntologyIDChange() existing:Ontology(OntologyID(OntologyIRI(<http://www.semanticweb.org/ontologies/ontologyA>) VersionIRI(<null>))) [Axioms: 1 Logical Axioms: 0] First 20 axioms: {Declaration(Class(<urn:test:testclass>)) }
+> 2016-01-28 08:13:04:934 +0000 [Time-limited test] ERROR uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl - OWLOntologyManagerImpl.checkForOntologyIDChange() new:Ontology(OntologyID(OntologyIRI(<http://www.semanticweb.org/ontologies/ontologyB>) VersionIRI(<null>))) [Axioms: 0 Logical Axioms: 0] First 20 axioms: {}
+> 2016-01-28 08:13:05:283 +0000 [Time-limited test] ERROR uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl - OWLOntologyManagerImpl.checkForOntologyIDChange() existing:Ontology(OntologyID(OntologyIRI(<http://www.semanticweb.org/ontologies/ontologyA>) VersionIRI(<null>))) [Axioms: 1 Logical Axioms: 0] First 20 axioms: {Declaration(Class(<http://www.semanticweb.org/ontologies/ontologyA#A>)) }
+> 2016-01-28 08:13:05:284 +0000 [Time-limited test] ERROR uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl - OWLOntologyManagerImpl.checkForOntologyIDChange() new:Ontology(OntologyID(Anonymous-322)) [Axioms: 0 Logical Axioms: 0] First 20 axioms: {}
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> 2016-01-28 08:13:58:845 +0000 [Time-limited test] ERROR uk.ac.manchester.cs.owl.owlapi.OWLOntologyManagerImpl - Illegal redeclarations of entities: reuse of entity http://www.example.org#p in punning not allowed [Declaration(ObjectProperty(<http://www.example.org#p>)), Declaration(DataProperty(<http://www.example.org#p>))]
+> [Fatal Error] :1:1: Content is not allowed in prolog.
+> 2016-01-28 08:14:01:445 +0000 [Time-limited test] ERROR org.obolibrary.obo2owl.OWLAPIOwl2Obo - Duplicate clause 'alt_id( GO:0048233)' generated in frame: GO:0009560
+> 2016-01-28 08:14:01:958 +0000 [Time-limited test] ERROR org.obolibrary.obo2owl.OWLAPIOwl2Obo - Duplicate clause 'def( Def T1)' generated in frame: TEST:0001
+> 2016-01-28 08:14:02:574 +0000 [Time-limited test] ERROR org.obolibrary.oboformat.parser.OBOFormatParser - Error: Instance frames are not supported yet. Parsing stopped at line: 425
+> Tests run: 3270, Failures: 0, Errors: 0, Skipped: 2
+> 
+> [INFO] 
+> [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-contract ---
+> [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+> [INFO] 
+> [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ owlapi-contract ---
+> [INFO] 
+> [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-contract >>>
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-contract ---
+> [INFO] 
+> [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-contract <<<
+> [INFO] 
+> [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-contract ---
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-contract ---
+> [INFO] Skipping javadoc generation
+> [INFO]                                                                         
+1615c1597,1604
+< [INFO] Reactor Summary:
+---
+> [INFO] Building OWLAPI Distribution 4.1.4-SNAPSHOT
+> [INFO] ------------------------------------------------------------------------
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-distribution ---
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ owlapi-distribution ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/distribution/src/main/resources
+1617,1648c1606,2365
+< [INFO] OWLAPI ............................................. SUCCESS [  5.224 s]
+< [INFO] OWLAPI Model Interfaces and utilities .............. SUCCESS [  6.081 s]
+< [INFO] OWLAPI Default Implementation ...................... SUCCESS [  2.621 s]
+< [INFO] tools .............................................. SUCCESS [  1.943 s]
+< [INFO] parsers ............................................ SUCCESS [  1.786 s]
+< [INFO] oboformat parser ................................... SUCCESS [  0.692 s]
+< [INFO] OWLAPITOOLS OWL profile and fixers ................. SUCCESS [  0.563 s]
+< [INFO] OWLAPI :: Sesame Rio module ........................ SUCCESS [  1.254 s]
+< [INFO] OWLAPI Binding and Config .......................... SUCCESS [  1.233 s]
+< [INFO] compatibility ...................................... SUCCESS [  0.737 s]
+< [INFO] tests and tutorials ................................ FAILURE [ 10.086 s]
+< [INFO] OWLAPI Distribution ................................ SKIPPED
+< [INFO] OWLAPI OSGi and Compatibility Distribution ......... SKIPPED
+< [INFO] ------------------------------------------------------------------------
+< [INFO] BUILD FAILURE
+< [INFO] ------------------------------------------------------------------------
+< [INFO] Total time: 35.450 s
+< [INFO] Finished at: 2016-01-28T07:58:00+00:00
+< [INFO] Final Memory: 56M/414M
+< [INFO] ------------------------------------------------------------------------
+< [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:testCompile (default-testCompile) on project owlapi-contract: Compilation failure
+< [ERROR] /home/travis/build/owlcs/owlapi/contract/src/test/java/org/semanticweb/owlapi/api/test/literals/TypedLiteralsTestCase.java:[61,50] error: cannot find symbol
+< [ERROR] -> [Help 1]
+< [ERROR] 
+< [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+< [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+< [ERROR] 
+< [ERROR] For more information about the errors and possible solutions, please read the following articles:
+< [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+< [ERROR] 
+< [ERROR] After correcting the problems, you can resume the build with the command
+< [ERROR]   mvn <goals> -rf :owlapi-contract
+---
+> [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-distribution ---
+> [INFO] No sources to compile
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ owlapi-distribution ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/distribution/src/test/resources
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-distribution ---
+> [INFO] No sources to compile
+> [INFO] 
+> [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-distribution ---
+> [INFO] No tests to run.
+> [INFO] 
+> [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-distribution ---
+> [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ owlapi-distribution ---
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-distribution:bundle:4.1.4-SNAPSHOT : Unused Private-Package instructions, no such package(s) on the class path: [!*]
+> [INFO] 
+> [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-distribution >>>
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-distribution ---
+> [INFO] 
+> [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-distribution <<<
+> [INFO] 
+> [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-distribution ---
+> [INFO] No sources in project. Archive not created.
+> [INFO] 
+> [INFO] --- maven-shade-plugin:2.3:shade (default) @ owlapi-distribution ---
+> [INFO] Including net.sourceforge.owlapi:owlapi-apibinding:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-tools:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-impl:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-parsers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-oboformat:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-fixers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-rio:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-api:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-core:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-databind:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding org.tukaani:xz:jar:1.5 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-model:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-util:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-api:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-languages:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-binary:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-n3:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-nquads:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trix:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trig:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java-sesame:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient-cache:jar:4.2.5 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient:jar:4.2.5 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpcore:jar:4.2.4 from the shaded jar.
+> [INFO] Excluding commons-codec:commons-codec:jar:1.6 from the shaded jar.
+> [INFO] Excluding org.slf4j:jcl-over-slf4j:jar:1.7.7 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-sesame:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-core:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdfa:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdf:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding net.sf.trove4j:trove4j:jar:3.0.3 from the shaded jar.
+> [INFO] Excluding com.google.guava:guava:jar:18.0 from the shaded jar.
+> [INFO] Excluding com.google.inject:guice:jar:4.0 from the shaded jar.
+> [INFO] Excluding javax.inject:javax.inject:jar:1 from the shaded jar.
+> [INFO] Excluding aopalliance:aopalliance:jar:1.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-assistedinject:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-multibindings:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.code.findbugs:jsr305:jar:2.0.1 from the shaded jar.
+> [INFO] Excluding org.slf4j:slf4j-api:jar:1.7.10 from the shaded jar.
+> [INFO] Excluding commons-io:commons-io:jar:2.4 from the shaded jar.
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-tools-4.1.4-SNAPSHOT.jar define 84 overlappping classes: 
+> [WARNING]   - com.clarkparsia.owlapi.explanation.util.SilentExplanationProgressMonitor
+> [WARNING]   - org.semanticweb.owlapi.metrics.HiddenGCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.SingleExplanationGenerator
+> [WARNING]   - org.semanticweb.owlapi.metrics.GCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.BlackBoxExplanation$1
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$PropertiesFirstComparator
+> [WARNING]   - com.clarkparsia.owlapi.modularity.locality.SemanticLocalityEvaluator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.NodeRenderer
+> [WARNING]   - org.semanticweb.owlapi.debugging.JustificationMap$OWLAxiomComparator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$AxiomMapBuilder
+> [WARNING]   - 74 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-api-4.1.4-SNAPSHOT.jar define 755 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.model.OWLPropertyAssertionObject
+> [WARNING]   - org.semanticweb.owlapi.model.OWLAnonymousClassExpression
+> [WARNING]   - org.semanticweb.owlapi.model.HasApplyChange
+> [WARNING]   - org.semanticweb.owlapi.util.InferredIndividualAxiomGenerator
+> [WARNING]   - org.semanticweb.owlapi.model.SWRLDArgument
+> [WARNING]   - org.semanticweb.owlapi.util.OWLEntityURIUnderscores2CamelBackConverterStrategy
+> [WARNING]   - org.semanticweb.owlapi.util.HornAxiomVisitorEx
+> [WARNING]   - org.semanticweb.owlapi.change.RemoveAxiomData
+> [WARNING]   - org.semanticweb.owlapi.util.OWLOntologyWalkerVisitor
+> [WARNING]   - org.semanticweb.owlapi.model.OWLObjectPropertyDomainAxiom
+> [WARNING]   - 745 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-apibinding-4.1.4-SNAPSHOT.jar define 2 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLManager
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLFunctionalSyntaxFactory
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-oboformat-4.1.4-SNAPSHOT.jar define 75 overlappping classes: 
+> [WARNING]   - org.obolibrary.oboformat.parser.OBOFormatException
+> [WARNING]   - org.obolibrary.obo2owl.OWLAPIOwl2Obo
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions$GCIVisitor
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions
+> [WARNING]   - org.obolibrary.oboformat.diff.Diff
+> [WARNING]   - org.semanticweb.owlapi.oboformat.OBOFormatRenderer$1
+> [WARNING]   - org.obolibrary.obo2owl.IdTranslator
+> [WARNING]   - org.obolibrary.oboformat.model.Clause
+> [WARNING]   - org.obolibrary.oboformat.parser.XrefExpander$ReverseGenusDifferentiaExpansion
+> [WARNING]   - org.obolibrary.owl.LabelFunctionalSyntaxStorer
+> [WARNING]   - 65 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-rio-4.1.4-SNAPSHOT.jar define 68 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.formats.RioTurtleDocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioStorer
+> [WARNING]   - org.semanticweb.owlapi.rio.RioOWLRDFParser
+> [WARNING]   - org.semanticweb.owlapi.rio.OWLAPIRDFFormat
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormat
+> [WARNING]   - org.semanticweb.owlapi.rio.RioFunctionalSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioTrigStorerFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioManchesterSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.AbstractRioStorerFactory
+> [WARNING]   - 58 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-impl-4.1.4-SNAPSHOT.jar define 217 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.reasoner.impl.OWLNamedIndividualNodeSet
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.SWRLIndividualArgumentImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.InitVisitorFactory$InitIndividualVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataAllValuesFromImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.CollectionContainerVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.concurrent.NonConcurrentOWLOntologyBuilder
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLImportsDeclarationImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl$Buildable$1
+> [WARNING]   - 207 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-fixers-4.1.4-SNAPSHOT.jar define 95 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataHasValue
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderPropertyChain
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataExactCardinality
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderIrreflexiveObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BaseAnnotationPropertyBuilder
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataPropertyAssertion
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderAsymmetricObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderFacetRestriction
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderComplementOf
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataUnionOf
+> [WARNING]   - 85 more...
+> [WARNING] owlapi-distribution-4.1.4-SNAPSHOT.jar, owlapi-parsers-4.1.4-SNAPSHOT.jar define 606 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$DataPropertyExpressionListItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPOneOfHandler
+> [WARNING]   - org.semanticweb.owlapi.krss2.renderer.KRSS2SyntaxRenderer
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.Translators$ObjectMinCardinalityTranslator
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.TurtleParserException
+> [WARNING]   - org.semanticweb.owlapi.owlxml.parser.AbstractNaryBooleanClassExpressionElementHandler
+> [WARNING]   - org.semanticweb.owlapi.latex.renderer.LatexOWLObjectRenderer
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$IndividualFactsItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.OWLRDFConsumerAdapter
+> [WARNING]   - org.semanticweb.owlapi.owlxml.renderer.OWLXMLObjectRenderer
+> [WARNING]   - 596 more...
+> [WARNING] maven-shade-plugin has detected that some .class files
+> [WARNING] are present in two or more JARs. When this happens, only
+> [WARNING] one single version of the class is copied in the uberjar.
+> [WARNING] Usually this is not harmful and you can skeep these
+> [WARNING] warnings, otherwise try to manually exclude artifacts
+> [WARNING] based on mvn dependency:tree -Ddetail=true and the above
+> [WARNING] output
+> [WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+> [INFO] Replacing original artifact with shaded artifact.
+> [INFO] Replacing /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT.jar with /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT-shaded.jar
+> [INFO] Dependency-reduced POM written at: /home/travis/build/owlcs/owlapi/distribution/dependency-reduced-pom.xml
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-distribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadoc) @ owlapi-distribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-assembly-plugin:2.4:single (attach-sources) @ owlapi-distribution ---
+> [INFO] Reading assembly descriptor: src/assembly/sources.xml
+> [INFO] Building jar: /home/travis/build/owlcs/owlapi/distribution/target/owlapi-distribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO]                                                                         
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Building OWLAPI OSGi and Compatibility Distribution 4.1.4-SNAPSHOT
+> [INFO] ------------------------------------------------------------------------
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-osgidistribution ---
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ owlapi-osgidistribution ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/osgidistribution/src/main/resources
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ owlapi-osgidistribution ---
+> [INFO] Nothing to compile - all classes are up to date
+> [INFO] 
+> [INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ owlapi-osgidistribution ---
+> [INFO] Using 'UTF-8' encoding to copy filtered resources.
+> [INFO] skip non existing resourceDirectory /home/travis/build/owlcs/owlapi/osgidistribution/src/test/resources
+> [INFO] 
+> [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ owlapi-osgidistribution ---
+> [INFO] Nothing to compile - all classes are up to date
+> [INFO] 
+> [INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ owlapi-osgidistribution ---
+> [INFO] 
+> [INFO] --- animal-sniffer-maven-plugin:1.13:check (default) @ owlapi-osgidistribution ---
+> [INFO] Checking unresolved references to org.codehaus.mojo.signature:java17:1.0
+> [INFO] 
+> [INFO] --- maven-bundle-plugin:2.5.3:bundle (default-bundle) @ owlapi-osgidistribution ---
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Split package, multiple jars provide the same package:org/coode/owlapi/obo/parser
+> Use Import/Export Package directive -split-package:=(merge-first|merge-last|error|first) to get rid of this warning
+> Package found in   [Jar:., Jar:owlapi-compatibility]
+> Class path         [Jar:., Jar:owlapi-apibinding, Jar:owlapi-tools, Jar:owlapi-impl, Jar:owlapi-parsers, Jar:owlapi-oboformat, Jar:owlapi-fixers, Jar:owlapi-rio, Jar:owlapi-api, Jar:jackson-core, Jar:jackson-databind, Jar:jackson-annotations, Jar:owlapi-compatibility, Jar:xz, Jar:sesame-model, Jar:sesame-rio-api, Jar:sesame-rio-languages, Jar:sesame-rio-datatypes, Jar:sesame-rio-binary, Jar:sesame-rio-n3, Jar:sesame-rio-nquads, Jar:sesame-rio-ntriples, Jar:sesame-rio-rdfjson, Jar:sesame-rio-rdfxml, Jar:sesame-rio-trix, Jar:sesame-rio-turtle, Jar:sesame-rio-trig, Jar:sesame-util, Jar:jsonld-java-sesame, Jar:jsonld-java, Jar:jcl-over-slf4j, Jar:httpclient, Jar:httpclient-cache, Jar:httpcore, Jar:commons-codec, Jar:commons-logging, Jar:semargl-sesame, Jar:semargl-core, Jar:semargl-rdfa, Jar:semargl-rdf, Jar:org.apache.servicemix.bundles.javax-inject, Jar:org.apache.servicemix.bundles.aopalliance, Jar:trove4j, Jar:guava, Jar:guice, Jar:javax.inject, Jar:aopalliance, Jar:guice-assistedinject, Jar:guice-multibindings, Jar:jsr305, Jar:slf4j-api, Jar:commons-io]
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Split package, multiple jars provide the same package:uk/ac/manchester/cs/owl/explanation/ordering
+> Use Import/Export Package directive -split-package:=(merge-first|merge-last|error|first) to get rid of this warning
+> Package found in   [Jar:., Jar:owlapi-tools]
+> Class path         [Jar:., Jar:owlapi-apibinding, Jar:owlapi-tools, Jar:owlapi-impl, Jar:owlapi-parsers, Jar:owlapi-oboformat, Jar:owlapi-fixers, Jar:owlapi-rio, Jar:owlapi-api, Jar:jackson-core, Jar:jackson-databind, Jar:jackson-annotations, Jar:owlapi-compatibility, Jar:xz, Jar:sesame-model, Jar:sesame-rio-api, Jar:sesame-rio-languages, Jar:sesame-rio-datatypes, Jar:sesame-rio-binary, Jar:sesame-rio-n3, Jar:sesame-rio-nquads, Jar:sesame-rio-ntriples, Jar:sesame-rio-rdfjson, Jar:sesame-rio-rdfxml, Jar:sesame-rio-trix, Jar:sesame-rio-turtle, Jar:sesame-rio-trig, Jar:sesame-util, Jar:jsonld-java-sesame, Jar:jsonld-java, Jar:jcl-over-slf4j, Jar:httpclient, Jar:httpclient-cache, Jar:httpcore, Jar:commons-codec, Jar:commons-logging, Jar:semargl-sesame, Jar:semargl-core, Jar:semargl-rdfa, Jar:semargl-rdf, Jar:org.apache.servicemix.bundles.javax-inject, Jar:org.apache.servicemix.bundles.aopalliance, Jar:trove4j, Jar:guava, Jar:guice, Jar:javax.inject, Jar:aopalliance, Jar:guice-assistedinject, Jar:guice-multibindings, Jar:jsr305, Jar:slf4j-api, Jar:commons-io]
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.formats,  has 1,  private references [org.openrdf.rio], 
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.io,  has 1,  private references [org.tukaani.xz], 
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.rio,  has 5,  private references [org.openrdf, org.openrdf.rio, org.openrdf.model, org.openrdf.rio.helpers, info.aduna.iteration], 
+> [WARNING] Bundle net.sourceforge.owlapi:owlapi-osgidistribution:bundle:4.1.4-SNAPSHOT : Export org.semanticweb.owlapi.rio.utils,  has 1,  private references [org.openrdf.model], 
+> [INFO] 
+> [INFO] >>> maven-source-plugin:2.2.1:jar (attach-sources) > generate-sources @ owlapi-osgidistribution >>>
+> [INFO] 
+> [INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ owlapi-osgidistribution ---
+> [INFO] 
+> [INFO] <<< maven-source-plugin:2.2.1:jar (attach-sources) < generate-sources @ owlapi-osgidistribution <<<
+> [INFO] 
+> [INFO] --- maven-source-plugin:2.2.1:jar (attach-sources) @ owlapi-osgidistribution ---
+> [INFO] 
+> [INFO] --- maven-shade-plugin:2.3:shade (default) @ owlapi-osgidistribution ---
+> [INFO] Including net.sourceforge.owlapi:owlapi-apibinding:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-tools:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-impl:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-parsers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-oboformat:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-fixers:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-rio:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-api:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-core:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-databind:jar:2.5.1 from the shaded jar.
+> [INFO] Excluding com.fasterxml.jackson.core:jackson-annotations:jar:2.5.1 from the shaded jar.
+> [INFO] Including net.sourceforge.owlapi:owlapi-compatibility:jar:4.1.4-SNAPSHOT in the shaded jar.
+> [INFO] Excluding org.tukaani:xz:jar:1.5 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-model:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-api:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-languages:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-datatypes:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-binary:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-n3:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-nquads:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-ntriples:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfjson:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-rdfxml:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trix:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-turtle:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-rio-trig:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding org.openrdf.sesame:sesame-util:jar:2.7.16 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java-sesame:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding com.github.jsonld-java:jsonld-java:jar:0.5.0 from the shaded jar.
+> [INFO] Excluding org.slf4j:jcl-over-slf4j:jar:1.7.7 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient:jar:4.5.1 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpclient-cache:jar:4.5.1 from the shaded jar.
+> [INFO] Excluding org.apache.httpcomponents:httpcore:jar:4.4.3 from the shaded jar.
+> [INFO] Excluding commons-codec:commons-codec:jar:1.9 from the shaded jar.
+> [INFO] Excluding commons-logging:commons-logging:jar:1.2 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-sesame:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-core:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdfa:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.semarglproject:semargl-rdf:jar:0.6.1 from the shaded jar.
+> [INFO] Excluding org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-inject:jar:1_2 from the shaded jar.
+> [INFO] Excluding org.apache.servicemix.bundles:org.apache.servicemix.bundles.aopalliance:jar:1.0_6 from the shaded jar.
+> [INFO] Excluding net.sf.trove4j:trove4j:jar:3.0.3 from the shaded jar.
+> [INFO] Excluding com.google.guava:guava:jar:18.0 from the shaded jar.
+> [INFO] Excluding com.google.inject:guice:jar:4.0 from the shaded jar.
+> [INFO] Excluding javax.inject:javax.inject:jar:1 from the shaded jar.
+> [INFO] Excluding aopalliance:aopalliance:jar:1.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-assistedinject:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.inject.extensions:guice-multibindings:jar:4.0 from the shaded jar.
+> [INFO] Excluding com.google.code.findbugs:jsr305:jar:2.0.1 from the shaded jar.
+> [INFO] Excluding org.slf4j:slf4j-api:jar:1.7.10 from the shaded jar.
+> [INFO] Excluding commons-io:commons-io:jar:2.4 from the shaded jar.
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-rio-4.1.4-SNAPSHOT.jar define 68 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.formats.RioTurtleDocumentFormatFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioStorer
+> [WARNING]   - org.semanticweb.owlapi.rio.RioOWLRDFParser
+> [WARNING]   - org.semanticweb.owlapi.rio.OWLAPIRDFFormat
+> [WARNING]   - org.semanticweb.owlapi.formats.N3DocumentFormat
+> [WARNING]   - org.semanticweb.owlapi.rio.RioFunctionalSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioTrigStorerFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.RioManchesterSyntaxParserFactory
+> [WARNING]   - org.semanticweb.owlapi.rio.AbstractRioStorerFactory
+> [WARNING]   - 58 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-api-4.1.4-SNAPSHOT.jar define 755 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.model.OWLPropertyAssertionObject
+> [WARNING]   - org.semanticweb.owlapi.model.OWLAnonymousClassExpression
+> [WARNING]   - org.semanticweb.owlapi.model.HasApplyChange
+> [WARNING]   - org.semanticweb.owlapi.util.InferredIndividualAxiomGenerator
+> [WARNING]   - org.semanticweb.owlapi.model.SWRLDArgument
+> [WARNING]   - org.semanticweb.owlapi.util.OWLEntityURIUnderscores2CamelBackConverterStrategy
+> [WARNING]   - org.semanticweb.owlapi.util.HornAxiomVisitorEx
+> [WARNING]   - org.semanticweb.owlapi.change.RemoveAxiomData
+> [WARNING]   - org.semanticweb.owlapi.util.OWLOntologyWalkerVisitor
+> [WARNING]   - org.semanticweb.owlapi.model.OWLObjectPropertyDomainAxiom
+> [WARNING]   - 745 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-tools-4.1.4-SNAPSHOT.jar define 84 overlappping classes: 
+> [WARNING]   - com.clarkparsia.owlapi.explanation.util.SilentExplanationProgressMonitor
+> [WARNING]   - org.semanticweb.owlapi.metrics.HiddenGCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.SingleExplanationGenerator
+> [WARNING]   - org.semanticweb.owlapi.metrics.GCICount
+> [WARNING]   - com.clarkparsia.owlapi.explanation.BlackBoxExplanation$1
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$PropertiesFirstComparator
+> [WARNING]   - com.clarkparsia.owlapi.modularity.locality.SemanticLocalityEvaluator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.NodeRenderer
+> [WARNING]   - org.semanticweb.owlapi.debugging.JustificationMap$OWLAxiomComparator
+> [WARNING]   - uk.ac.manchester.cs.owl.explanation.ordering.ExplanationOrdererImpl$AxiomMapBuilder
+> [WARNING]   - 74 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-parsers-4.1.4-SNAPSHOT.jar define 606 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$DataPropertyExpressionListItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.TripleHandlers$TPOneOfHandler
+> [WARNING]   - org.semanticweb.owlapi.krss2.renderer.KRSS2SyntaxRenderer
+> [WARNING]   - org.semanticweb.owlapi.rdf.rdfxml.parser.Translators$ObjectMinCardinalityTranslator
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.TurtleParserException
+> [WARNING]   - org.semanticweb.owlapi.owlxml.parser.AbstractNaryBooleanClassExpressionElementHandler
+> [WARNING]   - org.semanticweb.owlapi.latex.renderer.LatexOWLObjectRenderer
+> [WARNING]   - org.semanticweb.owlapi.manchestersyntax.parser.ManchesterOWLSyntaxParserImpl$IndividualFactsItemParser
+> [WARNING]   - org.semanticweb.owlapi.rdf.turtle.parser.OWLRDFConsumerAdapter
+> [WARNING]   - org.semanticweb.owlapi.owlxml.renderer.OWLXMLObjectRenderer
+> [WARNING]   - 596 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-oboformat-4.1.4-SNAPSHOT.jar define 75 overlappping classes: 
+> [WARNING]   - org.obolibrary.oboformat.parser.OBOFormatException
+> [WARNING]   - org.obolibrary.obo2owl.OWLAPIOwl2Obo
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions$GCIVisitor
+> [WARNING]   - org.obolibrary.macro.MacroExpansionGCIVisitor$MacroExpansions
+> [WARNING]   - org.obolibrary.oboformat.diff.Diff
+> [WARNING]   - org.semanticweb.owlapi.oboformat.OBOFormatRenderer$1
+> [WARNING]   - org.obolibrary.obo2owl.IdTranslator
+> [WARNING]   - org.obolibrary.oboformat.model.Clause
+> [WARNING]   - org.obolibrary.oboformat.parser.XrefExpander$ReverseGenusDifferentiaExpansion
+> [WARNING]   - org.obolibrary.owl.LabelFunctionalSyntaxStorer
+> [WARNING]   - 65 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-compatibility-4.1.4-SNAPSHOT.jar define 84 overlappping classes: 
+> [WARNING]   - org.coode.owlapi.obo12.parser.OBOIdType$1
+> [WARNING]   - uk.ac.manchester.cs.owlapi.dlsyntax.DLSyntaxHTMLOntologyFormat
+> [WARNING]   - org.coode.owl.krssparser.KRSSOntologyFormat
+> [WARNING]   - org.coode.owlapi.turtle.TurtleOntologyFormat
+> [WARNING]   - org.coode.owlapi.obo12.parser.SynonymScope
+> [WARNING]   - org.coode.owlapi.obo12.parser.NameTagValueHandler
+> [WARNING]   - org.coode.owlapi.obo12.parser.OBOVocabulary$1
+> [WARNING]   - org.coode.owlapi.obo12.parser.DataVersionTagValueHandler
+> [WARNING]   - org.coode.owlapi.obo12.parser.UnionOfHandler
+> [WARNING]   - org.coode.owlapi.manchesterowlsyntax.ManchesterOWLSyntaxEditorParser$1
+> [WARNING]   - 74 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-apibinding-4.1.4-SNAPSHOT.jar define 2 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLManager
+> [WARNING]   - org.semanticweb.owlapi.apibinding.OWLFunctionalSyntaxFactory
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-impl-4.1.4-SNAPSHOT.jar define 217 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapi.reasoner.impl.OWLNamedIndividualNodeSet
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.SWRLIndividualArgumentImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.InitVisitorFactory$InitIndividualVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataAllValuesFromImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.CollectionContainerVisitor
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.concurrent.NonConcurrentOWLOntologyBuilder
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLImportsDeclarationImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSubPropertyAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLSameIndividualAxiomImpl
+> [WARNING]   - uk.ac.manchester.cs.owl.owlapi.OWLDataFactoryInternalsImpl$Buildable$1
+> [WARNING]   - 207 more...
+> [WARNING] owlapi-osgidistribution-4.1.4-SNAPSHOT.jar, owlapi-fixers-4.1.4-SNAPSHOT.jar define 95 overlappping classes: 
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataHasValue
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderPropertyChain
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataExactCardinality
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderIrreflexiveObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BaseAnnotationPropertyBuilder
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataPropertyAssertion
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderAsymmetricObjectProperty
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderFacetRestriction
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderComplementOf
+> [WARNING]   - org.semanticweb.owlapitools.builders.BuilderDataUnionOf
+> [WARNING]   - 85 more...
+> [WARNING] maven-shade-plugin has detected that some .class files
+> [WARNING] are present in two or more JARs. When this happens, only
+> [WARNING] one single version of the class is copied in the uberjar.
+> [WARNING] Usually this is not harmful and you can skeep these
+> [WARNING] warnings, otherwise try to manually exclude artifacts
+> [WARNING] based on mvn dependency:tree -Ddetail=true and the above
+> [WARNING] output
+> [WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+> [INFO] Replacing original artifact with shaded artifact.
+> [INFO] Replacing /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT.jar with /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT-shaded.jar
+> [INFO] Dependency-reduced POM written at: /home/travis/build/owlcs/owlapi/osgidistribution/dependency-reduced-pom.xml
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadocs) @ owlapi-osgidistribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-javadoc-plugin:2.8.1:jar (attach-javadoc) @ owlapi-osgidistribution ---
+> [INFO] Skipping javadoc generation
+> [INFO] 
+> [INFO] --- maven-assembly-plugin:2.4:single (attach-sources) @ owlapi-osgidistribution ---
+> [INFO] Reading assembly descriptor: src/assembly/sources.xml
+> [INFO] Building jar: /home/travis/build/owlcs/owlapi/osgidistribution/target/owlapi-osgidistribution-4.1.4-SNAPSHOT-sources.jar
+> [INFO] 
+> [INFO] --- maven-failsafe-plugin:2.18.1:integration-test (default) @ owlapi-osgidistribution ---
+> [WARNING] useSystemClassloader setting has no effect when not forking
+> [INFO] Failsafe report directory: /home/travis/build/owlcs/owlapi/osgidistribution/target/failsafe-reports
+> [INFO] parallel='none', perCoreThreadCount=true, threadCount=0, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+> Running org.semanticweb.owlapi.BundleIsLoadableIntegrationTestCase
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.javax-inject/1_2/org.apache.servicemix.bundles.javax-inject-1_2.jar
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/org.apache.servicemix.bundles.aopalliance-1.0_6.jar
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar
+> DEBUG: WIRE: [3.0] osgi.wiring.package; (osgi.wiring.package=javax.annotation) -> [0]
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar
+> org.osgi.framework.BundleException: Fragment bundles can not be started.
+> 	at org.apache.felix.framework.Felix.startBundle(Felix.java:1981)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:977)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:964)
+> 	at org.semanticweb.owlapi.BundleIsLoadableIntegrationTestCase.startBundle(BundleIsLoadableIntegrationTestCase.java:79)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+> 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+> 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+> 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+> 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runners.Suite.runChild(Suite.java:128)
+> 	at org.junit.runners.Suite.runChild(Suite.java:27)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+> 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+> 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+> 	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:974)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:824)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:722)
+> 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+> 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+> 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+> 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:355)
+> 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+> 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+> 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:216)
+> 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:160)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar
+> org.osgi.framework.BundleException: Fragment bundles can not be started.
+> 	at org.apache.felix.framework.Felix.startBundle(Felix.java:1981)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:977)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:964)
+> 	at org.semanticweb.owlapi.BundleIsLoadableIntegrationTestCase.startBundle(BundleIsLoadableIntegrationTestCase.java:79)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+> 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+> 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+> 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+> 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runners.Suite.runChild(Suite.java:128)
+> 	at org.junit.runners.Suite.runChild(Suite.java:27)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+> 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+> 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+> 	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:974)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:824)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:722)
+> 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+> 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+> 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+> 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:355)
+> 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+> 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+> 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:216)
+> 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:160)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/com/google/inject/guice/4.0/guice-4.0.jar
+> DEBUG: FRAGMENT WIRE: [4.0] osgi.wiring.host; (&(osgi.wiring.host=com.google.inject)(bundle-version>=0.0.0)) -> [6.0]
+> DEBUG: WIRE: [6.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.base)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [6.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.cache)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [6.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.collect)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [6.0] osgi.wiring.package; (osgi.wiring.package=javax.inject) -> [1.0]
+> DEBUG: WIRE: [6.0] osgi.wiring.package; (osgi.wiring.package=org.aopalliance.intercept) -> [2.0]
+> DEBUG: WIRE: [5.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.base)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [5.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.collect)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [5.0] osgi.wiring.package; (osgi.wiring.package=javax.inject) -> [1.0]
+> DEBUG: WIRE: [4.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.base)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [4.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.collect)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [4.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.primitives)(version>=16.0.0)) -> [3.0]
+> DEBUG: WIRE: [4.0] osgi.wiring.package; (osgi.wiring.package=javax.inject) -> [1.0]
+> DEBUG: WIRE: [6.0] osgi.ee; (&(osgi.ee=JavaSE)(version=1.6.0)) -> [0]
+> DEBUG: WIRE: [5.0] osgi.ee; (&(osgi.ee=JavaSE)(version=1.6.0)) -> [0]
+> DEBUG: WIRE: [4.0] osgi.ee; (&(osgi.ee=JavaSE)(version=1.6.0)) -> [0]
+> DEBUG: FRAGMENT WIRE: [5.0] osgi.wiring.host; (&(osgi.wiring.host=com.google.inject)(bundle-version>=0.0.0)) -> [6.0]
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/org/apache/servicemix/bundles/org.apache.servicemix.bundles.aopalliance/1.0_6/org.apache.servicemix.bundles.aopalliance-1.0_6.jar
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/org/slf4j/slf4j-simple/1.7.10/slf4j-simple-1.7.10.jar
+> org.osgi.framework.BundleException: Fragment bundles can not be started.
+> 	at org.apache.felix.framework.Felix.startBundle(Felix.java:1981)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:977)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:964)
+> 	at org.semanticweb.owlapi.BundleIsLoadableIntegrationTestCase.startBundle(BundleIsLoadableIntegrationTestCase.java:79)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+> 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+> 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+> 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+> 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runners.Suite.runChild(Suite.java:128)
+> 	at org.junit.runners.Suite.runChild(Suite.java:27)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+> 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+> 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+> 	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:974)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:824)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:722)
+> 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+> 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+> 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+> 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:355)
+> 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+> 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+> 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:216)
+> 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:160)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar
+> org.osgi.framework.BundleException: Unresolved constraint in bundle jcl.over.slf4j [10]: Unable to resolve 10.0: missing requirement [10.0] osgi.wiring.package; (&(osgi.wiring.package=org.slf4j)(version>=1.7.7))
+> 	at org.apache.felix.framework.Felix.resolveBundleRevision(Felix.java:4097)
+> 	at org.apache.felix.framework.Felix.startBundle(Felix.java:2114)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:977)
+> 	at org.apache.felix.framework.BundleImpl.start(BundleImpl.java:964)
+> 	at org.semanticweb.owlapi.BundleIsLoadableIntegrationTestCase.startBundle(BundleIsLoadableIntegrationTestCase.java:79)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+> 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+> 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+> 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+> 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+> 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runners.Suite.runChild(Suite.java:128)
+> 	at org.junit.runners.Suite.runChild(Suite.java:27)
+> 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+> 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+> 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+> 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+> 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+> 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+> 	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)
+> 	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+> 	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:155)
+> 	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:81)
+> 	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:82)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:974)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:824)
+> 	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:722)
+> 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:132)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+> 	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+> 	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+> 	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+> 	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:120)
+> 	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:355)
+> 	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+> 	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+> 	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:216)
+> 	at org.apache.maven.cli.MavenCli.main(MavenCli.java:160)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+> 	at java.lang.reflect.Method.invoke(Method.java:483)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+> 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+> BundleIsLoadableIntegrationTestCase.getJarURL() file:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar
+> DEBUG: WIRE: [11.0] osgi.ee; (&(osgi.ee=JavaSE)(version=1.3.0)) -> [0]
+> DEBUG: WIRE: [9.0] osgi.ee; (&(osgi.ee=JavaSE)(version=1.3.0)) -> [0]
+> DEBUG: FRAGMENT WIRE: [9.0] osgi.wiring.host; (&(osgi.wiring.host=slf4j.api)(bundle-version>=0.0.0)) -> [11.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.base)(version>=18.0.0)(!(version>=19.0.0))) -> [3.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.cache)(version>=18.0.0)(!(version>=19.0.0))) -> [3.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.collect)(version>=18.0.0)(!(version>=19.0.0))) -> [3.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.io)(version>=18.0.0)(!(version>=19.0.0))) -> [3.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.common.util.concurrent)(version>=18.0.0)(!(version>=19.0.0))) -> [3.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.inject)(version>=1.4.0)(!(version>=2.0.0))) -> [6.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.inject.assistedinject)(version>=1.4.0)(!(version>=2.0.0))) -> [6.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.inject.binder)(version>=1.4.0)(!(version>=2.0.0))) -> [6.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=com.google.inject.multibindings)(version>=1.4.0)(!(version>=2.0.0))) -> [6.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.annotation) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.crypto) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.crypto.spec) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.imageio) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=javax.inject)(version>=1.0.0)(!(version>=2.0.0))) -> [1.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.naming) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.naming.directory) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.naming.ldap) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.net) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.net.ssl) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.security.auth.x500) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.swing) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.xml.bind) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.xml.bind.annotation.adapters) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.xml.datatype) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.xml.namespace) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.xml.parsers) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.xml.transform.sax) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=javax.xml.validation) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=org.ietf.jgss) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (&(osgi.wiring.package=org.slf4j)(version>=1.7.0)(!(version>=2.0.0))) -> [11.0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=org.w3c.dom) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=org.w3c.dom.bootstrap) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=org.w3c.dom.ls) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=org.xml.sax) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=org.xml.sax.ext) -> [0]
+> DEBUG: WIRE: [12.0] osgi.wiring.package; (osgi.wiring.package=org.xml.sax.helpers) -> [0]
+> DEBUG: WIRE: [12.0] osgi.ee; (&(osgi.ee=JavaSE)(version=1.7)) -> [0]
+> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.097 sec - in org.semanticweb.owlapi.BundleIsLoadableIntegrationTestCase
+> Running org.semanticweb.owlapi.api.test.VerifyVersionInfoIntegrationTestCase
+> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.semanticweb.owlapi.api.test.VerifyVersionInfoIntegrationTestCase
+> Running org.semanticweb.owlapi.io.LoadXZOntologyViaHTTPIntegrationTestCase
+> [main] INFO org.semanticweb.owlapi.io.AbstractOWLParser - URL connection has no content encoding but name ends with .xz
+> [main] INFO org.semanticweb.owlapi.io.AbstractOWLParser - URL connection has no content encoding but name ends with .xz
+> Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.96 sec - in org.semanticweb.owlapi.io.LoadXZOntologyViaHTTPIntegrationTestCase
+1650c2367
+< [31;1mThe command "eval mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" failed 3 times.[0m
+---
+> Results :
+1651a2369,2398
+> Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+> 
+> [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent! The file encoding for reports output files should be provided by the POM property ${project.reporting.outputEncoding}.
+> [INFO] 
+> [INFO] --- maven-failsafe-plugin:2.18.1:verify (default) @ owlapi-osgidistribution ---
+> [INFO] Failsafe report directory: /home/travis/build/owlcs/owlapi/osgidistribution/target/failsafe-reports
+> [WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent! The file encoding for reports output files should be provided by the POM property ${project.reporting.outputEncoding}.
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Reactor Summary:
+> [INFO] 
+> [INFO] OWLAPI ............................................. SUCCESS [  4.523 s]
+> [INFO] OWLAPI Model Interfaces and utilities .............. SUCCESS [  9.884 s]
+> [INFO] OWLAPI Default Implementation ...................... SUCCESS [  7.315 s]
+> [INFO] tools .............................................. SUCCESS [  2.020 s]
+> [INFO] parsers ............................................ SUCCESS [  1.468 s]
+> [INFO] oboformat parser ................................... SUCCESS [  1.068 s]
+> [INFO] OWLAPITOOLS OWL profile and fixers ................. SUCCESS [  2.072 s]
+> [INFO] OWLAPI :: Sesame Rio module ........................ SUCCESS [  0.918 s]
+> [INFO] OWLAPI Binding and Config .......................... SUCCESS [  0.985 s]
+> [INFO] compatibility ...................................... SUCCESS [  2.939 s]
+> [INFO] tests and tutorials ................................ SUCCESS [01:08 min]
+> [INFO] OWLAPI Distribution ................................ SUCCESS [  8.423 s]
+> [INFO] OWLAPI OSGi and Compatibility Distribution ......... SUCCESS [  8.852 s]
+> [INFO] ------------------------------------------------------------------------
+> [INFO] BUILD SUCCESS
+> [INFO] ------------------------------------------------------------------------
+> [INFO] Total time: 02:02 min
+> [INFO] Finished at: 2016-01-28T08:14:22+00:00
+> [INFO] Final Memory: 57M/423M
+> [INFO] ------------------------------------------------------------------------
+1653,1654c2400,2421
+< travis_time:end:2e92e6c5:start=1453967691176286333,finish=1453967884044484327,duration=192868197994[0K
+< [31;1mThe command "mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V" failed and exited with 1 during .[0m
+---
+> travis_time:end:11978328:start=1453968737962143098,finish=1453968862977662174,duration=125015519076[0K
+> [32;1mThe command "mvn verify" exited with 0.[0m
+> travis_fold:start:cache.2[0Kstore build cache
+> travis_time:start:0c2dcfce[0K
+> travis_time:end:0c2dcfce:start=1453968862981667145,finish=1453968862984821451,duration=3154306[0Ktravis_time:start:04c20de0[0K[32;1mchange detected:
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/maven-metadata-local.xml
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT.jar
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/owlapi-api-4.1.4-SNAPSHOT-sources.jar
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-api/4.1.4-SNAPSHOT/_remote.repositories
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/maven-metadata-local.xml
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT.jar
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/owlapi-apibinding-4.1.4-SNAPSHOT-sources.jar
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/4.1.4-SNAPSHOT/_remote.repositories
+> /home/travis/.m2/repository/net/sourceforge/owlapi/owlapi-apibinding/maven-metadata-local.xml
+> /home/travis/.m2/repo
+> [0m
+> [32;1m...
+> [0m
+> [32;1mchanges detected, packing new archive[0m
+> .
+> .
+> [32;1muploading archive[0m
+1656c2423,2424
+< Your build has been stopped.
+---
+> travis_time:end:04c20de0:start=1453968862988447354,finish=1453968888389043592,duration=25400596238[0Ktravis_fold:end:cache.2[0K
+> Done. Your build exited with 0.

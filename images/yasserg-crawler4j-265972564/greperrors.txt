@@ -1,0 +1,33 @@
+246:[ERROR] The build could not read 1 project -> [Help 1]
+247:[ERROR]   
+248:[ERROR]   The project edu.uci.ics:crawler4j:[unknown-version] (/home/travis/build/yasserg/crawler4j/crawler4j/pom.xml) has 1 error
+249:[ERROR]     Non-resolvable parent POM: Could not find artifact edu.uci.ics:crawler4j-parent:pom:4.4.0-SNAPSHOT in sonatype-snapshots (https://oss.sonatype.org/content/repositories/snapshots/) and 'parent.relativePath' points at no local POM @ line 3, column 13 -> [Help 2]
+250:[ERROR] 
+251:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+252:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+253:[ERROR] 
+254:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+255:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+256:[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+270:[ERROR] The build could not read 1 project -> [Help 1]
+271:[ERROR]   
+272:[ERROR]   The project edu.uci.ics:crawler4j:[unknown-version] (/home/travis/build/yasserg/crawler4j/crawler4j/pom.xml) has 1 error
+273:[ERROR]     Non-resolvable parent POM: Failure to find edu.uci.ics:crawler4j-parent:pom:4.4.0-SNAPSHOT in https://oss.sonatype.org/content/repositories/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of sonatype-snapshots has elapsed or updates are forced and 'parent.relativePath' points at no local POM @ line 3, column 13 -> [Help 2]
+274:[ERROR] 
+275:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+276:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+277:[ERROR] 
+278:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+279:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+280:[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+294:[ERROR] The build could not read 1 project -> [Help 1]
+295:[ERROR]   
+296:[ERROR]   The project edu.uci.ics:crawler4j:[unknown-version] (/home/travis/build/yasserg/crawler4j/crawler4j/pom.xml) has 1 error
+297:[ERROR]     Non-resolvable parent POM: Failure to find edu.uci.ics:crawler4j-parent:pom:4.4.0-SNAPSHOT in https://oss.sonatype.org/content/repositories/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of sonatype-snapshots has elapsed or updates are forced and 'parent.relativePath' points at no local POM @ line 3, column 13 -> [Help 2]
+298:[ERROR] 
+299:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+300:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+301:[ERROR] 
+302:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+303:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+304:[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException

@@ -1,0 +1,156 @@
+203:[ERROR] COMPILATION ERROR : 
+205:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,0] error: illegal start of expression
+206:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,2] error: illegal start of expression
+207:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,4] error: illegal start of expression
+208:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,0] error: > expected
+209:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,4] error: illegal start of expression
+210:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,6] error: illegal start of expression
+211:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,0] error: illegal start of expression
+212:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,3] error: illegal start of expression
+213:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,6] error: illegal start of expression
+214:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,13] error: ';' expected
+215:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,14] error: not a statement
+216:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,15] error: ';' expected
+217:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,27] error: ';' expected
+218:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,28] error: not a statement
+219:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,36] error: ';' expected
+220:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,42] error: <identifier> expected
+221:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,58] error: ';' expected
+222:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,74] error: ';' expected
+223:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,88] error: <identifier> expected
+224:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[640,1] error: reached end of file while parsing
+242:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project yamcs-core: Compilation failure: Compilation failure:
+243:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,0] error: illegal start of expression
+244:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,2] error: illegal start of expression
+245:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,4] error: illegal start of expression
+246:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,0] error: > expected
+247:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,4] error: illegal start of expression
+248:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,6] error: illegal start of expression
+249:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,0] error: illegal start of expression
+250:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,3] error: illegal start of expression
+251:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,6] error: illegal start of expression
+252:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,13] error: ';' expected
+253:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,14] error: not a statement
+254:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,15] error: ';' expected
+255:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,27] error: ';' expected
+256:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,28] error: not a statement
+257:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,36] error: ';' expected
+258:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,42] error: <identifier> expected
+259:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,58] error: ';' expected
+260:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,74] error: ';' expected
+261:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,88] error: <identifier> expected
+262:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[640,1] error: reached end of file while parsing
+263:[ERROR] -> [Help 1]
+264:[ERROR] 
+265:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+266:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+267:[ERROR] 
+268:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+269:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+270:[ERROR] 
+271:[ERROR] After correcting the problems, you can resume the build with the command
+272:[ERROR]   mvn <goals> -rf :yamcs-core
+373:[ERROR] COMPILATION ERROR : 
+375:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,0] error: illegal start of expression
+376:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,2] error: illegal start of expression
+377:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,4] error: illegal start of expression
+378:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,0] error: > expected
+379:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,4] error: illegal start of expression
+380:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,6] error: illegal start of expression
+381:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,0] error: illegal start of expression
+382:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,3] error: illegal start of expression
+383:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,6] error: illegal start of expression
+384:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,13] error: ';' expected
+385:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,14] error: not a statement
+386:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,15] error: ';' expected
+387:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,27] error: ';' expected
+388:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,28] error: not a statement
+389:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,36] error: ';' expected
+390:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,42] error: <identifier> expected
+391:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,58] error: ';' expected
+392:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,74] error: ';' expected
+393:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,88] error: <identifier> expected
+394:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[640,1] error: reached end of file while parsing
+412:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project yamcs-core: Compilation failure: Compilation failure:
+413:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,0] error: illegal start of expression
+414:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,2] error: illegal start of expression
+415:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,4] error: illegal start of expression
+416:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,0] error: > expected
+417:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,4] error: illegal start of expression
+418:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,6] error: illegal start of expression
+419:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,0] error: illegal start of expression
+420:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,3] error: illegal start of expression
+421:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,6] error: illegal start of expression
+422:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,13] error: ';' expected
+423:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,14] error: not a statement
+424:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,15] error: ';' expected
+425:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,27] error: ';' expected
+426:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,28] error: not a statement
+427:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,36] error: ';' expected
+428:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,42] error: <identifier> expected
+429:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,58] error: ';' expected
+430:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,74] error: ';' expected
+431:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,88] error: <identifier> expected
+432:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[640,1] error: reached end of file while parsing
+433:[ERROR] -> [Help 1]
+434:[ERROR] 
+435:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+436:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+437:[ERROR] 
+438:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+439:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+440:[ERROR] 
+441:[ERROR] After correcting the problems, you can resume the build with the command
+442:[ERROR]   mvn <goals> -rf :yamcs-core
+543:[ERROR] COMPILATION ERROR : 
+545:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,0] error: illegal start of expression
+546:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,2] error: illegal start of expression
+547:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,4] error: illegal start of expression
+548:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,0] error: > expected
+549:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,4] error: illegal start of expression
+550:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,6] error: illegal start of expression
+551:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,0] error: illegal start of expression
+552:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,3] error: illegal start of expression
+553:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,6] error: illegal start of expression
+554:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,13] error: ';' expected
+555:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,14] error: not a statement
+556:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,15] error: ';' expected
+557:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,27] error: ';' expected
+558:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,28] error: not a statement
+559:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,36] error: ';' expected
+560:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,42] error: <identifier> expected
+561:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,58] error: ';' expected
+562:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,74] error: ';' expected
+563:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,88] error: <identifier> expected
+564:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[640,1] error: reached end of file while parsing
+582:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project yamcs-core: Compilation failure: Compilation failure:
+583:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,0] error: illegal start of expression
+584:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,2] error: illegal start of expression
+585:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[285,4] error: illegal start of expression
+586:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,0] error: > expected
+587:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,4] error: illegal start of expression
+588:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[287,6] error: illegal start of expression
+589:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,0] error: illegal start of expression
+590:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,3] error: illegal start of expression
+591:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,6] error: illegal start of expression
+592:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,13] error: ';' expected
+593:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,14] error: not a statement
+594:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,15] error: ';' expected
+595:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,27] error: ';' expected
+596:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,28] error: not a statement
+597:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,36] error: ';' expected
+598:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,42] error: <identifier> expected
+599:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,58] error: ';' expected
+600:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,74] error: ';' expected
+601:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[290,88] error: <identifier> expected
+602:[ERROR] /home/travis/build/yamcs/yamcs/yamcs-core/src/main/java/org/yamcs/YProcessor.java:[640,1] error: reached end of file while parsing
+603:[ERROR] -> [Help 1]
+604:[ERROR] 
+605:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+606:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+607:[ERROR] 
+608:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+609:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+610:[ERROR] 
+611:[ERROR] After correcting the problems, you can resume the build with the command
+612:[ERROR]   mvn <goals> -rf :yamcs-core

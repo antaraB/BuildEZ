@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/uwescience/myria
+Github failed trigger commit:  https://www.github.com/uwescience/myria/commit/bd0cb674679f1322c39dfbad99a51675496d29d9
+Github passed trigger commit:  https://www.github.com/uwescience/myria/commit/6199ce123da9294fcf788704e888865d45ef4a1f
+Github compare link:  https://www.github.com/uwescience/myria/compare/bd0cb674679f1322c39dfbad99a51675496d29d9...6199ce123da9294fcf788704e888865d45ef4a1f

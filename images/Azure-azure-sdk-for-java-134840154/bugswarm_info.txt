@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/Azure/azure-sdk-for-java
+Github failed trigger commit:  https://www.github.com/Azure/azure-sdk-for-java/commit/185110d8b6070c44eb972245793eefbb9960895d
+Github passed trigger commit:  https://www.github.com/Azure/azure-sdk-for-java/commit/5aa9e2a57609067d1e1480dd537abfa42500c10f
+Github compare link:  https://www.github.com/Azure/azure-sdk-for-java/compare/185110d8b6070c44eb972245793eefbb9960895d...5aa9e2a57609067d1e1480dd537abfa42500c10f

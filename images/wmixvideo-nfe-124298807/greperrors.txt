@@ -1,0 +1,11 @@
+977:[ERROR] COMPILATION ERROR : 
+979:[ERROR] /home/travis/build/wmixvideo/nfe/src/test/java/com/fincatto/nfe310/FabricaDeObjetosFake.java:[277,32] <anonymous com.fincatto.nfe310.FabricaDeObjetosFake$1> is not abstract and does not override abstract method getProtocolosSuportados() in com.fincatto.nfe310.NFeConfig
+989:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:testCompile (default-testCompile) on project nfe: Compilation failure
+990:[ERROR] /home/travis/build/wmixvideo/nfe/src/test/java/com/fincatto/nfe310/FabricaDeObjetosFake.java:[277,32] <anonymous com.fincatto.nfe310.FabricaDeObjetosFake$1> is not abstract and does not override abstract method getProtocolosSuportados() in com.fincatto.nfe310.NFeConfig
+991:[ERROR] -> [Help 1]
+992:[ERROR] 
+993:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+994:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+995:[ERROR] 
+996:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+997:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

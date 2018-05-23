@@ -1,0 +1,33 @@
+293:[ERROR] 7009: com.google.zxing.oned.rss.expanded.decoders.AbstractExpandedDecoder: Accessibility of method 'protected com.google.zxing.oned.rss.expanded.decoders.GeneralAppIdDecoder getGeneralDecoder()' has been decreased from protected to package
+311:[ERROR] Failed to execute goal org.codehaus.mojo:clirr-maven-plugin:2.7:check (check-api) on project core: There was 1 error. -> [Help 1]
+312:[ERROR] 
+313:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+314:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+315:[ERROR] 
+316:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+317:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+318:[ERROR] 
+319:[ERROR] After correcting the problems, you can resume the build with the command
+320:[ERROR]   mvn <goals> -rf :core
+465:[ERROR] 7009: com.google.zxing.oned.rss.expanded.decoders.AbstractExpandedDecoder: Accessibility of method 'protected com.google.zxing.oned.rss.expanded.decoders.GeneralAppIdDecoder getGeneralDecoder()' has been decreased from protected to package
+483:[ERROR] Failed to execute goal org.codehaus.mojo:clirr-maven-plugin:2.7:check (check-api) on project core: There was 1 error. -> [Help 1]
+484:[ERROR] 
+485:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+486:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+487:[ERROR] 
+488:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+489:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+490:[ERROR] 
+491:[ERROR] After correcting the problems, you can resume the build with the command
+492:[ERROR]   mvn <goals> -rf :core
+637:[ERROR] 7009: com.google.zxing.oned.rss.expanded.decoders.AbstractExpandedDecoder: Accessibility of method 'protected com.google.zxing.oned.rss.expanded.decoders.GeneralAppIdDecoder getGeneralDecoder()' has been decreased from protected to package
+655:[ERROR] Failed to execute goal org.codehaus.mojo:clirr-maven-plugin:2.7:check (check-api) on project core: There was 1 error. -> [Help 1]
+656:[ERROR] 
+657:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+658:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+659:[ERROR] 
+660:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+661:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+662:[ERROR] 
+663:[ERROR] After correcting the problems, you can resume the build with the command
+664:[ERROR]   mvn <goals> -rf :core

@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/yasserg/crawler4j
+Github failed trigger commit:  https://www.github.com/yasserg/crawler4j/commit/3ff5e67dda265b09e5936bb3e16d8ab88f15e2bc
+Github passed trigger commit:  https://www.github.com/yasserg/crawler4j/commit/e939976a03c6a2dce1a2b7f7f44c5f86c66783ee
+Github compare link:  https://www.github.com/yasserg/crawler4j/compare/3ff5e67dda265b09e5936bb3e16d8ab88f15e2bc...e939976a03c6a2dce1a2b7f7f44c5f86c66783ee
