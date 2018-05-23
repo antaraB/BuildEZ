@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 02:13:55 GMT",
+    "_etag": "789c49a7d2dde25c1e2036dbb6639e8e4fc8c3c9",
+    "_id": "5a9b5663f1f70ee79892535b",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Bammerbom-UltimateCore-187748496",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:41:22 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 187748495,
+        "build_job": "443.1",
+        "committed_at": "2016-12-30T17:58:05Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 187748496,
+        "message": "Rename PlayerSelector -> Selector",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "56dec59f4ffdbfa34956475ac24f10a8b9a335ce"
+    },
+    "filtered_reason": null,
+    "image_tag": "Bammerbom-UltimateCore-187748496",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 304,
+        "changes": 310,
+        "deletions": 6
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 187799511,
+        "build_job": "444.1",
+        "committed_at": "2016-12-30T22:16:51Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 187799512,
+        "message": "Tablist module",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "661e428488a2bfa4180f61840b8c3ab660ac684e"
+    },
+    "pr_num": -1,
+    "repo": "Bammerbom/UltimateCore",
+    "repo_builds": 740,
+    "repo_commits": 1122,
+    "repo_members": 3,
+    "repo_mined_version": "df946d44249957334d205e84126ecdb1c8594498",
+    "repo_prs": 7,
+    "repo_watchers": 9,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Bammerbom-UltimateCore-187748496",
+    "test_framework": ""
+}

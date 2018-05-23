@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/Bammerbom/UltimateCore
+Github failed trigger commit:  https://www.github.com/Bammerbom/UltimateCore/commit/56dec59f4ffdbfa34956475ac24f10a8b9a335ce
+Github passed trigger commit:  https://www.github.com/Bammerbom/UltimateCore/commit/661e428488a2bfa4180f61840b8c3ab660ac684e
+Github compare link:  https://www.github.com/Bammerbom/UltimateCore/compare/56dec59f4ffdbfa34956475ac24f10a8b9a335ce...661e428488a2bfa4180f61840b8c3ab660ac684e

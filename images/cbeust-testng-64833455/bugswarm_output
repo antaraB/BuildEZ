@@ -1,0 +1,76 @@
+{
+    "_created": "Mon, 26 Feb 2018 01:14:42 GMT",
+    "_etag": "6a6071f68632441741c184df31ebd7612dd4e77d",
+    "_id": "5a935f82f1f70e2df656d03b",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/cbeust-testng-64833455",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:25:54 GMT",
+    "base_branch": "master",
+    "branch": "local-props",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "4b459c76338ccd12019a21d3623d3d0f91302df3",
+        "build_id": 64833454,
+        "build_job": "204.1",
+        "committed_at": "2015-05-31T21:09:38Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 64833455,
+        "message": "Ignore local.properties",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "ef9157a4c490a3fd0f5e384416ac7c80ebdb466a"
+    },
+    "filtered_reason": null,
+    "image_tag": "cbeust-testng-64833455",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": "2015-06-04T04:13:07Z",
+    "metrics": {
+        "additions": 12,
+        "changes": 19,
+        "deletions": 7
+    },
+    "passed_job": {
+        "base_sha": "7ad8807aa923106941a1531c7c584ab7d27ac4c3",
+        "build_id": 64851510,
+        "build_job": "211.1",
+        "committed_at": "2015-06-01T01:28:42Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 64851511,
+        "message": "Ignore local.properties",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "f35a670b831f2be13a1529b1b8614039ac1a3d86"
+    },
+    "pr_num": 706,
+    "repo": "cbeust/testng",
+    "repo_builds": 1189,
+    "repo_commits": 3796,
+    "repo_members": 4,
+    "repo_mined_version": "67b8f040aae98088cab6331a78d66c9536f87b27",
+    "repo_prs": 527,
+    "repo_watchers": 789,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "cbeust-testng-64833455",
+    "test_framework": ""
+}

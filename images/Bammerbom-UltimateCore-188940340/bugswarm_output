@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 02:12:19 GMT",
+    "_etag": "bdedf3675e063641d9adcba70899d514502ac2f7",
+    "_id": "5a9b5603f1f70ee79770784c",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Bammerbom-UltimateCore-188940340",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:41:20 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 188940339,
+        "build_job": "474.1",
+        "committed_at": "2017-01-04T18:29:31Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 188940340,
+        "message": "All config objects should implement DataFile",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "1f4103d4b8364ae1813bfccfacc6cf5f2472c7af"
+    },
+    "filtered_reason": null,
+    "image_tag": "Bammerbom-UltimateCore-188940340",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 18,
+        "changes": 26,
+        "deletions": 8
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 188952534,
+        "build_job": "475.1",
+        "committed_at": "2017-01-04T19:10:55Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 188952535,
+        "message": "Fix config loading",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "360b921308f3f61fd642d3b729226faa365b86ea"
+    },
+    "pr_num": -1,
+    "repo": "Bammerbom/UltimateCore",
+    "repo_builds": 740,
+    "repo_commits": 1122,
+    "repo_members": 3,
+    "repo_mined_version": "df946d44249957334d205e84126ecdb1c8594498",
+    "repo_prs": 7,
+    "repo_watchers": 9,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Bammerbom-UltimateCore-188940340",
+    "test_framework": ""
+}

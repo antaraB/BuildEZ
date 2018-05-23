@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/charite/jannovar
+Github failed trigger commit:  https://www.github.com/charite/jannovar/commit/840e40a93f7b26e7f0ecdeb074704d0441e2f6fc
+Github passed trigger commit:  https://www.github.com/charite/jannovar/commit/42368edf2cc83085bee2243f7853c239335ad163
+Github compare link:  https://www.github.com/charite/jannovar/compare/840e40a93f7b26e7f0ecdeb074704d0441e2f6fc...42368edf2cc83085bee2243f7853c239335ad163

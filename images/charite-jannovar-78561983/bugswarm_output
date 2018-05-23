@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 06:36:48 GMT",
+    "_etag": "f8c17794abf94a5a2e6a72e4a53f6f38efcd3d8c",
+    "_id": "5a9b9400f1f70ee798925cbb",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/charite-jannovar-78561983",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:41:29 GMT",
+    "base_branch": "",
+    "branch": "develop",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 78561982,
+        "build_job": "451.1",
+        "committed_at": "2015-09-03T11:58:39Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 78561983,
+        "message": "Merge pull request #178 from visze/task_135-filter_out_variants_with_incomplete_inheritance\n\nTask 135 filter out variants with incomplete inheritance",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "840e40a93f7b26e7f0ecdeb074704d0441e2f6fc"
+    },
+    "filtered_reason": null,
+    "image_tag": "charite-jannovar-78561983",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 0,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 78562473,
+        "build_job": "452.1",
+        "committed_at": "2015-09-03T10:29:06Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 78562474,
+        "message": "changing test because of Exception!\n\nupdate jannovar-cli commons-cli\n\nwriting changelog",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1073,
+        "trigger_sha": "42368edf2cc83085bee2243f7853c239335ad163"
+    },
+    "pr_num": -1,
+    "repo": "charite/jannovar",
+    "repo_builds": 779,
+    "repo_commits": 1264,
+    "repo_members": 0,
+    "repo_mined_version": "2b91917badc42b03506f49b58d86a688e61fd38e",
+    "repo_prs": 166,
+    "repo_watchers": 14,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "charite-jannovar-78561983",
+    "test_framework": ""
+}

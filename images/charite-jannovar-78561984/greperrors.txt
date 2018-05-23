@@ -1,0 +1,33 @@
+105:[ERROR] The build could not read 1 project -> [Help 1]
+106:[ERROR]   
+107:[ERROR]   The project de.charite.compbio:jannovar-inheritance-checker:[unknown-version] (/home/travis/build/charite/jannovar/jannovar-inheritance-checker/pom.xml) has 1 error
+108:[ERROR]     Non-resolvable parent POM: Could not transfer artifact de.charite.compbio:Jannovar:pom:0.15-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org and 'parent.relativePath' points at wrong local POM @ line 11, column 10: Unknown host nexus.codehaus.org -> [Help 2]
+109:[ERROR] 
+110:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+111:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+112:[ERROR] 
+113:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+114:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+115:[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+131:[ERROR] The build could not read 1 project -> [Help 1]
+132:[ERROR]   
+133:[ERROR]   The project de.charite.compbio:jannovar-inheritance-checker:[unknown-version] (/home/travis/build/charite/jannovar/jannovar-inheritance-checker/pom.xml) has 1 error
+134:[ERROR]     Non-resolvable parent POM: Could not transfer artifact de.charite.compbio:Jannovar:pom:0.15-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org and 'parent.relativePath' points at wrong local POM @ line 11, column 10: Unknown host nexus.codehaus.org -> [Help 2]
+135:[ERROR] 
+136:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+137:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+138:[ERROR] 
+139:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+140:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+141:[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+157:[ERROR] The build could not read 1 project -> [Help 1]
+158:[ERROR]   
+159:[ERROR]   The project de.charite.compbio:jannovar-inheritance-checker:[unknown-version] (/home/travis/build/charite/jannovar/jannovar-inheritance-checker/pom.xml) has 1 error
+160:[ERROR]     Non-resolvable parent POM: Could not transfer artifact de.charite.compbio:Jannovar:pom:0.15-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org and 'parent.relativePath' points at wrong local POM @ line 11, column 10: Unknown host nexus.codehaus.org -> [Help 2]
+161:[ERROR] 
+162:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+163:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+164:[ERROR] 
+165:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+166:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+167:[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException

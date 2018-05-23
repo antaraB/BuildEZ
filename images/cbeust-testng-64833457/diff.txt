@@ -1,0 +1,256 @@
+1c1
+< Using worker: worker-linux-docker-a0724e8f.prod.travis-ci.org:travis-linux-8
+---
+> Using worker: worker-linux-docker-6edc0e87.prod.travis-ci.org:travis-linux-6
+66c66
+< travis_fold:start:git.checkout[0Ktravis_time:start:03947b41[0K$ git clone --depth=50 git://github.com/cbeust/testng.git cbeust/testng
+---
+> travis_fold:start:git.checkout[0Ktravis_time:start:098197aa[0K$ git clone --depth=50 git://github.com/cbeust/testng.git cbeust/testng
+68,72c68,72
+< remote: Counting objects: 4959, done.[K
+< remote: Compressing objects:   0% (1/3180)   [Kremote: Compressing objects:   1% (32/3180)   [Kremote: Compressing objects:   2% (64/3180)   [Kremote: Compressing objects:   3% (96/3180)   [Kremote: Compressing objects:   4% (128/3180)   [Kremote: Compressing objects:   5% (159/3180)   [Kremote: Compressing objects:   6% (191/3180)   [Kremote: Compressing objects:   7% (223/3180)   [Kremote: Compressing objects:   8% (255/3180)   [Kremote: Compressing objects:   9% (287/3180)   [Kremote: Compressing objects:  10% (318/3180)   [Kremote: Compressing objects:  11% (350/3180)   [Kremote: Compressing objects:  12% (382/3180)   [Kremote: Compressing objects:  13% (414/3180)   [Kremote: Compressing objects:  14% (446/3180)   [Kremote: Compressing objects:  15% (477/3180)   [Kremote: Compressing objects:  16% (509/3180)   [Kremote: Compressing objects:  17% (541/3180)   [Kremote: Compressing objects:  18% (573/3180)   [Kremote: Compressing objects:  19% (605/3180)   [Kremote: Compressing objects:  20% (636/3180)   [Kremote: Compressing objects:  21% (668/3180)   [Kremote: Compressing objects:  22% (700/3180)   [Kremote: Compressing objects:  23% (732/3180)   [Kremote: Compressing objects:  24% (764/3180)   [Kremote: Compressing objects:  25% (795/3180)   [Kremote: Compressing objects:  26% (827/3180)   [Kremote: Compressing objects:  27% (859/3180)   [Kremote: Compressing objects:  28% (891/3180)   [Kremote: Compressing objects:  29% (923/3180)   [Kremote: Compressing objects:  30% (954/3180)   [Kremote: Compressing objects:  31% (986/3180)   [Kremote: Compressing objects:  32% (1018/3180)   [Kremote: Compressing objects:  33% (1050/3180)   [Kremote: Compressing objects:  34% (1082/3180)   [Kremote: Compressing objects:  35% (1113/3180)   [Kremote: Compressing objects:  36% (1145/3180)   [Kremote: Compressing objects:  37% (1177/3180)   [Kremote: Compressing objects:  38% (1209/3180)   [Kremote: Compressing objects:  39% (1241/3180)   [Kremote: Compressing objects:  40% (1272/3180)   [Kremote: Compressing objects:  41% (1304/3180)   [Kremote: Compressing objects:  42% (1336/3180)   [Kremote: Compressing objects:  43% (1368/3180)   [Kremote: Compressing objects:  44% (1400/3180)   [Kremote: Compressing objects:  45% (1431/3180)   [Kremote: Compressing objects:  46% (1463/3180)   [Kremote: Compressing objects:  47% (1495/3180)   [Kremote: Compressing objects:  48% (1527/3180)   [Kremote: Compressing objects:  49% (1559/3180)   [Kremote: Compressing objects:  50% (1590/3180)   [Kremote: Compressing objects:  51% (1622/3180)   [Kremote: Compressing objects:  52% (1654/3180)   [Kremote: Compressing objects:  53% (1686/3180)   [Kremote: Compressing objects:  54% (1718/3180)   [Kremote: Compressing objects:  55% (1749/3180)   [Kremote: Compressing objects:  56% (1781/3180)   [Kremote: Compressing objects:  57% (1813/3180)   [Kremote: Compressing objects:  58% (1845/3180)   [Kremote: Compressing objects:  59% (1877/3180)   [Kremote: Compressing objects:  60% (1908/3180)   [Kremote: Compressing objects:  61% (1940/3180)   [Kremote: Compressing objects:  62% (1972/3180)   [Kremote: Compressing objects:  63% (2004/3180)   [Kremote: Compressing objects:  64% (2036/3180)   [Kremote: Compressing objects:  65% (2067/3180)   [Kremote: Compressing objects:  66% (2099/3180)   [Kremote: Compressing objects:  67% (2131/3180)   [Kremote: Compressing objects:  68% (2163/3180)   [Kremote: Compressing objects:  69% (2195/3180)   [Kremote: Compressing objects:  70% (2226/3180)   [Kremote: Compressing objects:  71% (2258/3180)   [Kremote: Compressing objects:  72% (2290/3180)   [Kremote: Compressing objects:  73% (2322/3180)   [Kremote: Compressing objects:  74% (2354/3180)   [Kremote: Compressing objects:  75% (2385/3180)   [Kremote: Compressing objects:  76% (2417/3180)   [Kremote: Compressing objects:  77% (2449/3180)   [Kremote: Compressing objects:  78% (2481/3180)   [Kremote: Compressing objects:  79% (2513/3180)   [Kremote: Compressing objects:  80% (2544/3180)   [Kremote: Compressing objects:  81% (2576/3180)   [Kremote: Compressing objects:  82% (2608/3180)   [Kremote: Compressing objects:  83% (2640/3180)   [Kremote: Compressing objects:  84% (2672/3180)   [Kremote: Compressing objects:  85% (2703/3180)   [Kremote: Compressing objects:  86% (2735/3180)   [Kremote: Compressing objects:  87% (2767/3180)   [Kremote: Compressing objects:  88% (2799/3180)   [Kremote: Compressing objects:  89% (2831/3180)   [Kremote: Compressing objects:  90% (2862/3180)   [Kremote: Compressing objects:  91% (2894/3180)   [Kremote: Compressing objects:  92% (2926/3180)   [Kremote: Compressing objects:  93% (2958/3180)   [Kremote: Compressing objects:  94% (2990/3180)   [Kremote: Compressing objects:  95% (3021/3180)   [Kremote: Compressing objects:  96% (3053/3180)   [Kremote: Compressing objects:  97% (3085/3180)   [Kremote: Compressing objects:  98% (3117/3180)   [Kremote: Compressing objects:  99% (3149/3180)   [Kremote: Compressing objects: 100% (3180/3180)   [Kremote: Compressing objects: 100% (3180/3180), done.[K
+< Receiving objects:   0% (1/4959)   Receiving objects:   1% (50/4959)   Receiving objects:   2% (100/4959)   Receiving objects:   3% (149/4959)   Receiving objects:   4% (199/4959)   Receiving objects:   5% (248/4959)   Receiving objects:   6% (298/4959)   Receiving objects:   7% (348/4959)   Receiving objects:   8% (397/4959)   Receiving objects:   9% (447/4959)   Receiving objects:  10% (496/4959)   Receiving objects:  11% (546/4959)   Receiving objects:  12% (596/4959)   Receiving objects:  13% (645/4959)   Receiving objects:  14% (695/4959)   Receiving objects:  15% (744/4959)   Receiving objects:  16% (794/4959)   Receiving objects:  17% (844/4959)   Receiving objects:  18% (893/4959)   Receiving objects:  19% (943/4959)   Receiving objects:  20% (992/4959)   Receiving objects:  21% (1042/4959)   Receiving objects:  22% (1091/4959)   Receiving objects:  23% (1141/4959)   Receiving objects:  24% (1191/4959)   Receiving objects:  25% (1240/4959)   Receiving objects:  26% (1290/4959)   Receiving objects:  27% (1339/4959)   Receiving objects:  28% (1389/4959)   Receiving objects:  29% (1439/4959)   Receiving objects:  30% (1488/4959)   Receiving objects:  31% (1538/4959)   Receiving objects:  32% (1587/4959)   Receiving objects:  33% (1637/4959)   Receiving objects:  34% (1687/4959)   Receiving objects:  35% (1736/4959)   Receiving objects:  36% (1786/4959)   Receiving objects:  37% (1835/4959)   Receiving objects:  38% (1885/4959)   Receiving objects:  39% (1935/4959)   Receiving objects:  40% (1984/4959)   Receiving objects:  41% (2034/4959)   Receiving objects:  42% (2083/4959)   Receiving objects:  43% (2133/4959)   Receiving objects:  44% (2182/4959)   Receiving objects:  45% (2232/4959)   Receiving objects:  46% (2282/4959)   Receiving objects:  47% (2331/4959)   Receiving objects:  48% (2381/4959)   Receiving objects:  49% (2430/4959)   Receiving objects:  50% (2480/4959)   Receiving objects:  51% (2530/4959)   Receiving objects:  52% (2579/4959)   Receiving objects:  53% (2629/4959)   Receiving objects:  54% (2678/4959)   Receiving objects:  55% (2728/4959)   Receiving objects:  56% (2778/4959)   Receiving objects:  57% (2827/4959)   Receiving objects:  58% (2877/4959)   Receiving objects:  59% (2926/4959)   Receiving objects:  60% (2976/4959)   Receiving objects:  61% (3025/4959)   Receiving objects:  62% (3075/4959)   Receiving objects:  63% (3125/4959)   Receiving objects:  64% (3174/4959)   Receiving objects:  65% (3224/4959)   Receiving objects:  66% (3273/4959)   Receiving objects:  67% (3323/4959)   Receiving objects:  68% (3373/4959)   Receiving objects:  69% (3422/4959)   Receiving objects:  70% (3472/4959)   Receiving objects:  71% (3521/4959)   Receiving objects:  72% (3571/4959)   Receiving objects:  73% (3621/4959)   Receiving objects:  74% (3670/4959)   Receiving objects:  75% (3720/4959)   Receiving objects:  76% (3769/4959)   Receiving objects:  77% (3819/4959)   Receiving objects:  78% (3869/4959)   Receiving objects:  79% (3918/4959)   Receiving objects:  80% (3968/4959)   Receiving objects:  81% (4017/4959)   Receiving objects:  82% (4067/4959)   Receiving objects:  83% (4116/4959)   Receiving objects:  84% (4166/4959)   Receiving objects:  85% (4216/4959)   Receiving objects:  86% (4265/4959)   Receiving objects:  87% (4315/4959)   Receiving objects:  88% (4364/4959)   Receiving objects:  89% (4414/4959)   Receiving objects:  90% (4464/4959)   remote: Total 4959 (delta 2024), reused 3782 (delta 1498), pack-reused 0[K
+< Receiving objects:  91% (4513/4959)   Receiving objects:  92% (4563/4959)   Receiving objects:  93% (4612/4959)   Receiving objects:  94% (4662/4959)   Receiving objects:  95% (4712/4959)   Receiving objects:  96% (4761/4959)   Receiving objects:  97% (4811/4959)   Receiving objects:  98% (4860/4959)   Receiving objects:  99% (4910/4959)   Receiving objects: 100% (4959/4959)   Receiving objects: 100% (4959/4959), 14.86 MiB | 0 bytes/s, done.
+< Resolving deltas:   0% (0/2024)   Resolving deltas:   4% (96/2024)   Resolving deltas:   5% (103/2024)   Resolving deltas:   6% (128/2024)   Resolving deltas:   7% (148/2024)   Resolving deltas:   8% (176/2024)   Resolving deltas:  10% (206/2024)   Resolving deltas:  11% (224/2024)   Resolving deltas:  12% (245/2024)   Resolving deltas:  14% (290/2024)   Resolving deltas:  15% (316/2024)   Resolving deltas:  16% (344/2024)   Resolving deltas:  17% (349/2024)   Resolving deltas:  18% (368/2024)   Resolving deltas:  19% (385/2024)   Resolving deltas:  20% (420/2024)   Resolving deltas:  21% (428/2024)   Resolving deltas:  22% (446/2024)   Resolving deltas:  23% (473/2024)   Resolving deltas:  28% (567/2024)   Resolving deltas:  29% (594/2024)   Resolving deltas:  30% (608/2024)   Resolving deltas:  31% (631/2024)   Resolving deltas:  32% (653/2024)   Resolving deltas:  33% (671/2024)   Resolving deltas:  34% (692/2024)   Resolving deltas:  35% (715/2024)   Resolving deltas:  36% (729/2024)   Resolving deltas:  37% (753/2024)   Resolving deltas:  38% (770/2024)   Resolving deltas:  39% (791/2024)   Resolving deltas:  40% (811/2024)   Resolving deltas:  41% (840/2024)   Resolving deltas:  42% (852/2024)   Resolving deltas:  43% (872/2024)   Resolving deltas:  44% (893/2024)   Resolving deltas:  45% (917/2024)   Resolving deltas:  46% (932/2024)   Resolving deltas:  47% (954/2024)   Resolving deltas:  48% (987/2024)   Resolving deltas:  49% (992/2024)   Resolving deltas:  53% (1077/2024)   Resolving deltas:  54% (1094/2024)   Resolving deltas:  55% (1114/2024)   Resolving deltas:  56% (1134/2024)   Resolving deltas:  57% (1157/2024)   Resolving deltas:  58% (1174/2024)   Resolving deltas:  59% (1196/2024)   Resolving deltas:  60% (1219/2024)   Resolving deltas:  61% (1235/2024)   Resolving deltas:  62% (1255/2024)   Resolving deltas:  63% (1277/2024)   Resolving deltas:  64% (1297/2024)   Resolving deltas:  65% (1316/2024)   Resolving deltas:  66% (1336/2024)   Resolving deltas:  67% (1359/2024)   Resolving deltas:  68% (1377/2024)   Resolving deltas:  69% (1397/2024)   Resolving deltas:  70% (1417/2024)   Resolving deltas:  71% (1438/2024)   Resolving deltas:  79% (1613/2024)   Resolving deltas:  82% (1669/2024)   Resolving deltas:  83% (1681/2024)   Resolving deltas:  84% (1707/2024)   Resolving deltas:  85% (1721/2024)   Resolving deltas:  87% (1781/2024)   Resolving deltas:  89% (1816/2024)   Resolving deltas:  90% (1822/2024)   Resolving deltas:  91% (1844/2024)   Resolving deltas:  93% (1887/2024)   Resolving deltas:  95% (1927/2024)   Resolving deltas:  99% (2004/2024)   Resolving deltas: 100% (2024/2024)   Resolving deltas: 100% (2024/2024), done.
+---
+> remote: Counting objects: 4748, done.[K
+> remote: Compressing objects:   0% (1/3105)   [Kremote: Compressing objects:   1% (32/3105)   [Kremote: Compressing objects:   2% (63/3105)   [Kremote: Compressing objects:   3% (94/3105)   [Kremote: Compressing objects:   4% (125/3105)   [Kremote: Compressing objects:   5% (156/3105)   [Kremote: Compressing objects:   6% (187/3105)   [Kremote: Compressing objects:   7% (218/3105)   [Kremote: Compressing objects:   8% (249/3105)   [Kremote: Compressing objects:   9% (280/3105)   [Kremote: Compressing objects:  10% (311/3105)   [Kremote: Compressing objects:  11% (342/3105)   [Kremote: Compressing objects:  12% (373/3105)   [Kremote: Compressing objects:  13% (404/3105)   [Kremote: Compressing objects:  14% (435/3105)   [Kremote: Compressing objects:  15% (466/3105)   [Kremote: Compressing objects:  16% (497/3105)   [Kremote: Compressing objects:  17% (528/3105)   [Kremote: Compressing objects:  18% (559/3105)   [Kremote: Compressing objects:  19% (590/3105)   [Kremote: Compressing objects:  20% (621/3105)   [Kremote: Compressing objects:  21% (653/3105)   [Kremote: Compressing objects:  22% (684/3105)   [Kremote: Compressing objects:  23% (715/3105)   [Kremote: Compressing objects:  24% (746/3105)   [Kremote: Compressing objects:  25% (777/3105)   [Kremote: Compressing objects:  26% (808/3105)   [Kremote: Compressing objects:  27% (839/3105)   [Kremote: Compressing objects:  28% (870/3105)   [Kremote: Compressing objects:  29% (901/3105)   [Kremote: Compressing objects:  30% (932/3105)   [Kremote: Compressing objects:  31% (963/3105)   [Kremote: Compressing objects:  32% (994/3105)   [Kremote: Compressing objects:  33% (1025/3105)   [Kremote: Compressing objects:  34% (1056/3105)   [Kremote: Compressing objects:  35% (1087/3105)   [Kremote: Compressing objects:  36% (1118/3105)   [Kremote: Compressing objects:  37% (1149/3105)   [Kremote: Compressing objects:  38% (1180/3105)   [Kremote: Compressing objects:  39% (1211/3105)   [Kremote: Compressing objects:  40% (1242/3105)   [Kremote: Compressing objects:  41% (1274/3105)   [Kremote: Compressing objects:  42% (1305/3105)   [Kremote: Compressing objects:  43% (1336/3105)   [Kremote: Compressing objects:  44% (1367/3105)   [Kremote: Compressing objects:  45% (1398/3105)   [Kremote: Compressing objects:  46% (1429/3105)   [Kremote: Compressing objects:  47% (1460/3105)   [Kremote: Compressing objects:  48% (1491/3105)   [Kremote: Compressing objects:  49% (1522/3105)   [Kremote: Compressing objects:  50% (1553/3105)   [Kremote: Compressing objects:  51% (1584/3105)   [Kremote: Compressing objects:  52% (1615/3105)   [Kremote: Compressing objects:  53% (1646/3105)   [Kremote: Compressing objects:  54% (1677/3105)   [Kremote: Compressing objects:  55% (1708/3105)   [Kremote: Compressing objects:  56% (1739/3105)   [Kremote: Compressing objects:  57% (1770/3105)   [Kremote: Compressing objects:  58% (1801/3105)   [Kremote: Compressing objects:  59% (1832/3105)   [Kremote: Compressing objects:  60% (1863/3105)   [Kremote: Compressing objects:  61% (1895/3105)   [Kremote: Compressing objects:  62% (1926/3105)   [Kremote: Compressing objects:  63% (1957/3105)   [Kremote: Compressing objects:  64% (1988/3105)   [Kremote: Compressing objects:  65% (2019/3105)   [Kremote: Compressing objects:  66% (2050/3105)   [Kremote: Compressing objects:  67% (2081/3105)   [Kremote: Compressing objects:  68% (2112/3105)   [Kremote: Compressing objects:  69% (2143/3105)   [Kremote: Compressing objects:  70% (2174/3105)   [Kremote: Compressing objects:  71% (2205/3105)   [Kremote: Compressing objects:  72% (2236/3105)   [Kremote: Compressing objects:  73% (2267/3105)   [Kremote: Compressing objects:  74% (2298/3105)   [Kremote: Compressing objects:  75% (2329/3105)   [Kremote: Compressing objects:  76% (2360/3105)   [Kremote: Compressing objects:  77% (2391/3105)   [Kremote: Compressing objects:  78% (2422/3105)   [Kremote: Compressing objects:  79% (2453/3105)   [Kremote: Compressing objects:  80% (2484/3105)   [Kremote: Compressing objects:  81% (2516/3105)   [Kremote: Compressing objects:  82% (2547/3105)   [Kremote: Compressing objects:  83% (2578/3105)   [Kremote: Compressing objects:  84% (2609/3105)   [Kremote: Compressing objects:  85% (2640/3105)   [Kremote: Compressing objects:  86% (2671/3105)   [Kremote: Compressing objects:  87% (2702/3105)   [Kremote: Compressing objects:  88% (2733/3105)   [Kremote: Compressing objects:  89% (2764/3105)   [Kremote: Compressing objects:  90% (2795/3105)   [Kremote: Compressing objects:  91% (2826/3105)   [Kremote: Compressing objects:  92% (2857/3105)   [Kremote: Compressing objects:  93% (2888/3105)   [Kremote: Compressing objects:  94% (2919/3105)   [Kremote: Compressing objects:  95% (2950/3105)   [Kremote: Compressing objects:  96% (2981/3105)   [Kremote: Compressing objects:  97% (3012/3105)   [Kremote: Compressing objects:  98% (3043/3105)   [Kremote: Compressing objects:  99% (3074/3105)   [Kremote: Compressing objects: 100% (3105/3105)   [Kremote: Compressing objects: 100% (3105/3105), done.[K
+> Receiving objects:   0% (1/4748)   Receiving objects:   1% (48/4748)   Receiving objects:   2% (95/4748)   Receiving objects:   3% (143/4748)   Receiving objects:   4% (190/4748)   Receiving objects:   5% (238/4748)   Receiving objects:   6% (285/4748)   Receiving objects:   7% (333/4748)   Receiving objects:   8% (380/4748)   Receiving objects:   9% (428/4748)   Receiving objects:  10% (475/4748)   Receiving objects:  11% (523/4748)   Receiving objects:  12% (570/4748)   Receiving objects:  13% (618/4748)   Receiving objects:  14% (665/4748)   Receiving objects:  15% (713/4748)   Receiving objects:  16% (760/4748)   Receiving objects:  17% (808/4748)   Receiving objects:  18% (855/4748)   Receiving objects:  19% (903/4748)   Receiving objects:  20% (950/4748)   Receiving objects:  21% (998/4748)   Receiving objects:  22% (1045/4748)   Receiving objects:  23% (1093/4748)   Receiving objects:  24% (1140/4748)   Receiving objects:  25% (1187/4748)   Receiving objects:  26% (1235/4748)   Receiving objects:  27% (1282/4748)   Receiving objects:  28% (1330/4748)   Receiving objects:  29% (1377/4748)   Receiving objects:  30% (1425/4748)   Receiving objects:  31% (1472/4748)   Receiving objects:  32% (1520/4748)   Receiving objects:  33% (1567/4748)   Receiving objects:  34% (1615/4748)   Receiving objects:  35% (1662/4748)   Receiving objects:  36% (1710/4748)   Receiving objects:  37% (1757/4748)   Receiving objects:  38% (1805/4748)   Receiving objects:  39% (1852/4748)   Receiving objects:  40% (1900/4748)   Receiving objects:  41% (1947/4748)   Receiving objects:  42% (1995/4748)   Receiving objects:  43% (2042/4748)   Receiving objects:  44% (2090/4748)   Receiving objects:  45% (2137/4748)   Receiving objects:  46% (2185/4748)   Receiving objects:  47% (2232/4748)   Receiving objects:  48% (2280/4748)   Receiving objects:  49% (2327/4748)   Receiving objects:  50% (2374/4748)   Receiving objects:  51% (2422/4748)   Receiving objects:  52% (2469/4748)   Receiving objects:  53% (2517/4748)   Receiving objects:  54% (2564/4748)   Receiving objects:  55% (2612/4748)   Receiving objects:  56% (2659/4748)   Receiving objects:  57% (2707/4748)   Receiving objects:  58% (2754/4748)   Receiving objects:  59% (2802/4748)   Receiving objects:  60% (2849/4748)   Receiving objects:  61% (2897/4748)   Receiving objects:  62% (2944/4748)   Receiving objects:  63% (2992/4748)   Receiving objects:  64% (3039/4748)   Receiving objects:  65% (3087/4748)   Receiving objects:  66% (3134/4748)   Receiving objects:  67% (3182/4748)   Receiving objects:  68% (3229/4748)   Receiving objects:  69% (3277/4748)   Receiving objects:  70% (3324/4748)   Receiving objects:  71% (3372/4748)   Receiving objects:  72% (3419/4748)   Receiving objects:  73% (3467/4748)   Receiving objects:  74% (3514/4748)   Receiving objects:  75% (3561/4748)   Receiving objects:  76% (3609/4748)   Receiving objects:  77% (3656/4748)   Receiving objects:  78% (3704/4748)   Receiving objects:  79% (3751/4748)   Receiving objects:  80% (3799/4748)   Receiving objects:  81% (3846/4748)   Receiving objects:  82% (3894/4748)   Receiving objects:  83% (3941/4748)   Receiving objects:  84% (3989/4748)   Receiving objects:  85% (4036/4748)   Receiving objects:  86% (4084/4748)   Receiving objects:  87% (4131/4748)   Receiving objects:  88% (4179/4748)   Receiving objects:  89% (4226/4748)   Receiving objects:  90% (4274/4748)   Receiving objects:  91% (4321/4748)   remote: Total 4748 (delta 1935), reused 3537 (delta 1382), pack-reused 0[K
+> Receiving objects:  92% (4369/4748)   Receiving objects:  93% (4416/4748)   Receiving objects:  94% (4464/4748)   Receiving objects:  95% (4511/4748)   Receiving objects:  96% (4559/4748)   Receiving objects:  97% (4606/4748)   Receiving objects:  98% (4654/4748)   Receiving objects:  99% (4701/4748)   Receiving objects: 100% (4748/4748)   Receiving objects: 100% (4748/4748), 14.83 MiB | 0 bytes/s, done.
+> Resolving deltas:   0% (0/1935)   Resolving deltas:   8% (171/1935)   Resolving deltas:   9% (176/1935)   Resolving deltas:  19% (372/1935)   Resolving deltas:  20% (399/1935)   Resolving deltas:  21% (414/1935)   Resolving deltas:  22% (436/1935)   Resolving deltas:  23% (452/1935)   Resolving deltas:  24% (466/1935)   Resolving deltas:  25% (487/1935)   Resolving deltas:  26% (504/1935)   Resolving deltas:  29% (568/1935)   Resolving deltas:  30% (581/1935)   Resolving deltas:  31% (603/1935)   Resolving deltas:  32% (621/1935)   Resolving deltas:  34% (672/1935)   Resolving deltas:  35% (678/1935)   Resolving deltas:  36% (697/1935)   Resolving deltas:  37% (717/1935)   Resolving deltas:  38% (746/1935)   Resolving deltas:  40% (792/1935)   Resolving deltas:  41% (797/1935)   Resolving deltas:  42% (813/1935)   Resolving deltas:  43% (835/1935)   Resolving deltas:  44% (855/1935)   Resolving deltas:  45% (873/1935)   Resolving deltas:  46% (891/1935)   Resolving deltas:  47% (910/1935)   Resolving deltas:  48% (932/1935)   Resolving deltas:  49% (949/1935)   Resolving deltas:  50% (971/1935)   Resolving deltas:  51% (988/1935)   Resolving deltas:  52% (1007/1935)   Resolving deltas:  53% (1031/1935)   Resolving deltas:  54% (1047/1935)   Resolving deltas:  55% (1069/1935)   Resolving deltas:  56% (1084/1935)   Resolving deltas:  57% (1104/1935)   Resolving deltas:  58% (1124/1935)   Resolving deltas:  59% (1142/1935)   Resolving deltas:  60% (1162/1935)   Resolving deltas:  61% (1188/1935)   Resolving deltas:  65% (1269/1935)   Resolving deltas:  66% (1287/1935)   Resolving deltas:  70% (1358/1935)   Resolving deltas:  71% (1374/1935)   Resolving deltas:  72% (1397/1935)   Resolving deltas:  73% (1415/1935)   Resolving deltas:  74% (1434/1935)   Resolving deltas:  75% (1452/1935)   Resolving deltas:  76% (1471/1935)   Resolving deltas:  77% (1490/1935)   Resolving deltas:  78% (1510/1935)   Resolving deltas:  79% (1532/1935)   Resolving deltas:  80% (1549/1935)   Resolving deltas:  81% (1569/1935)   Resolving deltas:  82% (1587/1935)   Resolving deltas:  83% (1607/1935)   Resolving deltas:  84% (1629/1935)   Resolving deltas:  85% (1645/1935)   Resolving deltas:  86% (1665/1935)   Resolving deltas:  87% (1684/1935)   Resolving deltas:  88% (1706/1935)   Resolving deltas:  91% (1770/1935)   Resolving deltas:  92% (1782/1935)   Resolving deltas:  93% (1800/1935)   Resolving deltas:  94% (1821/1935)   Resolving deltas:  95% (1843/1935)   Resolving deltas:  96% (1864/1935)   Resolving deltas:  99% (1917/1935)   Resolving deltas: 100% (1935/1935)   Resolving deltas: 100% (1935/1935), done.
+74,79c74,79
+< travis_time:end:03947b41:start=1433106658351906915,finish=1433106659317216582,duration=965309667[0K$ cd cbeust/testng
+< travis_time:start:19a32dc5[0K$ git fetch origin +refs/pull/706/merge:
+< remote: Counting objects: 4, done.[K
+< remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+< remote: Total 4 (delta 3), reused 0 (delta 0), pack-reused 0[K
+< Unpacking objects:  25% (1/4)   Unpacking objects:  50% (2/4)   Unpacking objects:  75% (3/4)   Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+---
+> travis_time:end:098197aa:start=1433122148714568186,finish=1433122149879953313,duration=1165385127[0K$ cd cbeust/testng
+> travis_time:start:0005e79f[0K$ git fetch origin +refs/pull/706/merge:
+> remote: Counting objects: 6, done.[K
+> remote: Compressing objects:  16% (1/6)   [Kremote: Compressing objects:  33% (2/6)   [Kremote: Compressing objects:  50% (3/6)   [Kremote: Compressing objects:  66% (4/6)   [Kremote: Compressing objects:  83% (5/6)   [Kremote: Compressing objects: 100% (6/6)   [Kremote: Compressing objects: 100% (6/6), done.[K
+> remote: Total 6 (delta 4), reused 1 (delta 0), pack-reused 0[K
+> Unpacking objects:  16% (1/6)   Unpacking objects:  33% (2/6)   Unpacking objects:  50% (3/6)   Unpacking objects:  66% (4/6)   Unpacking objects:  83% (5/6)   Unpacking objects: 100% (6/6)   Unpacking objects: 100% (6/6), done.
+82c82
+< travis_time:end:19a32dc5:start=1433106659321030871,finish=1433106659412671005,duration=91640134[0K$ git checkout -qf FETCH_HEAD
+---
+> travis_time:end:0005e79f:start=1433122149885217146,finish=1433122149983717020,duration=98499874[0K$ git checkout -qf FETCH_HEAD
+96c96
+< travis_fold:start:install[0Ktravis_time:start:0d498f70[0K$ ./gradlew assemble
+---
+> travis_fold:start:install[0Ktravis_time:start:0131ebd4[0K$ ./gradlew assemble
+189a190,339
+> Creating Version file: 6.9.5-SNAPSHOT in /home/travis/build/cbeust/testng/src/generated/java/org/testng/internal
+> [buildinfo] Not using buildInfo properties file for this build.
+> :myDir UP-TO-DATE
+> :createVersion
+> :compileGeneratedJava
+> :processGeneratedResources UP-TO-DATE
+> :generatedClasses
+> :compileJava
+> Download https://repo1.maven.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.pom
+> Download https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.7.0/ant-parent-1.7.0.pom
+> Download https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom
+> Download https://repo1.maven.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.pom
+> Download https://repo1.maven.org/maven2/org/beanshell/beanshell/2.0b4/beanshell-2.0b4.pom
+> Download https://repo1.maven.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom
+> Download https://repo1.maven.org/maven2/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+> Download https://repo1.maven.org/maven2/com/google/google/5/google-5.pom
+> Download https://repo1.maven.org/maven2/com/beust/jcommander/1.48/jcommander-1.48.pom
+> Download https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/3/oss-parent-3.pom
+> Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.pom
+> Download https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.pom
+> Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+> Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+> Download https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom
+> Download https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+> Download https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+> Download https://repo1.maven.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+> Download https://repo1.maven.org/maven2/org/apache/ant/ant/1.7.0/ant-1.7.0.jar
+> Download https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar
+> Download https://repo1.maven.org/maven2/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar
+> Download https://repo1.maven.org/maven2/com/google/inject/guice/4.0/guice-4.0-no_aop.jar
+> Download https://repo1.maven.org/maven2/com/beust/jcommander/1.48/jcommander-1.48.jar
+> Download https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar
+> Download https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar
+> Download https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar
+> Download https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar
+> Download https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+> Download https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar
+> Note: Some input files use or override a deprecated API.
+> Note: Recompile with -Xlint:deprecation for details.
+> Note: Some input files use unchecked or unsafe operations.
+> Note: Recompile with -Xlint:unchecked for details.
+> :processResources
+> :classes
+> :jar
+> :javadoc/home/travis/build/cbeust/testng/src/main/java/org/testng/TestNG.java:35: error: cannot find symbol
+> import org.testng.internal.Version;
+>                           ^
+>   symbol:   class Version
+>   location: package org.testng.internal
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/reporters/XMLConstants.java:11: warning - Tag @see: reference not found: org.apache.tools.ant.taskdefs.optional.junit.XMLConstants
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/reporters/XMLConstants.java:11: warning - Tag @see: reference not found: org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/reporters/XMLStringBuffer.java:37: warning - @param argument "start" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/thread/IPooledExecutor.java:20: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/xml/XMLParser.java:96: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/adapter/DefaultMastertAdapter.java:23: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/adapter/DefaultWorkerAdapter.java:21: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/adapter/IMasterAdapter.java:16: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/adapter/IMasterAdapter.java:23: warning - @param argument "properties" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/adapter/IWorkerAdapter.java:17: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/adapter/RemoteResultListener.java:24: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/BaseTestMethod.java:152: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/BaseTestMethod.java:542: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/BaseTestMethod.java:561: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/BaseTestMethod.java:440: warning - @Return is an unknown tag -- same as a known tag except for case.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/ClassHelper.java:184: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/ClassHelper.java:201: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Constants.java:89: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/FactoryMethod.java:33: warning - @param argument "testClass" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/FactoryMethod.java:33: warning - @param argument "method" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/InvokedMethod.java:22: warning - @param argument "m_object" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/InvokedMethod.java:22: warning - @param argument "m_method" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/InvokedMethod.java:22: warning - @param argument "m_parameters" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Invoker.java:1233: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Invoker.java:1360: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Invoker.java:819: warning - Tag @link: can't find invokeTestMethods() in org.testng.internal.Invoker
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/ITestResultNotifier.java:19: warning - @Configuration is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/MethodGroupsHelper.java:156: warning - @return tag cannot be used in method with void return type.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/MethodHelper.java:129: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/MethodHelper.java:330: warning - @param argument "allTestMethods" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/MethodInheritance.java:18: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/MethodInheritance.java:35: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/PackageUtils.java:184: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Parameters.java:74: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Parameters.java:44: warning - @@ANNOTATIONS@@ is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/PropertiesFile.java:15: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/TestNGClassFinder.java:221: warning - @returns is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Utils.java:639: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/Utils.java:659: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/annotations/IBaseBeforeAfter.java:11: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/util/RetryAnalyzerCount.java:31: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/SuiteDispatcher.java:30: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/SuiteDispatcher.java:96: warning - @param argument "javadocAnnotationFinder" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/SuiteDispatcher.java:96: warning - @param argument "jdkAnnotationFinder" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/SuiteSlave.java:24: warning - @date is an unknown tag.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/junit/ArrayComparisonFailure.java:10: warning - Tag @see: reference not found: Assert#assertArrayEquals(String, Object[], Object[])
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/junit/ArrayComparisonFailure.java:25: warning - Tag @see: reference not found: Assert#assertArrayEquals(String, Object[], Object[])
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/strprotocol/BaseMessageSender.java:54: warning - @return tag cannot be used in method with void return type.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/strprotocol/GenericMessage.java:63: warning - Tag @see: reference not found: net.noco.testng.runner.IStringMessage#getMessageAsString()
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/strprotocol/IRemoteSuiteListener.java:25: warning - @param argument "sm" is not a parameter name.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/strprotocol/MessageHub.java:31: warning - @return tag cannot be used in method with void return type.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/strprotocol/SuiteMessage.java:76: warning - Tag @see: reference not found: net.noco.testng.runner.IStringMessage#getMessageAsString()
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/strprotocol/TestMessage.java:58: warning - Tag @see: reference not found: net.noco.testng.runner.IStringMessage#getMessageAsString()
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/remote/strprotocol/TestResultMessage.java:405: warning - @return tag has no arguments.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/BaseTestMethod.java:70: warning - Tag @inheritDoc cannot be used in field documentation.  It can only be used in the following types of documentation: method, inline text.
+> /home/travis/build/cbeust/testng/src/main/java/org/testng/internal/BaseTestMethod.java:70: warning - Tag @inheritDoc cannot be used in field documentation.  It can only be used in the following types of documentation: method, inline text.
+> 
+> 57 warnings
+> :javadocJar
+> :sourcesJar
+> :signArchives SKIPPED
+> :assemble
+> 
+> BUILD SUCCESSFUL
+> 
+> Total time: 55.119 secs
+> travis_time:end:0131ebd4:start=1433122152543337880,finish=1433122208093627472,duration=55550289592[0Ktravis_fold:end:install[0Ktravis_time:start:0d91941f[0K$ ./gradlew clean test
+> Creating Version file: 6.9.5-SNAPSHOT in /home/travis/build/cbeust/testng/src/generated/java/org/testng/internal
+> [buildinfo] Not using buildInfo properties file for this build.
+> :clean
+> :myDir UP-TO-DATE
+> :createVersion
+> :compileGeneratedJava
+> :processGeneratedResources UP-TO-DATE
+> :generatedClasses
+> :compileJavaNote: Some input files use or override a deprecated API.
+> Note: Recompile with -Xlint:deprecation for details.
+> Note: Some input files use unchecked or unsafe operations.
+> Note: Recompile with -Xlint:unchecked for details.
+> 
+> :processResources
+> :classes
+> :compileTestJava
+> Download https://repo1.maven.org/maven2/org/assertj/assertj-core/2.0.0/assertj-core-2.0.0.pom
+> Download https://repo1.maven.org/maven2/org/assertj/assertj-parent-pom/1.3.5/assertj-parent-pom-1.3.5.pom
+> Download https://repo1.maven.org/maven2/com/github/marschall/memoryfilesystem/0.6.4/memoryfilesystem-0.6.4.pom
+> Download https://repo1.maven.org/maven2/org/assertj/assertj-core/2.0.0/assertj-core-2.0.0.jar
+> Download https://repo1.maven.org/maven2/com/github/marschall/memoryfilesystem/0.6.4/memoryfilesystem-0.6.4.jar
+> Note: Some input files use or override a deprecated API.
+> Note: Recompile with -Xlint:deprecation for details.
+> Note: Some input files use unchecked or unsafe operations.
+> Note: Recompile with -Xlint:unchecked for details.
+> :processTestResources
+> :testClasses
+> :test
+> 
+> BUILD SUCCESSFUL
+> 
+> Total time: 1 mins 6.262 secs
+> travis_time:end:0d91941f:start=1433122208098737309,finish=1433122274787949662,duration=66689212353[0K
+> [32;1mThe command "./gradlew clean test" exited with 0.[0m
+191,250c341
+< FAILURE: Build failed with an exception.
+< 
+< * Where:
+< Script '/home/travis/build/cbeust/testng/gradle/publishing.gradle' line: 41
+< 
+< * What went wrong:
+< A problem occurred evaluating script.
+< > /home/travis/build/cbeust/testng/local.properties (No such file or directory)
+< 
+< * Try:
+< Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+< 
+< BUILD FAILED
+< 
+< Total time: 17.62 secs
+< 
+< [31;1mThe command "eval ./gradlew assemble" failed. Retrying, 2 of 3.[0m
+< 
+< 
+< FAILURE: Build failed with an exception.
+< 
+< * Where:
+< Script '/home/travis/build/cbeust/testng/gradle/publishing.gradle' line: 41
+< 
+< * What went wrong:
+< A problem occurred evaluating script.
+< > /home/travis/build/cbeust/testng/local.properties (No such file or directory)
+< 
+< * Try:
+< Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+< 
+< BUILD FAILED
+< 
+< Total time: 4.121 secs
+< 
+< [31;1mThe command "eval ./gradlew assemble" failed. Retrying, 3 of 3.[0m
+< 
+< 
+< FAILURE: Build failed with an exception.
+< 
+< * Where:
+< Script '/home/travis/build/cbeust/testng/gradle/publishing.gradle' line: 41
+< 
+< * What went wrong:
+< A problem occurred evaluating script.
+< > /home/travis/build/cbeust/testng/local.properties (No such file or directory)
+< 
+< * Try:
+< Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
+< 
+< BUILD FAILED
+< 
+< Total time: 4.094 secs
+< 
+< [31;1mThe command "eval ./gradlew assemble" failed 3 times.[0m
+< 
+< travis_time:end:0d498f70:start=1433106661415823966,finish=1433106693117274861,duration=31701450895[0K
+< [31;1mThe command "./gradlew assemble" failed and exited with 1 during .[0m
+< 
+< Your build has been stopped.
+---
+> Done. Your build exited with 0.
