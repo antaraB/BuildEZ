@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/checkstyle/checkstyle
-Github failed trigger commit:  https://www.github.com/checkstyle/checkstyle/commit/288fcfafcec3b0e10880d56d08b714689426dacc
-Github passed trigger commit:  https://www.github.com/checkstyle/checkstyle/commit/f2ed5298c27f301357c5d82be70c1668f60f2551
-Github compare link:  https://www.github.com/checkstyle/checkstyle/compare/288fcfafcec3b0e10880d56d08b714689426dacc...f2ed5298c27f301357c5d82be70c1668f60f2551

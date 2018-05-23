@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/puniverse/quasar
-Github failed trigger commit:  https://www.github.com/puniverse/quasar/commit/7a5304fae5ee6de236ff85962701e1c3162aaf46
-Github passed trigger commit:  https://www.github.com/puniverse/quasar/commit/d39c587dbe349a48132caa0e72aa3993f2afc063
-Github compare link:  https://www.github.com/puniverse/quasar/compare/7a5304fae5ee6de236ff85962701e1c3162aaf46...d39c587dbe349a48132caa0e72aa3993f2afc063

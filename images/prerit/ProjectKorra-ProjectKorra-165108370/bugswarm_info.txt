@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/ProjectKorra/ProjectKorra
-Github failed trigger commit:  https://www.github.com/ProjectKorra/ProjectKorra/commit/9dd5739c00e17f4737482fd8e9d15e0f718da65b
-Github passed trigger commit:  https://www.github.com/ProjectKorra/ProjectKorra/commit/749669e84c66dab5d0db1fcd278d56cf9b871274
-Github compare link:  https://www.github.com/ProjectKorra/ProjectKorra/compare/9dd5739c00e17f4737482fd8e9d15e0f718da65b...749669e84c66dab5d0db1fcd278d56cf9b871274

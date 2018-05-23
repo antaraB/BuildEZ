@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/ocpsoft/rewrite
+Github failed trigger commit:  https://www.github.com/ocpsoft/rewrite/commit/5d27bc85ed69092c186b2308962c0c40537df371
+Github passed trigger commit:  https://www.github.com/ocpsoft/rewrite/commit/a2e02dbf84b5fe63cced6fe1360e18385a72d6f8
+Github compare link:  https://www.github.com/ocpsoft/rewrite/compare/5d27bc85ed69092c186b2308962c0c40537df371...a2e02dbf84b5fe63cced6fe1360e18385a72d6f8

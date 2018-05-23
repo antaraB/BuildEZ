@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/nutzam/nutz
-Github failed trigger commit:  https://www.github.com/nutzam/nutz/commit/3197b0337f87ad0f42e0e05c8e018079ac819535
-Github passed trigger commit:  https://www.github.com/nutzam/nutz/commit/8720603a43a27fe5630cb1898fbc0ecfa40f76a3
-Github compare link:  https://www.github.com/nutzam/nutz/compare/3197b0337f87ad0f42e0e05c8e018079ac819535...8720603a43a27fe5630cb1898fbc0ecfa40f76a3

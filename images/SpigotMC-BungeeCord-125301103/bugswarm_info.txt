@@ -1,4 +1,4 @@
 Github link:  https://www.github.com/SpigotMC/BungeeCord
-Github failed trigger commit:  0b554be10adc4b19f1a08cf29017ef5d7ff26395
-Github passed trigger commit:  b9a98c88ba5b901b81ddc07599a228709b51ecca
-Github compare link:  https://www.github.com/SpigotMC/BungeeCord/compare/b9a98c88ba5b901b81ddc07599a228709b51ecca...0b554be10adc4b19f1a08cf29017ef5d7ff26395
+Github failed trigger commit:  https://www.github.com/SpigotMC/BungeeCord/commit/0b554be10adc4b19f1a08cf29017ef5d7ff26395
+Github passed trigger commit:  https://www.github.com/SpigotMC/BungeeCord/commit/b9a98c88ba5b901b81ddc07599a228709b51ecca
+Github compare link:  https://www.github.com/SpigotMC/BungeeCord/compare/0b554be10adc4b19f1a08cf29017ef5d7ff26395...b9a98c88ba5b901b81ddc07599a228709b51ecca

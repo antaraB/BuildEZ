@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/lviggiano/owner
-Github failed trigger commit:  https://www.github.com/lviggiano/owner/commit/6d9058dcca1d35a9576e7e4263ddb9d15f403df9
-Github passed trigger commit:  https://www.github.com/lviggiano/owner/commit/4c72948d309f43d0fa6d694f973ba185b67c08f6
-Github compare link:  https://www.github.com/lviggiano/owner/compare/6d9058dcca1d35a9576e7e4263ddb9d15f403df9...4c72948d309f43d0fa6d694f973ba185b67c08f6

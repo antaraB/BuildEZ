@@ -1,4 +1,4 @@
 Github link:  https://www.github.com/cbeust/testng
-Github failed trigger commit:  2ff96a39753564c47097265159c373657ef0c690
-Github passed trigger commit:  f5717c99c16115b3509de124606b4c3573cac5bb
-Github compare link:  https://www.github.com/cbeust/testng/compare/f5717c99c16115b3509de124606b4c3573cac5bb...2ff96a39753564c47097265159c373657ef0c690
+Github failed trigger commit:  https://www.github.com/cbeust/testng/commit/2ff96a39753564c47097265159c373657ef0c690
+Github passed trigger commit:  https://www.github.com/cbeust/testng/commit/f5717c99c16115b3509de124606b4c3573cac5bb
+Github compare link:  https://www.github.com/cbeust/testng/compare/2ff96a39753564c47097265159c373657ef0c690...f5717c99c16115b3509de124606b4c3573cac5bb

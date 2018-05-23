@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/NitorCreations/nflow
-Github failed trigger commit:  https://www.github.com/NitorCreations/nflow/commit/4e1ffef1bf3f6a99fe68fd58cca5a46e2fc6f237
-Github passed trigger commit:  https://www.github.com/NitorCreations/nflow/commit/527f221a130fb302fc2ad5cc698721ec426cf6af
-Github compare link:  https://www.github.com/NitorCreations/nflow/compare/4e1ffef1bf3f6a99fe68fd58cca5a46e2fc6f237...527f221a130fb302fc2ad5cc698721ec426cf6af

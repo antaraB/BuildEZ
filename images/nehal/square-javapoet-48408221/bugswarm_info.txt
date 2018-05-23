@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/square/javapoet
-Github failed trigger commit:  https://www.github.com/square/javapoet/commit/6db81d3fdd3b29df5464741a6e7dcadc9a0f9c06
-Github passed trigger commit:  https://www.github.com/square/javapoet/commit/74907054c085e3b33cbec4a064afcc3814ae0dd0
-Github compare link:  https://www.github.com/square/javapoet/compare/6db81d3fdd3b29df5464741a6e7dcadc9a0f9c06...74907054c085e3b33cbec4a064afcc3814ae0dd0

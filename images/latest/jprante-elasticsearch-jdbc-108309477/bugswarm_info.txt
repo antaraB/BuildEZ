@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/jprante/elasticsearch-jdbc
+Github failed trigger commit:  https://www.github.com/jprante/elasticsearch-jdbc/commit/ab0bad1190238bf5d6505b77578275a34d856311
+Github passed trigger commit:  https://www.github.com/jprante/elasticsearch-jdbc/commit/e65372d133938dc961c808aeb34af026c7f087ef
+Github compare link:  https://www.github.com/jprante/elasticsearch-jdbc/compare/ab0bad1190238bf5d6505b77578275a34d856311...e65372d133938dc961c808aeb34af026c7f087ef

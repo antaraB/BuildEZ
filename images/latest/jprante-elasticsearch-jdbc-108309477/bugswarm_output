@@ -1,0 +1,74 @@
+{
+    "_created": "Fri, 26 Jan 2018 08:26:09 GMT",
+    "_etag": "fd86528a0f51ffabaee8543395949a1a25d962a8",
+    "_id": "5a6ae621f1f70e0793e5faf2",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/jprante-elasticsearch-jdbc-108309477",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:17:37 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 108309476,
+        "build_job": "334.1",
+        "committed_at": "2016-02-10T16:00:00Z",
+        "failed_tests": "",
+        "job_id": 108309477,
+        "message": "update to ES 2.2.0",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "ab0bad1190238bf5d6505b77578275a34d856311"
+    },
+    "filtered_reason": "",
+    "image_tag": "jprante-elasticsearch-jdbc-108309477",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 91,
+        "changes": 123,
+        "deletions": 32
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 108479361,
+        "build_job": "335.1",
+        "committed_at": "2016-02-11T08:01:47Z",
+        "failed_tests": "",
+        "job_id": 108479362,
+        "message": "more gradle testng stuff",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 19,
+        "trigger_sha": "e65372d133938dc961c808aeb34af026c7f087ef"
+    },
+    "pr_num": -1,
+    "repo": "jprante/elasticsearch-jdbc",
+    "repo_builds": 380,
+    "repo_commits": 276,
+    "repo_members": 0,
+    "repo_mined_version": "10df51a707572ba40abc2009aa02b99b8d28cbf7",
+    "repo_prs": 46,
+    "repo_watchers": 1079,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "jprante-elasticsearch-jdbc-108309477",
+    "test_framework": ""
+}

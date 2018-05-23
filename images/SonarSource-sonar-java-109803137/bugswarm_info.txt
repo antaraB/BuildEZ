@@ -1,4 +1,4 @@
 Github link:  https://www.github.com/SonarSource/sonar-java
-Github failed trigger commit:  6273288d1b70132007331d60e3c3e6f6f9f293af
-Github passed trigger commit:  a0a02895dd2f6615e009b5fb514c55f63058408c
-Github compare link:  https://www.github.com/SonarSource/sonar-java/compare/a0a02895dd2f6615e009b5fb514c55f63058408c...6273288d1b70132007331d60e3c3e6f6f9f293af
+Github failed trigger commit:  https://www.github.com/SonarSource/sonar-java/commit/6273288d1b70132007331d60e3c3e6f6f9f293af
+Github passed trigger commit:  https://www.github.com/SonarSource/sonar-java/commit/a0a02895dd2f6615e009b5fb514c55f63058408c
+Github compare link:  https://www.github.com/SonarSource/sonar-java/compare/6273288d1b70132007331d60e3c3e6f6f9f293af...a0a02895dd2f6615e009b5fb514c55f63058408c

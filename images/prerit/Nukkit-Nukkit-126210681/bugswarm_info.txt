@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/Nukkit/Nukkit
-Github failed trigger commit:  https://www.github.com/Nukkit/Nukkit/commit/445c8908ef968d5a65be87aafe3151a80194a263
-Github passed trigger commit:  https://www.github.com/Nukkit/Nukkit/commit/280cab84fed65e0ece8ab8e155ad0d6d2eeb5e54
-Github compare link:  https://www.github.com/Nukkit/Nukkit/compare/445c8908ef968d5a65be87aafe3151a80194a263...280cab84fed65e0ece8ab8e155ad0d6d2eeb5e54

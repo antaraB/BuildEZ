@@ -1,7 +1,7 @@
 #!/bin/bash
 # run bugswarm show on all image tags and save important info to relevant file 
 # first argument should be file containing all the image-tags
-LOCALPATH=../images
+LOCALPATH=../images/latest_nehal
 IMAGES=()
 # copy all image-tags from file to an array
 mapfile -t IMAGES < $1

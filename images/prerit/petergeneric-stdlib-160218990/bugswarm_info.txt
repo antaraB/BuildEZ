@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/petergeneric/stdlib
-Github failed trigger commit:  https://www.github.com/petergeneric/stdlib/commit/438602031dbbf132044801d44ab8c082253fd758
-Github passed trigger commit:  https://www.github.com/petergeneric/stdlib/commit/3b48781e1e189fd592d09d3e849dbf3a6bfe81fc
-Github compare link:  https://www.github.com/petergeneric/stdlib/compare/438602031dbbf132044801d44ab8c082253fd758...3b48781e1e189fd592d09d3e849dbf3a6bfe81fc

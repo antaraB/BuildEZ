@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/Backendless/Android-SDK
-Github failed trigger commit:  https://www.github.com/Backendless/Android-SDK/commit/e5be3ac815d56a112c8801c65ade7088128977cc
-Github passed trigger commit:  https://www.github.com/Backendless/Android-SDK/commit/2d0bb32336afa17fbeac98377be5453c313f9fa7
-Github compare link:  https://www.github.com/Backendless/Android-SDK/compare/e5be3ac815d56a112c8801c65ade7088128977cc...2d0bb32336afa17fbeac98377be5453c313f9fa7

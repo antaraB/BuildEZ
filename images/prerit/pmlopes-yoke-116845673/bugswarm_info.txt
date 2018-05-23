@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/pmlopes/yoke
-Github failed trigger commit:  https://www.github.com/pmlopes/yoke/commit/2933fc8340b6976b9b0718a26db33a3121ade05b
-Github passed trigger commit:  https://www.github.com/pmlopes/yoke/commit/d8276a410a0fb3fc510e98bb6d3e81a72762a4ee
-Github compare link:  https://www.github.com/pmlopes/yoke/compare/2933fc8340b6976b9b0718a26db33a3121ade05b...d8276a410a0fb3fc510e98bb6d3e81a72762a4ee

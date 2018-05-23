@@ -1,4 +1,4 @@
 Github link:  https://www.github.com/apache/airavata
-Github failed trigger commit:  3b09770a8dfef3a3f7f0c5d4f775d7678a3b233e
-Github passed trigger commit:  1148ffc078a4dafbb5f3e38d355f9faa07320594
-Github compare link:  https://www.github.com/apache/airavata/compare/1148ffc078a4dafbb5f3e38d355f9faa07320594...3b09770a8dfef3a3f7f0c5d4f775d7678a3b233e
+Github failed trigger commit:  https://www.github.com/apache/airavata/commit/3b09770a8dfef3a3f7f0c5d4f775d7678a3b233e
+Github passed trigger commit:  https://www.github.com/apache/airavata/commit/1148ffc078a4dafbb5f3e38d355f9faa07320594
+Github compare link:  https://www.github.com/apache/airavata/compare/3b09770a8dfef3a3f7f0c5d4f775d7678a3b233e...1148ffc078a4dafbb5f3e38d355f9faa07320594

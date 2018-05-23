@@ -1,0 +1,74 @@
+{
+    "_created": "Tue, 09 Jan 2018 18:49:27 GMT",
+    "_etag": "061d80f478fb4c0b0493771a73e0b8ed628697b8",
+    "_id": "5a550eb7f1f70e0793e5f0d4",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/ontop-ontop-83689235",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:16:21 GMT",
+    "base_branch": "",
+    "branch": "develop",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 83689234,
+        "build_job": "2360.1",
+        "committed_at": "2015-10-05T12:29:37Z",
+        "failed_tests": "",
+        "job_id": 83689235,
+        "message": "Merge branch 'feature/monetdb-adapter' into develop",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "0f6212104aead91f8f83703aed7a799c3899dcd3"
+    },
+    "filtered_reason": "",
+    "image_tag": "ontop-ontop-83689235",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 3,
+        "changes": 24,
+        "deletions": 21
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 83690899,
+        "build_job": "2361.1",
+        "committed_at": "2015-10-05T13:20:32Z",
+        "failed_tests": "",
+        "job_id": 83690900,
+        "message": "minor change monetdb adapter",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 4097,
+        "trigger_sha": "d2d5324e927e966608907dd8ca01e71123b9a216"
+    },
+    "pr_num": -1,
+    "repo": "ontop/ontop",
+    "repo_builds": 3217,
+    "repo_commits": 4150,
+    "repo_members": 0,
+    "repo_mined_version": "f9fed36427ded37a347fcc67144d5fdce4dbfc7d",
+    "repo_prs": 14,
+    "repo_watchers": 119,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "ontop-ontop-83689235",
+    "test_framework": ""
+}

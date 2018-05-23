@@ -1,4 +1,4 @@
 Github link:  https://www.github.com/HubSpot/Baragon
-Github failed trigger commit:  ee201dec3b377c0f5c38b5d00aaffa69c9303f6b
-Github passed trigger commit:  f01881c3361344c955ddf15c7cc36dfc220af1b7
-Github compare link:  https://www.github.com/HubSpot/Baragon/compare/f01881c3361344c955ddf15c7cc36dfc220af1b7...ee201dec3b377c0f5c38b5d00aaffa69c9303f6b
+Github failed trigger commit:  https://www.github.com/HubSpot/Baragon/commit/ee201dec3b377c0f5c38b5d00aaffa69c9303f6b
+Github passed trigger commit:  https://www.github.com/HubSpot/Baragon/commit/f01881c3361344c955ddf15c7cc36dfc220af1b7
+Github compare link:  https://www.github.com/HubSpot/Baragon/compare/ee201dec3b377c0f5c38b5d00aaffa69c9303f6b...f01881c3361344c955ddf15c7cc36dfc220af1b7

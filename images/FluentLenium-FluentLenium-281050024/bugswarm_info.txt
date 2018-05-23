@@ -1,4 +1,4 @@
 Github link:  https://www.github.com/FluentLenium/FluentLenium
-Github failed trigger commit:  105537eb9b6ed127e1c432ba1d517c4b8bf4384c
-Github passed trigger commit:  a09e9672db9e5cda06d562bb8f735c74cb5133e3
-Github compare link:  https://www.github.com/FluentLenium/FluentLenium/compare/a09e9672db9e5cda06d562bb8f735c74cb5133e3...105537eb9b6ed127e1c432ba1d517c4b8bf4384c
+Github failed trigger commit:  https://www.github.com/FluentLenium/FluentLenium/commit/105537eb9b6ed127e1c432ba1d517c4b8bf4384c
+Github passed trigger commit:  https://www.github.com/FluentLenium/FluentLenium/commit/a09e9672db9e5cda06d562bb8f735c74cb5133e3
+Github compare link:  https://www.github.com/FluentLenium/FluentLenium/compare/105537eb9b6ed127e1c432ba1d517c4b8bf4384c...a09e9672db9e5cda06d562bb8f735c74cb5133e3

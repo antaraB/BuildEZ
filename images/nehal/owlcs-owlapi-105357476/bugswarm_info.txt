@@ -1,4 +1,0 @@
-Github link:  https://www.github.com/owlcs/owlapi
-Github failed trigger commit:  https://www.github.com/owlcs/owlapi/commit/a0e607f76ea54e0a2fce22e5df7a3decf8399b5a
-Github passed trigger commit:  https://www.github.com/owlcs/owlapi/commit/db247696b0c272d7dcb2fe8ade098a5a19c56cc7
-Github compare link:  https://www.github.com/owlcs/owlapi/compare/a0e607f76ea54e0a2fce22e5df7a3decf8399b5a...db247696b0c272d7dcb2fe8ade098a5a19c56cc7

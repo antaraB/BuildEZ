@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 17 Apr 2018 23:43:30 GMT",
+    "_etag": "1ce88a856715f6efe4b5b097111ee54ce82cb4f0",
+    "_id": "5ad686a2f1f70eeb88da2202",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/lviggiano-owner-140673537",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Wed, 16 May 2018 18:52:54 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 140673536,
+        "build_job": "687.1",
+        "committed_at": "2016-06-27T23:15:33Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 140673537,
+        "message": "trying to configure travis to build on osx,linux and windows",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 288,
+        "trigger_sha": "bc089bb309f40faf7b9642d384a8bb003f9b9b19"
+    },
+    "filtered_reason": null,
+    "image_tag": "lviggiano-owner-140673537",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 5,
+        "changes": 8,
+        "deletions": 3
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 140675799,
+        "build_job": "688.1",
+        "committed_at": "2016-06-27T23:31:14Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 140675800,
+        "message": "removed build on OSX",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 288,
+        "trigger_sha": "f1b9a72cd857cbfad5d9f4fd6723af2a3d51045d"
+    },
+    "pr_num": -1,
+    "repo": "lviggiano/owner",
+    "repo_builds": 711,
+    "repo_commits": 891,
+    "repo_members": 0,
+    "repo_mined_version": "4d73daa09344a6cfe05801040ea8153c73687d11",
+    "repo_prs": 48,
+    "repo_watchers": 463,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "lviggiano-owner-140673537",
+    "test_framework": "JUnit"
+}

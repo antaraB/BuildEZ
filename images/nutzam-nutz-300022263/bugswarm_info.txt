@@ -1,4 +1,4 @@
 Github link:  https://www.github.com/nutzam/nutz
-Github failed trigger commit:  805d8aafcddac97458d3b8e2784b813546c1dbd6
-Github passed trigger commit:  2fe81588ba31ee165399902fc0b6c4880c0ec356
-Github compare link:  https://www.github.com/nutzam/nutz/compare/2fe81588ba31ee165399902fc0b6c4880c0ec356...805d8aafcddac97458d3b8e2784b813546c1dbd6
+Github failed trigger commit:  https://www.github.com/nutzam/nutz/commit/805d8aafcddac97458d3b8e2784b813546c1dbd6
+Github passed trigger commit:  https://www.github.com/nutzam/nutz/commit/2fe81588ba31ee165399902fc0b6c4880c0ec356
+Github compare link:  https://www.github.com/nutzam/nutz/compare/805d8aafcddac97458d3b8e2784b813546c1dbd6...2fe81588ba31ee165399902fc0b6c4880c0ec356
