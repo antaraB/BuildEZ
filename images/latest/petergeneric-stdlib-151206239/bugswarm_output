@@ -74,3 +74,4 @@
     "tag": "petergeneric-stdlib-151206239",
     "test_framework": ""
 }
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'
