@@ -1,5 +1,6 @@
 #assuming we've detected that it's this error
 # error: package X not detected
+# /home/travis/build/junkdog/artemis-odb/artemis/src/main/java/com/artemis/io/SaveFileFormat.java:[7,47] package com.sun.xml.internal.ws.api.wsdl.parser does not exist
 '''
 PROCEDURE
 read failed log 
@@ -22,5 +23,6 @@ regex_filename = r"((\/([\w+-]+))+.java):(\[(\d+),(\d+)\])" #gets the java file 
 # group1 is file name (with path), group 3 is just filename (no java). group 5 is line num, group 6 is col num.
 with open(GREP_ERROR) as grep_error_file:
 	grep_error_file.read()
+
 
 
