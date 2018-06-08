@@ -11,7 +11,6 @@
 
 #name - pom.xml and path - /home/travis/build/failed
 
-
 import re
 import os
 
@@ -30,12 +29,14 @@ def find_the_correct_pom_file(patharray):
 	tag_description = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[0]
 	snapshot = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[1]
 	for filepath in patharray:
-		with open(filepath, w+) as filename:
-			for line in filename:
+		newfile = []
+		with open(filepath, "w+") as filename:
+			for line in filename.readlines():
 				if tag_description in line and snapshot in line:
 					line = re.sub(r"([\d\.]+)(-SNAPSHOT)",r"\1",line)
 				newfile.append(line)
-			filename.write(newfile)
+			for line in newfile:
+                                filename.write(line)
 
 #MAIN FUNCTION
 def main():
@@ -43,6 +44,6 @@ def main():
 	path = "/home/travis/build/failed"
 	poms = find_all_pom_files(name, path)
 	find_the_correct_pom_file(poms)
-if__name__=="__main__":
+if __name__=="__main__":
 	main()
 
