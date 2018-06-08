@@ -1,5 +1,6 @@
 import re
 import os
+import xml.etree.ElementTree as xml
 
 #Failed to execute goal on project projectkorra: 
 #Could not resolve dependencies for project com.projectkorra:projectkorra:jar:1.8.2: 
@@ -21,16 +22,47 @@ def find_all_pom_files(name, path):
 
 
 #OPENING EACH POM FILE TO LOOK FOR THE ONE WITH THE TAG AND REMOVE SNAPSHOT
-def find_the_correct_pom_file(patharray):
-	tag_description = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[0]
-	snapshot = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[1]
-	for filepath in patharray:
-		with open(filepath, w+) as filename:
-			for line in filename:
-				if tag_description in line and snapshot in line:
-					line = re.sub(r"([\d\.]+)(-SNAPSHOT)",r"\1",line)
-				newfile.append(line)
-			filename.write(newfile)
+# def find_the_correct_pom_file(patharray):
+# 	tag_description = re.search(r"\:([\w-]+)\:ja	r\:([\d\.]+-SNAPSHOT)",input_error).groups()[0]
+# 	snapshot = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[1]
+# 	for filepath in patharray:
+# 		with open(filepath, w+) as filename:
+# 			for line in filename:
+# 				if tag_description in line and snapshot in line:
+# 					line = re.sub(r"([\d\.]+)(-SNAPSHOT)",r"\1",line)
+# 				newfile.append(line)
+# 			filename.write(newfile)
+
+def getMappingsNode(node, nodeName):
+    if node.findall('*'):
+        for n in node.findall('*'):
+            if nodeName in n.tag:
+                return n
+        else:
+            return getMappingsNode(n, nodeName)
+
+def getMappings(rootNode):
+    mappingsNode = getMappingsNode(rootNode, 'dependencies')
+    mapping = {}
+
+    print mappingsNode
+    for prop in mappingsNode.findall('*'):
+        key = ''
+        val = ''
+
+        for child in prop.findall('*'):
+            if 'name' in child.tag:
+                key = child.text
+
+            if 'value' in child.tag:
+                val = child.text
+
+        if val and key:
+            mapping[key] = val
+
+    return mapping
+
+
 
 
 def main():
@@ -54,8 +86,22 @@ def main():
 		print "POMSSSS"
 		print poms
 
+		pomFile = xml.parse('/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/pom.xml')
+		root = pomFile.getroot()
+		namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
+
+
+		deps = root.findall(".//xmlns:dependency", namespaces=namespaces)
+		for d in deps:
+			artifactId = d.find("xmlns:artifactId", namespaces=namespaces)
+			version = d.find("xmlns:version", namespaces=namespaces)
+			print artifactId.text + '\t' + version.text
+
+		#mappings = getMappings(root)
+		#print mappings
+
 		#Replace the error of the file
-		find_the_correct_pom_file(poms)
+		#find_the_correct_pom_file(poms)
 
 		#Check if the fix works.
 	else :
