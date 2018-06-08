@@ -8,6 +8,10 @@
 #Failed to collect dependencies at com.google.guava:guava:jar:20.0-SNAPSHOT:
 
 #-----------------------------------------------------------------------------------------------------------------------------------
+
+#name - pom.xml and path - /home/travis/build/failed
+
+
 import re
 import os
 
@@ -32,4 +36,13 @@ def find_the_correct_pom_file(patharray):
 					line = re.sub(r"([\d\.]+)(-SNAPSHOT)",r"\1",line)
 				newfile.append(line)
 			filename.write(newfile)
+
+#MAIN FUNCTION
+def main():
+	name = "pom.xml"
+	path = "/home/travis/build/failed"
+	poms = find_all_pom_files(name, path)
+	find_the_correct_pom_file(poms)
+if__name__=="__main__":
+	main()
 
