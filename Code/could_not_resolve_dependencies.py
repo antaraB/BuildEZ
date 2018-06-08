@@ -33,37 +33,6 @@ def find_all_pom_files(name, path):
 # 				newfile.append(line)
 # 			filename.write(newfile)
 
-def getMappingsNode(node, nodeName):
-    if node.findall('*'):
-        for n in node.findall('*'):
-            if nodeName in n.tag:
-                return n
-        else:
-            return getMappingsNode(n, nodeName)
-
-def getMappings(rootNode):
-    mappingsNode = getMappingsNode(rootNode, 'dependencies')
-    mapping = {}
-
-    print mappingsNode
-    for prop in mappingsNode.findall('*'):
-        key = ''
-        val = ''
-
-        for child in prop.findall('*'):
-            if 'name' in child.tag:
-                key = child.text
-
-            if 'value' in child.tag:
-                val = child.text
-
-        if val and key:
-            mapping[key] = val
-
-    return mapping
-
-
-
 
 def main():
 	print "Inside main function"
