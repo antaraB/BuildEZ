@@ -23,7 +23,7 @@ input_error2 = "Failed to collect dependencies at com.google.guava:guava:jar:20.
 
 #STORING PATHS TO ALL POM.XML FILES IN AN ARRAY
 def find_all_pom_files(name, path):
-        #print "Inside find_all_pom_files"
+        print "-------------Inside find_all_pom_files-----------------"
         poms = []
         for root, dirs, files in os.walk(path):
                 if name in files:
@@ -32,42 +32,25 @@ def find_all_pom_files(name, path):
 
 #OPENING EACH POM FILE TO LOOK FOR THE ONE WITH THE TAG AND REMOVE SNAPSHOT
 def find_the_correct_pom_file(patharray):
-        #print "Inside find_the_correct_pom_file"
+        print "--------------Inside find_the_correct_pom_file------------"
         tag_description = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[0]
         snapshot = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[1]
-        #print tag_description, snapshot, patharray
+        print tag_description, snapshot, patharray
         for filepath in patharray:
-                '''
-                newfile = []
-                #print type(filepath)
-		with open('%s' % filepath, 'r') as filename:
-                        if tag_description in filename.read():
-                        #print "------------------------------------------------------------------------"
-                        #print filename.readline()
-                                for line in filename:
-                                        #print line
-                                        if tag_description in line and snapshot in line:
-                                                line = re.sub(r"([\d\.]+)(-SNAPSHOT)",r"\1",line)
-                                                #print "UPDATED LINE"
-                                                #print line
-                                        newfile.append(line)
-                                print newfile
-                                filename = open('%s' % filepath, 'w')
-                                for line in newfile:
-                                        filename.write(line)
-                                #print filename.readlines()
-                        '''
                 with open('%s' % filepath, 'r') as filename:
                         if tag_description in filename.read():
                                 pomfile = xml.parse(filepath)
+                                print pomfile
                                 root = pomfile.getroot()
                                 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
                                 properties = root.find(".//xmlns:properties", namespaces = namespaces)
                                 snap = properties.find(".//xmlns:dependency." + tag_description + ".version", namespaces = namespaces)
                                 #print snap.text
                                 snap.text = re.sub(r"(.+)(-SNAPSHOT)",r"\1",snap.text)
-																pomfile.write(filepath)
-
+                                print snap.text
+                                pomfile.write(filepath)
+                                print pomfile
+'''
 #REBUILDING PROJECT AFTER FIXING POM FILE
 def rebuild_using_new_pom():
 	result = subprocess.call('/usr/local/bin/run_failed.sh')
@@ -76,20 +59,17 @@ def rebuild_using_new_pom():
 		print "Build passed!! WOOOHOOOOO!"
 	elif result == 2:
 		print "MAA KI AANKH!"
-
-
-
+'''
 #MAIN FUNCTION
 def main():
-	name = "pom.xml"
-  path = "/home/travis/build/failed"
-  poms = find_all_pom_files(name, path)
-  #print poms
-  find_the_correct_pom_file(poms)
-	rebuild_using_new_pom()	
-	if __name__=="__main__":
-		main()
-
-
-
+        print "---------INSIDE MAIN------------"
+        name = "pom.xml"
+        path = "/home/travis/build/failed"
+        poms = find_all_pom_files(name, path)
+        print "-------ARRAY RETURNED BY THE FUNCTION---"
+        print poms
+        find_the_correct_pom_file(poms)
+        rebuild_using_new_pom()
+        if __name__=="__main__":
+                main()
 
