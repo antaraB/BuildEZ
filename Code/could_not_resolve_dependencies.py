@@ -64,7 +64,14 @@ def main():
 		for d in deps:
 			artifactId = d.find("xmlns:artifactId", namespaces=namespaces)
 			version = d.find("xmlns:version", namespaces=namespaces)
-			print artifactId.text + '\t' + version.text
+			systemPath = d.find("xmlns:systemPath", namespaces=namespaces)
+			if(artifactId.text == "GLib"):
+				print systemPath.text
+				path = systemPath.text
+				systemPath.text = systemPath.text.replace("GL.jar", "GLib.jar")
+				print systemPath.text
+
+		pomFile.write('pom_new.xml')
 
 		#mappings = getMappings(root)
 		#print mappings
