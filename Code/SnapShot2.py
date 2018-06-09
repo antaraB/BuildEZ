@@ -69,7 +69,7 @@ def main():
         print "-------ARRAY RETURNED BY THE FUNCTION---"
         print poms
         find_the_correct_pom_file(poms)
-        rebuild_using_new_pom()
+        #rebuild_using_new_pom()
         if __name__=="__main__":
                 main()
 
