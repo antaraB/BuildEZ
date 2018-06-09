@@ -1,3 +1,7 @@
+import re
+import os
+import xml.etree.ElementTree as xml
+
 #[ERROR] Failed to execute goal org.bsc.maven:maven-processor-plugin:2.2.4:process (process) on project artemis-odb-test: 
 #Execution process of goal org.bsc.maven:maven-processor-plugin:2.2.4:process failed: 
 #Plugin org.bsc.maven:maven-processor-plugin:2.2.4 or one of its dependencies could not be resolved: 
@@ -8,6 +12,9 @@
 input = "[ERROR] Failed to execute goal org.bsc.maven:maven-processor-plugin:2.2.4:process (process) on project artemis-odb-test: Execution process of goal org.bsc.maven:maven-processor-plugin:2.2.4:process failed: Plugin org.bsc.maven:maven-processor-plugin:2.2.4 or one of its dependencies could not be resolved: Could not find artifact net.onedaybeard.artemis:artemis-odb-processor:jar:2.0.0-RC3-SNAPSHOT -> [Help 1]"
 
 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
+
+xml.register_namespace('', 'http://maven.apache.org/POM/4.0.0')
+xml.register_namespace('xsi', 'http://www.w3.org/2001/XMLSchema-instance')
 
 
 #STORING PATHS TO ALL POM.XML FILES IN AN ARRAY
@@ -34,22 +41,22 @@ def main():
 		#poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
 		print poms
 
-		# for filepath in poms:
-		# 	pomFile = xml.parse(filepath)
-		# 	root = pomFile.getroot()
+		#Remove the dependency
+		for filepath in poms:
+			pomFile = xml.parse(filepath)
+			root = pomFile.getroot()
 
-
-		# 	deps = root.findall(".//xmlns:dependency", namespaces=namespaces)
-		# 	for d in deps:
-		# 		artifactId = d.find("xmlns:artifactId", namespaces=namespaces)
-		# 		version = d.find("xmlns:version", namespaces=namespaces)
-		# 		systemPath = d.find("xmlns:systemPath", namespaces=namespaces)
-		# 		if(artifactId.text == artifact[1]):
-		# 			print systemPath.text
-		# 			path = systemPath.text
-		# 			systemPath.text = systemPath.text.replace(grouped_output.group(5), artifact[1] + "." + artifact[2])
-		# 			print systemPath.text
-		# 			pomFile.write(filepath)
+			deps = root.findall(".//xmlns:plugin", namespaces=namespaces)
+			for d in deps:
+				artifactId = d.find("xmlns:artifactId", namespaces=namespaces)
+				version = d.find("xmlns:version", namespaces=namespaces)
+				if(artifactId.text == artifact[1]):
+					print artifactId.text
+					print "Gonna Remove"
+					root.find(".//xmlns:plugins", namespaces=namespaces).remove(d)
+					print "Removed!"
+					pomFile.write(filepath)
+					print "File Updated"
 
 
 if __name__ == '__main__':

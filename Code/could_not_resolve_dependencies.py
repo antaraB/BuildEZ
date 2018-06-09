@@ -21,6 +21,9 @@ input3 = "Failed to execute goal on project closure-compiler-gwt: Could not reso
 
 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
 
+xml.register_namespace('', 'http://maven.apache.org/POM/4.0.0')
+xml.register_namespace('xsi', 'http://www.w3.org/2001/XMLSchema-instance')
+
 
 #STORING PATHS TO ALL POM.XML FILES IN AN ARRAY
 def find_all_pom_files(name, path):
