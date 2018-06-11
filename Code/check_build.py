@@ -10,12 +10,10 @@ except ImportError:
 
 
 def main(to_print):
-
     if to_print:
         result = subprocess.call('/usr/local/bin/run_failed.sh')
     else :  
         result = subprocess.call('/usr/local/bin/run_failed.sh', stdout=DEVNULL, stderr=subprocess.STDOUT)
-    
     if result == 0:
         print("Build Passed")
     else:
