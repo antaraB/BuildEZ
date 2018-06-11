@@ -44,12 +44,20 @@ def find_the_correct_pom_file(patharray):
                                 root = pomfile.getroot()
                                 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
                                 properties = root.find(".//xmlns:properties", namespaces = namespaces)
-                                snap = properties.find(".//xmlns:dependency." + tag_description + ".version", namespaces = namespaces)
+				for p in properties.iter():
+                                        if p.text == snapshot:
+                                                p.text = re.sub(r"(.+)(-SNAPSHOT)",r"\1", p.text)
+                                                print p.text
+                                                pomfile.write(filepath)
+				'''                                
+				snap = properties.find(".//xmlns:dependency." + tag_description + ".version", namespaces = namespaces)
                                 #print snap.text
                                 snap.text = re.sub(r"(.+)(-SNAPSHOT)",r"\1",snap.text)
                                 print snap.text
                                 pomfile.write(filepath)
                                 print pomfile
+				'''
+
 '''
 #REBUILDING PROJECT AFTER FIXING POM FILE
 def rebuild_using_new_pom():
