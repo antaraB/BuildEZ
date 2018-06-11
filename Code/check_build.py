@@ -9,15 +9,19 @@ except ImportError:
     DEVNULL = open(os.devnull, 'wb')
 
 
-def main(to_print):
+def main(to_print=False):
     if to_print:
         result = subprocess.call('/usr/local/bin/run_failed.sh')
     else :  
         result = subprocess.call('/usr/local/bin/run_failed.sh', stdout=DEVNULL, stderr=subprocess.STDOUT)
     if result == 0:
-        print("Build Passed")
+        if to_print:
+            print("Build Passed")
+        return True
     else:
-        print("Build Failed")
+        if to_print:
+            print("Build Failed")
+        return False
 
 
 if __name__ == "__main__":
