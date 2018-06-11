@@ -95,8 +95,8 @@ def main(grep_error, is_string, to_print=False):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('grep_error',action='store', help="Complete path of grepped error file")
-    parser.add_argument('-s','--error_message', action='store_true', default=False, help="if main argument is string ")
+    parser.add_argument('grep-error',action='store', help="Complete path of grepped error file")
+    parser.add_argument('-s','--error-message', action='store_true', default=False, help="if main argument is string ")
     parser.add_argument('-v','--verbose', action='store_true', default=False, help=" Will print values at intermediate steps ")
     
     args = parser.parse_args()
