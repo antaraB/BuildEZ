@@ -18,7 +18,7 @@ def main(to_print):
     
     if result == 0:
         print("Build Passed")
-    elif result == 2:
+    else:
         print("Build Failed")
 
 
