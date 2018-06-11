@@ -70,6 +70,6 @@ def main():
         print poms
         find_the_correct_pom_file(poms)
         #rebuild_using_new_pom()
-        if __name__=="__main__":
-                main()
+if __name__=="__main__":
+	main()
 
