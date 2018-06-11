@@ -37,29 +37,47 @@ def get_info_from_error_message (grep_error_string, to_print=False):
 
 def fix_error_package_dne (errorfilepath, required_package_name, line_num=None, to_print=False):
     new_file=[]
+    lines_skipped = 0 
     # open error file, read, make the fix, write the file
-    with open(errorfilepath) as error_file:
-        ctr=0
-        for line in error_file:
-            ctr+=1
-            # print (required_package_name in line,line_num,ctr,line)
-            if required_package_name in line and ctr==int(line_num): 
-                if to_print:
-                    print("fix_error_package_dne: skipped line : ",line)
-                continue # don't add that line to new_file
-            else :
-                new_file.append(line)
-        error_file.close()
-    if to_print:
-        print("fix_error_package_dne: Finished reading file  : ",errorfilepath)
-    with open(errorfilepath, 'w') as error_file:
-        for line in new_file:
-            error_file.write(line)
+    try:
+        with open(errorfilepath) as error_file:
+            ctr=0
+            for line in error_file:
+                ctr+=1
+                # print (required_package_name in line,line_num,ctr,line)
+                if required_package_name in line and ctr==int(line_num): 
+                    lines_skipped+=1
+                    if to_print:
+                        print("fix_error_package_dne: skipped line : ",line)
+                    continue # don't add that line to new_file
+                else :
+                    new_file.append(line)
+            if to_print:
+                print("fix_error_package_dne: Finished reading file  : ",errorfilepath)
+            error_file.close()
+    except IOError as e:
         if to_print:
-            print("fix_error_package_dne: Finished writing file  : ",errorfilepath)
-        error_file.close()
-        return 0
-    return -1 #error - didn't open file
+            print("fix_error_package_dne: Couldn't open file to read (%s)." % e)
+        return -1 # couldn't open file
+
+    if lines_skipped == 0:
+        if to_print:
+            print("fix_error_package_dne: No lines altered in ",errorfilepath)
+        return -2 #no errors found
+
+    try:   
+        with open(errorfilepath, 'w') as error_file:
+            for line in new_file:
+                error_file.write(line)
+            if to_print:
+                print("fix_error_package_dne: Finished modifying file  : ",errorfilepath," : ",lines_skipped," lines skipped")
+            error_file.close()
+            return lines_skipped
+    except IOError as e:
+        if to_print:
+            print("fix_error_package_dne: Couldn't open file to write (%s)." % e)
+        return -1 # couldn't open file
+    return -3 #other random error (not zero because it's confusing)
 
 def modify_to_failed (filepath):
     filepath = re.sub(r"(\/home\/travis\/build)((\/([\w-]+))+\.java)", r"\1/failed\2", filepath)
@@ -72,7 +90,7 @@ def main(grep_error, is_string, to_print=False):
         filepath, package_name, line_num = get_info_from_error_file(grep_error, to_print)
 
     if filepath and package_name:
-        if fix_error_package_dne(modify_to_failed(filepath), package_name, line_num, to_print)!=0:
+        if fix_error_package_dne(modify_to_failed(filepath), package_name, line_num, to_print)<=0:
             print("File not fixed")
 
 if __name__=="__main__":
