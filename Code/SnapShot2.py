@@ -43,6 +43,8 @@ def find_the_correct_pom_file(patharray):
                                 print pomfile
                                 root = pomfile.getroot()
                                 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
+				xml.register_namespace('', 'http://maven.apache.org/POM/4.0.0')
+				xml.register_namespace('xsi', 'http://www.w3.org/2001/XMLSchema-instance')
                                 properties = root.find(".//xmlns:properties", namespaces = namespaces)
 				for p in properties.iter():
                                         if p.text == snapshot:
