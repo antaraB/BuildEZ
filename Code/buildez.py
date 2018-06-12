@@ -8,10 +8,16 @@ from package_does_not_exist import get_info_from_error_message, fix_error_packag
 import check_build
 
 
-def main(to_print=False, to_print_build):
+def main(to_print=False, to_print_build=False):
+    # save a copy of the original
+    subprocess.call(['cp','-r','/home/travis/build/failed/','/home/travis/build/failed_original/'])
+    # change permissions for diffandgrep
+    subprocess.call(['chmod','+x','../scripts/diffandgrep.sh'])
+    #generate grep-file
     subprocess.call('../scripts/diffandgrep.sh')
     build_pass = False # whether build has passed or not
     build_message = None # any message you want to print with build passed (usually error name/ brief summary)
+    
     try:
         with open('/home/travis/grep_errors.txt') as grep_error_file:
             for line in grep_error_file.readlines():
@@ -26,7 +32,7 @@ def main(to_print=False, to_print_build):
                             break
                     else : # Error wasn't fixed
                         if to_print:
-                            print("Tried package-does-not-exist, no error detected and no changes made to build")
+                            print("\nTried package-does-not-exist, no error detected and no changes made to build")
 
                 # ADD OTHER ERRORS HERE
 
@@ -40,6 +46,10 @@ def main(to_print=False, to_print_build):
         return 1
     else :
         print("Build failed: Error couldn't be fixed using the defined dependency-error fixes")
+        # delete working copy
+        subprocess.call(['rm','-r','/home/travis/build/failed/'])
+        # rename original copy to failed
+        subprocess.call(['mv','/home/travis/build/failed_original/','/home/travis/build/failed/'])
         return -1
 
 

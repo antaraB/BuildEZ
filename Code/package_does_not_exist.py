@@ -104,13 +104,3 @@ if __name__=="__main__":
     is_string = args.error_message
     to_print = args.verbose
     main(grep_error, is_string, to_print)
-
-
-
-
-
-
-
-
-
-
