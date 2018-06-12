@@ -3,11 +3,12 @@ from __future__ import print_function
 import subprocess
 import re
 import argparse
-# import package_does_not_exist as pkg_dne
+
 from package_does_not_exist import get_info_from_error_message, fix_error_package_dne, modify_to_failed
+import package_info_dot_java
+import snapshot_xml
+
 import check_build
-import PackageInfoDotJava
-import SnapShot2
 
 
 def main(to_print=False, to_print_build=False):
@@ -36,24 +37,24 @@ def main(to_print=False, to_print_build=False):
                         if to_print:
                             print("\nTried package-does-not-exist, no error detected and no changes made to build")
 
-                # ADD OTHER ERRORS HERE
+                # ERROR: Version required and detected don't match
                 if re.search(r"([\w\.]+): Version .+ required\; detected ([\d\.]+), suggested ([\d\.]+)", line):
-                    PackageInfoDotJava.main(line)
+                    package_info_dot_java.main(line, to_print)
                     if check_build.main(to_print_build): #Build Passed!
                         build_pass = True
                         build_message = "Fixed the error by changing version in package-info.java"
                         break
                     else : # Error wasn't fixed
                         if to_print:
-                            print("\nFailed to fix build error")
+                            print("\nFailed to fix build error by using version change in package-info.java")
 
-                # different
+                # ERROR: Failed to collect dependencies at XXX-SNAPSHOT
                 if re.search(r"Failed to collect dependencies at [\w\.\-]+:[\w\-]+:jar:[\d\.]+-SNAPSHOT", line):
                     errors = re.search(r"(Failed to collect dependencies at [\w\.\-]+:[\w\-]+:jar:[\d\.]+-SNAPSHOT)", line).groups()[0]
-                    SnapShot2.main(errors)
+                    snapshot_xml.main(errors, to_print)
                     if check_build.main(to_print_build): #Build Passed!
                         build_pass = True
-                        build_message = "Fixed the error by removing SNAPSHOT from pom.xml"
+                        build_message = "Fixed the error by removing SNAPSHOT from version in pom.xml"
                         break
                     else : # Error wasn't fixed
                         if to_print:

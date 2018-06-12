@@ -11,8 +11,7 @@
 
 #name - pom.xml
 #path - /home/travis/build/failed
-
-
+from __future__ import print_function
 import re
 import os
 import xml.etree.ElementTree as xml
@@ -22,8 +21,9 @@ import subprocess
 #input_error2 = "Failed to collect dependencies at com.google.guava:guava:jar:20.0-SNAPSHOT"
 
 #STORING PATHS TO ALL POM.XML FILES IN AN ARRAY
-def find_all_pom_files(name, path):
-        print "-------------Inside find_all_pom_files-----------------"
+def find_all_pom_files(name, path, to_print=False):
+        if to_print:
+                print ("-------------Inside find_all_pom_files-----------------")
         poms = []
         for root, dirs, files in os.walk(path):
                 if name in files:
@@ -31,55 +31,41 @@ def find_all_pom_files(name, path):
         return poms
 
 #OPENING EACH POM FILE TO LOOK FOR THE ONE WITH THE TAG AND REMOVE SNAPSHOT
-def find_the_correct_pom_file(patharray, input_error):
-        print "--------------Inside find_the_correct_pom_file------------"
+def find_the_correct_pom_file(patharray, input_error, to_print = False):
         tag_description = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[0]
         snapshot = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[1]
-        print tag_description, snapshot, patharray
+        if to_print:
+                print ("--------------Inside find_the_correct_pom_file------------")
+                print ("Tag :",tag_description, " | Snapshot version: ",snapshot, " | Path array: ",patharray)
         for filepath in patharray:
                 with open('%s' % filepath, 'r') as filename:
                         if tag_description in filename.read():
                                 pomfile = xml.parse(filepath)
-                                print pomfile
+                                if to_print:
+                                        print ("POM file: ",pomfile)
                                 root = pomfile.getroot()
                                 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
-				xml.register_namespace('', 'http://maven.apache.org/POM/4.0.0')
-				xml.register_namespace('xsi', 'http://www.w3.org/2001/XMLSchema-instance')
+                                xml.register_namespace('', 'http://maven.apache.org/POM/4.0.0')
+                                xml.register_namespace('xsi', 'http://www.w3.org/2001/XMLSchema-instance')
                                 properties = root.find(".//xmlns:properties", namespaces = namespaces)
-				for p in properties.iter():
+                                for p in properties.iter():
                                         if p.text == snapshot:
                                                 p.text = re.sub(r"(.+)(-SNAPSHOT)",r"\1", p.text)
-                                                print p.text
+                                                if to_print:
+                                                        print ("Line changed: ",p.text)
                                                 pomfile.write(filepath)
-				'''                                
-				snap = properties.find(".//xmlns:dependency." + tag_description + ".version", namespaces = namespaces)
-                                #print snap.text
-                                snap.text = re.sub(r"(.+)(-SNAPSHOT)",r"\1",snap.text)
-                                print snap.text
-                                pomfile.write(filepath)
-                                print pomfile
-				'''
 
-'''
-#REBUILDING PROJECT AFTER FIXING POM FILE
-def rebuild_using_new_pom():
-	result = subprocess.call('/usr/local/bin/run_failed.sh')
-	#print result
-	if result == 0:
-		print "Build passed!! WOOOHOOOOO!"
-	elif result == 2:
-		print "MAA KI AANKH!"
-'''
 #MAIN FUNCTION
-def main(input_error):
-        print "---------INSIDE MAIN------------"
+def main(input_error, to_print=False):
+        if to_print:
+                print ("---------INSIDE MAIN (snapshot_xml)------------")
         name = "pom.xml"
         path = "/home/travis/build/failed"
-        poms = find_all_pom_files(name, path)
-        print "-------ARRAY RETURNED BY THE FUNCTION---"
-        print poms
-        find_the_correct_pom_file(poms, input_error)
-        #rebuild_using_new_pom()
+        poms = find_all_pom_files(name, path, to_print)
+        if to_print:
+                print ("-------ARRAY RETURNED BY THE FUNCTION---\n",poms)
+        find_the_correct_pom_file(poms, input_error, to_print)
+
 if __name__=="__main__":
-	main(input_error)
+        main(input_error)
 
