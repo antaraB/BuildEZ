@@ -3,7 +3,7 @@ import os
 import subprocess
 import fileinput
 
-input_error = "com.adobe.acs.commons.email: Version increase required; detected 1.1.0, suggested 1.2.0"
+#input_error = "com.adobe.acs.commons.email: Version increase required; detected 1.1.0, suggested 1.2.0"
 
 #STORING PATH TO ALL PACKAGE-INFO.JAVA FILES IN AN ARRAY
 def find_all_package_info_java_files(name, path):
@@ -15,7 +15,7 @@ def find_all_package_info_java_files(name, path):
 	return packageinfo
 
 #SELECTING PATHS THAT END WOTH PATH MENTIONED IN ERROR MESSAGE
-def find_specific_path(patharray):
+def find_specific_path(patharray, input_error):
 	print "--------------Inside find_specific_path------------"
 	subpath = re.search(r"([\w\.]+): Version .+ required\; detected ([\d\.]+), suggested ([\d\.]+)", input_error).groups()[0]
 	subpath = re.sub(r"\.",r"/", subpath)
@@ -48,17 +48,17 @@ def rebuild_using_new_pom():
 '''
 
 #MAIN FUNCTION
-def main():
+def main(input_error):
 	print "---------INSIDE MAIN------------"
 	name = "package-info.java"
 	path = "/home/travis/build/failed"
 	packageinfo = find_all_package_info_java_files(name, path)
 	print "-------ARRAY RETURNED BY THE FUNCTION---"
 	#print packageinfo
-	find_specific_path(packageinfo)
+	find_specific_path(packageinfo, input_error)
   	#rebuild_using_new_pom()
 if __name__=="__main__":
-	main()
+	main(input_error)
 
 					
 

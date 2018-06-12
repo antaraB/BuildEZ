@@ -18,8 +18,8 @@ import os
 import xml.etree.ElementTree as xml
 import subprocess
 
-input_error = "Failed to collect dependencies at com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT"
-input_error2 = "Failed to collect dependencies at com.google.guava:guava:jar:20.0-SNAPSHOT"
+#input_error = "Failed to collect dependencies at com.joyent.http-signature:google-http-client-signature:jar:2.0.0-SNAPSHOT"
+#input_error2 = "Failed to collect dependencies at com.google.guava:guava:jar:20.0-SNAPSHOT"
 
 #STORING PATHS TO ALL POM.XML FILES IN AN ARRAY
 def find_all_pom_files(name, path):
@@ -31,7 +31,7 @@ def find_all_pom_files(name, path):
         return poms
 
 #OPENING EACH POM FILE TO LOOK FOR THE ONE WITH THE TAG AND REMOVE SNAPSHOT
-def find_the_correct_pom_file(patharray):
+def find_the_correct_pom_file(patharray, input_error):
         print "--------------Inside find_the_correct_pom_file------------"
         tag_description = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[0]
         snapshot = re.search(r"\:([\w-]+)\:jar\:([\d\.]+-SNAPSHOT)",input_error).groups()[1]
@@ -71,15 +71,15 @@ def rebuild_using_new_pom():
 		print "MAA KI AANKH!"
 '''
 #MAIN FUNCTION
-def main():
+def main(input_error):
         print "---------INSIDE MAIN------------"
         name = "pom.xml"
         path = "/home/travis/build/failed"
         poms = find_all_pom_files(name, path)
         print "-------ARRAY RETURNED BY THE FUNCTION---"
         print poms
-        find_the_correct_pom_file(poms)
+        find_the_correct_pom_file(poms, input_error)
         #rebuild_using_new_pom()
 if __name__=="__main__":
-	main()
+	main(input_error)
 

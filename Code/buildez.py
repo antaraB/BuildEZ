@@ -6,6 +6,8 @@ import argparse
 # import package_does_not_exist as pkg_dne
 from package_does_not_exist import get_info_from_error_message, fix_error_package_dne, modify_to_failed
 import check_build
+import PackageInfoDotJava
+import SnapShot2
 
 
 def main(to_print=False, to_print_build=False):
@@ -35,6 +37,27 @@ def main(to_print=False, to_print_build=False):
                             print("\nTried package-does-not-exist, no error detected and no changes made to build")
 
                 # ADD OTHER ERRORS HERE
+                if re.search(r"([\w\.]+): Version .+ required\; detected ([\d\.]+), suggested ([\d\.]+)", line):
+                    PackageInfoDotJava.main(line)
+                    if check_build.main(to_print_build): #Build Passed!
+                        build_pass = True
+                        build_message = "Fixed the error by changing version in package-info.java"
+                        break
+                    else : # Error wasn't fixed
+                        if to_print:
+                            print("\nFailed to fix build error")
+
+                # different
+                if re.search(r"Failed to collect dependencies at [\w\.\-]+:[\w\-]+:jar:[\d\.]+-SNAPSHOT", line):
+                    errors = re.search(r"(Failed to collect dependencies at [\w\.\-]+:[\w\-]+:jar:[\d\.]+-SNAPSHOT)", line).groups()[0]
+                    SnapShot2.main(errors)
+                    if check_build.main(to_print_build): #Build Passed!
+                        build_pass = True
+                        build_message = "Fixed the error by removing SNAPSHOT from pom.xml"
+                        break
+                    else : # Error wasn't fixed
+                        if to_print:
+                            print("\nFailed to fix build error")
 
     except IOError as e: # couldn't open grep_errors.txt
         if to_print:
