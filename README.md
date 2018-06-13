@@ -1,9 +1,17 @@
 # BuildEZ
-Class project that classifies configuration errors encountered on around 100 open source Java projects. We are trying to automate the process of fixing some of these configuration errors.
+(Project for SQ18 ECS 260)
+
+#### Abstract
+Building is an essential step in the software development process. However, programmers frequently face build failures that reduce productivity and slow down the development process. Analyzing these errors can help build tools to automate the process of resolving them. In this project, we analyze and categorize build failures of 100 open source Java projects by examining artifacts from the BugSwarm dataset. We select the most common category (dependency errors) and build scripts to automate the process of resolving the failures.  We also evaluate these fixes on a set of new image-tags.
+
 
 ### Instructions
 
-Run docker/ bugswarm for the image-tag you wish to build
+To fix a given build, replace $IMAGETAG with the image-tag you wish to fix. You can find a list of image-tags for [builds that get fixed here](image_tag_files/passing-tags) and [all dependency errors in general here](image_tag_files/dependency-tags)
+
+Select one tag and follow the given instructions:
+
+#### Step 1: Run docker/ bugswarm for the image-tag you wish to build
 
 ```bash
 sudo docker run -itd --entrypoint=/bin/bash --name="$IMAGETAG" bugswarm/images:$IMAGETAG 
@@ -14,29 +22,24 @@ OR
 bugswarm run --image-tag:$IMAGETAG  
 ```
 
-Once inside the Docker container:
+#### Step 2:  Inside the Docker container:
 
 ```bash
 cd /home/travis/
 git clone https://github.com/nehalagrawal/BuildEZ.git
 cd BuildEZ
+# make diffandgrep.sh executable. This script greps all "ERROR" messages from the failed build-log and stores it in /home/travis/grep_errors.txt
 chmod +x scripts/diffandgrep.sh
-cd Code
+cd code
+# buildez.py is the driver function. It reads from grep_errors.txt and attempts to fix the build.
 python buildez.py 
 ```
+To print intermediate messages on buildez.py, run it with -v or --verbose option. To print the build messages, run it with -b or --build-output option
+Eg:
+```bash
+python buildez.py -vb 
+# will print both intermediate messages and build output
+# See python buildez.py -h for more information  
+```
 
-
-### Problem Description  
-
-One of the major issues in testing a system is that it fails to build in the test environment. This can be due to a variety of configuration errors: for instance, missing dependencies, malformed build scripts, erroneous configuration variables etc. In this project we propose a study of these configuration errors. We intend to categorize them, and develop an automated solution to resolve them. This will save significant amounts of time for engineers when testing a system, or for users trying to run these projects. 
-
-### Technical Approach 
-
-Firstly, we intend to identify and analyze artifacts indicated as a ‘failed build’ on the BugSwarm platform. We will then categorize the errors into classes. Once these classes are identified we analyse each class to look for possible solutions and apply them to the artifacts. 
-Finally we intend to build a system that will automate the process of resolving configuration errors. 
-
-### Evaluation Methodology 
-
-Our evaluation methodology includes : 
-- Correctly classifying configuration errors into classes 
-- Comparing step by step procedure of resolutions of configuration errors manually vs using an automated system. 
+The script will print if the build ultimates passes or fails.
