@@ -84,7 +84,7 @@ def main(to_print=False, to_print_build=False):
                         if to_print:
                             print("\nFailed to fix build error by removing the plugin")
 
-                if re.search(r"", line):
+                if re.search(r".+ Could not transfer artifact ([\w\.\:\-]+) .+", line):
                     parent_update_version.main(line, to_print)
                     if check_build.main(to_print_build): #Build Passed!
                         build_pass = True
