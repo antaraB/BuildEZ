@@ -19,7 +19,7 @@ sudo docker start -ai $IMAGETAG
 ```
 OR 
 ```bash
-bugswarm run --image-tag:$IMAGETAG  
+bugswarm run --image-tag $IMAGETAG  
 ```
 
 #### Step 2:  Inside the Docker container:
