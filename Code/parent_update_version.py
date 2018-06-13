@@ -34,6 +34,8 @@ def main():
 		regex_whole_damn_thing = r".+ Could not transfer artifact ([\w\.\:\-]+) .+"
 		grouped_output = re.search(regex_whole_damn_thing, input)
 
+		print "grouped_output", grouped_output
+
 		artifact = grouped_output.group(1).split(":")
 		print artifact
 
@@ -46,28 +48,36 @@ def main():
 		for filepath in poms:
 			pomFile = xml.parse(filepath)
 			root = pomFile.getroot()
+			print "-----------"
 			print filepath
 
 			parent = root.find(".//xmlns:parent", namespaces=namespaces)
+			print parent
 
 			groupId = parent.find("xmlns:groupId", namespaces=namespaces)
 			artifactId = parent.find("xmlns:artifactId", namespaces=namespaces)
-			version = parent.find("xmlns:version", namespaces=namespaces)
+			
 
-			if(groupId.text == "de.charite.compbio" and artifactId.text == "Jannovar"):
-				print groupId.text
-				print artifactId.text
-				print version.text
+			if(groupId.text == grouped_output.group(0) and artifactId.text == grouped_output.group(1)):
+				version = parent.find("xmlns:version", namespaces=namespaces)
 				version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
 				version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
-				print version_numbers_error_message
-				print version_numbers_pom
-				print version_numbers_pom[1]
 				if(version_numbers_pom[1] == version_numbers_error_message[1]):
 					version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] + 1))
-				print "----"
-				print version.text	
-				#pomFile.write(filepath)
+				pomFile.write(filepath)
+			else:
+				groupId = root.find("xmlns:groupId", namespaces=namespaces)
+				artifactId = root.find("xmlns:artifactId", namespaces=namespaces)
+				version = root.find("xmlns:version", namespaces=namespaces)
+				print groupId.text
+				print artifactId.text
+				if(groupId.text == grouped_output.group(0) and artifactId.text == grouped_output.group(1)):
+					version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
+					version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
+					if(version_numbers_pom[1] == version_numbers_error_message[1]):
+						version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] + 1))
+					pomFile.write(filepath)
+
 
 
 if __name__ == '__main__':
