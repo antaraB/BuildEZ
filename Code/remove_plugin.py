@@ -9,7 +9,7 @@ import xml.etree.ElementTree as xml
 #.+ Plugin ([\w\.\:\-]+) or one of its dependencies could not be resolved.+ (Could not find artifact ([\w\.\:\-]+))
 
 
-input = "[ERROR] Failed to execute goal org.bsc.maven:maven-processor-plugin:2.2.4:process (process) on project artemis-odb-test: Execution process of goal org.bsc.maven:maven-processor-plugin:2.2.4:process failed: Plugin org.bsc.maven:maven-processor-plugin:2.2.4 or one of its dependencies could not be resolved: Could not find artifact net.onedaybeard.artemis:artemis-odb-processor:jar:2.0.0-RC3-SNAPSHOT -> [Help 1]"
+input_error = "[ERROR] Failed to execute goal org.bsc.maven:maven-processor-plugin:2.2.4:process (process) on project artemis-odb-test: Execution process of goal org.bsc.maven:maven-processor-plugin:2.2.4:process failed: Plugin org.bsc.maven:maven-processor-plugin:2.2.4 or one of its dependencies could not be resolved: Could not find artifact net.onedaybeard.artemis:artemis-odb-processor:jar:2.0.0-RC3-SNAPSHOT -> [Help 1]"
 
 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
 
