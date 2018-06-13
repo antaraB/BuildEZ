@@ -46,8 +46,8 @@ def main(input_error, to_print=False):
 		artifact = grouped_output.group(2).split(":")
 
 		#Find the file which needs to be opned.
-		poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/ProjectKorra")
-		#poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
+		#poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/ProjectKorra")
+		poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
 
 		for filepath in poms:
 			pomFile = xml.parse(filepath)

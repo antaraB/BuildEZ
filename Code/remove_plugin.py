@@ -37,8 +37,8 @@ def main(input_error, to_print=False):
 		print artifact
 
 		#Find the file which needs to be opned.
-		poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/junkdog")
-		#poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
+		#poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/junkdog")
+		poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
 		print poms
 
 		#Remove the dependency

@@ -10,7 +10,7 @@ import xml.etree.ElementTree as xml
 ##from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): 
 #nexus.codehaus.org and 'parent.relativePath' points at wrong local POM @ line 11, column 10: Unknown host nexus.codehaus.org
 
-input = " Non-resolvable parent POM: Could not transfer artifact de.charite.compbio:Jannovar:pom:0.15-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org and 'parent.relativePath' points at wrong local POM @ line 11, column 10: Unknown host nexus.codehaus.org"
+input_error = " Non-resolvable parent POM: Could not transfer artifact de.charite.compbio:Jannovar:pom:0.15-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org and 'parent.relativePath' points at wrong local POM @ line 11, column 10: Unknown host nexus.codehaus.org"
 
 namespaces = {'xmlns' : 'http://maven.apache.org/POM/4.0.0'}
 
@@ -40,8 +40,8 @@ def main(input_error, to_print=False):
 		print artifact
 
 		#Find the file which needs to be opned.
-		poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/charite")
-		#poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
+		#poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/charite")
+		poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
 		print poms
 
 		#Remove the dependency
