@@ -75,14 +75,14 @@ def main(input_error, to_print=False):
 		print artifact
 
 		#Find the file which needs to be opened.
-		poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/failed")
-		#poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
+		#poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/failed")
+		poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
 		
 		#Remove the dependency
 		for filepath in poms:
 			pomFile = xml.parse(filepath)
 			root = pomFile.getroot()
-
+			print filepath
 			deps = root.findall(".//xmlns:dependency", namespaces=namespaces)
 			for d in deps:
 				artifactId = d.find("xmlns:artifactId", namespaces=namespaces)

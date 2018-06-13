@@ -40,8 +40,8 @@ def main(input_error, to_print=False):
 		print artifact
 
 		#Find the file which needs to be opned.
-		#poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/charite")
-		poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
+		poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/charite")
+		#poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
 		print poms
 
 		#Remove the dependency
@@ -66,8 +66,11 @@ def main(input_error, to_print=False):
 				version = parent.find("xmlns:version", namespaces=namespaces)
 				version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
 				version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
+				print version.text
 				if(version_numbers_pom[1] == version_numbers_error_message[1]):
-					version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] + 1))
+					version.text = version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] - 1))
+				print version.text
+
 				print "File updating "
 				pomFile.write(filepath)
 			else:
@@ -80,7 +83,7 @@ def main(input_error, to_print=False):
 					version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
 					version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
 					if(version_numbers_pom[1] == version_numbers_error_message[1]):
-						version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] + 1))
+						version.text = version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] - 1))
 					print "File updating "
 					pomFile.write(filepath)
 
