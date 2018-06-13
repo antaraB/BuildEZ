@@ -16,7 +16,6 @@ import subprocess
 
 input = "Failed to execute goal on project projectkorra: Could not resolve dependencies for project com.projectkorra:projectkorra:jar:1.8.2: Could not find artifact org.generallib:GLib:jar:LATEST at specified path /home/travis/build/ProjectKorra/ProjectKorra/lib/GL.jar -> [Help 1]"
 input2 = "[ERROR] Failed to execute goal on project user-manager: Could not resolve dependencies for project com.peterphi.user-manager:user-manager:war:9.0.2-SNAPSHOT: Could not find artifact AzureLogAppender:AzureLogAppender:jar:1.0 in central (http://repo.maven.apache.org/maven2)"
-input3 = "Failed to execute goal on project closure-compiler-gwt: Could not resolve dependencies for project com.google.javascript:closure-compiler-gwt:gwt-app:1.0-SNAPSHOT: Failed to collect dependencies at com.google.guava:guava:jar:20.0-SNAPSHOT: Failed to read artifact descriptor for com.google.guava:guava:jar:20.0-SNAPSHOT: Could not transfer artifact com.google.guava:guava:pom:20.0-SNAPSHOT from/to codehaus-snapshots (https://nexus.codehaus.org/snapshots/): nexus.codehaus.org: Unknown host nexus.codehaus.org -> [Help 1]"
 
 
 
@@ -34,15 +33,15 @@ def find_all_pom_files(name, path):
 			poms.append(os.path.join(root, name))
 	return poms
 
-def main():
+def main(input_error):
 	print "Inside main function"
-	if "Could not find artifact" and "at specified path" in input : #Convert this to a regex match later.
+	if "Could not find artifact" and "at specified path" in input_error : #Convert this to a regex match later.
 		print "We are inside the if statement"
 		# inputarray = input.split(": ")
 		# print inputarray
 		# regex_path = r"((\/([\w\.+-]+))+)+"
 		regex_whole_damn_thing = r".+ (Could not find artifact ([\w\.\:]+) at specified path ((\/([\w\.+-]+))+)+)"
-		grouped_output = re.search(regex_whole_damn_thing, input)
+		grouped_output = re.search(regex_whole_damn_thing, input_error)
 
 		artifact = grouped_output.group(2).split(":")
 
@@ -67,13 +66,6 @@ def main():
 					print systemPath.text
 					pomFile.write(filepath)
 
-		result = subprocess.call('/usr/local/bin/run_failed.sh')
-		print result
-		if result == 0:
-			print "Build passed!! WOOOHOOOOO!"
-		elif result == 2:
-			print "MAA KI AANKH!"
-			
 
 	else :
 		print "We are inside else statement"
@@ -105,4 +97,4 @@ def main():
 					print "File Updated"
 
 if __name__ == '__main__':
-	main()
+	main(input_error)

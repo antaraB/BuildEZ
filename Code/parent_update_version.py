@@ -26,13 +26,13 @@ def find_all_pom_files(name, path):
 			poms.append(os.path.join(root, name))
 	return poms
 
-def main():
+def main(input_error):
 	print "Inside main function"
-	if "Could not find artifact" and "Non-resolvable parent POM" in input : #Convert this to a regex match later.
+	if "Could not find artifact" and "Non-resolvable parent POM" in input_error : #Convert this to a regex match later.
 		print "We are inside the if statement"
 
 		regex_whole_damn_thing = r".+ Could not transfer artifact ([\w\.\:\-]+) .+"
-		grouped_output = re.search(regex_whole_damn_thing, input)
+		grouped_output = re.search(regex_whole_damn_thing, input_error)
 
 		print "grouped_output", grouped_output
 
@@ -81,4 +81,4 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	main(input_error)

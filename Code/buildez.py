@@ -10,6 +10,10 @@ import snapshot_xml
 
 import check_build
 
+import could_not_resolve_dependencies
+import remove_plugin
+import parent_update_version
+
 
 def main(to_print=False, to_print_build=False):
     # save a copy of the original
@@ -59,6 +63,37 @@ def main(to_print=False, to_print_build=False):
                     else : # Error wasn't fixed
                         if to_print:
                             print("\nFailed to fix build error")
+
+                if re.search(r".+ (Could not find artifact ([\w\.\:]+) at specified path ((\/([\w\.+-]+))+)+)", line) or re.search(r".+ (Could not find artifact ([\w\.\:]+) ([\w\.+-]+))", line):
+                    could_not_resolve_dependencies.main(line, to_print)
+                    if check_build.main(to_print_build): #Build Passed!
+                        build_pass = True
+                        build_message = "Fixed the error by resolving the missing dependency"
+                        break
+                    else : # Error wasn't fixed
+                        if to_print:
+                            print("\nFailed to fix build error updating the dependency path")
+
+                if re.search(r".+ Plugin ([\w\.\:\-]+) or one of its dependencies could not be resolved.+ (Could not find artifact ([\w\.\:\-]+))",line):
+                    remove_plugin.main(line, to_print)
+                    if check_build.main(to_print_build): #Build Passed!
+                        build_pass = True
+                        build_message = "Fixed the error by removing the errerons plugin"
+                        break
+                    else : # Error wasn't fixed
+                        if to_print:
+                            print("\nFailed to fix build error by removing the plugin")
+
+                if re.search(r"", line):
+                    parent_update_version.main(line, to_print)
+                    if check_build.main(to_print_build): #Build Passed!
+                        build_pass = True
+                        build_message = "Fixed the error by removing the errerons plugin"
+                        break
+                    else : # Error wasn't fixed
+                        if to_print:
+                            print("\nFailed to fix build error by updating the version for the artifact of the parent")
+
 
     except IOError as e: # couldn't open grep_errors.txt
         if to_print:

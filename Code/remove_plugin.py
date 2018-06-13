@@ -25,13 +25,13 @@ def find_all_pom_files(name, path):
 			poms.append(os.path.join(root, name))
 	return poms
 
-def main():
+def main(input_error):
 	print "Inside main function"
-	if "Could not find artifact" in input : #Convert this to a regex match later.
+	if "Could not find artifact" in input_error : #Convert this to a regex match later.
 		print "We are inside the if statement"
 
 		regex_whole_damn_thing = r".+ Plugin ([\w\.\:\-]+) or one of its dependencies could not be resolved.+ (Could not find artifact ([\w\.\:\-]+))"
-		grouped_output = re.search(regex_whole_damn_thing, input)
+		grouped_output = re.search(regex_whole_damn_thing, input_error)
 
 		artifact = grouped_output.group(1).split(":")
 		print artifact
@@ -60,4 +60,4 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	main(input_error)
