@@ -1,7 +1,7 @@
 #!/bin/bash
 # download the image file and create a container
 # first argument should be file containing all the image-tags
-LOCALPATH=../images
+LOCALPATH=../images/testImage
 IMAGES=()
 # copy all image-tags from file to an array
 mapfile -t IMAGES < $1
@@ -19,8 +19,8 @@ do
 	# make directory in your local system
 	mkdir $LOCALPATH/$C_NAME
 	# copy error files to local directory
-	sudo docker cp $C_NAME:/home/travis/build/diff.txt $LOCALPATH/$C_NAME/diff.txt
-	sudo docker cp $C_NAME:/home/travis/build/grep_errors.txt $LOCALPATH/$C_NAME/greperrors.txt
+	sudo docker cp $C_NAME:/home/travis/diff.txt $LOCALPATH/$C_NAME/diff.txt
+	sudo docker cp $C_NAME:/home/travis/grep_errors.txt $LOCALPATH/$C_NAME/greperrors.txt
 	# remove container
 	sudo docker rm -f $C_NAME
 	# remove image

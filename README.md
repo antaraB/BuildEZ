@@ -43,4 +43,4 @@ python buildez.py -vb
 # See python buildez.py -h for more information  
 ```
 
-The script will print if the build ultimates passes or fails.
+The script will print if the build ultimately passes or fails.
