@@ -15,7 +15,7 @@ Select one tag and follow the given instructions:
 
 ```bash
 sudo docker run -itd --entrypoint=/bin/bash --name="$IMAGETAG" bugswarm/images:$IMAGETAG 
-docker start -ai $IMAGETAG 
+sudo docker start -ai $IMAGETAG 
 ```
 OR 
 ```bash
