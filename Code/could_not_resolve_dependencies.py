@@ -33,7 +33,7 @@ def find_all_pom_files(name, path):
 			poms.append(os.path.join(root, name))
 	return poms
 
-def main(input_error):
+def main(input_error, to_print=False):
 	print "Inside main function"
 	if "Could not find artifact" and "at specified path" in input_error : #Convert this to a regex match later.
 		print "We are inside the if statement"
