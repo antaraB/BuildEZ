@@ -56,14 +56,19 @@ def main(input_error, to_print=False):
 
 			groupId = parent.find("xmlns:groupId", namespaces=namespaces)
 			artifactId = parent.find("xmlns:artifactId", namespaces=namespaces)
-			
 
-			if(groupId.text == grouped_output.group(0) and artifactId.text == grouped_output.group(1)):
+			print "dddd ::",artifact[0]
+			print "dddd :: ",artifact[1]
+			
+			if(groupId.text == artifact[0] and artifactId.text == artifact[1]):
+				print groupId.text
+				print artifactId.text
 				version = parent.find("xmlns:version", namespaces=namespaces)
 				version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
 				version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
 				if(version_numbers_pom[1] == version_numbers_error_message[1]):
 					version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] + 1))
+				print "File updating "
 				pomFile.write(filepath)
 			else:
 				groupId = root.find("xmlns:groupId", namespaces=namespaces)
@@ -71,11 +76,12 @@ def main(input_error, to_print=False):
 				version = root.find("xmlns:version", namespaces=namespaces)
 				print groupId.text
 				print artifactId.text
-				if(groupId.text == grouped_output.group(0) and artifactId.text == grouped_output.group(1)):
+				if(groupId.text == artifact[0] and artifactId.text == artifact[1]):
 					version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
 					version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
 					if(version_numbers_pom[1] == version_numbers_error_message[1]):
 						version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] + 1))
+					print "File updating "
 					pomFile.write(filepath)
 
 
