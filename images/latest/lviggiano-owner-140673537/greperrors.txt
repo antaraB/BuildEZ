@@ -1,0 +1,7 @@
+2382:[ERROR] Could not find goal 'cobertura' in plugin org.eluder.coveralls:coveralls-maven-plugin:3.0.1 among available goals help, report -> [Help 1]
+2383:[ERROR] 
+2384:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2385:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2386:[ERROR] 
+2387:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2388:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoNotFoundException

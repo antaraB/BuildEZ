@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 06 Mar 2018 17:07:27 GMT",
+    "_etag": "49ec5d365bdaa767cf33d534c35eac752c497c5a",
+    "_id": "5a9ecacff1f70e073097a70d",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/keeps-roda-75479487",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:55:39 GMT",
+    "base_branch": "",
+    "branch": "sleroux-dev",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 75479486,
+        "build_job": "155.1",
+        "committed_at": "2015-08-13T17:37:36Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 75479487,
+        "message": "Cleaned CAS 2 Folder",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "d4eced1bbddd240893676e2389c986e822be5dce"
+    },
+    "filtered_reason": null,
+    "image_tag": "keeps-roda-75479487",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 847,
+        "changes": 847,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 75479831,
+        "build_job": "156.1",
+        "committed_at": "2015-08-13T17:40:11Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 75479832,
+        "message": "Added CAS 4 overlay (hard-coded configs)",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 1,
+        "trigger_sha": "9d3d0bc0bedb46b7cd85151e8e8bdbbd730c2225"
+    },
+    "pr_num": -1,
+    "repo": "keeps/roda",
+    "repo_builds": 3716,
+    "repo_commits": 4014,
+    "repo_members": 1,
+    "repo_mined_version": "488d7c51e465255c961765d5278a379d89ab5ebf",
+    "repo_prs": 48,
+    "repo_watchers": 17,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "keeps-roda-75479487",
+    "test_framework": ""
+}

@@ -1,0 +1,63 @@
+1138:[ERROR] COMPILATION ERROR : 
+1140:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[150,17] cannot find symbol
+1143:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[152,33] cannot find symbol
+1146:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[153,24] cannot find symbol
+1158:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project nutz: Compilation failure: Compilation failure: 
+1159:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[150,17] cannot find symbol
+1160:[ERROR]   symbol:   variable iocObject
+1161:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1162:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[152,33] cannot find symbol
+1163:[ERROR]   symbol:   variable iocObject
+1164:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1165:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[153,24] cannot find symbol
+1166:[ERROR]   symbol:   variable iocObject
+1167:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1168:[ERROR] -> [Help 1]
+1169:[ERROR] 
+1170:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1171:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1172:[ERROR] 
+1173:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1174:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1201:[ERROR] COMPILATION ERROR : 
+1203:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[150,17] cannot find symbol
+1206:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[152,33] cannot find symbol
+1209:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[153,24] cannot find symbol
+1221:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project nutz: Compilation failure: Compilation failure: 
+1222:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[150,17] cannot find symbol
+1223:[ERROR]   symbol:   variable iocObject
+1224:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1225:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[152,33] cannot find symbol
+1226:[ERROR]   symbol:   variable iocObject
+1227:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1228:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[153,24] cannot find symbol
+1229:[ERROR]   symbol:   variable iocObject
+1230:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1231:[ERROR] -> [Help 1]
+1232:[ERROR] 
+1233:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1234:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1235:[ERROR] 
+1236:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1237:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1264:[ERROR] COMPILATION ERROR : 
+1266:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[150,17] cannot find symbol
+1269:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[152,33] cannot find symbol
+1272:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[153,24] cannot find symbol
+1284:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project nutz: Compilation failure: Compilation failure: 
+1285:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[150,17] cannot find symbol
+1286:[ERROR]   symbol:   variable iocObject
+1287:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1288:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[152,33] cannot find symbol
+1289:[ERROR]   symbol:   variable iocObject
+1290:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1291:[ERROR] /home/travis/build/nutzam/nutz/src/org/nutz/ioc/loader/combo/ComboIocLoader.java:[153,24] cannot find symbol
+1292:[ERROR]   symbol:   variable iocObject
+1293:[ERROR]   location: class org.nutz.ioc.loader.combo.ComboIocLoader
+1294:[ERROR] -> [Help 1]
+1295:[ERROR] 
+1296:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1297:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1298:[ERROR] 
+1299:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1300:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

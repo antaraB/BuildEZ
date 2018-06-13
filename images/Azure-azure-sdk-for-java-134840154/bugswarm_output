@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 06 Mar 2018 23:47:37 GMT",
+    "_etag": "830848d4c9b445ef35cc2b2ae008b1a2cccb8ae2",
+    "_id": "5a9f2899f1f70e0f34591d49",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Azure-azure-sdk-for-java-134840154",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:55:57 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 134840153,
+        "build_job": "264.1",
+        "committed_at": "2016-06-02T19:38:34Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 134840154,
+        "message": "Renamed setXXX() to withXXX() for non top-level methods",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "185110d8b6070c44eb972245793eefbb9960895d"
+    },
+    "filtered_reason": null,
+    "image_tag": "Azure-azure-sdk-for-java-134840154",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 0,
+        "deletions": 0
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 134840605,
+        "build_job": "265.1",
+        "committed_at": "2016-06-02T18:16:59Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 134840606,
+        "message": "Merge pull request #754 from jianghaolu/storageupdate\n\nSupport CRUD for storage",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "5aa9e2a57609067d1e1480dd537abfa42500c10f"
+    },
+    "pr_num": -1,
+    "repo": "Azure/azure-sdk-for-java",
+    "repo_builds": 2355,
+    "repo_commits": 3073,
+    "repo_members": 0,
+    "repo_mined_version": "1f6655f1edf778b7e6eca6348485165cd1dc2dde",
+    "repo_prs": 478,
+    "repo_watchers": 137,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Azure-azure-sdk-for-java-134840154",
+    "test_framework": ""
+}

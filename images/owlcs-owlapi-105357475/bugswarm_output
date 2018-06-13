@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 11:56:19 GMT",
+    "_etag": "e83f86631a59d4ea3659e4f258c0878ade86b207",
+    "_id": "5a954763f1f70e8a28c9094a",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/owlcs-owlapi-105357475",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:31:23 GMT",
+    "base_branch": "",
+    "branch": "version4",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 105357473,
+        "build_job": "1329.2",
+        "committed_at": "2016-01-28T07:54:16Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 105357475,
+        "message": "fix bug retrieving axioms related to literals",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "a0e607f76ea54e0a2fce22e5df7a3decf8399b5a"
+    },
+    "filtered_reason": null,
+    "image_tag": "owlcs-owlapi-105357475",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 2,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 105359523,
+        "build_job": "1330.2",
+        "committed_at": "2016-01-28T08:09:36Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 105359525,
+        "message": "fix build",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 4850,
+        "trigger_sha": "db247696b0c272d7dcb2fe8ade098a5a19c56cc7"
+    },
+    "pr_num": -1,
+    "repo": "owlcs/owlapi",
+    "repo_builds": 1711,
+    "repo_commits": 2324,
+    "repo_members": 0,
+    "repo_mined_version": "c9477af43db53905a878b2824a7a94daf3b518e1",
+    "repo_prs": 114,
+    "repo_watchers": 197,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "owlcs-owlapi-105357475",
+    "test_framework": ""
+}

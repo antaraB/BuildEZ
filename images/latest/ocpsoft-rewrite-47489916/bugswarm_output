@@ -1,0 +1,77 @@
+{
+    "_created": "Wed, 28 Feb 2018 19:33:33 GMT",
+    "_etag": "ef65b36f7f7327e5acec0d21f5f86d939dabffaa",
+    "_id": "5a97040df1f70ee79900e980",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/ocpsoft-rewrite-47489916",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:33:00 GMT",
+    "base_branch": "",
+    "branch": "percent-decode",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 47489911,
+        "build_job": "193.5",
+        "committed_at": "2015-01-19T07:29:51Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 47489916,
+        "message": "Fault tolerant percent decoding for path and query (#197)",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "5d27bc85ed69092c186b2308962c0c40537df371"
+    },
+    "filtered_reason": null,
+    "image_tag": "ocpsoft-rewrite-47489916",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 4,
+        "changes": 6,
+        "deletions": 2
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 47493527,
+        "build_job": "194.5",
+        "committed_at": "2015-01-19T08:30:21Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 47493532,
+        "message": "Fixed JDK6 compatibility issue (#197)",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 832,
+        "trigger_sha": "a2e02dbf84b5fe63cced6fe1360e18385a72d6f8"
+    },
+    "pr_num": -1,
+    "repo": "ocpsoft/rewrite",
+    "repo_builds": 350,
+    "repo_commits": 790,
+    "repo_members": 0,
+    "repo_mined_version": "4c3d9e83399bddc98f2a2ca8961e79a381e5fdda",
+    "repo_prs": 73,
+    "repo_watchers": 118,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "ocpsoft-rewrite-47489916",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

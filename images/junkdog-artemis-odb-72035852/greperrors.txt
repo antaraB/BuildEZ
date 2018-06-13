@@ -1,0 +1,42 @@
+569:[ERROR] COMPILATION ERROR : 
+571:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis/src/main/java/com/artemis/io/SaveFileFormat.java:[7,47] package com.sun.xml.internal.ws.api.wsdl.parser does not exist
+593:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project artemis-odb: Compilation failure
+594:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis/src/main/java/com/artemis/io/SaveFileFormat.java:[7,47] package com.sun.xml.internal.ws.api.wsdl.parser does not exist
+595:[ERROR] -> [Help 1]
+596:[ERROR] 
+597:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+598:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+599:[ERROR] 
+600:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+601:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+602:[ERROR] 
+603:[ERROR] After correcting the problems, you can resume the build with the command
+604:[ERROR]   mvn <goals> -rf :artemis-odb
+667:[ERROR] COMPILATION ERROR : 
+669:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis/src/main/java/com/artemis/io/SaveFileFormat.java:[7,47] package com.sun.xml.internal.ws.api.wsdl.parser does not exist
+691:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project artemis-odb: Compilation failure
+692:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis/src/main/java/com/artemis/io/SaveFileFormat.java:[7,47] package com.sun.xml.internal.ws.api.wsdl.parser does not exist
+693:[ERROR] -> [Help 1]
+694:[ERROR] 
+695:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+696:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+697:[ERROR] 
+698:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+699:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+700:[ERROR] 
+701:[ERROR] After correcting the problems, you can resume the build with the command
+702:[ERROR]   mvn <goals> -rf :artemis-odb
+765:[ERROR] COMPILATION ERROR : 
+767:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis/src/main/java/com/artemis/io/SaveFileFormat.java:[7,47] package com.sun.xml.internal.ws.api.wsdl.parser does not exist
+789:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.2:compile (default-compile) on project artemis-odb: Compilation failure
+790:[ERROR] /home/travis/build/junkdog/artemis-odb/artemis/src/main/java/com/artemis/io/SaveFileFormat.java:[7,47] package com.sun.xml.internal.ws.api.wsdl.parser does not exist
+791:[ERROR] -> [Help 1]
+792:[ERROR] 
+793:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+794:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+795:[ERROR] 
+796:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+797:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+798:[ERROR] 
+799:[ERROR] After correcting the problems, you can resume the build with the command
+800:[ERROR]   mvn <goals> -rf :artemis-odb

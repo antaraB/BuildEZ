@@ -1,0 +1,74 @@
+{
+    "_created": "Fri, 26 Jan 2018 09:21:42 GMT",
+    "_etag": "7528f594a3b42272116baedc8be42645ec931e29",
+    "_id": "5a6af326f1f70e078d0d45f3",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/NanoHttpd-nanohttpd-63780705",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:17:39 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 63780704,
+        "build_job": "51.1",
+        "committed_at": "2015-05-23T16:14:47Z",
+        "failed_tests": "",
+        "job_id": 63780705,
+        "message": "Merge pull request #184 from AlbinTheander/gzip\n\nAdded support for gzip",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "9628584ddde247fda914fd50f2d60362e53cea9f"
+    },
+    "filtered_reason": "",
+    "image_tag": "NanoHttpd-nanohttpd-63780705",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 1,
+        "changes": 2,
+        "deletions": 1
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 63792845,
+        "build_job": "53.1",
+        "committed_at": "2015-05-23T19:07:53Z",
+        "failed_tests": "",
+        "job_id": 63792846,
+        "message": "Merge pull request #186 from philippwiesemann/fix-core-gzip\n\nFix working on Android < 4.4 and Java < 7",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 93,
+        "trigger_sha": "a3481989f3cc7d7cd69685349fd6f3d2b370bbee"
+    },
+    "pr_num": -1,
+    "repo": "NanoHttpd/nanohttpd",
+    "repo_builds": 346,
+    "repo_commits": 609,
+    "repo_members": 0,
+    "repo_mined_version": "8118aec004931bb9eda9e46a40c87e37b2288d34",
+    "repo_prs": 149,
+    "repo_watchers": 2066,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "NanoHttpd-nanohttpd-63780705",
+    "test_framework": ""
+}

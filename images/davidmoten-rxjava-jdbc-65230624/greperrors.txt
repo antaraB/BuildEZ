@@ -1,0 +1,423 @@
+825:[ERROR] COMPILATION ERROR : 
+827:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[28,19] cannot find symbol
+830:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[83,38] cannot find symbol
+833:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[97,19] cannot find symbol
+836:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[115,13] cannot find symbol
+839:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[237,16] cannot find symbol
+842:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[210,38] cannot find symbol
+845:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[442,39] cannot find symbol
+848:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[41,17] cannot find symbol
+851:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[45,17] cannot find symbol
+854:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[10,37] cannot find symbol
+857:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[24,23] cannot find symbol
+860:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[36,28] cannot find symbol
+863:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[48,32] cannot find symbol
+866:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[60,36] cannot find symbol
+869:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[72,40] cannot find symbol
+872:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[86,44] cannot find symbol
+875:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[102,48] cannot find symbol
+878:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[118,23] cannot find symbol
+881:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[32,13] cannot find symbol
+884:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[41,23] cannot find symbol
+887:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[62,17] cannot find symbol
+890:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[21,19] cannot find symbol
+893:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[30,25] cannot find symbol
+896:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[238,20] cannot find symbol
+899:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[377,28] cannot find symbol
+902:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[25,20] cannot find symbol
+905:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[38,20] cannot find symbol
+908:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[50,20] cannot find symbol
+911:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[62,20] cannot find symbol
+914:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[75,20] cannot find symbol
+917:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[90,20] cannot find symbol
+920:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[106,20] cannot find symbol
+923:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[119,20] cannot find symbol
+935:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project rxjava-jdbc: Compilation failure: Compilation failure:
+936:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[28,19] cannot find symbol
+937:[ERROR] symbol:   class ResultSetMapper
+938:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator<T,R>
+939:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[83,38] cannot find symbol
+940:[ERROR] symbol:   class ResultSetMapper
+941:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+942:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[97,19] cannot find symbol
+943:[ERROR] symbol:   class ResultSetMapper
+944:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+945:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[115,13] cannot find symbol
+946:[ERROR] symbol:   class ResultSetMapper
+947:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+948:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[237,16] cannot find symbol
+949:[ERROR] symbol:   class ResultSetMapper
+950:[ERROR] location: class com.github.davidmoten.rx.jdbc.Util
+951:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[210,38] cannot find symbol
+952:[ERROR] symbol:   class ResultSetMapper
+953:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.Builder
+954:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[442,39] cannot find symbol
+955:[ERROR] symbol:   class ResultSetMapper
+956:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.OperatorBuilder<R>
+957:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[41,17] cannot find symbol
+958:[ERROR] symbol:   class ResultSetMapper
+959:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator.ApplyQuerySelect<R,T>
+960:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[45,17] cannot find symbol
+961:[ERROR] symbol:   class ResultSetMapper
+962:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator.ApplyQuerySelect<R,T>
+963:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[10,37] cannot find symbol
+964:[ERROR] symbol:   class ResultSetMapper
+965:[ERROR] location: package com.github.davidmoten.rx.jdbc
+966:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[24,23] cannot find symbol
+967:[ERROR] symbol:   class ResultSetMapper
+968:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+969:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[36,28] cannot find symbol
+970:[ERROR] symbol:   class ResultSetMapper
+971:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+972:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[48,32] cannot find symbol
+973:[ERROR] symbol:   class ResultSetMapper
+974:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+975:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[60,36] cannot find symbol
+976:[ERROR] symbol:   class ResultSetMapper
+977:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+978:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[72,40] cannot find symbol
+979:[ERROR] symbol:   class ResultSetMapper
+980:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+981:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[86,44] cannot find symbol
+982:[ERROR] symbol:   class ResultSetMapper
+983:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+984:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[102,48] cannot find symbol
+985:[ERROR] symbol:   class ResultSetMapper
+986:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+987:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[118,23] cannot find symbol
+988:[ERROR] symbol:   class ResultSetMapper
+989:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+990:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[32,13] cannot find symbol
+991:[ERROR] symbol:   class ResultSetMapper
+992:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation
+993:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[41,23] cannot find symbol
+994:[ERROR] symbol:   class ResultSetMapper
+995:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation.QuerySelectOnSubscribe<T>
+996:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[62,17] cannot find symbol
+997:[ERROR] symbol:   class ResultSetMapper
+998:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation.QuerySelectOnSubscribe<T>
+999:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[21,19] cannot find symbol
+1000:[ERROR] symbol:   class ResultSetMapper
+1001:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectProducer<T>
+1002:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[30,25] cannot find symbol
+1003:[ERROR] symbol:   class ResultSetMapper
+1004:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectProducer<T>
+1005:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[238,20] cannot find symbol
+1006:[ERROR] symbol:   class ResultSetMapper
+1007:[ERROR] location: class com.github.davidmoten.rx.jdbc.Util
+1008:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[377,28] cannot find symbol
+1009:[ERROR] symbol:   class ResultSetMapper
+1010:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.Builder
+1011:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[25,20] cannot find symbol
+1012:[ERROR] symbol:   class ResultSetMapper
+1013:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1014:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[38,20] cannot find symbol
+1015:[ERROR] symbol:   class ResultSetMapper
+1016:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1017:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[50,20] cannot find symbol
+1018:[ERROR] symbol:   class ResultSetMapper
+1019:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1020:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[62,20] cannot find symbol
+1021:[ERROR] symbol:   class ResultSetMapper
+1022:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1023:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[75,20] cannot find symbol
+1024:[ERROR] symbol:   class ResultSetMapper
+1025:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1026:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[90,20] cannot find symbol
+1027:[ERROR] symbol:   class ResultSetMapper
+1028:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1029:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[106,20] cannot find symbol
+1030:[ERROR] symbol:   class ResultSetMapper
+1031:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1032:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[119,20] cannot find symbol
+1033:[ERROR] symbol:   class ResultSetMapper
+1034:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1035:[ERROR] -> [Help 1]
+1036:[ERROR] 
+1037:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1038:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1039:[ERROR] 
+1040:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1041:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1069:[ERROR] COMPILATION ERROR : 
+1071:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[28,19] cannot find symbol
+1074:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[83,38] cannot find symbol
+1077:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[97,19] cannot find symbol
+1080:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[115,13] cannot find symbol
+1083:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[237,16] cannot find symbol
+1086:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[210,38] cannot find symbol
+1089:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[442,39] cannot find symbol
+1092:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[41,17] cannot find symbol
+1095:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[45,17] cannot find symbol
+1098:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[10,37] cannot find symbol
+1101:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[24,23] cannot find symbol
+1104:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[36,28] cannot find symbol
+1107:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[48,32] cannot find symbol
+1110:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[60,36] cannot find symbol
+1113:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[72,40] cannot find symbol
+1116:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[86,44] cannot find symbol
+1119:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[102,48] cannot find symbol
+1122:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[118,23] cannot find symbol
+1125:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[32,13] cannot find symbol
+1128:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[41,23] cannot find symbol
+1131:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[62,17] cannot find symbol
+1134:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[21,19] cannot find symbol
+1137:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[30,25] cannot find symbol
+1140:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[238,20] cannot find symbol
+1143:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[377,28] cannot find symbol
+1146:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[25,20] cannot find symbol
+1149:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[38,20] cannot find symbol
+1152:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[50,20] cannot find symbol
+1155:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[62,20] cannot find symbol
+1158:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[75,20] cannot find symbol
+1161:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[90,20] cannot find symbol
+1164:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[106,20] cannot find symbol
+1167:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[119,20] cannot find symbol
+1179:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project rxjava-jdbc: Compilation failure: Compilation failure:
+1180:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[28,19] cannot find symbol
+1181:[ERROR] symbol:   class ResultSetMapper
+1182:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator<T,R>
+1183:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[83,38] cannot find symbol
+1184:[ERROR] symbol:   class ResultSetMapper
+1185:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+1186:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[97,19] cannot find symbol
+1187:[ERROR] symbol:   class ResultSetMapper
+1188:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+1189:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[115,13] cannot find symbol
+1190:[ERROR] symbol:   class ResultSetMapper
+1191:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+1192:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[237,16] cannot find symbol
+1193:[ERROR] symbol:   class ResultSetMapper
+1194:[ERROR] location: class com.github.davidmoten.rx.jdbc.Util
+1195:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[210,38] cannot find symbol
+1196:[ERROR] symbol:   class ResultSetMapper
+1197:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.Builder
+1198:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[442,39] cannot find symbol
+1199:[ERROR] symbol:   class ResultSetMapper
+1200:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.OperatorBuilder<R>
+1201:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[41,17] cannot find symbol
+1202:[ERROR] symbol:   class ResultSetMapper
+1203:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator.ApplyQuerySelect<R,T>
+1204:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[45,17] cannot find symbol
+1205:[ERROR] symbol:   class ResultSetMapper
+1206:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator.ApplyQuerySelect<R,T>
+1207:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[10,37] cannot find symbol
+1208:[ERROR] symbol:   class ResultSetMapper
+1209:[ERROR] location: package com.github.davidmoten.rx.jdbc
+1210:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[24,23] cannot find symbol
+1211:[ERROR] symbol:   class ResultSetMapper
+1212:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1213:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[36,28] cannot find symbol
+1214:[ERROR] symbol:   class ResultSetMapper
+1215:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1216:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[48,32] cannot find symbol
+1217:[ERROR] symbol:   class ResultSetMapper
+1218:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1219:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[60,36] cannot find symbol
+1220:[ERROR] symbol:   class ResultSetMapper
+1221:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1222:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[72,40] cannot find symbol
+1223:[ERROR] symbol:   class ResultSetMapper
+1224:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1225:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[86,44] cannot find symbol
+1226:[ERROR] symbol:   class ResultSetMapper
+1227:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1228:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[102,48] cannot find symbol
+1229:[ERROR] symbol:   class ResultSetMapper
+1230:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1231:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[118,23] cannot find symbol
+1232:[ERROR] symbol:   class ResultSetMapper
+1233:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1234:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[32,13] cannot find symbol
+1235:[ERROR] symbol:   class ResultSetMapper
+1236:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation
+1237:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[41,23] cannot find symbol
+1238:[ERROR] symbol:   class ResultSetMapper
+1239:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation.QuerySelectOnSubscribe<T>
+1240:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[62,17] cannot find symbol
+1241:[ERROR] symbol:   class ResultSetMapper
+1242:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation.QuerySelectOnSubscribe<T>
+1243:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[21,19] cannot find symbol
+1244:[ERROR] symbol:   class ResultSetMapper
+1245:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectProducer<T>
+1246:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[30,25] cannot find symbol
+1247:[ERROR] symbol:   class ResultSetMapper
+1248:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectProducer<T>
+1249:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[238,20] cannot find symbol
+1250:[ERROR] symbol:   class ResultSetMapper
+1251:[ERROR] location: class com.github.davidmoten.rx.jdbc.Util
+1252:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[377,28] cannot find symbol
+1253:[ERROR] symbol:   class ResultSetMapper
+1254:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.Builder
+1255:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[25,20] cannot find symbol
+1256:[ERROR] symbol:   class ResultSetMapper
+1257:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1258:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[38,20] cannot find symbol
+1259:[ERROR] symbol:   class ResultSetMapper
+1260:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1261:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[50,20] cannot find symbol
+1262:[ERROR] symbol:   class ResultSetMapper
+1263:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1264:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[62,20] cannot find symbol
+1265:[ERROR] symbol:   class ResultSetMapper
+1266:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1267:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[75,20] cannot find symbol
+1268:[ERROR] symbol:   class ResultSetMapper
+1269:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1270:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[90,20] cannot find symbol
+1271:[ERROR] symbol:   class ResultSetMapper
+1272:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1273:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[106,20] cannot find symbol
+1274:[ERROR] symbol:   class ResultSetMapper
+1275:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1276:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[119,20] cannot find symbol
+1277:[ERROR] symbol:   class ResultSetMapper
+1278:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1279:[ERROR] -> [Help 1]
+1280:[ERROR] 
+1281:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1282:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1283:[ERROR] 
+1284:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1285:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1313:[ERROR] COMPILATION ERROR : 
+1315:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[28,19] cannot find symbol
+1318:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[83,38] cannot find symbol
+1321:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[97,19] cannot find symbol
+1324:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[115,13] cannot find symbol
+1327:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[237,16] cannot find symbol
+1330:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[210,38] cannot find symbol
+1333:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[442,39] cannot find symbol
+1336:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[41,17] cannot find symbol
+1339:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[45,17] cannot find symbol
+1342:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[10,37] cannot find symbol
+1345:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[24,23] cannot find symbol
+1348:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[36,28] cannot find symbol
+1351:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[48,32] cannot find symbol
+1354:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[60,36] cannot find symbol
+1357:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[72,40] cannot find symbol
+1360:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[86,44] cannot find symbol
+1363:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[102,48] cannot find symbol
+1366:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[118,23] cannot find symbol
+1369:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[32,13] cannot find symbol
+1372:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[41,23] cannot find symbol
+1375:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[62,17] cannot find symbol
+1378:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[21,19] cannot find symbol
+1381:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[30,25] cannot find symbol
+1384:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[238,20] cannot find symbol
+1387:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[377,28] cannot find symbol
+1390:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[25,20] cannot find symbol
+1393:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[38,20] cannot find symbol
+1396:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[50,20] cannot find symbol
+1399:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[62,20] cannot find symbol
+1402:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[75,20] cannot find symbol
+1405:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[90,20] cannot find symbol
+1408:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[106,20] cannot find symbol
+1411:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[119,20] cannot find symbol
+1423:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project rxjava-jdbc: Compilation failure: Compilation failure:
+1424:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[28,19] cannot find symbol
+1425:[ERROR] symbol:   class ResultSetMapper
+1426:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator<T,R>
+1427:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[83,38] cannot find symbol
+1428:[ERROR] symbol:   class ResultSetMapper
+1429:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+1430:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[97,19] cannot find symbol
+1431:[ERROR] symbol:   class ResultSetMapper
+1432:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+1433:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[115,13] cannot find symbol
+1434:[ERROR] symbol:   class ResultSetMapper
+1435:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect
+1436:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[237,16] cannot find symbol
+1437:[ERROR] symbol:   class ResultSetMapper
+1438:[ERROR] location: class com.github.davidmoten.rx.jdbc.Util
+1439:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[210,38] cannot find symbol
+1440:[ERROR] symbol:   class ResultSetMapper
+1441:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.Builder
+1442:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[442,39] cannot find symbol
+1443:[ERROR] symbol:   class ResultSetMapper
+1444:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.OperatorBuilder<R>
+1445:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[41,17] cannot find symbol
+1446:[ERROR] symbol:   class ResultSetMapper
+1447:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator.ApplyQuerySelect<R,T>
+1448:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperator.java:[45,17] cannot find symbol
+1449:[ERROR] symbol:   class ResultSetMapper
+1450:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperator.ApplyQuerySelect<R,T>
+1451:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[10,37] cannot find symbol
+1452:[ERROR] symbol:   class ResultSetMapper
+1453:[ERROR] location: package com.github.davidmoten.rx.jdbc
+1454:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[24,23] cannot find symbol
+1455:[ERROR] symbol:   class ResultSetMapper
+1456:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1457:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[36,28] cannot find symbol
+1458:[ERROR] symbol:   class ResultSetMapper
+1459:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1460:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[48,32] cannot find symbol
+1461:[ERROR] symbol:   class ResultSetMapper
+1462:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1463:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[60,36] cannot find symbol
+1464:[ERROR] symbol:   class ResultSetMapper
+1465:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1466:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[72,40] cannot find symbol
+1467:[ERROR] symbol:   class ResultSetMapper
+1468:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1469:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[86,44] cannot find symbol
+1470:[ERROR] symbol:   class ResultSetMapper
+1471:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1472:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[102,48] cannot find symbol
+1473:[ERROR] symbol:   class ResultSetMapper
+1474:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1475:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[118,23] cannot find symbol
+1476:[ERROR] symbol:   class ResultSetMapper
+1477:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1478:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[32,13] cannot find symbol
+1479:[ERROR] symbol:   class ResultSetMapper
+1480:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation
+1481:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[41,23] cannot find symbol
+1482:[ERROR] symbol:   class ResultSetMapper
+1483:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation.QuerySelectOnSubscribe<T>
+1484:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectOperation.java:[62,17] cannot find symbol
+1485:[ERROR] symbol:   class ResultSetMapper
+1486:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectOperation.QuerySelectOnSubscribe<T>
+1487:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[21,19] cannot find symbol
+1488:[ERROR] symbol:   class ResultSetMapper
+1489:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectProducer<T>
+1490:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelectProducer.java:[30,25] cannot find symbol
+1491:[ERROR] symbol:   class ResultSetMapper
+1492:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelectProducer<T>
+1493:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/Util.java:[238,20] cannot find symbol
+1494:[ERROR] symbol:   class ResultSetMapper
+1495:[ERROR] location: class com.github.davidmoten.rx.jdbc.Util
+1496:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/QuerySelect.java:[377,28] cannot find symbol
+1497:[ERROR] symbol:   class ResultSetMapper
+1498:[ERROR] location: class com.github.davidmoten.rx.jdbc.QuerySelect.Builder
+1499:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[25,20] cannot find symbol
+1500:[ERROR] symbol:   class ResultSetMapper
+1501:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1502:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[38,20] cannot find symbol
+1503:[ERROR] symbol:   class ResultSetMapper
+1504:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1505:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[50,20] cannot find symbol
+1506:[ERROR] symbol:   class ResultSetMapper
+1507:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1508:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[62,20] cannot find symbol
+1509:[ERROR] symbol:   class ResultSetMapper
+1510:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1511:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[75,20] cannot find symbol
+1512:[ERROR] symbol:   class ResultSetMapper
+1513:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1514:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[90,20] cannot find symbol
+1515:[ERROR] symbol:   class ResultSetMapper
+1516:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1517:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[106,20] cannot find symbol
+1518:[ERROR] symbol:   class ResultSetMapper
+1519:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1520:[ERROR] /home/travis/build/davidmoten/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/jdbc/tuple/Tuples.java:[119,20] cannot find symbol
+1521:[ERROR] symbol:   class ResultSetMapper
+1522:[ERROR] location: class com.github.davidmoten.rx.jdbc.tuple.Tuples
+1523:[ERROR] -> [Help 1]
+1524:[ERROR] 
+1525:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1526:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1527:[ERROR] 
+1528:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1529:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,48 @@
+1442:[ERROR] COMPILATION ERROR : 
+1444:[ERROR] /home/travis/build/raphw/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java:[391,90] cannot find symbol
+1465:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project byte-buddy-dep: Compilation failure
+1466:[ERROR] /home/travis/build/raphw/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java:[391,90] cannot find symbol
+1467:[ERROR] symbol:   variable TYPE_PARAMETER
+1468:[ERROR] location: class java.lang.annotation.ElementType
+1469:[ERROR] -> [Help 1]
+1470:[ERROR] 
+1471:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1472:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1473:[ERROR] 
+1474:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1475:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1476:[ERROR] 
+1477:[ERROR] After correcting the problems, you can resume the build with the command
+1478:[ERROR]   mvn <goals> -rf :byte-buddy-dep
+1691:[ERROR] COMPILATION ERROR : 
+1693:[ERROR] /home/travis/build/raphw/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java:[391,90] cannot find symbol
+1714:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project byte-buddy-dep: Compilation failure
+1715:[ERROR] /home/travis/build/raphw/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java:[391,90] cannot find symbol
+1716:[ERROR] symbol:   variable TYPE_PARAMETER
+1717:[ERROR] location: class java.lang.annotation.ElementType
+1718:[ERROR] -> [Help 1]
+1719:[ERROR] 
+1720:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1721:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1722:[ERROR] 
+1723:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1724:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1725:[ERROR] 
+1726:[ERROR] After correcting the problems, you can resume the build with the command
+1727:[ERROR]   mvn <goals> -rf :byte-buddy-dep
+1940:[ERROR] COMPILATION ERROR : 
+1942:[ERROR] /home/travis/build/raphw/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java:[391,90] cannot find symbol
+1963:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile) on project byte-buddy-dep: Compilation failure
+1964:[ERROR] /home/travis/build/raphw/byte-buddy/byte-buddy-dep/src/test/java/net/bytebuddy/description/annotation/AbstractAnnotationDescriptionTest.java:[391,90] cannot find symbol
+1965:[ERROR] symbol:   variable TYPE_PARAMETER
+1966:[ERROR] location: class java.lang.annotation.ElementType
+1967:[ERROR] -> [Help 1]
+1968:[ERROR] 
+1969:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1970:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1971:[ERROR] 
+1972:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1973:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1974:[ERROR] 
+1975:[ERROR] After correcting the problems, you can resume the build with the command
+1976:[ERROR]   mvn <goals> -rf :byte-buddy-dep

@@ -1,0 +1,77 @@
+{
+    "_created": "Tue, 27 Feb 2018 08:44:47 GMT",
+    "_etag": "f849f33097ab9f2bdcb34eff3a4332ba89e92855",
+    "_id": "5a951a7ff1f70e8a29c83fda",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/pgjdbc-pgjdbc-166018034",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:30:08 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 166018024,
+        "build_job": "1590.10",
+        "committed_at": "2016-10-08T09:20:40Z",
+        "failed_tests": "",
+        "is_git_repo": false,
+        "job_id": 166018034,
+        "message": "fix: makes escape processing strict according to JDBC spec\n\nbefore, escape code parsing was very lenient and\ninvalid escape code formats were accidentally processed.\n\ncloses #657",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "b55a799059a5340f53aec40b583fb36b1396f1df"
+    },
+    "filtered_reason": null,
+    "image_tag": "pgjdbc-pgjdbc-166018034",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 138,
+        "changes": 175,
+        "deletions": 37
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 166019460,
+        "build_job": "1593.10",
+        "committed_at": "2016-10-08T09:47:11Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 166019472,
+        "message": "fix: makes escape processing strict according to JDBC spec\n\nbefore, escape code parsing was very lenient and\ninvalid escape code formats were accidentally processed.\n\ncloses #657",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "00a847879f313105de124776b7edaab928bf5b4c"
+    },
+    "pr_num": -1,
+    "repo": "pgjdbc/pgjdbc",
+    "repo_builds": 1966,
+    "repo_commits": 1422,
+    "repo_members": 0,
+    "repo_mined_version": "45c32bc6af2e140ff86dabd718344c74fc244394",
+    "repo_prs": 447,
+    "repo_watchers": 287,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "pgjdbc-pgjdbc-166018034",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

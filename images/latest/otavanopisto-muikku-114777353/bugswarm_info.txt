@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/otavanopisto/muikku
+Github failed trigger commit:  https://www.github.com/otavanopisto/muikku/commit/833b6a216f394a14fbba06306de5ebc6c631106e
+Github passed trigger commit:  https://www.github.com/otavanopisto/muikku/commit/c82d7487b609c9aba34504ec27a48c66085b3ed0
+Github compare link:  https://www.github.com/otavanopisto/muikku/compare/833b6a216f394a14fbba06306de5ebc6c631106e...c82d7487b609c9aba34504ec27a48c66085b3ed0

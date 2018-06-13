@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/google/closure-compiler
+Github failed trigger commit:  https://www.github.com/google/closure-compiler/commit/5943281a75f6171e337e757f7c72dd504bfb2b3f
+Github passed trigger commit:  https://www.github.com/google/closure-compiler/commit/86b68b29e78d51df7522443f8f023f71a0c81d40
+Github compare link:  https://www.github.com/google/closure-compiler/compare/5943281a75f6171e337e757f7c72dd504bfb2b3f...86b68b29e78d51df7522443f8f023f71a0c81d40

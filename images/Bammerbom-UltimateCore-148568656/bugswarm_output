@@ -1,0 +1,76 @@
+{
+    "_created": "Sun, 04 Mar 2018 01:54:54 GMT",
+    "_etag": "99a3cee833d1666ca52d276a1fd1160f5d379d51",
+    "_id": "5a9b51eef1f70ee799017e11",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/Bammerbom-UltimateCore-148568656",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:41:03 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Gradle",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 148568655,
+        "build_job": "322.1",
+        "committed_at": "2016-07-30T18:51:14Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 148568656,
+        "message": "Remove runPre",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "687d1dd65ecb486bf7a8f157a5eec01f843cc2a7"
+    },
+    "filtered_reason": null,
+    "image_tag": "Bammerbom-UltimateCore-148568656",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 0,
+        "changes": 4,
+        "deletions": 4
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 148570971,
+        "build_job": "323.1",
+        "committed_at": "2016-07-30T19:11:19Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 148570972,
+        "message": "Fix building",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "64c0ec1d8850f6023c8653d37d9dcd2011633c2a"
+    },
+    "pr_num": -1,
+    "repo": "Bammerbom/UltimateCore",
+    "repo_builds": 740,
+    "repo_commits": 1122,
+    "repo_members": 3,
+    "repo_mined_version": "df946d44249957334d205e84126ecdb1c8594498",
+    "repo_prs": 7,
+    "repo_watchers": 9,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "Bammerbom-UltimateCore-148568656",
+    "test_framework": ""
+}

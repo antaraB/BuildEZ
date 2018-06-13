@@ -1,0 +1,30 @@
+97:[ERROR] The build could not read 1 project -> [Help 1]
+98:[ERROR]   
+99:[ERROR]   The project pt.gov.dgarq.roda:roda:2.0.0-SNAPSHOT (/home/travis/build/keeps/roda/pom.xml) has 1 error
+100:[ERROR]     Child module /home/travis/build/keeps/roda/roda-cas/pom.xml of /home/travis/build/keeps/roda/pom.xml does not exist
+101:[ERROR] 
+102:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+103:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+104:[ERROR] 
+105:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+106:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+118:[ERROR] The build could not read 1 project -> [Help 1]
+119:[ERROR]   
+120:[ERROR]   The project pt.gov.dgarq.roda:roda:2.0.0-SNAPSHOT (/home/travis/build/keeps/roda/pom.xml) has 1 error
+121:[ERROR]     Child module /home/travis/build/keeps/roda/roda-cas/pom.xml of /home/travis/build/keeps/roda/pom.xml does not exist
+122:[ERROR] 
+123:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+124:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+125:[ERROR] 
+126:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+127:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+139:[ERROR] The build could not read 1 project -> [Help 1]
+140:[ERROR]   
+141:[ERROR]   The project pt.gov.dgarq.roda:roda:2.0.0-SNAPSHOT (/home/travis/build/keeps/roda/pom.xml) has 1 error
+142:[ERROR]     Child module /home/travis/build/keeps/roda/roda-cas/pom.xml of /home/travis/build/keeps/roda/pom.xml does not exist
+143:[ERROR] 
+144:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+145:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+146:[ERROR] 
+147:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+148:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException

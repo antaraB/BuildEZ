@@ -1,0 +1,16 @@
+1371:[ERROR] COMPILATION ERROR : 
+1373:[ERROR] /home/travis/build/NanoHttpd/nanohttpd/core/src/main/java/fi/iki/elonen/NanoHTTPD.java:[1296,52] cannot find symbol
+1394:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project nanohttpd: Compilation failure
+1395:[ERROR] /home/travis/build/NanoHttpd/nanohttpd/core/src/main/java/fi/iki/elonen/NanoHTTPD.java:[1296,52] cannot find symbol
+1396:[ERROR] symbol  : constructor GZIPOutputStream(java.io.OutputStream,boolean)
+1397:[ERROR] location: class java.util.zip.GZIPOutputStream
+1398:[ERROR] -> [Help 1]
+1399:[ERROR] 
+1400:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1401:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1402:[ERROR] 
+1403:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1404:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1405:[ERROR] 
+1406:[ERROR] After correcting the problems, you can resume the build with the command
+1407:[ERROR]   mvn <goals> -rf :nanohttpd

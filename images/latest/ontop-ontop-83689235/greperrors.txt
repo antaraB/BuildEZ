@@ -1,0 +1,72 @@
+1186:[ERROR] COMPILATION ERROR : 
+1188:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[16,4] error: method does not override or implement a method from a supertype
+1189:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[34,4] error: method does not override or implement a method from a supertype
+1190:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[39,4] error: method does not override or implement a method from a supertype
+1191:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[51,4] error: method does not override or implement a method from a supertype
+1192:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[57,4] error: method does not override or implement a method from a supertype
+1193:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[63,4] error: method does not override or implement a method from a supertype
+1221:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project ontop-reformulation-core: Compilation failure: Compilation failure:
+1222:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[16,4] error: method does not override or implement a method from a supertype
+1223:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[34,4] error: method does not override or implement a method from a supertype
+1224:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[39,4] error: method does not override or implement a method from a supertype
+1225:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[51,4] error: method does not override or implement a method from a supertype
+1226:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[57,4] error: method does not override or implement a method from a supertype
+1227:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[63,4] error: method does not override or implement a method from a supertype
+1228:[ERROR] -> [Help 1]
+1229:[ERROR] 
+1230:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1231:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1232:[ERROR] 
+1233:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1234:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1235:[ERROR] 
+1236:[ERROR] After correcting the problems, you can resume the build with the command
+1237:[ERROR]   mvn <goals> -rf :ontop-reformulation-core
+1349:[ERROR] COMPILATION ERROR : 
+1351:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[16,4] error: method does not override or implement a method from a supertype
+1352:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[34,4] error: method does not override or implement a method from a supertype
+1353:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[39,4] error: method does not override or implement a method from a supertype
+1354:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[51,4] error: method does not override or implement a method from a supertype
+1355:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[57,4] error: method does not override or implement a method from a supertype
+1356:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[63,4] error: method does not override or implement a method from a supertype
+1384:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project ontop-reformulation-core: Compilation failure: Compilation failure:
+1385:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[16,4] error: method does not override or implement a method from a supertype
+1386:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[34,4] error: method does not override or implement a method from a supertype
+1387:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[39,4] error: method does not override or implement a method from a supertype
+1388:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[51,4] error: method does not override or implement a method from a supertype
+1389:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[57,4] error: method does not override or implement a method from a supertype
+1390:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[63,4] error: method does not override or implement a method from a supertype
+1391:[ERROR] -> [Help 1]
+1392:[ERROR] 
+1393:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1394:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1395:[ERROR] 
+1396:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1397:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1398:[ERROR] 
+1399:[ERROR] After correcting the problems, you can resume the build with the command
+1400:[ERROR]   mvn <goals> -rf :ontop-reformulation-core
+1512:[ERROR] COMPILATION ERROR : 
+1514:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[16,4] error: method does not override or implement a method from a supertype
+1515:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[34,4] error: method does not override or implement a method from a supertype
+1516:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[39,4] error: method does not override or implement a method from a supertype
+1517:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[51,4] error: method does not override or implement a method from a supertype
+1518:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[57,4] error: method does not override or implement a method from a supertype
+1519:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[63,4] error: method does not override or implement a method from a supertype
+1547:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile) on project ontop-reformulation-core: Compilation failure: Compilation failure:
+1548:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[16,4] error: method does not override or implement a method from a supertype
+1549:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[34,4] error: method does not override or implement a method from a supertype
+1550:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[39,4] error: method does not override or implement a method from a supertype
+1551:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[51,4] error: method does not override or implement a method from a supertype
+1552:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[57,4] error: method does not override or implement a method from a supertype
+1553:[ERROR] /home/travis/build/ontop/ontop/reformulation-core/src/main/java/it/unibz/krdb/obda/owlrefplatform/core/queryevaluation/MonetDBSQLDialectAdapter.java:[63,4] error: method does not override or implement a method from a supertype
+1554:[ERROR] -> [Help 1]
+1555:[ERROR] 
+1556:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1557:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1558:[ERROR] 
+1559:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1560:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1561:[ERROR] 
+1562:[ERROR] After correcting the problems, you can resume the build with the command
+1563:[ERROR]   mvn <goals> -rf :ontop-reformulation-core

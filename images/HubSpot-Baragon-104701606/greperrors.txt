@@ -1,0 +1,36 @@
+794:[ERROR] npm WARN package.json BaragonUI@0.1.0 No README data
+997:[ERROR] Found a problem with the dependency com.google.code.findbugs:annotations
+1019:[ERROR] Failed to execute goal com.ning.maven.plugins:maven-dependency-versions-check-plugin:2.0.2:check (default) on project BaragonAgentService: Found dependency version conflicts -> [Help 1]
+1020:[ERROR] 
+1021:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1022:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1023:[ERROR] 
+1024:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1025:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1026:[ERROR] 
+1027:[ERROR] After correcting the problems, you can resume the build with the command
+1028:[ERROR]   mvn <goals> -rf :BaragonAgentService
+1642:[ERROR] npm WARN package.json BaragonUI@0.1.0 No README data
+1842:[ERROR] Found a problem with the dependency com.google.code.findbugs:annotations
+1864:[ERROR] Failed to execute goal com.ning.maven.plugins:maven-dependency-versions-check-plugin:2.0.2:check (default) on project BaragonAgentService: Found dependency version conflicts -> [Help 1]
+1865:[ERROR] 
+1866:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1867:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1868:[ERROR] 
+1869:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1870:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1871:[ERROR] 
+1872:[ERROR] After correcting the problems, you can resume the build with the command
+1873:[ERROR]   mvn <goals> -rf :BaragonAgentService
+2487:[ERROR] npm WARN package.json BaragonUI@0.1.0 No README data
+2687:[ERROR] Found a problem with the dependency com.google.code.findbugs:annotations
+2709:[ERROR] Failed to execute goal com.ning.maven.plugins:maven-dependency-versions-check-plugin:2.0.2:check (default) on project BaragonAgentService: Found dependency version conflicts -> [Help 1]
+2710:[ERROR] 
+2711:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2712:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2713:[ERROR] 
+2714:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+2715:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+2716:[ERROR] 
+2717:[ERROR] After correcting the problems, you can resume the build with the command
+2718:[ERROR]   mvn <goals> -rf :BaragonAgentService

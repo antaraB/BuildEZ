@@ -1,0 +1,76 @@
+{
+    "_created": "Tue, 27 Feb 2018 06:13:41 GMT",
+    "_etag": "75620a360743a7b58884444899ca1d3dba165ee9",
+    "_id": "5a94f715f1f70e8a29c83dff",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/SpigotMC-BungeeCord-125301103",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:27:13 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Maven",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 125301101,
+        "build_job": "1820.2",
+        "committed_at": "2016-04-23T23:39:22Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 125301103,
+        "message": "Strip / add velocity to SpawnEntity packets that require it when rewritten",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "0b554be10adc4b19f1a08cf29017ef5d7ff26395"
+    },
+    "filtered_reason": null,
+    "image_tag": "SpigotMC-BungeeCord-125301103",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 2,
+        "changes": 5,
+        "deletions": 3
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 125311060,
+        "build_job": "1821.2",
+        "committed_at": "2016-04-24T01:39:23Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 125311062,
+        "message": "Java 7 support",
+        "mismatch_attrs": [],
+        "num_tests_failed": 0,
+        "num_tests_run": 43,
+        "trigger_sha": "b9a98c88ba5b901b81ddc07599a228709b51ecca"
+    },
+    "pr_num": -1,
+    "repo": "SpigotMC/BungeeCord",
+    "repo_builds": 2023,
+    "repo_commits": 1877,
+    "repo_members": 0,
+    "repo_mined_version": "74e077e0fb78a178ea9f2c4dfea2e7fdeeab8a8e",
+    "repo_prs": 443,
+    "repo_watchers": 389,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "SpigotMC-BungeeCord-125301103",
+    "test_framework": ""
+}

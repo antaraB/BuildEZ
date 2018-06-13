@@ -1,0 +1,14 @@
+517:[ERROR] COMPILATION ERROR : 
+519:[ERROR] /home/travis/build/pgjdbc/pgjdbc/ubenchmark/target/gen-src/org/postgresql/benchmark/escaping/EscapeProcessing.java:[31,18] replaceProcessing(java.lang.String,boolean,boolean) is not public in org.postgresql.core.Parser; cannot be accessed from outside package
+535:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project pgjdbc-benchmark: Compilation failure
+536:[ERROR] /home/travis/build/pgjdbc/pgjdbc/ubenchmark/target/gen-src/org/postgresql/benchmark/escaping/EscapeProcessing.java:[31,18] replaceProcessing(java.lang.String,boolean,boolean) is not public in org.postgresql.core.Parser; cannot be accessed from outside package
+537:[ERROR] -> [Help 1]
+538:[ERROR] 
+539:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+540:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+541:[ERROR] 
+542:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+543:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+544:[ERROR] 
+545:[ERROR] After correcting the problems, you can resume the build with the command
+546:[ERROR]   mvn <goals> -rf :pgjdbc-benchmark

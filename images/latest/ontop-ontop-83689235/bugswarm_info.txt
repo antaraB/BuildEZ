@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/ontop/ontop
+Github failed trigger commit:  https://www.github.com/ontop/ontop/commit/0f6212104aead91f8f83703aed7a799c3899dcd3
+Github passed trigger commit:  https://www.github.com/ontop/ontop/commit/d2d5324e927e966608907dd8ca01e71123b9a216
+Github compare link:  https://www.github.com/ontop/ontop/compare/0f6212104aead91f8f83703aed7a799c3899dcd3...d2d5324e927e966608907dd8ca01e71123b9a216

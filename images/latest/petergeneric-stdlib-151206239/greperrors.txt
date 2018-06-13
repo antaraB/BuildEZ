@@ -1,0 +1,30 @@
+746:[ERROR] Failed to execute goal on project user-manager: Could not resolve dependencies for project com.peterphi.user-manager:user-manager:war:9.0.2-SNAPSHOT: Could not find artifact AzureLogAppender:AzureLogAppender:jar:1.0 in central (http://repo.maven.apache.org/maven2) -> [Help 1]
+747:[ERROR] 
+748:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+749:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+750:[ERROR] 
+751:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+752:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+753:[ERROR] 
+754:[ERROR] After correcting the problems, you can resume the build with the command
+755:[ERROR]   mvn <goals> -rf :user-manager
+1298:[ERROR] Failed to execute goal on project user-manager: Could not resolve dependencies for project com.peterphi.user-manager:user-manager:war:9.0.2-SNAPSHOT: Failure to find AzureLogAppender:AzureLogAppender:jar:1.0 in http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+1299:[ERROR] 
+1300:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1301:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1302:[ERROR] 
+1303:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1304:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+1305:[ERROR] 
+1306:[ERROR] After correcting the problems, you can resume the build with the command
+1307:[ERROR]   mvn <goals> -rf :user-manager
+1850:[ERROR] Failed to execute goal on project user-manager: Could not resolve dependencies for project com.peterphi.user-manager:user-manager:war:9.0.2-SNAPSHOT: Failure to find AzureLogAppender:AzureLogAppender:jar:1.0 in http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+1851:[ERROR] 
+1852:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1853:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1854:[ERROR] 
+1855:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1856:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+1857:[ERROR] 
+1858:[ERROR] After correcting the problems, you can resume the build with the command
+1859:[ERROR]   mvn <goals> -rf :user-manager

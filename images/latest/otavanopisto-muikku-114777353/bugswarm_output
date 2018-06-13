@@ -1,0 +1,77 @@
+{
+    "_created": "Tue, 06 Mar 2018 19:39:49 GMT",
+    "_etag": "c644b3fa23b7558174bad524099bb44ad135bc19",
+    "_id": "5a9eee85f1f70e072f3a6e41",
+    "_links": {
+        "collection": {
+            "href": "artifacts",
+            "title": "artifacts"
+        },
+        "parent": {
+            "href": "/",
+            "title": "home"
+        },
+        "self": {
+            "href": "artifacts/otavanopisto-muikku-114777353",
+            "title": "Artifact"
+        }
+    },
+    "_updated": "Thu, 08 Mar 2018 22:55:41 GMT",
+    "base_branch": "",
+    "branch": "master",
+    "build_system": "Ant",
+    "failed_job": {
+        "base_sha": "",
+        "build_id": 114777346,
+        "build_job": "2291.5",
+        "committed_at": "2016-03-09T12:49:15Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 114777353,
+        "message": "Merge pull request #1646 from gmlewis/master\n\nUpgrade Apache Commons Collections to v3.2.2",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "833b6a216f394a14fbba06306de5ebc6c631106e"
+    },
+    "filtered_reason": null,
+    "image_tag": "otavanopisto-muikku-114777353",
+    "is_error_pass": true,
+    "lang": "Java",
+    "match": 1,
+    "merged_at": null,
+    "metrics": {
+        "additions": 61,
+        "changes": 122,
+        "deletions": 61
+    },
+    "passed_job": {
+        "base_sha": "",
+        "build_id": 114779191,
+        "build_job": "2293.5",
+        "committed_at": "2016-03-09T12:58:03Z",
+        "failed_tests": "",
+        "is_git_repo": true,
+        "job_id": 114779196,
+        "message": "[maven-release-plugin] prepare release 1.1.2",
+        "mismatch_attrs": [],
+        "num_tests_failed": "NA",
+        "num_tests_run": "NA",
+        "trigger_sha": "c82d7487b609c9aba34504ec27a48c66085b3ed0"
+    },
+    "pr_num": -1,
+    "repo": "otavanopisto/muikku",
+    "repo_builds": 4313,
+    "repo_commits": 10490,
+    "repo_members": 7,
+    "repo_mined_version": "9be30e337431186c68c9f9636e01691ab3b422b6",
+    "repo_prs": 907,
+    "repo_watchers": 9,
+    "reproduce_attempts": 5,
+    "reproduce_successes": 5,
+    "reproduced": true,
+    "stability": "5/5",
+    "tag": "otavanopisto-muikku-114777353",
+    "test_framework": ""
+}
+[   ERROR] --- Encountered an error while checking if bugswarm-client can be updated: 'NoneType' object has no attribute 'group'

@@ -1,0 +1,60 @@
+388:[ERROR] COMPILATION ERROR : 
+390:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[3,24] cannot find symbol
+393:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[61,55] cannot find symbol
+453:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project rewrite-addressbuilder: Compilation failure: Compilation failure:
+454:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[3,24] cannot find symbol
+455:[ERROR] symbol  : class StandardCharsets
+456:[ERROR] location: package java.nio.charset
+457:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[61,55] cannot find symbol
+458:[ERROR] symbol  : variable StandardCharsets
+459:[ERROR] location: class org.ocpsoft.urlbuilder.util.Decoder
+460:[ERROR] -> [Help 1]
+461:[ERROR] 
+462:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+463:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+464:[ERROR] 
+465:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+466:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+467:[ERROR] 
+468:[ERROR] After correcting the problems, you can resume the build with the command
+469:[ERROR]   mvn <goals> -rf :rewrite-addressbuilder
+735:[ERROR] COMPILATION ERROR : 
+737:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[3,24] cannot find symbol
+740:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[61,55] cannot find symbol
+800:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project rewrite-addressbuilder: Compilation failure: Compilation failure:
+801:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[3,24] cannot find symbol
+802:[ERROR] symbol  : class StandardCharsets
+803:[ERROR] location: package java.nio.charset
+804:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[61,55] cannot find symbol
+805:[ERROR] symbol  : variable StandardCharsets
+806:[ERROR] location: class org.ocpsoft.urlbuilder.util.Decoder
+807:[ERROR] -> [Help 1]
+808:[ERROR] 
+809:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+810:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+811:[ERROR] 
+812:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+813:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+814:[ERROR] 
+815:[ERROR] After correcting the problems, you can resume the build with the command
+816:[ERROR]   mvn <goals> -rf :rewrite-addressbuilder
+1074:[ERROR] COMPILATION ERROR : 
+1076:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[3,24] cannot find symbol
+1079:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[61,55] cannot find symbol
+1139:[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.0:compile (default-compile) on project rewrite-addressbuilder: Compilation failure: Compilation failure:
+1140:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[3,24] cannot find symbol
+1141:[ERROR] symbol  : class StandardCharsets
+1142:[ERROR] location: package java.nio.charset
+1143:[ERROR] /home/travis/build/ocpsoft/rewrite/addressbuilder/src/main/java/org/ocpsoft/urlbuilder/util/Decoder.java:[61,55] cannot find symbol
+1144:[ERROR] symbol  : variable StandardCharsets
+1145:[ERROR] location: class org.ocpsoft.urlbuilder.util.Decoder
+1146:[ERROR] -> [Help 1]
+1147:[ERROR] 
+1148:[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+1149:[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+1150:[ERROR] 
+1151:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+1152:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+1153:[ERROR] 
+1154:[ERROR] After correcting the problems, you can resume the build with the command
+1155:[ERROR]   mvn <goals> -rf :rewrite-addressbuilder

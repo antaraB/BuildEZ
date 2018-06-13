@@ -1,0 +1,4 @@
+Github link:  https://www.github.com/Adobe-Consulting-Services/acs-aem-commons
+Github failed trigger commit:  https://www.github.com/Adobe-Consulting-Services/acs-aem-commons/commit/1c36f465d33a33575f64455dd93b5d0084d432ea
+Github passed trigger commit:  https://www.github.com/Adobe-Consulting-Services/acs-aem-commons/commit/56600a37617407b3f85e11205694e13963a67572
+Github compare link:  https://www.github.com/Adobe-Consulting-Services/acs-aem-commons/compare/1c36f465d33a33575f64455dd93b5d0084d432ea...56600a37617407b3f85e11205694e13963a67572

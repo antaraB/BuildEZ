@@ -1,7 +1,7 @@
 #!/bin/bash
 # download the image file and create a container
 # first argument should be file containing all the images
-LOCALPATH=../images
+LOCALPATH=../images/latest
 IMAGES=()
 # copy all image-tags from file to an array
 mapfile -t IMAGES < $1
