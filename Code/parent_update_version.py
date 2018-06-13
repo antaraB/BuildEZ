@@ -27,49 +27,33 @@ def find_all_pom_files(name, path):
 	return poms
 
 def main(input_error, to_print=False):
-	print "Inside main function"
 	if "Could not find artifact" and "Non-resolvable parent POM" in input_error : #Convert this to a regex match later.
-		print "We are inside the if statement"
 
-		regex_whole_damn_thing = r".+ Could not transfer artifact ([\w\.\:\-]+) .+"
-		grouped_output = re.search(regex_whole_damn_thing, input_error)
+		regex_input = r".+ Could not transfer artifact ([\w\.\:\-]+) .+"
+		grouped_output = re.search(regex_input, input_error)
 
-		print "grouped_output", grouped_output
 
 		artifact = grouped_output.group(1).split(":")
-		print artifact
 
 		#Find the file which needs to be opned.
-		poms = find_all_pom_files("pom.xml","/home/prerit/Spring2018/ECS260/Project/BuildEZ/Code/charite")
-		#poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
-		print poms
+		poms = find_all_pom_files("pom.xml","/home/travis/build/failed")
 
 		#Remove the dependency
 		for filepath in poms:
 			pomFile = xml.parse(filepath)
 			root = pomFile.getroot()
-			print "-----------"
-			print filepath
 
 			parent = root.find(".//xmlns:parent", namespaces=namespaces)
-			print parent
 
 			groupId = parent.find("xmlns:groupId", namespaces=namespaces)
 			artifactId = parent.find("xmlns:artifactId", namespaces=namespaces)
 
-			print "dddd ::",artifact[0]
-			print "dddd :: ",artifact[1]
-			
 			if(groupId.text == artifact[0] and artifactId.text == artifact[1]):
-				print groupId.text
-				print artifactId.text
 				version = parent.find("xmlns:version", namespaces=namespaces)
 				version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
 				version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
-				print version.text
 				if(version_numbers_pom[1] == version_numbers_error_message[1]):
 					version.text = version.text.replace(str(version_numbers_pom[1]), str(version_numbers_pom[1] - 1))
-				print version.text
 
 				print "File updating "
 				pomFile.write(filepath)
@@ -77,8 +61,6 @@ def main(input_error, to_print=False):
 				groupId = root.find("xmlns:groupId", namespaces=namespaces)
 				artifactId = root.find("xmlns:artifactId", namespaces=namespaces)
 				version = root.find("xmlns:version", namespaces=namespaces)
-				print groupId.text
-				print artifactId.text
 				if(groupId.text == artifact[0] and artifactId.text == artifact[1]):
 					version_numbers_error_message = [int(s) for s in re.findall(r'\d+', artifact[3])]
 					version_numbers_pom = [int(s) for s in re.findall(r'\d+', version.text)]
