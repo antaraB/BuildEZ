@@ -35,6 +35,7 @@ cd code
 python buildez.py 
 ```
 To print intermediate messages on buildez.py, run it with -v or --verbose option. To print the build messages, run it with -b or --build-output option
+
 Eg:
 ```bash
 python buildez.py -vb 
