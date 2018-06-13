@@ -69,7 +69,7 @@ def main(input_error, to_print=False):
 	else :
 		print "We are inside else statement"
 		regex_whole_damn_thing = r".+ (Could not find artifact ([\w\.\:]+) ([\w\.+-]+))"
-		grouped_output = re.search(regex_whole_damn_thing, input)
+		grouped_output = re.search(regex_whole_damn_thing, input_error)
 
 		artifact = grouped_output.group(2).split(":")
 		print artifact
